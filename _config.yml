@@ -1,0 +1,9 @@
+# Setup
+title:    Prog 1
+tagline:  Introdución a la Programación I
+baseurl:  /prog1
+zip:	    https://github.com/FacultadDeIngenieria/prog1/zipball/gh-pages
+
+# About/contact
+author:
+name:       Introdución a la Programación I
