@@ -63,3 +63,25 @@ python3 hello_world.py #or the Python 3 interpreter command on your system
 - You should see something like this:
 
 ![Hello World Terminal]({{site.baseurl}}/presentation/hello-world/hw-terminal.png)
+
+---
+
+layout: false
+
+# What happened when you run hello_world.py?
+
+```python
+# The following program will print a Hello World message to the screen
+print("Hello World!")
+```
+
+- The **Python interpreter** reads the file to determine what's in it
+- In this case:
+ - It sees the **print** followed by parentheses
+ - So it prints to the screen what is **inside** them
+ - What happened to the text after the **#**?
+- Your editor also does things:
+ - It highlights different parts of the code
+ - It recognizes **print()** as the name of a function showing it in a different color
+ - It knows that **"Hello World!"** is not Python code and displays it in another color
+ - This feature is called *syntax highlighting*
