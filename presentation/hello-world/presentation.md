@@ -85,3 +85,19 @@ print("Hello World!")
  - It recognizes **print()** as the name of a function showing it in a different color
  - It knows that **"Hello World!"** is not Python code and displays it in another color
  - This feature is called *syntax highlighting*
+
+---
+
+# Comments
+
+ - What happened to this line?
+
+```python
+# The following program will print a Hello World message to the screen
+```
+
+- The hash mark indicates a comment, so anything after it is ignored by the interpreter
+- What comments should you write?
+  - Main reason: explain what your code does
+  - In the middle of your work, you know what it does, but after some time, if you go back to the project, would you remember?
+  - Others can contribute to your code

@@ -8,8 +8,7 @@ Variables
 # Agenda
 
 - Variables
-- Primitive data types
-- Operators (Cast)
+- Data types
 
 ---
 
@@ -80,6 +79,129 @@ print(mesage)
 
 ---
 
+# Numbers
 
+- Numbers are used quite often in programming
+  - Scores, data, information
+- Integers
+- Floats
+- *Can you guess their main difference?*
 
+---
 
+# Creating an Integer variable
+
+- Integers represents the numbers that can be written without a fractional component
+- To create an integer variable, you simply use the *assignment* operator **=**
+
+```python
+# Some samples
+speed = 0
+
+localScore = 2
+awayScore = 1
+```
+
+---
+
+# Other operations with Integers
+
+- You can add (+), subtract (-), multiply (*), and divide (/) integers in Python:
+
+```python
+>>> 2 + 3
+5
+>>> 3 - 2
+1
+>>> 2 * 3
+6
+>>> 3 / 2
+1.5
+>>> 3 ** 2
+9
+```
+
+- What does the ** do?
+- All the maths laws apply here: multiple operations in one expressions are valid, and you can alter the expression using parenthesis
+
+```python
+>>> 2 + 3*4
+14
+>>> (2 + 3) * 4
+20
+```
+
+- Spacing has no effect, only enhances the operation's evaluation at first sight
+
+---
+
+# Floats
+
+- They are used to represent any number with a decimal point (same as many programming languages)
+  - Refers to the fact that a decimal point can appear at any position in a number (floating)
+- Their use is straighforward, things will likely happend as expected
+
+```python
+>>> 0.1 + 0.1
+0.2
+>>> 0.2 + 0.2
+0.4
+>>> 2 * 0.1
+0.2
+>>> 2 * 0.2
+0.4
+```
+
+- **Likely... :-)**
+
+```python
+>>> 0.2 + 0.1
+0.30000000000000004
+>>> 3 * 0.1
+0.30000000000000004
+```
+
+???
+
+This happens in all languages and is of little concern. Python tries to find a way to represent the result as precisely as possible, which is sometimes difficult given how computers have to represent numbers internally. Just ignore the extra decimal places for now
+
+---
+
+# Integers and Floats
+
+- Operations, as in math, are the same and valid for both
+- Dividing two numbers, even integers, produce always a float
+- The mix also produce a float
+
+```python
+#Two integers
+>>> 4 / 2
+2.0
+
+#Mixing
+>>> 1 + 2.0
+3.0
+>>> 2 * 3.0
+6.0
+>>> 3.0 ** 2
+9.0
+```
+
+---
+
+# Underscores and multiples
+
+- When writing long numbers, digits can be grouped using **_** (NOTE: what happens when you print it?)
+
+```python
+>>> universe_age = 14_000_000_000
+
+>>> print(universe_age)
+14000000000
+```
+
+- You can assign values to more than one variable in a single line
+
+```python
+>>> x, y, z = 0, 0, 0
+```
