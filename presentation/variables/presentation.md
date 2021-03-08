@@ -8,7 +8,9 @@ Variables
 # Agenda
 
 - Variables
-- Data types
+- Numeric data types
+  - Integers
+  - Floats
 
 ---
 
@@ -81,10 +83,13 @@ print(mesage)
 
 # Numbers
 
+- Most programs define and gather some sort of data to do something useful with it
+- It helps to classify different types of data, lets start with numbers
 - Numbers are used quite often in programming
   - Scores, data, information
-- Integers
-- Floats
+- Divided in:
+  - Integers
+  - Floats
 - *Can you guess their main difference?*
 
 ---
@@ -98,8 +103,8 @@ print(mesage)
 # Some samples
 speed = 0
 
-localScore = 2
-awayScore = 1
+local_score = 2
+away_score = 1
 ```
 
 ---
