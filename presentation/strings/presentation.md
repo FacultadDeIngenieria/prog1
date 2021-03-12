@@ -32,7 +32,7 @@ hello_world = "Hello," + " world" + "!"
 print(hello_world)
 ```
 
-- Similar to printing it's content, we can know how many characters a String has
+- Similar to printing it's content, we can know how many characters a String has:
 
 ```python
 hello_world = "Hello," + " world" + "!"
@@ -80,3 +80,126 @@ ada lovelace
 - *lower()* is particularly useful when you want to store data independently of how the user entered it in the first place
 
 ---
+
+# Strings: ==, !=, <, >, <=, >= operators
+
+- We can use these operators to know if two Strings are equal or not.
+- If they are equal, **==** comparison returns *True* and if not, the **==** returns *False*
+- Viceversa with **!=**
+
+```python
+print("Buenos Aires" == "Pilar") #False
+print("Pilar" == "Pilar") #True
+
+print("Buenos Aires" != "Pilar") #True
+print("Pilar" != "Pilar") #False
+```
+
+- Comparing two Strings with this **<, >, <=, >=** operators will help us determine which comes first in a dictionary
+
+```python
+print("Buenos Aires" > "Pilar") #False
+print("Buenos Aires" < "Pilar") #True
+```
+
+---
+
+# Stripping Whitespace
+
+- Extra whitespaces can be confusing in your programs and lead to bugs
+- To ensure that no whitespace exists at the right end of a string use *rstrip()* method
+
+```python
+➊ >>> favorite_language = 'python '
+➋ >>> favorite_language
+	'python '
+➌ >>> favorite_language.rstrip()
+	'python'
+➍ >>> favorite_language
+	'python '
+```
+
+- In ➊ we have an extra right whitespace
+- Asking Python its value evidence this (➋)
+- When the rstrip() method acts on the variable favorite_language at ➌, this extra space is removed
+- But asking for *favorite_language* value in (➍) shows the original value
+- To remove it permanently, we have to associate the modified value to the variable
+
+```python
+>>> favorite_language = favorite_language.rstrip()
+>>> favorite_language
+	'python'
+```
+
+---
+
+# Stripping Whitespace
+
+- Similar to *rstrip()*, we have *lstrip()* and *strip()* methods
+- *lstrip()* ensures us that no whitespace exists at the beginning of the string
+- *strip()* combines *lstrip()* and *rstrip()*
+
+```python
+>>> favorite_language = ' python '
+>>> favorite_language.rstrip()
+	' python'
+>>> favorite_language.lstrip()
+	'python '
+>>> favorite_language.strip()
+	'python'
+```
+
+---
+
+# Formatting Strings with other variables values
+
+- Many times we want to use a variable's value inside a string
+
+```python
+first_name = "ada"
+last_name = "lovelace"
+full_name = f"Hello, {first_name} {last_name}!"
+print(full_name) #Hello, ada lovelace!
+```
+
+- You do that by inserting an *f* befor opening a string
+- f is for format, so these strings are called *f-strings*
+- Constant string content can be mixed with variables
+- You can modify the string variable using any of the seen methods first
+
+```python
+first_name = "ada"
+last_name = "lovelace"
+full_name = f"Hello, {first_name.title()} {last_name.title()}!"
+print(full_name) #Hello, Ada Lovelace!
+```
+
+---
+
+# Python Library: String
+
+- Python language, as any language, is fully documented
+- One of the first thing you should seek when learning a new language
+- For example, Strings methods in Python documentation:
+  - https://docs.python.org/3/library/stdtypes.html#string-methods
+
+---
+
+# User input
+
+- Many times, to make your programs interactive, you want to ask your user to enter a value
+- For that, we use the built-in *input()* method
+
+```python
+>>> number = input('Ingrese un numero: ')
+Ingrese un numero: 4
+>>> number
+'4'
+```
+
+- If we want to parse the input as a number, we have *int()* or *float()* built-in methods
+
+```python
+>>> int(number)
+4
+```

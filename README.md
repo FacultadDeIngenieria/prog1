@@ -44,8 +44,10 @@
 
 ## Recursos
 
-<!-- - [Clase Scanner.java](resources/scanner) -->
+* [What's an algorithm?](https://www.youtube.com/watch?v=6hfOvs8pY1k)
+
 <!-- * [Programa](https://drive.google.com/file/d/1mvKoX8RAQVYJUuPx-i6xQQl2XdBYNCOu/view?usp=sharing) -->
+<!-- - [Clase Scanner.java](resources/scanner) -->
 <!-- * [The Java Tutorials](https://docs.oracle.com/javase/tutorial/) -->
 
 ## Cátedra
