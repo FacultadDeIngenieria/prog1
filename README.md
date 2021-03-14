@@ -1,9 +1,9 @@
 ## Presentaciones
 
 0. [Arquitectura - Sistemas Operativos - Lenguajes de Programación - Algoritmo](presentation/0-Arq-SO-LP.pdf)
-<!-- 1. [Introduction](introduction) -->
-<!-- 2. [Hello World](hello-world) -->
-<!-- 3. [Variables](variables) -->
+1. [Introduction](introduction)
+2. [Hello World](hello-world)
+3. [Variables](variables)
 <!-- 4. [Strings](strings) -->
 <!-- 5. [Objects & Classes](objects) -->
 <!-- 6. [Blocks-If](blocks-if) -->
@@ -15,7 +15,7 @@
 
 ## Trabajos Prácticos
 
-<!-- 1. [TP1](practice/1) -->
+1. [TP1](practice/1)
 <!-- 2. [TP2](practice/2) -->
 <!-- 3. [TP3](practice/3) -->
 <!-- 4. [TP4](practice/4) -->

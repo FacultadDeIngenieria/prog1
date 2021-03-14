@@ -32,7 +32,7 @@ layout: true
 message = "Hello World!"
 print(message)
 ```
-*What ouput will this new program produce?*
+*What output will this new program produce?*
 
 --
 
@@ -50,6 +50,7 @@ layout: false
 - There are some conventions to follow, every language has them
 - Variable names:
 - Can contain only letters, numbers and/or underscores (_)
+ - This method of writing is known as **snake_case**
 - Can start with letter or underscore, but **not** a number
   - Valid: *message_1*, invalid: *1_message*
 - Spaces are **not** allowed in names (use underscores)
@@ -122,6 +123,8 @@ away_score = 1
 6
 >>> 3 / 2
 1.5
+>>> 3 % 2
+1
 >>> 3 ** 2
 9
 ```
@@ -192,6 +195,14 @@ This happens in all languages and is of little concern. Python tries to find a w
 9.0
 ```
 
+- What if we want to convert a float into an integer?
+  - We use the built-in function *int()*
+
+```python
+>>> int(5.6)
+5
+```
+
 ---
 
 # Underscores and multiples
@@ -209,4 +220,10 @@ This happens in all languages and is of little concern. Python tries to find a w
 
 ```python
 >>> x, y, z = 0, 0, 0
+```
+
+- We can assign the same value to multiple variables
+
+```python
+>>> x = y = z = 0
 ```
