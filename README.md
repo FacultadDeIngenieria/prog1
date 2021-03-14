@@ -55,6 +55,7 @@
 * Lucas Luppani: [lucas.luppani@ing.austral.edu.ar](mailto:lucas.luppani@ing.austral.edu.ar)
 * Juan Longo: [juan.longo@ing.austral.edu.ar](mailto:juan.longo@ing.austral.edu.ar)
 * Martin Gutierrez: [martin.gutierrez@ing.austral.edu.ar](mailto:martin.gutierrez@ing.austral.edu.ar)
+* Sofía Sidañez: [sofia.sidanez@ing.austral.edu.ar](mailto:sofia.sidanez@ing.austral.edu.ar)
 
-* [Click para consultar](mailto:lucas.luppani@ing.austral.edu.ar,juan.longo@ing.austral.edu.ar,martin.gutierrez@ing.austral.edu.ar?subject=Consulta)
+* [Click para consultar](mailto:lucas.luppani@ing.austral.edu.ar,juan.longo@ing.austral.edu.ar,martin.gutierrez@ing.austral.edu.ar,sofia.sidanez@ing.austral.edu.ar?subject=Consulta)
 
