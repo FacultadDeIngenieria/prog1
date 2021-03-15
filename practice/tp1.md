@@ -10,3 +10,82 @@ Debe entregarse a la semana siguiente de ser entregado.
 
 * [Click para entregar](mailto:lucas.luppani@ing.austral.edu.ar,juan.longo@ing.austral.edu.ar,martin.gutierrez@ing.austral.edu.ar?subject=Tp1)
 
+## Ejercicio 1
+
+La idea de este ejercicio es que lean el código, escriban lo que piensen que los prints vayan a decir y que luego corran el código para ver si les dio igual o no. Para darle run al código, van a ver un icono de play verde al lado de la línea número 1 al principio del código. Con hacer un simple click en ese botón, les va a abrir la consola donde verán el output del código. Después de correr el código e hacer el ejercicio pueden submittear el resultado sin modificar nada. Para ello, hay que apretar el botón "check" azul, que se encuentra abajo a la derecha.
+
+```python
+i1 = 3
+i2 = 5
+i3 = i2 + i1
+print("valor de i1:")
+print(i1)
+print("valor de i2:")
+print(i2)
+print("valor de i3:")
+print(i3)
+print(i1 + i2 + i3)
+
+s1, s2, s3 = "Python", " is ", 'awesome'
+print(s1 + s2 + s3)
+
+x = y = z = "Naranja"
+print("valor de x: " + x + ", valor de y: " + y + ", valor de z: " + z)
+
+z1 = i3 / i2
+print(z1)
+z2 = i3 % i2
+print(z2)
+f1 = -.5
+f2 = 10
+f3 = f1 + f2
+i3 = int(f3)
+print("entero i3:")
+print(i3)
+print("variable f3:")
+print(f3)
+f2 += i1
+print("el valor de")
+print(f2)
+print("más")
+print(f1)
+print("es:")
+print(f2 + f1)
+
+```
+
+## Ejercicio 2 - Math
+
+Escribir un programa que dado dos números enteros imprima en pantalla el resultado de las siguientes operaciones: la suma, la diferencia, el producto, el promedio, el cociente entero y el resto de la división entera y el valor real de la división. Para entregar correctamente se deberá imprimir dichos resultados en el orden que fueron pedidos en la consigna. Por ejemplo, primero la suma, despues la diferencia, y asi sucesivamente.
+
+Ejemplo: Para a = 57 y b = 7 el output debera ser:
+
+```python
+64
+50
+399
+32.0
+8
+1
+8.142857142857142
+```
+
+## Ejercicio 3 - Change
+
+Escribir un programa que dado dos números reales que representan el gasto efectuado por una persona y la cantidad pagada, imprima en pantalla el informe de la cantidad de pesos y centavos a devolver.
+
+Hay que respetar el formato del informe (incluido la prolijidad con los espacios y saltos de linea). Un ejemplo de un informe es:
+
+```python
+Ingresar gasto:
+23.75
+Dinero recibido
+100
+
+Vuelto
+
+Pesos:
+76.25
+Centavos:
+25
+```
