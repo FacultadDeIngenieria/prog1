@@ -125,11 +125,10 @@ away_score = 1
 1.5
 >>> 3 % 2
 1
->>> 3 ** 2
+>>> 3 ** 2 #What does the ** do? Can you guess?
 9
 ```
 
-- What does the ** do?
 - All the maths laws apply here: multiple operations in one expressions are valid, and you can alter the expression using parenthesis
 
 ```python
