@@ -110,13 +110,13 @@ print("Buenos Aires" < "Pilar") #True
 - To ensure that no whitespace exists at the right end of a string use *rstrip()* method
 
 ```python
-➊ >>> favorite_language = 'python '
+➊ >>> favorite_language = "python "
 ➋ >>> favorite_language
-	'python '
+	"python "
 ➌ >>> favorite_language.rstrip()
-	'python'
+	"python"
 ➍ >>> favorite_language
-	'python '
+	"python "
 ```
 
 - In ➊ we have an extra right whitespace
@@ -128,7 +128,7 @@ print("Buenos Aires" < "Pilar") #True
 ```python
 >>> favorite_language = favorite_language.rstrip()
 >>> favorite_language
-	'python'
+	"python"
 ```
 
 ---
@@ -140,13 +140,13 @@ print("Buenos Aires" < "Pilar") #True
 - *strip()* combines *lstrip()* and *rstrip()*
 
 ```python
->>> favorite_language = ' python '
+>>> favorite_language = " python "
 >>> favorite_language.rstrip()
-	' python'
+	" python"
 >>> favorite_language.lstrip()
-	'python '
+	"python "
 >>> favorite_language.strip()
-	'python'
+	"python"
 ```
 
 ---
@@ -188,18 +188,34 @@ print(full_name) #Hello, Ada Lovelace!
 # User input
 
 - Many times, to make your programs interactive, you want to ask your user to enter a value
-- For that, we use the built-in *input()* method
+- For that, we use the built-in *input()* function
 
 ```python
->>> number = input('Ingrese un numero: ')
+>>> number = input("Ingrese un numero: ")
 Ingrese un numero: 4
 >>> number
 '4'
 ```
 
-- If we want to parse the input as a number, we have *int()* or *float()* built-in methods
+- The input() function pauses your program and waits for the user to enter some text.
+- Once Python receives the user’s input, it assigns that input to a variable to make it convenient for you to work with.
+
+---
+
+# What if we want numbers?
+
+- If we want to parse the input as a number, we have *int()* or *float()* built-in functions
 
 ```python
+>>> number = input("Ingrese un numero: ")
+Ingrese un numero: 4
 >>> int(number)
 4
+```
+
+```python
+>>> number = input("Ingrese un numero: ")
+Ingrese un numero: 4
+>>> float(number)
+4.0
 ```
