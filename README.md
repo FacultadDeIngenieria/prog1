@@ -4,7 +4,7 @@
 1. [Introduction](introduction)
 2. [Hello World](hello-world)
 3. [Variables](variables)
-<!-- 4. [Strings](strings) -->
+4. [Strings](strings)
 <!-- 5. [Objects & Classes](objects) -->
 <!-- 6. [Blocks-If](blocks-if) -->
 <!-- 7. [Arrays](arrays) -->
