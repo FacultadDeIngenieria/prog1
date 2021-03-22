@@ -174,6 +174,9 @@ full_name = f"Hello, {first_name.title()} {last_name.title()}!"
 print(full_name) #Hello, Ada Lovelace!
 ```
 
+- If we want generate a **new line**, we use *\n* inside our string
+- If we want generate a **tab** character, we use *\t* inside our string
+
 ---
 
 # Python Library: String
