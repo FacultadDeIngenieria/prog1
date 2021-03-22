@@ -1,0 +1,34 @@
+---
+title: Práctica 2
+layout: practice
+permalink: /practice/2
+---
+
+# Trabajo Práctico 2
+
+Debe entregarse a la semana siguiente de ser entregado.
+
+## Ejercicio 1
+
+Los nombres suelen venir en distintas formas y uno siempre tiene que estar preparado para lo peor. En este caso, necesitamos ordenar y organizar un poco estos nombres. Para este task, tenes que lograr dado un nombre y un apellido, poder mostrar el nombre completo en distintos formatos. En este caso lo que necesitamos es lo siguiente: 
+
+```python 
+ada lovelace 
+Ada Lovelace 
+ADA LOVELACE 
+ada lovelace 
+	ada lovelace
+```
+
+## Ejercicio 2
+
+El planeta tierra es muy grande y actualmente es el hogar de 7700 millones de personas. Las personas viven en distintos paises y necesitamos distinguir las ubicaciones una de otra.
+
+En este ejercicio, necesitamos saber qué país esta primero en el diccionario. Dado los paises Bangladesh y Barbados, comparar los paises teniendo en cuenta quien esta primero en el diccionario.
+
+La respuesta debería tener el siguiente formato (Donde X es Bangladesh e Y es Barbados):
+
+```python
+The result of X comes first in the dictionary than Y is True/False.
+The result of Y comes first in the dictionary than X is True/False.
+```
