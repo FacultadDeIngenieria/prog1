@@ -182,6 +182,26 @@ print(full_name) #Hello, Ada Lovelace!
 - One of the first thing you should seek when learning a new language
 - For example, Strings methods in Python documentation:
   - https://docs.python.org/3/library/stdtypes.html#string-methods
+- See if you can see what find() method does
+
+---
+
+# find(sub)
+
+- Return the lowest index in the string where substring sub is found within it. 
+- Return -1 if sub is not found.
+
+```python
+last_name = "lovelace"
+print(last_name.find("love")) #0
+print(last_name.find("loves")) #-1
+```
+
+- Why 0?
+  - We are going to see it later, but **spoiler_alert!!** Strings in many languages are 0-based indexed.
+
+.center[![find_index]({{site.baseurl}}/presentation/strings/indexing.png)![find_index]({{site.baseurl}}/presentation/strings/python-str-index.png)]
+
 
 ---
 
