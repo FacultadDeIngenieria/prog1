@@ -7,7 +7,7 @@
 4. [Strings](strings)
 <!-- 5. [Objects & Classes](objects) -->
 <!-- 6. [Blocks-If](blocks-if) -->
-<!-- 7. [Arrays](arrays) -->
+<!-- 7. [Lists](lists) -->
 <!-- 8. [Loops](loops) -->
 <!-- 9. [Recursion](recursion) -->
 <!-- 10. [Control Flow Statements](controlflow) -->

@@ -33,7 +33,7 @@ Your first program will be the classic introduction to any language the HelloWor
 # Create Source File: hello_world.py
 
 - Open Sublime Text editor
-- It would be a great idea to create a folder, called **prog1-python** in a known location of youe computer
+- It would be a great idea to create a folder, called **prog1-python** in a known location of your computer
 - Save the empty file with the name *hello_world.py* in the previously created folder
 - Type the following:
 
