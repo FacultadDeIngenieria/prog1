@@ -12,14 +12,6 @@ Lists
 
 ---
 
-# List
-
-- Python considers the first item in a list to be at position 0, not position 1, which is true for almost all programming languages.
-
-.center[![List Index]({{site.baseurl}}/presentation/lists/list_index.png)]
-
----
-
 # What is a List?
 
 - A list is a collection of items in a particular order.
@@ -39,6 +31,14 @@ print(bicycles)   # print the list!
 ```python
 ['trek', 'cannondale', 'redline', 'specialized']
 ```
+
+---
+
+# Lists - Indexes
+
+- Python considers the first item in a list to be at position 0, not position 1, which is true for almost all programming languages.
+
+.center[![List Index]({{site.baseurl}}/presentation/lists/list_index.png)]
 
 ---
 
@@ -136,7 +136,22 @@ print(motorcycles)
 
 # Removing Elements from a List
 
-- Use the 'del' method or the 'pop' method?
+- To remove an element from a specific index:
+
+```python
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+
+del motorcycles[0] # delete item in index 0
+print(motorcycles)
+```
+
+- The 'del' statement before a List removes the element at said index, printing:
+
+```python
+['honda', 'yamaha', 'suzuki']
+['yamaha', 'suzuki']
+```
 
 ---
 
@@ -145,11 +160,13 @@ print(motorcycles)
 - We learned how to access single elements in a list, and we can also work with a specific group of items in a list, which we call a slice.
 - To make a slice, specify the index of the first and last elements you want to work with between brackets, separated by colon.
 - First index is included, second index is excluded.
+- It returns a **new** list, which means you should keep it in a new variable.
 - Example:
 
 ```python
 players = ['charles', 'martina', 'michael', 'florence', 'eli']
-print(players[1:3])
+sliced_players = players[1:4]   # slice List 'players' from index 1 to 4
+print(sliced_players) 
 ```
 
 - *What does this code print?*
@@ -247,7 +264,34 @@ print(players[:])   # slice the List 'players' from index 0 to 5 (the end), and 
 # Strings as Lists
 
 - As stated in the Strings presentation, a String is a sequence of characters.
-- In Python, **a String is a List**, which means all the methods that can be used in a String, can be used in a List.
+- In Python, **a String is a List**.
 - Go back to the first image in this presentation and see that list represents a String: List of characters.
 - The most clear example is the `len()` function.
 - Another example could be getting a character in an index of a String, or slicing the string to obtain only a part of it (called substring in other languages)
+
+---
+
+# Strings as Lists - Getting a char
+
+- To get a specific character from a String:
+
+```python
+some_string = 'get this character: B'
+print(some_string[20]) # get the character in index 20
+```
+
+- It's the same as getting a specific item from a List's index!
+
+---
+
+# Strings as Lists - Substring
+
+- To get a part of a string (given a range):
+
+```python
+some_string = 'get the third word from this string'
+print(some_string[8:13])
+```
+
+- It's the same as slicing a List between two indexes!
+- **Remember**: first index is included, second is excluded.
