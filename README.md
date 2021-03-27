@@ -5,14 +5,13 @@
 2. [Hello World](hello-world)
 3. [Variables](variables)
 4. [Strings](strings)
-<!-- 5. [If Statements](ifs) -->
-<!-- 5. [Objects & Classes](objects) -->
-<!-- 6. [Blocks-If](blocks-if) -->
+5. [If Statements](ifs)
+<!-- 6. [Functions](functions) -->
 <!-- 7. [Lists](lists) -->
 <!-- 8. [Loops](loops) -->
 <!-- 9. [Recursion](recursion) -->
-<!-- 10. [Control Flow Statements](controlflow) -->
-<!-- 11. [Visibility](visibility) -->
+<!-- 10. [Objects & Classes](objects) -->
+<!-- 11. [Java Adapter](java) -->
 
 ## Trabajos Prácticos
 
