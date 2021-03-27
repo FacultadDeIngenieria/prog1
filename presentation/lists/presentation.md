@@ -295,3 +295,37 @@ print(some_string[8:13])
 
 - It's the same as slicing a List between two indexes!
 - **Remember**: first index is included, second is excluded.
+
+---
+
+# Array of arrays
+
+- It's an array whose components are themselves arrays.
+- Also known as multidimensional arrays.
+- Example:
+
+```python
+multi_array = [[1, 2, 3], [4, 5]]
+```
+
+- This is an array where the index 0 has an array of length 3, and index 1 has an array of length 2.
+- *How would we access an element of a multidimensional array?*
+
+---
+
+# Array of arrays
+
+- It's an array whose components are themselves arrays.
+- Also known as multidimensional arrays.
+- Example:
+
+```python
+multi_array = [['a', 'b', 'c'], ['d', 'e']]
+```
+
+- This is an array where the index 0 has an array of length 3, and index 1 has an array of length 2.
+- *How would we access element 'c' of a multidimensional array?*
+
+```python
+multi_array[0][2]
+```
