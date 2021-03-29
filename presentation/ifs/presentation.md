@@ -22,7 +22,7 @@ if Statements
 # A Simple Example
 
 ```python
-age = input("Ingrese su edad: ")
+age = int(input("Ingrese su edad: "))
 
 if age >= 18:
 	print("Sos mayor de edad :-)")
@@ -52,7 +52,7 @@ True
 ```python
 >>> city = "Pilar"
 >>> city != "Buenos Aires"
-False
+True
 ```
 
 - Most of our conditional expressions will test for *equality* but sometimes is more efficient to test for *inequality*
@@ -268,7 +268,7 @@ print(f"Your admission cost is ${price}.")
 
 
 ```python
-number = input("Ingrese un número: ")
+number = int(input("Ingrese un número: "))
 
 if number >= 10:
 	print("El número es mayor a 10")
