@@ -12,3 +12,152 @@ Loops
 
 ---
 
+# For
+
+- We already learned how to create Lists and how to work with specific elements in a List.
+- Example:
+
+```python
+magicians = ['alice', 'david']
+
+print(magicians[0])
+print(magicians[1])
+```
+
+- *What if the length of the List changes?*
+
+---
+
+# For
+
+- Looping allows you to take the same action, or set of actions, with every item in a list.
+- Work efficiently with lists of any length, including those with thousands or even millions of items.
+- Here, **indentation** is extremely important.
+
+---
+
+# For - Example
+
+```python
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+    print(magician)
+```
+
+- First line: we define a List of elements.
+- Second line: we define a **for** loop.
+    - This line tells Python to pull a name from the list *magicians*, and associate it with the variable *magician*.
+- Third line: print the name that’s just been assigned to the variable *magician*.
+
+- Python then **repeats** the second and third line, once for each name in the list
+- How we read this: For every magician in the list of magicians, print the magician’s name.
+- Output is:
+
+```python
+alice
+david
+carolina
+```
+
+---
+
+# For - Complex example
+
+```python
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+    print(f"{magician.title()}, that was a great trick!")
+    print(f"I can't wait to see your next trick, {magician.title()}.\n")
+```
+
+This will print:
+
+```python
+Alice, that was a great trick!
+I can't wait to see your next trick, Alice.
+
+David, that was a great trick!
+I can't wait to see your next trick, David.
+
+Carolina, that was a great trick!
+I can't wait to see your next trick, Carolina.
+```
+
+- A *for* loop can have as many lines as you want, **indentation** is important.
+
+---
+
+# Looping a multi array
+
+- *How would we print all elements in a multi array?*
+
+---
+
+# Looping a multi array
+
+- *How would we print all elements in a multi array?*
+
+```python
+magician_groups = [['alice', 'david'], ['carolina']]
+for magician_group in magician_groups:
+    for magician in magician_group:
+        print(magician)
+```
+
+---
+
+# While
+
+- The for loop takes a collection of items and executes a block of code once for each item in the collection.
+- In contrast, the while loop runs as long as a certain condition is true.
+
+---
+
+# While - Example
+
+- The following while loop counts from 1 to 5:
+
+```python
+current_number = 1
+while current_number <= 5:
+    print(current_number)
+    current_number = current_number + 1
+```
+
+- The while loop is set to keep running as long as the value of current_number is less than or equal to 5.
+
+---
+
+# While - Complex example
+
+```python
+prompt = "\nTell me something, and I will repeat it back to you:"
+prompt = prompt + "\nEnter 'quit' to end the program.\n"
+
+message = ""
+while message != 'quit':
+    message = input(prompt)
+
+    if message != 'quit':
+        print(message) 
+```
+
+- *What does this example do? Try it!*
+---
+
+# While - Complex example
+
+```python
+prompt = "\nTell me something, and I will repeat it back to you:"
+prompt = prompt + "\nEnter 'quit' to end the program.\n"
+
+message = ""
+while message != 'quit':
+    message = input(prompt)
+
+    if message != 'quit':
+        print(message) 
+```
+
+- *What does this example do? Try it!*
+- *What if we don't want to care about the case?*
