@@ -30,3 +30,6 @@ Dado los parámetros (a, b, c) el método roots devolverá un String de la forma
 Dado los parámetros (a, b, c, x) el método valueY devolverá el valor de Y para un valor de X que se le pasa como parámetro.
 Dado los parámetros (a, b, c) el método toString que devolverá un String mostrando la ecuación como figura en el primer párrafo (Y = A * X2 + B * X + C).
 Dado los parámetros (a, b) el método derivation que devolverá un String mostrando la función lineal derivada.
+
+HINT: Para resolver una cuadrática:
+![cuadratic]({{site.baseurl}}/practice/tp4.png)
