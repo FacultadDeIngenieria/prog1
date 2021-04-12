@@ -7,7 +7,7 @@
 4. [Strings](strings)
 5. [If Statements](ifs)
 6. [Functions](functions)
-<!-- 7. [Lists](lists) -->
+7. [Lists](lists)
 <!-- 8. [Loops](loops) -->
 <!-- 9. [Recursion](recursion) -->
 <!-- 10. [Objects & Classes](objects) -->
@@ -19,7 +19,7 @@
 2. [TP2](practice/2)
 3. [TP3](practice/3)
 4. [TP4](practice/4)
-<!-- 5. [TP5](practice/5) -->
+5. [TP5](practice/5)
 <!-- 6. [TP6](practice/6) -->
 <!-- 7. [TP7](practice/7) -->
 

@@ -313,19 +313,19 @@ multi_array = [[1, 2, 3], [4, 5]]
 
 ---
 
-# Array of arrays
+# List of lists
 
-- It's an array whose components are themselves arrays.
-- Also known as multidimensional arrays.
+- It's a list whose components are themselves lists.
+- Also known as multidimensional lists.
 - Example:
 
 ```python
-multi_array = [['a', 'b', 'c'], ['d', 'e']]
+multi_list = [['a', 'b', 'c'], ['d', 'e']]
 ```
 
-- This is an array where the index 0 has an array of length 3, and index 1 has an array of length 2.
-- *How would we access element 'c' of a multidimensional array?*
+- This is a list where the index 0 has a list of length 3, and index 1 has a list of length 2.
+- *How would we access element 'c' of a multidimensional list?*
 
 ```python
-multi_array[0][2]
+multi_list[0][2]
 ```
