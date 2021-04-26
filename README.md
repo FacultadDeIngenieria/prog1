@@ -23,9 +23,9 @@
 6. [TP6](practice/6)
 <!-- 7. [TP7](practice/7) -->
 
-<!-- ## Clase de consulta -->
+## Clase de consulta
 
-<!-- Todos los miércoles entre las 19 y las 20.30, los espera Sofía en este [link de Meet](https://meet.google.com/tod-rdve-oui) para resolver dudas y consultas. -->
+Todos los miércoles entre las 19 y las 20.30, los espera Sofía en este [link de Meet](https://meet.google.com/tod-rdve-oui) para resolver dudas y consultas.
 
 ## Ejemplos
 
