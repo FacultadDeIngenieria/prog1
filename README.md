@@ -8,7 +8,7 @@
 5. [If Statements](ifs)
 6. [Functions](functions)
 7. [Lists](lists)
-<!-- 8. [Loops](loops) -->
+8. [Loops](loops)
 <!-- 9. [Recursion](recursion) -->
 <!-- 10. [Objects & Classes](objects) -->
 <!-- 11. [Java Adapter](java) -->
@@ -20,8 +20,12 @@
 3. [TP3](practice/3)
 4. [TP4](practice/4)
 5. [TP5](practice/5)
-<!-- 6. [TP6](practice/6) -->
+6. [TP6](practice/6)
 <!-- 7. [TP7](practice/7) -->
+
+<!-- ## Clase de consulta -->
+
+<!-- Todos los miércoles entre las 19 y las 20.30, los espera Sofía en este [link de Meet](https://meet.google.com/tod-rdve-oui) para resolver dudas y consultas. -->
 
 ## Ejemplos
 
