@@ -9,7 +9,7 @@
 6. [Functions](functions)
 7. [Lists](lists)
 8. [Loops](loops)
-<!-- 9. [Recursion](recursion) -->
+9. [Recursion](recursion)
 <!-- 10. [Objects & Classes](objects) -->
 <!-- 11. [Java Adapter](java) -->
 
