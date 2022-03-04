@@ -65,5 +65,5 @@
 * Matias Miodosky: 
 * Sofía Sidañez: [sofia.sidanez@ing.austral.edu.ar](mailto:sofia.sidanez@ing.austral.edu.ar)
 
-* [Click para consultar](mailto:juan.longo@ing.austral.edu.ar,martin.gutierrez@ing.austral.edu.ar,aalexander-ext@austral.edu.ar,sofia.sidanez@ing.austral.edu.ar?subject=Consulta)
+* [Click para consultar](mailto:juan.longo@ing.austral.edu.ar,martin.gutierrez@ing.austral.edu.ar,matias.ponce@ing.austral.edu.ar,aalexander-ext@austral.edu.ar,sofia.sidanez@ing.austral.edu.ar?subject=Consulta)
 
