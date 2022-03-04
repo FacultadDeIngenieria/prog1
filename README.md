@@ -4,30 +4,30 @@
 1. [Introduction](introduction)
 2. [Hello World](hello-world)
 3. [Variables](variables)
-4. [Strings](strings)
-5. [If Statements](ifs)
-6. [Functions](functions)
-7. [Lists](lists)
-8. [Loops](loops)
-9. [Recursion](recursion)
-10. [Objects & Classes](objects)
-12. [List Comprehension & Plots](listsplots)
+<!-- 4. [Strings](strings) -->
+<!-- 5. [If Statements](ifs) -->
+<!-- 6. [Functions](functions) -->
+<!-- 7. [Lists](lists) -->
+<!-- 8. [Loops](loops) -->
+<!-- 9. [Recursion](recursion) -->
+<!-- 10. [Objects & Classes](objects) -->
+<!-- 12. [List Comprehension & Plots](listsplots) -->
 <!-- 11. [Java Adapter](java) -->
 
 ## Trabajos Prácticos
 
-1. [TP1](practice/1)
-2. [TP2](practice/2)
-3. [TP3](practice/3)
-4. [TP4](practice/4)
-5. [TP5](practice/5)
-6. [TP6](practice/6)
-7. [TP7](practice/7)
-8. [TP8](practice/8)
+<!--1. [TP1](practice/1) -->
+<!--2. [TP2](practice/2) -->
+<!--3. [TP3](practice/3) -->
+<!--4. [TP4](practice/4) -->
+<!--5. [TP5](practice/5) -->
+<!--6. [TP6](practice/6) -->
+<!--7. [TP7](practice/7) -->
+<!--8. [TP8](practice/8) -->
 
-## Clase de consulta
+<!-- ## Clase de consulta
 
-Todos los miércoles entre las 19 y las 20.30, los espera Sofía en este [link de Meet](https://meet.google.com/tod-rdve-oui) para resolver dudas y consultas.
+<!-- Todos los miércoles entre las 19 y las 20.30, los espera Sofía en este [link de Meet](https://meet.google.com/tod-rdve-oui) para resolver dudas y consultas. -->
 
 ## Ejemplos
 
@@ -58,10 +58,12 @@ Todos los miércoles entre las 19 y las 20.30, los espera Sofía en este [link d
 
 ## Cátedra
 
-* Lucas Luppani: [lucas.luppani@ing.austral.edu.ar](mailto:lucas.luppani@ing.austral.edu.ar)
 * Juan Longo: [juan.longo@ing.austral.edu.ar](mailto:juan.longo@ing.austral.edu.ar)
 * Martin Gutierrez: [martin.gutierrez@ing.austral.edu.ar](mailto:martin.gutierrez@ing.austral.edu.ar)
+* Matias Ponce: [matias.ponce@ing.austral.edu.ar](mailto:matias.ponce@ing.austral.edu.ar)
+* Agustin Alexander: [aalexander-ext@austral.edu.ar](mailto:aalexander-ext@austral.edu.ar)
+* Matias Miodosky: 
 * Sofía Sidañez: [sofia.sidanez@ing.austral.edu.ar](mailto:sofia.sidanez@ing.austral.edu.ar)
 
-* [Click para consultar](mailto:lucas.luppani@ing.austral.edu.ar,juan.longo@ing.austral.edu.ar,martin.gutierrez@ing.austral.edu.ar,sofia.sidanez@ing.austral.edu.ar?subject=Consulta)
+* [Click para consultar](mailto:juan.longo@ing.austral.edu.ar,martin.gutierrez@ing.austral.edu.ar,aalexander-ext@austral.edu.ar,sofia.sidanez@ing.austral.edu.ar?subject=Consulta)
 
