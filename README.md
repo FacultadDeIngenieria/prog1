@@ -62,8 +62,8 @@
 * Martin Gutierrez: [martin.gutierrez@ing.austral.edu.ar](mailto:martin.gutierrez@ing.austral.edu.ar)
 * Matias Ponce: [matias.ponce@ing.austral.edu.ar](mailto:matias.ponce@ing.austral.edu.ar)
 * Agustin Alexander: [aalexander-ext@austral.edu.ar](mailto:aalexander-ext@austral.edu.ar)
-* Matias Miodosky: 
+* Matias Miodosky: [matias.miodosky@ing.austral.edu.ar](matias.miodosky@ing.austral.edu.ar)
 * Sofía Sidañez: [sofia.sidanez@ing.austral.edu.ar](mailto:sofia.sidanez@ing.austral.edu.ar)
 
-* [Click para consultar](mailto:juan.longo@ing.austral.edu.ar,martin.gutierrez@ing.austral.edu.ar,matias.ponce@ing.austral.edu.ar,aalexander-ext@austral.edu.ar,sofia.sidanez@ing.austral.edu.ar?subject=Consulta)
+* [Click para consultar](mailto:juan.longo@ing.austral.edu.ar,martin.gutierrez@ing.austral.edu.ar,matias.ponce@ing.austral.edu.ar,aalexander-ext@austral.edu.ar,sofia.sidanez@ing.austral.edu.ar,matias.miodosky@ing.austral.edu.ar?subject=Consulta)
 
