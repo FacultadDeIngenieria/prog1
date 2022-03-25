@@ -5,7 +5,7 @@
 2. [Hello World](hello-world)
 3. [Variables](variables)
 4. [Strings](strings)
-<!-- 5. [If Statements](ifs) -->
+5. [If Statements](ifs)
 <!-- 6. [Functions](functions) -->
 <!-- 7. [Lists](lists) -->
 <!-- 8. [Loops](loops) -->
