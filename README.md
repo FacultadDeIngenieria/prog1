@@ -6,7 +6,7 @@
 3. [Variables](variables)
 4. [Strings](strings)
 5. [If Statements](ifs)
-<!-- 6. [Functions](functions) -->
+6. [Functions](functions)
 <!-- 7. [Lists](lists) -->
 <!-- 8. [Loops](loops) -->
 <!-- 9. [Recursion](recursion) -->
@@ -18,16 +18,16 @@
 
 1. [TP1](practice/1)
 2. [TP2](practice/2)
-<!--3. [TP3](practice/3) -->
+3. [TP3](practice/3)
 <!--4. [TP4](practice/4) -->
 <!--5. [TP5](practice/5) -->
 <!--6. [TP6](practice/6) -->
 <!--7. [TP7](practice/7) -->
 <!--8. [TP8](practice/8) -->
 
-<!-- ## Clase de consulta
+## Clase de consulta
 
-<!-- Todos los miércoles entre las 19 y las 20.30, los espera Sofía en este [link de Meet](https://meet.google.com/tod-rdve-oui) para resolver dudas y consultas. -->
+Todos los jueves a las 16.30 en el Aula B1.1 los esperan Sofía y Constanza.
 
 ## Ejemplos
 
@@ -64,6 +64,7 @@
 * Agustin Alexander: [aalexander-ext@austral.edu.ar](mailto:aalexander-ext@austral.edu.ar)
 * Matias Miodosky: [matias.miodosky@ing.austral.edu.ar](matias.miodosky@ing.austral.edu.ar)
 * Sofía Sidañez: [sofia.sidanez@ing.austral.edu.ar](mailto:sofia.sidanez@ing.austral.edu.ar)
+* Constanza Lasarte: [constanza.lasarte@ing.austral.edu.ar](mailto:constanza.lasarte@ing.austral.edu.ar)
 
-* [Click para consultar](mailto:juan.longo@ing.austral.edu.ar,martin.gutierrez@ing.austral.edu.ar,matias.ponce@ing.austral.edu.ar,aalexander-ext@austral.edu.ar,sofia.sidanez@ing.austral.edu.ar,matias.miodosky@ing.austral.edu.ar?subject=Consulta)
+* [Click para consultar](mailto:juan.longo@ing.austral.edu.ar,martin.gutierrez@ing.austral.edu.ar,matias.ponce@ing.austral.edu.ar,aalexander-ext@austral.edu.ar,sofia.sidanez@ing.austral.edu.ar,constanza.lasarte@ing.austral.edu.ar,matias.miodosky@ing.austral.edu.ar?subject=Consulta)
 
