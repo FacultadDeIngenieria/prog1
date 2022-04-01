@@ -10,7 +10,7 @@ Debe entregarse a la semana siguiente de ser entregado.
 
 ## Ejercicio 1
 
-La idea de este ejercicio es que lean el código, escriban lo que piensen que los prints vayan a decir y que luego corran el código para ver si les dio igual o no. Para darle run al código, van a ver un icono de play verde al lado de la línea número 1 al principio del código. Con hacer un simple click en ese botón, les va a abrir la consola donde verán el output del código. Después de correr el código e hacer el ejercicio pueden submittear el resultado sin modificar nada. Para ello, hay que apretar el botón "check" azul, que se encuentra abajo a la derecha.
+Para este ejercicio el objetivo es leer el código, anotar lo que piensen que los prints vayan a decir y luego correr el código para ver si les dio igual o no.
 
 ```python
 i1 = 3

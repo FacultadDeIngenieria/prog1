@@ -16,6 +16,11 @@ coordenadas cualquiera del eje X y además me informe de las coordenadas del eje
 Ejemplo: 
 
 text
+
+Ingrese el coeficiente A: 2.3
+Ingrese el coeficiente B: -4
+Ingrese el coeficiente X1: 50
+Ingrese el coeficiente X2: -32.9
 El coeficiente A de su ecuación de la recta es: 2.3
 El coeficiente B de su ecuación de la recta es: -4
 El coeficiente X1 de su ecuación de la recta es: 50
@@ -48,6 +53,9 @@ Hacer un programa que dado un año me indique si es bisiesto.
 ```
 Ejemplo:
 
+Ingrese un año: 2000
 El año 2000 es bisiesto
+
+Ingrese un año: 2001
 El año 2001 no es bisiesto
 ```
