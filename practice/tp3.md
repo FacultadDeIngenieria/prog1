@@ -14,29 +14,25 @@ Queremos hacer un programa que nos calcule para una ecuación de primer grado la
 coordenadas cualquiera del eje X y además me informe de las coordenadas del eje Y a la que corresponde.
 
 Ejemplo: 
-
-text
-
+```
 Ingrese el coeficiente A: 2.3
 Ingrese el coeficiente B: -4
 Ingrese el coeficiente X1: 50
 Ingrese el coeficiente X2: -32.9
 El coeficiente A de su ecuación de la recta es: 2.3
-El coeficiente B de su ecuación de la recta es: -4
-El coeficiente X1 de su ecuación de la recta es: 50
+El coeficiente B de su ecuación de la recta es: -4.0
+El coeficiente X1 de su ecuación de la recta es: 50.0
 El coeficiente X2 de su ecuación de la recta es: -32.9
 
-**************************************************
-
 Para la siguiente ecuación:
-	 Y = 2.3X + -4
+	Y = 2.3X + -4.0
 
 Dados los siguientes puntos:
-	 P1 (50, 110.99999999999999)
-	 P2 (-32.9, -79.66999999999999)
+	P1 (50.0, 110.99999999999999)
+	P2 (-32.9, -79.66999999999999)
 
 La distancia entre ellos es: 207.9121422620622
-
+```
 ************************************************** 
 
 
@@ -50,12 +46,12 @@ Un año no tiene en realidad 365 días, sino 365.242199. A fin de mantener el ca
 
 Hacer un programa que dado un año me indique si es bisiesto.
 
+Ejemplos:
 ```
-Ejemplo:
-
 Ingrese un año: 2000
 El año 2000 es bisiesto
-
+```
+```
 Ingrese un año: 2001
 El año 2001 no es bisiesto
 ```
