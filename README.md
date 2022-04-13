@@ -7,7 +7,7 @@
 4. [Strings](strings)
 5. [If Statements](ifs)
 6. [Functions](functions)
-<!-- 7. [Lists](lists) -->
+7. [Lists](lists)
 <!-- 8. [Loops](loops) -->
 <!-- 9. [Recursion](recursion) -->
 <!-- 10. [Objects & Classes](objects) -->
