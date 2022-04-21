@@ -10,11 +10,17 @@ Debe entregarse en 15 días, luego del parcial.
 
 ## Ejercicio 1
 
-En este ejercicio deberan usar las variables que vienen dadas para lograr imprimir el siguiente output.
+En este ejercicio deberan usar las variables que vienen dadas:
+```
+lastName = 'Longo'
+name = 'Juan'
+```
 
+Y con ellas lograr imprimir el siguiente output:
+```
 El apellido Longo comienza con una letra que esta antes de la M
 La clave generada es: LonJua
-
+```
 ## Ejercicio 2
 
 En este ejericio deberan implementar todos los metodos descriptos a continuación:
