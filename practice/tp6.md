@@ -12,7 +12,7 @@ Dada la siguiente consigna, implementar y lograr imprimir en pantalla el output 
 
 Para la primera parte, hacer una función llamada printList que dada una lista de Strings los muestre por pantalla uno por renglón con su número de índice, un punto, un tabulado (\t) y el valor String (ejemplo: "0. DF"). Si el arreglo tiene strings vacíos no debe mostrar nada, ni el renglón correspondiente.
 
-Para la segunda parte, hacer un método llamado printBackwards que dado una lista de strings lo muestre por pantalla uno por renglón, pero la palabra deberia ser imprimida al reves. Por ejemplo, si la palabra es "hola", se debera imprimir "aloh".
+Para la segunda parte, hacer un método llamado printBackwards que dado una lista de strings lo muestre por pantalla uno por renglón, pero la palabra deberia ser impresa al reves. Por ejemplo, si la palabra es "hola", se debera imprimir "aloh".
 
 ## Ejercicio 2
 
