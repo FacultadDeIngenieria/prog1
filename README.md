@@ -31,6 +31,7 @@
 * Viernes 29/04: Primer parcial (Comision A, B y Bio)
 * Lunes 30/05: No hay clase (Comision A y Bio)
 * Viernes 10/06: Segundo parcial (Comision A, B y Bio)
+* Lunes 13/06: No hay clase (Comision A y Bio)
 
 ## Clase de consulta
 
