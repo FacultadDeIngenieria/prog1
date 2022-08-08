@@ -27,17 +27,17 @@
 
 ## Parciales y Anuncios
 
-* Lunes 11/04: No hay clase (Comision A y Bio)
-* Viernes 29/04: Primer parcial (Comision A, B y Bio)
-* Lunes 30/05: No hay clase (Comision A y Bio)
-* Viernes 10/06: Segundo parcial (Comision A, B y Bio)
-* Lunes 13/06: No hay clase (Comision A y Bio)
+* Lunes 19/09: Primer parcial
+* Lunes 14/11: Segundo parcial
+
+## Instalación y configuración de Python y SublimeText
+[Revisar los pasos  aqui](utils/installPythonAndSublimeText.md)
 
 ## Clase de consulta
 
 Todos los jueves a las 16.30 en el Aula B1.1 los esperan Sofía y Constanza.
 
-## Ejemplos
+<!-- ## Ejemplos -->
 
 <!-- - [Objecto Marker](resources/marker) -->
 <!-- - [Objecto Bicycle](resources/bicycle) -->
@@ -68,12 +68,13 @@ Todos los jueves a las 16.30 en el Aula B1.1 los esperan Sofía y Constanza.
 ## Cátedra
 
 * Juan Longo: [juan.longo@ing.austral.edu.ar](mailto:juan.longo@ing.austral.edu.ar)
-* Martin Gutierrez: [martin.gutierrez@ing.austral.edu.ar](mailto:martin.gutierrez@ing.austral.edu.ar)
 * Matias Ponce: [matias.ponce@ing.austral.edu.ar](mailto:matias.ponce@ing.austral.edu.ar)
-* Agustin Alexander: [aalexander-ext@austral.edu.ar](mailto:aalexander-ext@austral.edu.ar)
 * Matias Miodosky: [matias.miodosky@ing.austral.edu.ar](matias.miodosky@ing.austral.edu.ar)
 * Sofía Sidañez: [sofia.sidanez@ing.austral.edu.ar](mailto:sofia.sidanez@ing.austral.edu.ar)
 * Constanza Lasarte: [constanza.lasarte@ing.austral.edu.ar](mailto:constanza.lasarte@ing.austral.edu.ar)
 
-* [Click para consultar](mailto:juan.longo@ing.austral.edu.ar,martin.gutierrez@ing.austral.edu.ar,matias.ponce@ing.austral.edu.ar,aalexander-ext@austral.edu.ar,sofia.sidanez@ing.austral.edu.ar,constanza.lasarte@ing.austral.edu.ar,matias.miodosky@ing.austral.edu.ar?subject=Consulta)
+[//]: # (* Martin Gutierrez: [martin.gutierrez@ing.austral.edu.ar]&#40;mailto:martin.gutierrez@ing.austral.edu.ar&#41;)
+[//]: # (* Agustin Alexander: [aalexander-ext@austral.edu.ar]&#40;mailto:aalexander-ext@austral.edu.ar&#41;)
+
+* [Click para consultar](mailto:juan.longo@ing.austral.edu.ar,matias.ponce@ing.austral.edu.ar,sofia.sidanez@ing.austral.edu.ar,constanza.lasarte@ing.austral.edu.ar,matias.miodosky@ing.austral.edu.ar?subject=Consulta)
 
