@@ -1,6 +1,6 @@
 ---
 title: Python and SublimeText Installation
-layout: practice
+layout: utils
 permalink: /utils/installation
 ---
 
