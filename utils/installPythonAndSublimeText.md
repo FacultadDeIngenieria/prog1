@@ -1,3 +1,10 @@
+---
+title: Python and SublimeText Installation
+layout: installation
+permalink: /utils/installation
+---
+
+
 # Python Installation
 
 ## Python on OS X
