@@ -68,13 +68,15 @@ Todos los jueves a las 16.30 en el Aula B1.1 los esperan Sofía y Constanza.
 ## Cátedra
 
 * Juan Longo: [juan.longo@ing.austral.edu.ar](mailto:juan.longo@ing.austral.edu.ar)
-* Matias Ponce: [matias.ponce@ing.austral.edu.ar](mailto:matias.ponce@ing.austral.edu.ar)
-* Matias Miodosky: [matias.miodosky@ing.austral.edu.ar](matias.miodosky@ing.austral.edu.ar)
-* Sofía Sidañez: [sofia.sidanez@ing.austral.edu.ar](mailto:sofia.sidanez@ing.austral.edu.ar)
-* Constanza Lasarte: [constanza.lasarte@ing.austral.edu.ar](mailto:constanza.lasarte@ing.austral.edu.ar)
+* Matías Ponce: [matias.ponce@ing.austral.edu.ar](mailto:matias.ponce@ing.austral.edu.ar)
+* Matías Miodosky: [matias.miodosky@ing.austral.edu.ar](matias.miodosky@ing.austral.edu.ar)
+* Gastón Gadea: [gaston.gadea@ing.austral.edu.ar](gaston.gadea@ing.austral.edu.ar)
+
+<!-- * Sofía Sidañez: [sofia.sidanez@ing.austral.edu.ar](mailto:sofia.sidanez@ing.austral.edu.ar) -->
+<!-- * Constanza Lasarte: [constanza.lasarte@ing.austral.edu.ar](mailto:constanza.lasarte@ing.austral.edu.ar) -->
 
 [//]: # (* Martin Gutierrez: [martin.gutierrez@ing.austral.edu.ar]&#40;mailto:martin.gutierrez@ing.austral.edu.ar&#41;)
 [//]: # (* Agustin Alexander: [aalexander-ext@austral.edu.ar]&#40;mailto:aalexander-ext@austral.edu.ar&#41;)
 
-* [Click para consultar](mailto:juan.longo@ing.austral.edu.ar,matias.ponce@ing.austral.edu.ar,sofia.sidanez@ing.austral.edu.ar,constanza.lasarte@ing.austral.edu.ar,matias.miodosky@ing.austral.edu.ar?subject=Consulta)
+* [Click para consultar](mailto:juan.longo@ing.austral.edu.ar,matias.ponce@ing.austral.edu.ar,matias.miodosky@ing.austral.edu.ar,gaston.gadea@ing.austral.edu.ar?subject=Consulta)
 
