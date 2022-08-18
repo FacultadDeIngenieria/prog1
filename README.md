@@ -31,7 +31,7 @@
 * Lunes 14/11: Segundo parcial
 
 ## Instalación y configuración de Python y SublimeText
-[Revisar los pasos  aqui](/utils/installation)
+[Revisar los pasos  aqui](utils/installation)
 
 ## Clase de consulta
 
