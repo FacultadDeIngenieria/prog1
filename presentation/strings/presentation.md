@@ -162,7 +162,7 @@ full_name = f"Hello, {first_name} {last_name}!"
 print(full_name) #Hello, ada lovelace!
 ```
 
-- You do that by inserting an *f* befor opening a string
+- You do that by inserting an *f* before opening a string
 - f is for format, so these strings are called *f-strings*
 - Constant string content can be mixed with variables
 - You can modify the string variable using any of the seen methods first
