@@ -10,7 +10,7 @@
 7. [Lists](lists)
 8. [Loops](loops)
 9. [Recursion](recursion)
-<!-- 10. [Objects & Classes](objects) -->
+10. [Objects & Classes](objects)
 <!-- 12. [List Comprehension & Plots](listsplots) -->
 <!-- 11. [Java Adapter](java) -->
 
