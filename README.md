@@ -1,6 +1,6 @@
 ## Presentaciones
 
-0. [Arquitectura - Sistemas Operativos - Lenguajes de Programación - Algoritmo](presentation/0-Arq-SO-LP.pdf)
+0. [Arquitectura - Sistemas Operativos - Lenguajes de Programación - Algoritmo](intro-o)
 1. [Introduction](introduction)
 2. [Hello World](hello-world)
 <!-- 3. [Variables](variables) -->
