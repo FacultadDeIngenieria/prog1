@@ -66,8 +66,8 @@ Todos los jueves a las 16.30 en el Aula B1.1 los esperan Sofía y Constanza.
 <!-- * [The Java Tutorials](https://docs.oracle.com/javase/tutorial/) -->
 
 ## Cátedra
-* Martin Gutierrez: [martin.gutierrez@ing.austral.edu.ar]&#40;mailto:martin.gutierrez@ing.austral.edu.ar)
-* Agustin Alexander: [aalexander-ext@austral.edu.ar]&#40;mailto:aalexander-ext@austral.edu.ar)
+* Martin Gutierrez: [martin.gutierrez@ing.austral.edu.ar](mailto:martin.gutierrez@ing.austral.edu.ar)
+* Agustin Alexander: [aalexander-ext@austral.edu.ar](mailto:aalexander-ext@austral.edu.ar)
 * Juan Longo: [juan.longo@ing.austral.edu.ar](mailto:juan.longo@ing.austral.edu.ar)
 * Matías Ponce: [matias.ponce@ing.austral.edu.ar](mailto:matias.ponce@ing.austral.edu.ar)
 * Matías Miodosky: [matias.miodosky@ing.austral.edu.ar](matias.miodosky@ing.austral.edu.ar)
