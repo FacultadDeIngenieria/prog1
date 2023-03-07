@@ -16,19 +16,12 @@ Introduction
 
 ---
 
-# ¿Por qué NO Java? (ahora)
+# ¿Por qué NO Java?
 
 - La **curva de aprendizaje** del lenguaje para el que nunca programó, es mas **empinada**
 - Mucha **magia** cuando recién se está empezando
 - Arrastra **vicios** de larga data que lo hacen complicado como primer lenguaje
 - Luego de aprendido un lenguaje como Python, el pasaje a Java será mas rápido y transparente
-
----
-
-# Language Trends (RedMonk)
-
-
-.center[![Language Rank Trends]({{site.baseurl}}/presentation/introduction/redmonk-languages.png)]
 
 ---
 
@@ -45,6 +38,14 @@ Introduction
 .center[![Language Rank Trends]({{site.baseurl}}/presentation/introduction/github-languages.png)]
 
 ---
+
+# Language Trends (RedMonk)
+
+
+.center[![Language Rank Trends]({{site.baseurl}}/presentation/introduction/redmonk-languages.png)]
+
+---
+
 
 # Primera enseñanza
 
