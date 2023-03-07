@@ -1,3 +1,4 @@
+
 class: center, middle, inverse
 
 # Introducción a la Programación I
@@ -40,10 +41,14 @@ Los algoritmos  pueden usar para:
 
 # Tipos diferentes de algoritmos
 
-* Algoritmo de búsqueda: buscar elementos dentro de un conjunto de datos. 
-* Algoritmo de ordenación: organizar elementos dentro de un conjunto de datos. 
-* Algoritmo de optimización: encontrar la mejor solución a un problema dado.
-* Algoritmos recursivos: resolver un problema a través de la repetición de una tarea. 
+* Algoritmo de búsqueda: 
+	* Buscar elementos dentro de un conjunto de datos. 
+* Algoritmo de ordenación: 
+	* Organizar elementos dentro de un conjunto de datos. 
+* Algoritmo de optimización: 
+	* Encontrar la mejor solución a un problema dado.
+* Algoritmos recursivos: 
+	* Resolver un problema a través de la repetición de una tarea. 
 
 ---
 
