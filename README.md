@@ -1,6 +1,6 @@
 ## Presentaciones
 
-0. [Arquitectura - Sistemas Operativos - Lenguajes de Programación - Algoritmo](intro-o)
+0. [Algoritmos](intro-o)
 1. [Introduction](introduction)
 2. [Hello World](hello-world)
 <!-- 3. [Variables](variables) -->
