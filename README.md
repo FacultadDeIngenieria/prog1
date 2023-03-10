@@ -59,7 +59,7 @@ Todos los jueves a las 16.30 en el Aula B1.1 los esperan Sofía y Constanza.
 * [What's an algorithm?](https://www.youtube.com/watch?v=6hfOvs8pY1k)
 * [ASCII Table Extended](https://computersciencewiki.org/images/3/3d/Ascii_table.png)
 * [Tips from class](resources/hoja_tips.pdf)
-* [Excercism] (http://facultaddeingenieria.duckdns.org)
+* [Excercism](http://facultaddeingenieria.duckdns.org)
 <!-- * [Programa](https://drive.google.com/file/d/1mvKoX8RAQVYJUuPx-i6xQQl2XdBYNCOu/view?usp=sharing) -->
 <!-- - [Clase Scanner.java](resources/scanner) -->
 <!-- * [The Java Tutorials](https://docs.oracle.com/javase/tutorial/) -->
