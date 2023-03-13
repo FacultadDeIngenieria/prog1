@@ -11,7 +11,7 @@
 <!-- 10. [Objects & Classes](objects) -->
 <!-- 12. [List Comprehension & Plots](listsplots) -->
 <!-- 11. [Java Adapter](java) -->
-
+<!-- 13. [Bash](bash) -->
 ## Trabajos Prácticos
 
 1. [TP1](practice/1)
