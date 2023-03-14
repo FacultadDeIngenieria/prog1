@@ -54,7 +54,7 @@ In a UNIX OS, to leave the manual page use q and press enter
 
 mkdir - Creates a directory
 - `mkdir facultad` creates a directory called `facultad`
-- `mkdir facultad/programacion1` creates a directory called `programacion` inside `facultad
+- `mkdir facultad/programacion1` creates a directory called `programacion` inside `facultad/programacion1`
 
 
 cd - Change directory
@@ -67,7 +67,6 @@ touch - Create a file
 
 ls - List directory's contents
 - `ls` lists the files in the working directory
-
 
 ---
 ## Manipulating Files
@@ -91,7 +90,6 @@ rm - Remove File(s) and directories
 echo - Writes arguments to the standard output
 - `echo "Hola mundo"` prints "Hola mundo"
 - `echo rm *.txt` prints all the options to be removed to make sure we are deleteing what we want to delete
-
 
 ---
 ## Piping
