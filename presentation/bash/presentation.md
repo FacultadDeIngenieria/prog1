@@ -66,6 +66,15 @@ ls - List directory's contents
 - `ls` lists the files in the working directory
 
 ---
+## Piping
+
+'|' allows connecting UNIX programs to each other.
+
+`ls | grep hi`
+
+ls lists the files in the working directory, this output is checked by the grep command for the word `hi`
+
+---
 ## Manipulating Files
 
 cat - Read file and write it to the standard output
@@ -84,13 +93,6 @@ echo - Writes arguments to the standard output
 - `echo rm *.txt` prints all the options to be removed to make sure we are deleteing what we want to delete.
 
 ---
-## Piping
-
-'|' allows connecting UNIX programs to each other.
-
-`ls | grep hi`
-
-ls lists the files in the working directory, this output is checked by the grep command for the word `hi`.
 
 ---
 ## Trabajo Práctico
