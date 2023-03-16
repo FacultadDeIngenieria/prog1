@@ -67,23 +67,3 @@ Ejemplo: Para a = 57 y b = 7 el output debera ser:
 1
 8.142857142857142
 ```
-
-## Ejercicio 3 - Change
-
-Escribir un programa que dado dos números reales que representan el gasto efectuado por una persona y la cantidad pagada, imprima en pantalla el informe de la cantidad de pesos y centavos a devolver.
-
-Hay que respetar el formato del informe (incluido la prolijidad con los espacios y saltos de linea). Un ejemplo de un informe es:
-
-```python
-Ingresar gasto:
-23.75
-Dinero recibido
-100
-
-Vuelto
-
-Pesos:
-76.25
-Centavos:
-25
-```
