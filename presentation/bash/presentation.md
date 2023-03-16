@@ -88,7 +88,6 @@ rm - Remove File(s) and directories
 
 
 echo - Writes arguments to the standard output
-- `echo "Hola mundo"` prints "Hola mundo"
 - `echo rm *.txt` prints all the options to be removed to make sure we are deleteing what we want to delete
 
 ---
