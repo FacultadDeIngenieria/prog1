@@ -13,7 +13,8 @@
 <!-- 11. [Java Adapter](java) -->
 
 ## Clases Jueves
-1. [Bash](bash)
+1. [Bash Intro](bash-intro)
+1. [Bash Continued](bash-continue)
 
 ## Trabajos Prácticos
 
