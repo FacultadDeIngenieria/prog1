@@ -2,7 +2,7 @@
 1. [Introduction](introduction)
 2. [Hello World](hello-world)
 3. [Variables](variables)
-<!-- 4. [Strings](strings) -->
+4. [Strings](strings)
 <!-- 5. [If Statements](ifs) -->
 <!-- 6. [Functions](functions) -->
 <!-- 7. [Lists](lists) -->
@@ -19,7 +19,7 @@
 ## Trabajos Prácticos
 
 1. [TP1](practice/1)
-<!-- 2. [TP2](practice/2) -->
+2. [TP2](practice/2)
 <!-- 3. [TP3](practice/3) -->
 <!-- 4. [TP4](practice/4) -->
 <!-- 5. [TP5](practice/5) -->
