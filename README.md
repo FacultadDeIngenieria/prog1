@@ -27,10 +27,10 @@
 <!-- 7. [TP7](practice/7) -->
 <!-- 8. [TP8](practice/8) -->
 
-## Parciales y Anuncios
+<!-- ## Parciales y Anuncios -->
 
-* Lunes 19/09: Primer parcial
-* Lunes 14/11: Segundo parcial
+<!-- * Lunes 19/09: Primer parcial -->
+<!-- * Lunes 14/11: Segundo parcial -->
 
 ## Instalación y configuración de Python y SublimeText
 [Revisar los pasos  aqui](utils/installation)
