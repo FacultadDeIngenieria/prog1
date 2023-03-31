@@ -35,9 +35,9 @@
 ## Instalación y configuración de Python y SublimeText
 [Revisar los pasos  aqui](utils/installation)
 
-## Clase de consulta
+<!-- ## Clase de consulta -->
 
-Todos los jueves a las 16.30 en el Aula B1.1 los esperan Sofía y Constanza.
+<!-- Todos los jueves a las 16.30 en el Aula B1.1 los esperan Sofía y Constanza. -->
 
 <!-- ## Ejemplos -->
 
