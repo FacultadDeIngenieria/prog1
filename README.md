@@ -14,7 +14,8 @@
 
 ## Clases Jueves
 1. [Bash Intro](bash-intro)
-1. [Bash Continued](bash-continue)
+2. [Bash Continued](bash-continue)
+3. [Git Intro](git-intro)
 
 ## Trabajos Prácticos
 
