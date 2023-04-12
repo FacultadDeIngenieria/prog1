@@ -48,6 +48,7 @@ Other Version Control Systems (CVS, Subversion, and Perforce), they store inform
 
 With Git every time you save the state of the project, Git takes a picture of what all your files look like at that moment and stores a reference to that snapshot.
 To be efficient, if files have not changed, Git doesn’t store the file again, just a link to the previous identical file it has already stored.
+
 ![Git Benefits]({{site.baseurl}}/presentation/git-intro/git-benefits.png)
 
 ---
@@ -65,19 +66,14 @@ To be efficient, if files have not changed, Git doesn’t store the file again, 
 - **Staged** means that you have marked a modified file in its current version to go into your next commit snapshot.
 - **Committed** means that the data is safely stored in your local database.
 
-![Three states]({{site.baseurl}}/presentation/git-intro/three-states.png)
-
 ---
 
 # Common Git workflow
 
-The basic Git workflow goes something like this:
-
 - You modify files in your working tree.
-
 - You selectively stage just those changes you want to be part of your next commit, which adds only those changes to the staging area.
-
 - You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory.
+![Three states]({{site.baseurl}}/presentation/git-intro/three-states.png)
 
 ---
 
