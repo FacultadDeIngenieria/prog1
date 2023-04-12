@@ -14,7 +14,7 @@ Git intro
 
 ---
 
-![Copias](copias.png)
+![Copias]({{site.baseurl}}/presentation/git-intro/copias.png)
 
 ---
 
@@ -40,7 +40,7 @@ Git intro
 
 Other Version Control Systems (CVS, Subversion, and Perforce), they store information on a list of file-based changes. This is called **delta-based** version control.
 
-![Other Version Control](other-version-control.png)
+![Other Version Control]({{site.baseurl}}/presentation/git-intro/other-version-control.png)
 
 ---
 
@@ -48,7 +48,7 @@ Other Version Control Systems (CVS, Subversion, and Perforce), they store inform
 
 With Git every time you save the state of the project, Git takes a picture of what all your files look like at that moment and stores a reference to that snapshot.
 To be efficient, if files have not changed, Git doesn’t store the file again, just a link to the previous identical file it has already stored.
-![Git Benefits](git-benefits.png)
+![Git Benefits]({{site.baseurl}}/presentation/git-intro/git-benefits.png)
 
 ---
 
@@ -65,7 +65,7 @@ To be efficient, if files have not changed, Git doesn’t store the file again, 
 - **Staged** means that you have marked a modified file in its current version to go into your next commit snapshot.
 - **Committed** means that the data is safely stored in your local database.
 
-![Three states](three-states.png)
+![Three states]({{site.baseurl}}/presentation/git-intro/three-states.png)
 
 ---
 
@@ -87,7 +87,7 @@ GitHub is a for-profit company that offers a cloud-based Git repository hosting 
 
 https://github.com
 
-![Github](github.png)
+![Github]({{site.baseurl}}/presentation/git-intro/github.png)
 
 
 ---
