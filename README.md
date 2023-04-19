@@ -16,6 +16,7 @@
 1. [Bash Intro](bash-intro)
 2. [Bash Continued](bash-continue)
 3. [Git Intro](git-intro)
+4. [Git Continued](git-continue)
 
 ## Trabajos Prácticos
 
