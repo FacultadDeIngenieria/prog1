@@ -70,6 +70,13 @@
 <!-- - [Clase Scanner.java](resources/scanner) -->
 <!-- * [The Java Tutorials](https://docs.oracle.com/javase/tutorial/) -->
 
+
+## Tutoriales 
+
+* [Instalar Excercism en Mac ](https://youtu.be/H6GWUV-z_Gw)
+* [Instalar Excercism en Windows ](https://youtu.be/G1O5li7LxKU)
+
+
 ## Cátedra
 * Martin Gutierrez: [martin.gutierrez@ing.austral.edu.ar](mailto:martin.gutierrez@ing.austral.edu.ar)
 * Agustin Alexander: [aalexander-ext@austral.edu.ar](mailto:aalexander-ext@austral.edu.ar)
