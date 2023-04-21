@@ -85,6 +85,8 @@
 * Matías Miodosky: [matias.miodosky@ing.austral.edu.ar](matias.miodosky@ing.austral.edu.ar)
 * Gastón Gadea: [gaston.gadea@ing.austral.edu.ar](gaston.gadea@ing.austral.edu.ar)
 * Sebastián Iglesias: [sebastian.iglesias@ing.austral.edu.ar](sebastian.iglesias@ing.austral.edu.ar)
+* Constanza Lasarte: [clasarte@mail.austral.edu.ar](clasarte@mail.austral.edu.ar)
+* Catalina Ghiglione: [cghiglione@mail.austral.edu.ar](cghiglione@mail.austral.edu.ar)
 
 <!-- * Sofía Sidañez: [sofia.sidanez@ing.austral.edu.ar](mailto:sofia.sidanez@ing.austral.edu.ar) -->
 <!-- * Constanza Lasarte: [constanza.lasarte@ing.austral.edu.ar](mailto:constanza.lasarte@ing.austral.edu.ar) -->
