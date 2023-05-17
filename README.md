@@ -7,7 +7,7 @@
 6. [Functions](functions)
 7. [Lists](lists)
 8. [Loops](loops)
-<!-- 9. [Recursion](recursion) -->
+9. [Recursion](recursion)
 <!-- 10. [Objects & Classes](objects) -->
 <!-- 12. [List Comprehension & Plots](listsplots) -->
 <!-- 11. [Java Adapter](java) -->
@@ -26,7 +26,7 @@
 4. [TP4](practice/4)
 5. [TP5](practice/5)
 6. [TP6](practice/6)
-<!-- 7. [TP7](practice/7) -->
+7. [TP7](practice/7)
 <!-- 8. [TP8](practice/8) -->
 
 <!-- ## Parciales y Anuncios -->
