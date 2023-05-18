@@ -17,6 +17,7 @@
 2. [Bash Continued](bash-continue)
 3. [Git Intro](git-intro)
 4. [Git Continued](git-continue)
+5. [Ways to run Python](run-python)
 
 ## Trabajos Prácticos
 
@@ -91,5 +92,5 @@
 <!-- * Sofía Sidañez: [sofia.sidanez@ing.austral.edu.ar](mailto:sofia.sidanez@ing.austral.edu.ar) -->
 <!-- * Constanza Lasarte: [constanza.lasarte@ing.austral.edu.ar](mailto:constanza.lasarte@ing.austral.edu.ar) -->
 
-* [Click para consultar](mailto:juan.longo@ing.austral.edu.ar,matias.ponce@ing.austral.edu.ar,matias.miodosky@ing.austral.edu.ar,gaston.gadea@ing.austral.edu.ar?subject=Consulta)
+* [Click para consultar](mailto:juan.longo@ing.austral.edu.ar,matias.ponce@ing.austral.edu.ar,matias.miodosky@ing.austral.edu.ar,gaston.gadea@ing.austral.edu.ar,sebastian.iglesias@ing.austral.edu.ar?subject=Consulta)
 
