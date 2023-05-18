@@ -15,6 +15,8 @@ Running Python
 
 # REPL
 
+.center[![REPL]({{site.baseurl}}/presentation/run-python/repl.png))]
+
 - **R**ead-**E**valuate-**P**rint-**L**oop
 - Interactive Python
 - Run Python code directly
@@ -40,6 +42,12 @@ Code can be single or multi lined
 ---
 
 # Notebook
+
+.center[![Jupyter example]({{site.baseurl}}/presentation/run-python/jupyter-example.jpeg)]
+
+---
+
+# What can I do in Notebooks?
 
 - Interactive Python
 - Run Python code directly
@@ -68,11 +76,13 @@ Installing Jupyter: https://jupyter.org/install#jupyter-notebook
 - Green outline means cell is in edit mode
 - Blue outline means cell is in command mode
 
+
 --- 
 
 # Kernel
 
 Behind every notebook runs a kernel. When you run a code cell, that code is executed within the kernel. Any output is returned back to the cell to be displayed. The kernel’s state persists over time and between cells — it pertains to the document as a whole and not individual cells.
+
 
 ---
 
