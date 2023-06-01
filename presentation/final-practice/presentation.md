@@ -98,7 +98,7 @@ def factorial(n: int) -> int:
 ---
 
 ## Exercise 5: Number Guessing Game
-Write a Python function **guess_number(guess: int, answer: int) -> str** that takes two integers **guess` and **answer** as inputs, and returns a string "Too high!", "Too low!" or "Congratulations! You've guessed the number!" depending on whether **guess** is too high, too low, or equal to **answer**.
+Write a Python function **guess_number(guess: int, answer: int) -> str** that takes two integers **guess** and **answer** as inputs, and returns a string "Too high!", "Too low!" or "Congratulations! You've guessed the number!" depending on whether **guess** is too high, too low, or equal to **answer**.
 
 **Example Input/Output:**
 
