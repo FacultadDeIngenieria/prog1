@@ -117,4 +117,6 @@ Based of Gordon Zhu's article
 
 https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603
 
+---
 
+TP: https://github.com/FacultadDeIngenieria/tallerprog1jupyter
