@@ -18,6 +18,7 @@
 3. [Git Intro](git-intro)
 4. [Git Continued](git-continue)
 5. [Ways to run Python](run-python)
+6. [Asking Questions](asking-questions)
 
 ## Trabajos Prácticos
 
