@@ -1,6 +1,6 @@
 class: center, middle, inverse
 # Final Practice Exercises
-Some practice excersises
+Some practice exercises
 
 ---
 
