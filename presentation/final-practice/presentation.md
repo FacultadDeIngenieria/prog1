@@ -1,5 +1,8 @@
 class: center, middle, inverse
 # Final Practice Exercises
+Some practice excersises
+
+---
 
 ## Exercise 1: FizzBuzz Function
 Write a Python function `fizz_buzz(n: int) -> list` that returns a list with the FizzBuzz sequence from 1 to `n`. In this sequence, multiples of three are replaced by the word "Fizz", multiples of five by the word "Buzz", and multiples of both three and five by "FizzBuzz".
