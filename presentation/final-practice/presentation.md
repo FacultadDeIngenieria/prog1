@@ -48,7 +48,12 @@ Output: **"world Hello"**
 ### Solution
 ```python
 def reverse_words(s: str) -> str:
-    return ' '.join(s.split()[::-1])
+    reversed_s = ''
+
+    for i in range(len(s) - 1, -1, -1):
+        reversed_s += s[i]
+
+    return reversed_s
 ```
 ---
 
