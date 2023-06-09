@@ -31,6 +31,9 @@
 7. [TP7](practice/7)
 <!-- 8. [TP8](practice/8) -->
 
+## Ejercicios Final
+[Ejercicios Final](final-practice)
+
 <!-- ## Parciales y Anuncios -->
 
 <!-- * Lunes 19/09: Primer parcial -->
