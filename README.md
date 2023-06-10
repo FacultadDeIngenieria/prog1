@@ -19,6 +19,7 @@
 4. [Git Continued](git-continue)
 5. [Ways to run Python](run-python)
 6. [Asking Questions](asking-questions)
+7. [Further Reading](further-reading)
 
 ## Trabajos Prácticos
 
