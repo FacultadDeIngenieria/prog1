@@ -40,7 +40,7 @@ We learnt:
 
 # Pimp your terminal
 
-![Pimp my terminal]({{site.baseurl}}/further-reading/pimp-my-terminal.png)
+![Pimp my terminal]({{site.baseurl}}/presentation/further-reading/pimp-my-terminal.png)
 
 - Oh my zsh: https://ohmyz.sh/
 - Oh my bash: https://ohmybash.nntoan.com/
