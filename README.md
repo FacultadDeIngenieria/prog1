@@ -34,6 +34,7 @@
 
 ## Ejercicios Final
 [Ejercicios Final](final-practice)
+[Ejercicios 2do parcial](practice-exercises)
 
 <!-- ## Parciales y Anuncios -->
 
