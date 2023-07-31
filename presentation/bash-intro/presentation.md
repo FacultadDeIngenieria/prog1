@@ -1,6 +1,26 @@
 class: center, middle, inverse
 
-## Bash
+## Linux and Bash
+---
+## Bash is in the top 10 most popular programming languages
+
+https://survey.stackoverflow.co/2023/#most-popular-technologies-language
+![stackoverflow]({{site.baseurl}}/bash-intro/stackoverflow-2023.png)
+
+---
+## Linux is up there as well
+https://sueldos.openqube.io/encuesta-sueldos-2023.01/
+![openqube]({{site.baseurl}}/bash-intro/openqube-2023.png)
+
+---
+## Installation
+
+**Windows**: Download Cygwin (https://www.cygwin.com/install.html)
+**Mac**: use the Terminal app
+**Linux**: Open a terminal
+
+We will be using the terminal to run bash commands, make sure you have it installed.
+
 ---
 ## Shells and Terminals
 
@@ -27,6 +47,15 @@ Default shell on most UNIX operating systems
 Interactive: allows running commands through a prompt, one command at a time.
 
 Non-interactive: run bash commands through scripts, automating certain logic. A script is a list of commands (same as the ones that can be typed in a command line), stored in a file. It executes commands sequentially.
+
+---
+## Hands on
+
+**Bashcrawl**: https://gitlab.com/slackermedia/bashcrawl
+
+Bashcrawl is a game that teaches you how to use the command line.
+
+Follow the instructions to download it and run it.
 
 ---
 ## Interactive mode: Commands
@@ -93,11 +122,51 @@ echo - Writes arguments to the standard output
 - `echo rm *.txt` prints all the options to be removed to make sure we are deleteing what we want to delete.
 
 ---
+## Other comands
+
+pwd - Writes the absolute pathname of the current working directory
+
+curl - Downloads files from the internet
+- `curl https://sebiglesias.com.ar/bash-test` # downloads the file `bash-test` from the internet
+
+grep - Searches for a pattern
+- `ls | grep *.txt` # Searches for any file that ends with .txt
+
+history - Shows the history of commands
 
 ---
-## Trabajo Práctico
+## Finding files and writing files
 
-Capture the Flag!
+find - Searches for files in a directory hierarchy
 
-https://github.com/krother/bash_tutorial
+`find . -name "*.txt"` searches for all files that end with .txt in the current directory
+
+nano - Creates a file and opens it in a text editor
+- `nano resumen_de_la_mejor_materia.txt`# creates a file called `resumen_de_la_mejor_materia.txt` and opens it in a text editor
+
+diff - Compares files line by line
+- `diff resumen_de_la_mejor_materia.txt resumen_prog1.txt` # compares the files `resumen_de_la_mejor_materia.txt` and `resumen_prog1.txt`
+
 ---
+## Environment variables
+
+Environment variables are special variables that contain information about your login session. They're stored for the system shell to use when executing commands. They exist whether you're using Linux, Mac, or Windows. Many of these variables are set by default during installation or user creation
+
+`echo $HOME` # prints the value of the environment variable `HOME`
+
+`HELLO="Hello World"` # creates an environment variable called `HELLO` with the value `Hello World`
+
+`echo $HELLO` # prints the value of the environment variable `HELLO`
+
+---
+## Aliases
+
+Aliases are a way to create shortcuts for commands. They are useful for commands that you use frequently, or commands that are long and difficult to type.
+
+`alias ll='ls -l'` # creates an alias called `ll` for the command `ls -l`
+
+`ll` # lists all the files in the working directory
+
+`unalias ll` # removes the alias `ll`
+
+`aliases` # lists all the aliases

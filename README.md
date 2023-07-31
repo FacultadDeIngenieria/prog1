@@ -14,12 +14,11 @@
 
 ## Clases Jueves
 1. [Bash Intro](bash-intro)
-2. [Bash Continued](bash-continue)
-3. [Git Intro](git-intro)
-4. [Git Continued](git-continue)
-5. [Ways to run Python](run-python)
-6. [Asking Questions](asking-questions)
-7. [Further Reading](further-reading)
+<!-- 2. [Git Intro](git-intro) -->
+<!-- 3. [Git Continued](git-continue) -->
+<!-- 4. [Ways to run Python](run-python) -->
+<!-- 5. [Asking Questions](asking-questions) -->
+<!-- 6. [Further Reading](further-reading) -->
 
 ## Trabajos Prácticos
 
