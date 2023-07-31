@@ -1,13 +1,13 @@
 ## Presentaciones
 1. [Introduction](introduction)
-2. [Hello World](hello-world)
-3. [Variables](variables)
-4. [Strings](strings)
-5. [If Statements](ifs)
-6. [Functions](functions)
-7. [Lists](lists)
-8. [Loops](loops)
-9. [Recursion](recursion)
+<!-- 2. [Hello World](hello-world) -->
+<!-- 3. [Variables](variables) -->
+<!-- 4. [Strings](strings) -->
+<!-- 5. [If Statements](ifs) -->
+<!-- 6. [Functions](functions) -->
+<!-- 7. [Lists](lists) -->
+<!-- 8. [Loops](loops) -->
+<!-- 9. [Recursion](recursion) -->
 <!-- 10. [Objects & Classes](objects) -->
 <!-- 12. [List Comprehension & Plots](listsplots) -->
 <!-- 11. [Java Adapter](java) -->
@@ -22,18 +22,18 @@
 
 ## Trabajos Prácticos
 
-1. [TP1](practice/1)
-2. [TP2](practice/2)
-3. [TP3](practice/3)
-4. [TP4](practice/4)
-5. [TP5](practice/5)
-6. [TP6](practice/6)
-7. [TP7](practice/7)
+<!-- 1. [TP1](practice/1) -->
+<!-- 2. [TP2](practice/2) -->
+<!-- 3. [TP3](practice/3) -->
+<!-- 4. [TP4](practice/4) -->
+<!-- 5. [TP5](practice/5) -->
+<!-- 6. [TP6](practice/6) -->
+<!-- 7. [TP7](practice/7) -->
 <!-- 8. [TP8](practice/8) -->
 
 ## Ejercicios Final
-[Ejercicios Final](final-practice)
-[Ejercicios 2do parcial](practice-exercises)
+<!-- [Ejercicios Final](final-practice) -->
+<!-- [Ejercicios 2do parcial](practice-exercises) -->
 
 <!-- ## Parciales y Anuncios -->
 
@@ -84,18 +84,19 @@
 
 
 ## Cátedra
-* Martin Gutierrez: [martin.gutierrez@ing.austral.edu.ar](mailto:martin.gutierrez@ing.austral.edu.ar)
-* Agustin Alexander: [aalexander-ext@austral.edu.ar](mailto:aalexander-ext@austral.edu.ar)
-* Juan Longo: [juan.longo@ing.austral.edu.ar](mailto:juan.longo@ing.austral.edu.ar)
+<!-- * Martin Gutierrez: [martin.gutierrez@ing.austral.edu.ar](mailto:martin.gutierrez@ing.austral.edu.ar) -->
+<!-- * Agustin Alexander: [aalexander-ext@austral.edu.ar](mailto:aalexander-ext@austral.edu.ar) -->
+<!-- * Juan Longo: [juan.longo@ing.austral.edu.ar](mailto:juan.longo@ing.austral.edu.ar) -->
 * Matías Ponce: [matias.ponce@ing.austral.edu.ar](mailto:matias.ponce@ing.austral.edu.ar)
-* Matías Miodosky: [matias.miodosky@ing.austral.edu.ar](matias.miodosky@ing.austral.edu.ar)
+<!-- * Matías Miodosky: [matias.miodosky@ing.austral.edu.ar](matias.miodosky@ing.austral.edu.ar) -->
 * Gastón Gadea: [gaston.gadea@ing.austral.edu.ar](gaston.gadea@ing.austral.edu.ar)
 * Sebastián Iglesias: [sebastian.iglesias@ing.austral.edu.ar](sebastian.iglesias@ing.austral.edu.ar)
-* Constanza Lasarte: [clasarte@mail.austral.edu.ar](clasarte@mail.austral.edu.ar)
-* Catalina Ghiglione: [cghiglione@mail.austral.edu.ar](cghiglione@mail.austral.edu.ar)
+<!-- * Constanza Lasarte: [clasarte@mail.austral.edu.ar](clasarte@mail.austral.edu.ar) -->
+<!-- * Catalina Ghiglione: [cghiglione@mail.austral.edu.ar](cghiglione@mail.austral.edu.ar) -->
 
 <!-- * Sofía Sidañez: [sofia.sidanez@ing.austral.edu.ar](mailto:sofia.sidanez@ing.austral.edu.ar) -->
 <!-- * Constanza Lasarte: [constanza.lasarte@ing.austral.edu.ar](mailto:constanza.lasarte@ing.austral.edu.ar) -->
 
-* [Click para consultar](mailto:juan.longo@ing.austral.edu.ar,matias.ponce@ing.austral.edu.ar,matias.miodosky@ing.austral.edu.ar,gaston.gadea@ing.austral.edu.ar,sebastian.iglesias@ing.austral.edu.ar?subject=Consulta)
+<!-- * [Click para consultar](mailto:juan.longo@ing.austral.edu.ar,matias.ponce@ing.austral.edu.ar,matias.miodosky@ing.austral.edu.ar,gaston.gadea@ing.austral.edu.ar,sebastian.iglesias@ing.austral.edu.ar?subject=Consulta) -->
+* [Click para consultar](mailto:matias.ponce@ing.austral.edu.ar,gaston.gadea@ing.austral.edu.ar,sebastian.iglesias@ing.austral.edu.ar?subject=Consulta)
 
