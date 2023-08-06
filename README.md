@@ -12,9 +12,9 @@
 <!-- 12. [List Comprehension & Plots](listsplots) -->
 <!-- 11. [Java Adapter](java) -->
 
-## Clases Jueves
+## Taller Martes 9hs
 1. [Bash Intro](bash-intro)
-<!-- 2. [Git Intro](git-intro) -->
+2. [Git Intro](git-intro)
 <!-- 3. [Git Continued](git-continue) -->
 <!-- 4. [Ways to run Python](run-python) -->
 <!-- 5. [Asking Questions](asking-questions) -->

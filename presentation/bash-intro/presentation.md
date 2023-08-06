@@ -170,3 +170,7 @@ Aliases are a way to create shortcuts for commands. They are useful for commands
 `unalias ll` # removes the alias `ll`
 
 `aliases` # lists all the aliases
+
+---
+
+https://forms.gle/ra2P5qd2qozHpNGQ6

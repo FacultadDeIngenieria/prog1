@@ -88,13 +88,8 @@ https://github.com
 
 ---
 
-# Git commands
+# Putting into practice
 
-- Create an empty folder where we will be working and open it in a terminal. (mkdir git-intro && cd git-intro)
-- **git init**: Create a new local repository
-- **git status**: Check the status of the repository
-- Create a file named test.txt
-- **git add**: Add files to the staging area
-- **git commit**: Commit changes to the repository
-- **git log**: Show commit logs
-- **git diff**: Show changes between commits, commit and working tree, etc
+https://ohmygit.org/
+
+Oh My Git! is a game that teaches you how to use Git. Follow the instructions to download it and run it.
