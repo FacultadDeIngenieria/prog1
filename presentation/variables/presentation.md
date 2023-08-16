@@ -48,23 +48,24 @@ layout: false
 # Naming Variables
 
 - There are some conventions to follow, every language has them
-- Variable names:
-- Can contain only letters, numbers and/or underscores (_)
- - This method of writing is known as **snake_case**
-- Can start with letter or underscore, but **not** a number
-  - Valid: *message_1*, invalid: *1_message*
-- Spaces are **not** allowed in names (use underscores)
-  - Valid: *greeting_message*, invalid: *greeting message*
-- Do not use language reserve words in them as they have a particular programatic purpose or meaning
-- They should be short, but descriptive
-  - *name* better than *n*
-  - *student_name* better than *s_n*
-  - *name_length* better than *length_of_person_name*
-- Avoid starting with upper case letter your names
-- Name consistently
+- Variable Names:
+	- Are case sensitive: x != X
+	- Can contain only letters, numbers and underscores (_)
+	 - This method of writing is known as **snake_case**
+	- Can start with letter or underscore, but **not** a number
+	  - Valid: *message_1*, invalid: *1_message*
+	- Spaces are **not** allowed in names (use underscores)
+	  - Valid: *greeting_message*, invalid: *greeting message*
+	- Do not use language reserved words, as they have a particular programatic purpose or meaning
+	- They should be short, but descriptive:
+	  - *name* better than *n*
+	  - *student_name* better than *s_n*
+	  - *name_length* better than *length_of_person_name*
+	- Avoid starting with upper case letter your names
+	- Name consistently
 
 ```python
-# The following program will print a Hello World message to the screen
+# Will the following program print a Hello World message to the screen?
 message = "Hello World!"
 print(mesage)
 ```
@@ -73,7 +74,7 @@ print(mesage)
 
 # So... what is a variable?
 
-- Classic definition, *boxes where you can store values in*
+- Classic definition: *boxes where you can store values in*
 - Super helpful idea
 - We often draw the concept that way
 - Not an **accurate** way to describe how languages (Python, Java) **represent them internally**
@@ -102,7 +103,9 @@ print(mesage)
 
 ```python
 # Some samples
-speed = 0
+actual_speed = 100
+low_speed = 10
+average_speed = actual_speed - low_speed
 
 local_score = 2
 away_score = 1
@@ -123,13 +126,9 @@ away_score = 1
 6
 >>> 3 / 2
 1.5
->>> 3 % 2
-1
->>> 3 ** 2 #What does the ** do? Can you guess?
-9
 ```
 
-- All the maths laws apply here: multiple operations in one expressions are valid, and you can alter the expression using parenthesis
+- All the maths laws apply here: multiple operations in one expressions are valid, and you can alter the expression using parenthesis (we will see precedence rules later)
 
 ```python
 >>> 2 + 3*4
@@ -139,6 +138,52 @@ away_score = 1
 ```
 
 - Spacing has no effect, only enhances the operation's evaluation at first sight
+
+---
+
+# Other operations with Integers
+
+- You can alse use power (**), integer division (//) and module (%) in Python:
+
+```python
+>>> 2 ** 3
+8
+>>> 7 // 3
+2
+>>> 7 % 3
+1
+>>> 3 / 2
+1.5
+>>> 3 % 2
+1
+```
+---
+
+# Precedence rules
+
+- Precedence follows the PEMDAS rules: *Parentheses, Exponents, Multiplication - Division, Addition - Subtraction*
+
+*1st* Parentheses:
+```python
+>>> (5 + 1) / 3 = 2
+>>> 5 + 1 / 3 = 5.333333
+```
+ 
+*2nd* Exponents:
+```python
+>>> 5 ** 2 - 2 = 23
+>>> 2 * 5 ** 2 = 100
+```
+ 
+*3rd* Multiplication - Division (- Integer Division - Module):
+```python
+>>> 1 + 2 * 3 = 7
+```
+
+*4th* Addition - Substraction
+```python
+>>> 3 + 8 / 2 = 7
+```
 
 ---
 
