@@ -3,14 +3,15 @@
 2. [Hello World](hello-world)
 3. [Variables](variables)
 4. [Strings](strings)
-<!-- 5. [If Statements](ifs) -->
-<!-- 6. [Functions](functions) -->
-<!-- 7. [Lists](lists) -->
-<!-- 8. [Loops](loops) -->
-<!-- 9. [Recursion](recursion) -->
-<!-- 10. [Objects & Classes](objects) -->
+5. [Strings (part 2)](strings-2)
+<!-- 6. [If Statements](ifs) -->
+<!-- 7. [Functions](functions) -->
+<!-- 8. [Lists](lists) -->
+<!-- 9. [Loops](loops) -->
+<!-- 10. [Recursion](recursion) -->
+<!-- 11. [Objects & Classes](objects) -->
 <!-- 12. [List Comprehension & Plots](listsplots) -->
-<!-- 11. [Java Adapter](java) -->
+<!-- 13. [Java Adapter](java) -->
 
 ## Taller Martes 9hs
 1. [Bash Intro](bash-intro)
