@@ -46,6 +46,8 @@ You can return a range of characters by using the *slice* syntax.
 Specify the start index and the end index, separated by a colon, to return a part of the string.
 Remember that strings start at position **0**.
 There are many ways to *slice* a string. We always use **[...]** after the name of the string variable.
+---
+# Slicing Strings
 ## Simple character
 If we use a simple number, we get the character at that position. The number can't be bigger than the size of the string.
 If the number is negative, we start from the end, counting to the left. This is called *Negative indexing*.
@@ -109,6 +111,7 @@ What woud this print?
 ```python
 >>> txt[-7:-20:-2]
 ```
+---
 ## Modifying a String
 Strings can't be modified using slices.
 ```python
