@@ -176,7 +176,7 @@ Ejemplo:
 ```
 > texto = "Carlos tiene 19 años"
 >  * código a implementar *
-Augusto tiene 20 años!
+Carlos tiene 20 años!
 
 > texto2 = "Felipe tiene 22 años"
 >  * código a implementar *
