@@ -6,93 +6,70 @@ permalink: /practice/6
 
 # Trabajo Práctico 6
 
-## Ejercicio 1 - Loops and prints
+Debe entregarse en 15 días, luego del parcial.
 
-Dada la siguiente consigna, implementar y lograr imprimir en pantalla el output esperado.
+## Ejercicio 1
 
-Para la primera parte, hacer una función llamada **enumerate_list** que dada una lista de Strings, retorne una nueva lista y en cada elemento agregar su número de índice, un punto, un tabulado (\t) y el valor String. Si el arreglo tiene strings vacíos no debe mostrar nada, ni el elemento correspondiente en la lista.
 
-```python
-colors = ["Red", "Green", "", "White", "Black"]
-enumerate_list(colors)
-#retorna la lista:
-# ["0.  Red","1.  Green", "2.  White", "3.  Black"]
+En este ejercicio deberán usar las variables que vienen dadas:
+```
+last_name = 'Longo'
+first_name = 'Juan'
 ```
 
-Para la segunda parte, hacer un método llamado **enumerate_backwards** que dado una lista de Strings, returne una nueva lista, al igual que en enumerate_list, pero cada palabra deberia estas escrita a la inversa. Si el arreglo tiene Strings vacíos se deben saltear esos elementos de la nueva lista.
+Y con ellas lograr retornar los siguientes datos para las funciones dadas:
 
-```python
-colors = ["Red", "Green", "", "White", "Black"]
-enumerate_backwards(colors)
-#retorna la lista:
-# ["0. deR", "1. neerG", "2. etihW", "3. kcalB"]  
+Para la función `last_name_first_letter` retornar si el apellido comienza con una letra anterior, posterior o igual a la M
+```
+El apellido Longo comienza con una letra que está antes de la M
+```
+Para la función `name_key` retornar una clave compuesta por las 3 primeras letras del apellido seguido del nombre sin la última letra
+```
+La clave generada es: LonJua
 ```
 
 
+Recordar que las funciones deben funcionar también para otros valores que no sean los del ejemplo. 
 ## Ejercicio 2
 
-Dado la siguiente consigna, implementar las siguientes funciones:
-* Método **indexOf** que retorne el índice de la primera ocurrencia de un String dentro de una lista de Strings. En caso 
-  de no encontrarse ninguna retorna el valor -1.
+En este ejercicio deberán implementar todos los métodos descritos a continuación:
 
-```python
-colors = ["Red", "Green", "White", "Black", "Pink", "Yellow", "Black"]
+Escribir un método llamado **removeElements** que dado una lista retorne una lista después de haber removido el primer, el quinto y el sexto elemento.
 
-print(indexOf("Black", colors))
-#imprime: 3
-print(indexOf("Blue", colors))
-#imprime: -1
 ```
-  
-* Método **indexOfByIndex** que retorne el índice de la primera ocurrencia de un String dentro de una lista de Strings, a partir 
-  de un índice dado, incluido en la búsqueda. En caso de no encontrarse ninguna coincidencia retorna el valor -1.
-
-```python
-colors = ["Red", "Green", "White", "Black", "Pink", "Yellow", "Black"]
-
-print(indexOfByIndex("Black", colors, 1))
-#imprime: 3
-print(indexOfByIndex("Black", colors, 4))
-#imprime: 6
-print(indexOfByIndex("Green", colors, 2))
-#imprime: -1
-```
-  
-* Método **indexOfEmpty** que retorne el índice del primer lugar “vacío” (igual a "") en una lista de Strings. De no encontrar ninguno que retorne -1.
-
-```python
-colors = ["Red", "Green", "White", "Black", "Pink", "Yellow", "Black"]
-
-print(indexOfEmpty(colors))
-#imprime: -1
-
-colors = ["Red", "Green", "", "", "Pink", "", "Black"]
-print(indexOfEmpty(colors))
-#imprime: 2
+Sample Input : ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+Expected Output : ['Green', 'White', 'Black']
 ```
 
-* Método **put**, que dado un String y una lista de Strings lo coloque en el primer lugar vacío que encuentre y retorne 
-  el índice en donde lo colocó. De no haber ningún lugar vacío debe retornar -1.
+Escribir un método llamado **addElements** que dado una lista retorne una lista después de 
+haber agregado el elemento 'Pink' al principio de la lista y el elemento 'Yellow' al final de la lista.
 
-```python
-colors = ["Red", "Green", "", "", "Pink", "", "Black"]
-print(put("Blue", colors))
-#imprime: 2
-
-colors = ["Red", "Green", "White", "Black", "Pink", "Yellow", "Black"]
-print(put("Blue", colors))
-#imprime: -1
+```
+Sample Input : ['Red', 'Green', 'White', 'Black']
+Expected Output : ['Pink', 'Red', 'Green', 'White', 'Black', 'Yellow']
 ```
 
-* Método **remove** que dado un String y una lista de Strings, busque el string, lo elimine si lo encuentra y 
-  retorne el número de eliminaciones que ha hecho.
+Escribir un método llamado **isEmpty** que diga si una lista esta vacía o no.
 
+Escribir un método llamado **checkLists** que dado dos listas retorne True si ambas listas contienen el mismo 3er elemento.
 
-```python
-colors = ["Red", "Green", "White", "Black", "Pink", "Yellow", "Black"]
+```
+Sample List1 : ['Black', 'Pink', 'Yellow', 'Red', 'Green', 'White']
+Sample List2 : ['Red', 'Green', 'Yellow', 'White', 'Black', 'Pink']
+Expected Output : True
 
-print(remove("Black", colors))
-#imprime: 2
-print(remove("Blue", colors))
-#imprime: 0
+Sample List1 : ['Black', 'Pink', 'Green', 'White']
+Sample List2 : ['Red', 'Green', 'Yellow', 'Black', 'Pink']
+Expected Output : False
+```
+
+Escribir un método llamado **listOfLists** que dado una lista de listas, la modifique en la siguiente manera y la retorne:
+
+De la primera lista solo se quede con los primeros 2 elementos.
+De la segunda lista solo se quede con los elementos entre el segundo y cuarto elemento.
+De la tercera lista solo se quede con los últimos 2 elementos.
+
+```
+Sample List: [[1, 2, 3], [4, 5, 6, 7, 8], [9, 10, 11, 12]]
+Sample Output: [[1, 2], [5, 6, 7], [11, 12]]
 ```

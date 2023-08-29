@@ -6,70 +6,61 @@ permalink: /practice/5
 
 # Trabajo Práctico 5
 
-Debe entregarse en 15 días, luego del parcial.
+Debe entregarse a la semana siguiente de ser entregado.
 
 ## Ejercicio 1
 
+Para este ejercicio deberan implementar las funciones dadas para que cumplan con su objetivo. Para saber como implementar cada metodo, deberan leer el python-doc.
 
-En este ejercicio deberán usar las variables que vienen dadas:
-```
-last_name = 'Longo'
-first_name = 'Juan'
-```
+```python
+def max_of_two(x, y):
+    """Given x and y, that are 2 numbers, return the biggest number."""
+    return "ANSWER HERE" # Remove this line and implement
 
-Y con ellas lograr retornar los siguientes datos para las funciones dadas:
-
-Para la función `last_name_first_letter` retornar si el apellido comienza con una letra anterior, posterior o igual a la M
-```
-El apellido Longo comienza con una letra que está antes de la M
-```
-Para la función `name_key` retornar una clave compuesta por las 3 primeras letras del apellido seguido del nombre sin la última letra
-```
-La clave generada es: LonJua
+def max_of_three(x, y, z):
+    """Given x, y and z, that are 3 numbers, return the biggest number of the three."""
+    return "ANSWER HERE" # Remove this line and implement
 ```
 
+## Ejercicio 2 - Months
 
-Recordar que las funciones deben funcionar también para otros valores que no sean los del ejemplo. 
-## Ejercicio 2
+Hacer un metodo llamado *numberToMonth* que dado un numero entre el 1 y el 12, devuelva el nombre del mes que representa en el calendario. Si el numero no esta entre el rango 1 y 12, se debera retornar la palabra "error".
 
-En este ejercicio deberán implementar todos los métodos descritos a continuación:
-
-Escribir un método llamado **removeElements** que dado una lista retorne una lista después de haber removido el primer, el quinto y el sexto elemento.
-
-```
-Sample Input : ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
-Expected Output : ['Green', 'White', 'Black']
+```python
+def numberToMonth(month):
+    return "ANSWER HERE" # Remove this line and implement
 ```
 
-Escribir un método llamado **addElements** que dado una lista retorne una lista después de 
-haber agregado el elemento 'Pink' al principio de la lista y el elemento 'Yellow' al final de la lista.
+Ejemplo:
 
+Dado el input 1 el resultado debera ser "enero"
+Dado el input 99 el resultado debera ser "error"
+Todos los meses deberan ser en minuscula.
+
+## Ejercicio 3 - Quadratic
+
+Completar, definir e implementar los métodos necesarios para resolver una ecuación cuadrática de 2º grado. Para ello, lo que deberan hacer es crear todos los siguentes métodos:
+
+* Dado los parámetros (a, b, c) el método roots devolverá un String de la forma (r1, r2) o (r12) o ( ) según sea el caso de que tenga dos raíces, una raíz o ninguna.
+* Dado los parámetros (a, b, c, x) el método valueY devolverá el valor de Y para un valor de X que se le pasa como parámetro.
+* Dado los parámetros (a, b, c) el método toString que devolverá un String mostrando la ecuación como figura en el primer párrafo (Y = A * X2 + B * X + C).
+* Dado los parámetros (a, b) el método derivation que devolverá un String mostrando la función lineal derivada.
+
+```python
+# Replace the "ANSWER HERE" for your answer
+
+def roots(a, b, c):
+    return "ANSWER HERE"
+
+def valueY(a, b, c, x):
+    return "ANSWER HERE"
+
+def toString(a, b, c):
+    return "ANSWER HERE"
+
+def derivation(a, b):
+    return "ANSWER HERE"
 ```
-Sample Input : ['Red', 'Green', 'White', 'Black']
-Expected Output : ['Pink', 'Red', 'Green', 'White', 'Black', 'Yellow']
-```
 
-Escribir un método llamado **isEmpty** que diga si una lista esta vacía o no.
-
-Escribir un método llamado **checkLists** que dado dos listas retorne True si ambas listas contienen el mismo 3er elemento.
-
-```
-Sample List1 : ['Black', 'Pink', 'Yellow', 'Red', 'Green', 'White']
-Sample List2 : ['Red', 'Green', 'Yellow', 'White', 'Black', 'Pink']
-Expected Output : True
-
-Sample List1 : ['Black', 'Pink', 'Green', 'White']
-Sample List2 : ['Red', 'Green', 'Yellow', 'Black', 'Pink']
-Expected Output : False
-```
-
-Escribir un método llamado **listOfLists** que dado una lista de listas, la modifique en la siguiente manera y la retorne:
-
-De la primera lista solo se quede con los primeros 2 elementos.
-De la segunda lista solo se quede con los elementos entre el segundo y cuarto elemento.
-De la tercera lista solo se quede con los últimos 2 elementos.
-
-```
-Sample List: [[1, 2, 3], [4, 5, 6, 7, 8], [9, 10, 11, 12]]
-Sample Output: [[1, 2], [5, 6, 7], [11, 12]]
-```
+HINT: Para resolver una cuadrática:
+![cuadratic]({{site.baseurl}}/practice/tp5.png)

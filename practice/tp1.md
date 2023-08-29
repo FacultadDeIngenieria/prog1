@@ -6,8 +6,6 @@ permalink: /practice/1
 
 # Trabajo Práctico 1
 
-Debe entregarse a la semana siguiente de ser entregado.
-
 ## Ejercicio 1
 
 Para este ejercicio el objetivo es leer el código, anotar lo que piensen que los prints vayan a decir y luego correr el código para ver si les dio igual o no.

@@ -8,59 +8,50 @@ permalink: /practice/4
 
 Debe entregarse a la semana siguiente de ser entregado.
 
-## Ejercicio 1
+## Ejercicio 1 - Line
 
-Para este ejercicio deberan implementar las funciones dadas para que cumplan con su objetivo. Para saber como implementar cada metodo, deberan leer el python-doc.
+Queremos hacer un programa que nos calcule para una ecuación de primer grado la distancia sobre la recta entre dos 
+coordenadas cualquiera del eje X y además me informe de las coordenadas del eje Y a la que corresponde.
 
-```python
-def max_of_two(x, y):
-    """Given x and y, that are 2 numbers, return the biggest number."""
-    return "ANSWER HERE" # Remove this line and implement
-
-def max_of_three(x, y, z):
-    """Given x, y and z, that are 3 numbers, return the biggest number of the three."""
-    return "ANSWER HERE" # Remove this line and implement
+Ejemplo: 
 ```
+Ingrese el coeficiente A: 2.3
+Ingrese el coeficiente B: -4
+Ingrese el coeficiente X1: 50
+Ingrese el coeficiente X2: -32.9
+El coeficiente A de su ecuación de la recta es: 2.3
+El coeficiente B de su ecuación de la recta es: -4.0
+El coeficiente X1 de su ecuación de la recta es: 50.0
+El coeficiente X2 de su ecuación de la recta es: -32.9
 
-## Ejercicio 2 - Months
+Para la siguiente ecuación:
+	Y = 2.3X + -4.0
 
-Hacer un metodo llamado *numberToMonth* que dado un numero entre el 1 y el 12, devuelva el nombre del mes que representa en el calendario. Si el numero no esta entre el rango 1 y 12, se debera retornar la palabra "error".
+Dados los siguientes puntos:
+	P1 (50.0, 110.99999999999999)
+	P2 (-32.9, -79.66999999999999)
 
-```python
-def numberToMonth(month):
-    return "ANSWER HERE" # Remove this line and implement
+La distancia entre ellos es: 207.9121422620622
 ```
+************************************************** 
 
-Ejemplo:
 
-Dado el input 1 el resultado debera ser "enero"
-Dado el input 99 el resultado debera ser "error"
-Todos los meses deberan ser en minuscula.
+HINT: [Formula de la distancia](https://es.wikipedia.org/wiki/Distancia#Distancia_de_dos_puntos_en_el_plano)
 
-## Ejercicio 3 - Quadratic
+HINT: [Python Math doc](https://www.w3schools.com/python/module_math.asp)
 
-Completar, definir e implementar los métodos necesarios para resolver una ecuación cuadrática de 2º grado. Para ello, lo que deberan hacer es crear todos los siguentes métodos:
+## Ejercicio 2 - Leap Year
 
-* Dado los parámetros (a, b, c) el método roots devolverá un String de la forma (r1, r2) o (r12) o ( ) según sea el caso de que tenga dos raíces, una raíz o ninguna.
-* Dado los parámetros (a, b, c, x) el método valueY devolverá el valor de Y para un valor de X que se le pasa como parámetro.
-* Dado los parámetros (a, b, c) el método toString que devolverá un String mostrando la ecuación como figura en el primer párrafo (Y = A * X2 + B * X + C).
-* Dado los parámetros (a, b) el método derivation que devolverá un String mostrando la función lineal derivada.
+Un año no tiene en realidad 365 días, sino 365.242199. A fin de mantener el calendario en fase con los equinoccios y los solsticios, Julio César adoptó un sistema que añade un día adicional a cada cuatro años, que se conoce como año bisiesto. No obstante, este sistema no tenía la suficiente precisión, por lo que el Papa Gregorio XIII decretó, en 1582, un nuevo sistema calendario, según el cual un año divisible entre cuatro es bisiesto a menos que sea un año centenario, en cuyo caso sólo es bisiesto si es divisible por 400. Escribir una función que informa si un año dado es bisiesto.
 
-```python
-# Replace the "ANSWER HERE" for your answer
+Hacer un programa que dado un año me indique si es bisiesto.
 
-def roots(a, b, c):
-    return "ANSWER HERE"
-
-def valueY(a, b, c, x):
-    return "ANSWER HERE"
-
-def toString(a, b, c):
-    return "ANSWER HERE"
-
-def derivation(a, b):
-    return "ANSWER HERE"
+Ejemplos:
 ```
-
-HINT: Para resolver una cuadrática:
-![cuadratic]({{site.baseurl}}/practice/tp4.png)
+Ingrese un año: 2000
+El año 2000 es bisiesto
+```
+```
+Ingrese un año: 2001
+El año 2001 no es bisiesto
+```
