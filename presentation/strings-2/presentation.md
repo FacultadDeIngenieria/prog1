@@ -66,15 +66,15 @@ IndexError: string index out of range
 ```
 ---
 # Slicing Strings
-## Contiguous characters group
+## Contiguous characters
 If we use a pair of numbers separated by colons, we get a group of characters. The first number is the start index (and this character is included), and the second one si the end index (which is never included).
 
 ```python
 >>> txt = 'Python is a great programming language'
->>> txt[12:17] # characters from 13 to 22 (last is not included)
+>>> txt[12:17] # characters from 13 to 17 (last is not included)
 'great'
 ```
-Some other examples...
+Be careful with these other examples...
 ```python
 >>> alarmist = "Never press this button!"[6:]
 >>> hater = "I hate seeing you sad"[:17]
@@ -83,18 +83,6 @@ Some other examples...
 ---
 # Slicing Strings
 ## Contiguous characters
-If we use a pair of numbers separated by colons, we get a group of characters. The first number is the start index (and this character is included), and the second one si the end index (which is never included).
-
-```python
->>> txt = 'Python is a great programming language'
->>> txt[12:17] # characters from 13 to 22 (last is not included)
-'great'
-```
-Be careful with these other examples...
-```python
->>> alarmist = "Never press this button!"[6:]
->>> hater = "I hate seeing you sad"[:17]
-```
 Skipping a number means getting all the characters from the beginning or to the end, respectively. We can also use negative indexes too.
 ```python
 >>> txt[19:] # from 19 to the end
