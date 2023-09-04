@@ -4,7 +4,7 @@
 3. [Variables](variables)
 4. [Strings](strings)
 5. [Strings (part 2)](strings-2)
-<!-- 6. [If Statements](ifs) -->
+6. [If Statements](ifs)
 <!-- 7. [Functions](functions) -->
 <!-- 8. [Lists](lists) -->
 <!-- 9. [Loops](loops) -->
@@ -26,7 +26,7 @@
 1. [TP1](practice/1)
 2. [TP2](practice/2)
 3. [TP3](practice/3)
-<!-- 4. [TP3](practice/4) -->
+4. [TP3](practice/4)
 <!-- 5. [TP4](practice/5) -->
 <!-- 6. [TP5](practice/6) -->
 <!-- 7. [TP6](practice/7) -->
