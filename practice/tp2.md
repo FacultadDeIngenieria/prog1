@@ -13,8 +13,8 @@ Los nombres suelen venir en distintas formas y uno siempre tiene que estar prepa
 Dado las siguientes dos variables:
 
 ```python
-first_name = AdA
-last_name  = LoVeLAce
+first_name = "AdA"
+last_name  = "LoVeLAce"
 ```
 
 Lograr conseguir este mismo output: 
