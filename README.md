@@ -16,6 +16,7 @@
 ## Taller Martes 9hs
 1. [Bash Intro](bash-intro)
 2. [Git Intro](git-intro)
+3. [Regex](regex)
 <!-- 3. [Git Continued](git-continue) -->
 <!-- 4. [Ways to run Python](run-python) -->
 <!-- 5. [Asking Questions](asking-questions) -->
