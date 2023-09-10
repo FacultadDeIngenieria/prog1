@@ -66,6 +66,10 @@ Imagine scanning billions of pages of human-written text (say on the web and in 
 
 ![Ability to]({{site.baseurl}}/presentation/chatgpt/ability-to.png)
 
+
+---
+## Continued...
+
 If we always pick the highest-ranked word, we’ll typically get a very “flat” essay, that never seems to “show any creativity” (and even sometimes repeats word for word). But if sometimes (at random) we pick lower-ranked words, we get a “more interesting” essay.
 
 there’s a particular so-called “temperature” parameter that determines how often lower-ranked words will be used, and for essay generation, it turns out that a “temperature” of 0.8 seems best. (It’s worth emphasizing that there’s no “theory” being used here; it’s just a matter of what’s been found to work in practice.).
