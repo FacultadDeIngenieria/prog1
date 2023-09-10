@@ -77,3 +77,9 @@ https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-i
 
 (Wolfram alpha's demo environment has less features that it used to and making the queries in the article require a paid subscription)
 
+--- 
+## Prompt Engineering
+
+- Process of structuring text that can be interpreted and understood by a generative AI model.
+
+https://prompts.chat/
