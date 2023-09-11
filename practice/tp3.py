@@ -14,16 +14,16 @@ print(f"Contiene u: {contains_u}")
 
 # Ejercicio 2
 text = input()
-contains_a = "á" in text
-contains_e = "é" in text
-contains_i = "í" in text
-contains_o = "ó" in text
-contains_u = "ú" in text
-print(f"Contiene á: {contains_a}")
-print(f"Contiene é: {contains_e}")
-print(f"Contiene í: {contains_i}")
-print(f"Contiene ó: {contains_o}")
-print(f"Contiene ú: {contains_u}")
+contains_a = "á" not in text
+contains_e = "é" not in text
+contains_i = "í" not in text
+contains_o = "ó" not in text
+contains_u = "ú" not in text
+print(f"No contiene á: {contains_a}")
+print(f"No contiene é: {contains_e}")
+print(f"No contiene í: {contains_i}")
+print(f"No contiene ó: {contains_o}")
+print(f"No contiene ú: {contains_u}")
 
 
 # Ejercicio 3

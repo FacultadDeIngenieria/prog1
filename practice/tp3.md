@@ -40,18 +40,18 @@ Ayuda: los caracteres de las letras con tilde son distintos que los caracteres d
 Ejemplo: 
 ```
 > La contraseña no es válida
-Contiene á: True
-Contiene é: False
-Contiene í: False
-Contiene ó: False
-Contiene ú: False
+No contiene á: False
+No contiene é: True
+No contiene í: True
+No contiene ó: True
+No contiene ú: True
 
 > A la grande le puse cuca
-Contiene á: False
-Contiene é: False
-Contiene í: False
-Contiene ó: False
-Contiene ú: False
+No contiene á: True
+No contiene é: True
+No contiene í: True
+No contiene ó: True
+No contiene ú: True
 ```
 ************************************************** 
 
