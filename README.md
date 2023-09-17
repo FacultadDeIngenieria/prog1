@@ -18,10 +18,8 @@
 2. [Git Intro](git-intro)
 3. [Regex](regex)
 4. [ChatGPT](chatgpt)
-<!-- 3. [Git Continued](git-continue) -->
-<!-- 4. [Ways to run Python](run-python) -->
-<!-- 5. [Asking Questions](asking-questions) -->
-<!-- 6. [Further Reading](further-reading) -->
+5. [Ways to run Python](run-python) 
+6. [Asking Questions](asking-questions)
 
 ## Trabajos Prácticos
 
