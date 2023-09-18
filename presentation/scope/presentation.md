@@ -79,4 +79,3 @@ The square of 10 is: 100
 100
 ```
  - Beware that if you don't call the function before, *result* won't exist.
----
