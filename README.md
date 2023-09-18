@@ -6,12 +6,13 @@
 5. [Strings (part 2)](strings-2)
 6. [If Statements](ifs)
 7. [Functions](functions)
-<!-- 8. [Lists](lists) -->
-<!-- 9. [Loops](loops) -->
-<!-- 10. [Recursion](recursion) -->
-<!-- 11. [Objects & Classes](objects) -->
-<!-- 12. [List Comprehension & Plots](listsplots) -->
-<!-- 13. [Java Adapter](java) -->
+8. [Scope](scope)
+<!-- 9. [Lists](lists) -->
+<!-- 10. [Loops](loops) -->
+<!-- 11. [Recursion](recursion) -->
+<!-- 12. [Objects & Classes](objects) -->
+<!-- 13. [List Comprehension & Plots](listsplots) -->
+<!-- 14. [Java Adapter](java) -->
 
 ## Taller Martes 9hs
 1. [Bash Intro](bash-intro)
