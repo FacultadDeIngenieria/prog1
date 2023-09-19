@@ -6,20 +6,69 @@ permalink: /practice/9
 
 # Trabajo Práctico 9
 
-Para este ejercicio, el objetivo es modelar un auto. Un auto se describe de la siguiente forma:
+Dado la siguiente consigna, implementar las siguientes funciones TODAS USANDO RECURSIVIDAD (Eso significa, sin usar for o while):
 
-- Marca del auto (make)
-- Modelo del auto
-- Año de fabricación
-- Cantidad de kilometros (odometer)
+* Método **indexOf** que retorne el índice de la primera ocurrencia de un String dentro de una lista de Strings. En caso 
+  de no encontrarse ninguna retorna el valor -1.
 
-Cuando se crea un auto nuevo, siempre vienen con 0 kilometros.
-Un auto ademas debera poder realizar las siguientes operaciones:
+```python
+colors = ["Red", "Green", "White", "Black", "Pink", "Yellow", "Black"]
 
-- **get_descriptive_name:** Devuelve un String en upper camel case que marque el año, marca y modelo del auto. Ejemplo: "2019 Audi A4"
+print(indexOf("Black", colors))
+#imprime: 3
+print(indexOf("Blue", colors))
+#imprime: -1
+```
+  
+* Método **indexOfByIndex** que retorne el índice de la primera ocurrencia de un String dentro de una lista de Strings, a partir 
+  de un índice dado, incluido en la búsqueda. En caso de no encontrarse ninguna coincidencia retorna el valor -1.
 
-- **read_odometer:** Devuelve un String que describa el kilometraje actual del auto. Ejemplo: "This car has 23 kilometers on it"
+```python
+colors = ["Red", "Green", "White", "Black", "Pink", "Yellow", "Black"]
 
-- **update_odometer:** Dado un número que representa el nuevo kilometraje total, el método deberá cambiar el total de kilometros actual si y solo si este total es mayor al total actual.
+print(indexOfByIndex("Black", colors, 1))
+#imprime: 3
+print(indexOfByIndex("Black", colors, 4))
+#imprime: 6
+print(indexOfByIndex("Green", colors, 2))
+#imprime: -1
+```
+  
+* Método **indexOfEmpty** que retorne el índice del primer lugar “vacío” (igual a "") en una lista de Strings. De no encontrar ninguno que retorne -1.
 
-- **increment_odometer:** Dado un número que representa una cantidad de kilometros, el método debera agregarlo al total actual de kilometros del auto.
+```python
+colors = ["Red", "Green", "White", "Black", "Pink", "Yellow", "Black"]
+
+print(indexOfEmpty(colors))
+#imprime: -1
+
+colors = ["Red", "Green", "", "", "Pink", "", "Black"]
+print(indexOfEmpty(colors))
+#imprime: 2
+```
+
+* Método **put**, que dado un String y una lista de Strings lo coloque en el primer lugar vacío que encuentre y retorne 
+  el índice en donde lo colocó. De no haber ningún lugar vacío debe retornar -1.
+
+```python
+colors = ["Red", "Green", "", "", "Pink", "", "Black"]
+print(put("Blue", colors))
+#imprime: 2
+
+colors = ["Red", "Green", "White", "Black", "Pink", "Yellow", "Black"]
+print(put("Blue", colors))
+#imprime: -1
+```
+
+* Método **remove** que dado un String y una lista de Strings, busque el string, lo elimine si lo encuentra y 
+  retorne el número de eliminaciones que ha hecho.
+
+
+```python
+colors = ["Red", "Green", "White", "Black", "Pink", "Yellow", "Black"]
+
+print(remove("Black", colors))
+#imprime: 2
+print(remove("Blue", colors))
+#imprime: 0
+```

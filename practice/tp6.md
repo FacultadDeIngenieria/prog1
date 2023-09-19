@@ -6,7 +6,6 @@ permalink: /practice/6
 
 # Trabajo Práctico 6
 
-Debe entregarse en 15 días, luego del parcial.
 
 ## Ejercicio 1
 

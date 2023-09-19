@@ -50,7 +50,7 @@ En este caso es requerido que dentro de la funcion `dias_a_horas_reutilizable` s
 Ejemplo: 
 ```python
 horas_1 = dias_a_horas_reutilizable(5)
-horas_2 = dias_a_horas_reutilizable(2,5)
+horas_2 = dias_a_horas_reutilizable(2.5)
 horas_3 = dias_a_horas_reutilizable(0)
 horas_4 = dias_a_horas_reutilizable(-4)
 
