@@ -9,66 +9,129 @@ permalink: /practice/6
 
 ## Ejercicio 1
 
+```python
+def mi_funcion():
+    x = 10
+    print(x)
 
-En este ejercicio deberán usar las variables que vienen dadas:
+x = 5
+mi_funcion()
+print(x)
 ```
-last_name = 'Longo'
-first_name = 'Juan'
-```
+Responder:
+¿Cuál será la salida de este código? ¿ Por qué ?
 
-Y con ellas lograr retornar los siguientes datos para las funciones dadas:
-
-Para la función `last_name_first_letter` retornar si el apellido comienza con una letra anterior, posterior o igual a la M
-```
-El apellido Longo comienza con una letra que está antes de la M
-```
-Para la función `name_key` retornar una clave compuesta por las 3 primeras letras del apellido seguido del nombre sin la última letra
-```
-La clave generada es: LonJua
-```
-
-
-Recordar que las funciones deben funcionar también para otros valores que no sean los del ejemplo. 
 ## Ejercicio 2
 
-En este ejercicio deberán implementar todos los métodos descritos a continuación:
+```python
+def mi_funcion():
+    global x
+    x = 10
+    print(x)
 
-Escribir un método llamado **removeElements** que dado una lista retorne una lista después de haber removido el primer, el quinto y el sexto elemento.
-
+x = 5
+mi_funcion()
+print(x)
 ```
-Sample Input : ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
-Expected Output : ['Green', 'White', 'Black']
+Responder:
+¿Cuál será la salida de este código? ¿ Por qué ?
+
+## Ejercicio 3
+
+```python
+def incrementar():
+    global contador
+    contador += 1
+
+contador = 0
+incrementar()
+incrementar()
+incrementar()
+print(contador)
 ```
+Responder:
+¿Cuál será la salida de este código? ¿ Por qué ?
 
-Escribir un método llamado **addElements** que dado una lista retorne una lista después de 
-haber agregado el elemento 'Pink' al principio de la lista y el elemento 'Yellow' al final de la lista.
+## Ejercicio 4
 
+```python
+def mi_funcion():
+    x = 10
+    print(x)
+
+x = 5
+mi_funcion()
+print(x)
 ```
-Sample Input : ['Red', 'Green', 'White', 'Black']
-Expected Output : ['Pink', 'Red', 'Green', 'White', 'Black', 'Yellow']
+Responder:
+¿Qué sucede si intentas imprimir x fuera de la función mi_funcion? ¿ Por qué ?
+
+## Ejercicio 5
+
+```python
+def mi_funcion():
+    global x
+    x = 10
+    print(x)
+
+x = 5
+mi_funcion()
+print(x)
 ```
+Responder:
+¿Qué sucede si eliminas la línea global x de la función mi_funcion? ¿ Por qué ?
 
-Escribir un método llamado **isEmpty** que diga si una lista esta vacía o no.
+## Ejercicio 6
 
-Escribir un método llamado **checkLists** que dado dos listas retorne True si ambas listas contienen el mismo 3er elemento.
+```python
+def exterior():
+    x = 10
+    def interior():
+        print(x)
+    interior()
 
+exterior()
 ```
-Sample List1 : ['Black', 'Pink', 'Yellow', 'Red', 'Green', 'White']
-Sample List2 : ['Red', 'Green', 'Yellow', 'White', 'Black', 'Pink']
-Expected Output : True
+Responder:
+¿Cuál será la salida de este código? ¿ Por qué ?
 
-Sample List1 : ['Black', 'Pink', 'Green', 'White']
-Sample List2 : ['Red', 'Green', 'Yellow', 'Black', 'Pink']
-Expected Output : False
+## Ejercicio 7
+
+```python
+def mi_funcion():
+    print(y)
+
+y = 10
+mi_funcion()
 ```
+Responder:
+¿Cuál será la salida de este código? ¿ Por qué ?
 
-Escribir un método llamado **listOfLists** que dado una lista de listas, la modifique en la siguiente manera y la retorne:
+## Ejercicio 8
 
-De la primera lista solo se quede con los primeros 2 elementos.
-De la segunda lista solo se quede con los elementos entre el segundo y cuarto elemento.
-De la tercera lista solo se quede con los últimos 2 elementos.
+```python
+def mi_funcion():
+    global y
+    print(y)
 
+y = 10
+mi_funcion()
 ```
-Sample List: [[1, 2, 3], [4, 5, 6, 7, 8], [9, 10, 11, 12]]
-Sample Output: [[1, 2], [5, 6, 7], [11, 12]]
+Responder:
+¿Cuál será la salida de este código? ¿ Por qué ?
+
+## Ejercicio 9
+
+```python
+def exterior():
+    x = 10
+    def interior():
+        x = 20
+        print(x)
+    interior()
+    print(x)
+
+exterior()
 ```
+Responder:
+¿Cuál será la salida de este código? ¿ Por qué ?
