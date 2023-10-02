@@ -268,35 +268,10 @@ print(players[:])   # slice the List 'players' from index 0 to 5 (the end), and 
 - Go back to the first image in this presentation and see that list represents a String: List of characters.
 - The most clear example is the `len()` function.
 - Another example could be getting a character in an index of a String, or slicing the string to obtain only a part of it (called substring in other languages)
+- But remember that Strings are not mutable. To modify a String, you need to create a new one from an existing one.
 
 ---
 
-# Strings as Lists - Getting a char
-
-- To get a specific character from a String:
-
-```python
-some_string = 'get this character: B'
-print(some_string[20]) # get the character in index 20
-```
-
-- It's the same as getting a specific item from a List's index!
-
----
-
-# Strings as Lists - Substring
-
-- To get a part of a string (given a range):
-
-```python
-some_string = 'get the third word from this string'
-print(some_string[8:13])
-```
-
-- It's the same as slicing a List between two indexes!
-- **Remember**: first index is included, second is excluded.
-
----
 
 # List of lists
 
