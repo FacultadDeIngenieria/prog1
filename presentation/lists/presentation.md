@@ -149,10 +149,15 @@ print(motorcycles)
 - The 'del' statement before a List removes the element at said index, printing:
 
 ```python
-['honda', 'yamaha', 'suzuki']
 ['yamaha', 'suzuki']
 ```
+- You can also remove items from a list by assigning it an empty list:
 
+```python
+motorcycles[1:] = []
+print(motorcycles)
+['yamaha']
+```
 ---
 
 # Working with Part of a List - Slice
