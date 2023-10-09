@@ -218,7 +218,7 @@ while message != 'quit':
 - *What if we don't want to care about the case?*
 
 ---
-# Final Warning!
+# Warning!
 
 Although **while** may seem similar to **if**, they are essentially different!
 **while** is always for **loops** (repetitive structures), and **if** only for simple decisions (conditional structures).
@@ -228,3 +228,22 @@ Try the next excercise:
 Ask the user for positive numbers, and store them in a list. To terminate the list, the user should enter '0'. Afterward, display the numbers in reverse order.
 
 ---
+
+# Exiting a loop
+
+ - It is possible to exit a loop anytime, with the **break** statement.
+ - Suppose you want to terminate a loop and skip to the next code after the loop; **break** will help you do that.
+ - A typical scenario of using the **break** in Python is when an external condition triggers the loop's termination.
+
+For example:
+```python
+sum = 0
+for i in range(10):
+    n = int(input('Insert a positive number: ')
+    if n<0:
+        break
+    sum = sum + n
+print(f'The sum of yur numbers is {sum}')
+
+```
+
