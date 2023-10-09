@@ -8,7 +8,7 @@
 7. [Functions](functions)
 8. [Scope](scope)
 9. [Lists](lists)
-<!-- 10. [Loops](loops) -->
+10. [Loops](loops)
 <!-- 11. [Recursion](recursion) -->
 <!-- 12. [Objects & Classes](objects) -->
 <!-- 13. [List Comprehension & Plots](listsplots) -->
