@@ -216,3 +216,15 @@ while message != 'quit':
 
 - *What does this example do? Try it!*
 - *What if we don't want to care about the case?*
+
+---
+# Final Warning!
+
+Although **while** may seem similar to **if**, they are essentially different!
+**while** is always for **loops** (repetitive structures), and **if** only for simple decisions (conditional structures).
+
+Try the next excercise:
+
+Ask the user for positive numbers, and store them in a list. To terminate the list, the user should enter '0'. Afterward, display the numbers in reverse order.
+
+---
