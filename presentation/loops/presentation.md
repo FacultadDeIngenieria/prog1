@@ -61,7 +61,7 @@ carolina
 
 ---
 
-# For - Complex example
+# For - Another example
 
 ```python
 magicians = ['alice', 'david', 'carolina']
@@ -85,6 +85,61 @@ I can't wait to see your next trick, Carolina.
 
 - A *for* loop can have as many lines as you want, **indentation** is important.
 
+---
+
+# For with range()
+
+The **range()** function creates a sequence of numbers.
+The syntax is **range (start, stop, step)**, or **range (start, stop)** or simply **range (stop)**
+
+
+
+```python
+print("Let's see the square of the first 10 pair numbers.")
+for pair_number in range (0, 20, 2):
+    print(f"The square of {pair_number} is {pair_number**2}")
+```
+
+This will print:
+```python
+Let's see the square of the first 10 pair numbers.
+The square of 0 is 0
+The square of 2 is 4
+The square of 4 is 16
+The square of 6 is 36
+...
+```
+As usual, the "stop" index is not included.
+
+---
+
+# For with range()
+
+You can also use a negative step. For example:
+
+```python
+print("An inversed list of numbers")
+for number in range (10, 0, -1):
+    print(number)
+```
+This will print:
+```python
+10
+9
+8...
+```
+**range()** is frequently combined with lists. For example:
+```python
+magicians = ['alice', 'david', 'carolina']
+for index in range(len(magicians)):
+    print(f'{index}. {magicians[index].title()}')
+```
+This will print:
+```python
+1. Alice
+2. David
+3. Carolina
+```
 ---
 
 # Looping a multi array
