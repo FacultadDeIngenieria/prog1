@@ -141,6 +141,21 @@ This will print:
 3. Carolina
 ```
 ---
+# For with enumerate()
+
+Another useful way to iterate over a list is with **enumerate()**, which gives you back two loop variables:
+ - The **count** of the current iteration
+ - The **value** of the item at the current iteration
+
+It is used like this:
+```python
+magicians = ['alice', 'david', 'carolina']
+for index, magician in enumerate(magicians):
+    print(f'{index}. {magician.title()}')
+```
+This is a much simpler way to combine index and value in the same **for** structure.
+
+---
 
 # Looping a multi array
 
