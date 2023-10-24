@@ -21,6 +21,7 @@
 4. [ChatGPT](chatgpt)
 5. [Ways to run Python](run-python) 
 6. [Asking Questions](asking-questions)
+7. [Docker](docker)
 
 ## Trabajos Prácticos
 
