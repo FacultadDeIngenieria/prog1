@@ -161,6 +161,47 @@ print(f"The factorial of {num} is {factorial(num)}")
 .center[![Factorial]({{site.baseurl}}/presentation/recursion/factorial.png)]
 
 ---
+# Maintaining State
+
+When dealing with recursive functions, keep in mind that each recursive call has its own execution context, so to maintain state during recursion you have to either:
+ - Thread the state through each recursive call so that the current state is part of the current call’s execution context
+Keep the state in global scope
+ - A demonstration should make things clearer. Let’s calculate 1 + 2 + 3 ⋅⋅⋅⋅ + 10 using recursion. The state that we have to maintain is (current number we are adding, accumulated sum till now).
+
+Here’s how you do that by threading it through each recursive call (i.e. passing the updated current state to each recursive call as arguments):
+```python
+def sum_recursive(current_number, accumulated_sum):
+    # Base case: return the final state
+    if current_number == 11:
+        return accumulated_sum
+    # Recursive case: thread the state through the recursive call
+    else:
+        return sum_recursive(current_number + 1, accumulated_sum + current_number)
+```
+---
+# Maintaining State
+
+Here’s how you maintain the state by keeping it in global scope:
+```python
+# Global mutable state
+current_number = 1
+accumulated_sum = 0
+
+def sum_recursive():
+    global current_number
+    global accumulated_sum
+    # Base case
+    if current_number == 11:
+        return accumulated_sum
+    # Recursive case
+    else:
+        accumulated_sum = accumulated_sum + current_number
+        current_number = current_number + 1
+        return sum_recursive()
+```
+It is better threading the state through each recursive call.
+
+---
 
 # Resources
 
