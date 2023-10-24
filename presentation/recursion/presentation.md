@@ -62,7 +62,7 @@ Delivering presents to Stan's house
   - One of the aspects of using recursion is that a major part of the solution lies in solving this “smaller” version of the problem 
   - Specifically, solving the same one on a simplified or smaller input.
   - But if the solution to every smaller problem in a recursive algorithm depended on a solution to an even smaller algorithm
-  - *What is going to happened?*
+  - *What is going to happen?*
 
 ---
 
