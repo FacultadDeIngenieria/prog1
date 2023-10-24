@@ -201,11 +201,8 @@ def sum_recursive():
 ```
 It is better threading the state through each recursive call.
 
----
-
-# Resources
-
-- [Thinking Recursively in Python
-](https://realpython.com/python-thinking-recursively/)
-
-- [Why Inception reminds us of recursion](https://wewrite.taleas.io/2018/11/14/why-inception-reminds-us-of-recursion/)
+<!-- --- -->
+<!-- # Resources -->
+<!-- - [Thinking Recursively in Python
+](https://realpython.com/python-thinking-recursively/) #Same as this presentation... -->
+<!-- - [Why Inception reminds us of recursion](https://wewrite.taleas.io/2018/11/14/why-inception-reminds-us-of-recursion/)  # Not available anymore -->
