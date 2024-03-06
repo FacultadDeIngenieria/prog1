@@ -111,6 +111,13 @@ In a UNIX OS, to leave the manual page use q and press enter
 
 ---
 
+# Manipulating Files
+
+- cat - Read file and write it to the standard output
+  - `cat resumen_de_la_mejor_materia.txt` prints the contents of the file `resumen_de_la_mejor_materia.txt`
+
+---
+
 # Other commands
 
 - echo - Writes arguments to the standard output
