@@ -100,16 +100,18 @@ ls lists the files in the working directory, this output is checked by the grep 
 ## Manipulating Files
 
 cat - Read file and write it to the standard output
- `cat resumen_de_la_mejor_materia.txt` prints the contents of the file `resumen_de_la_mejor_materia.txt`
+`cat resumen_de_la_mejor_materia.txt` prints the contents of the file `resumen_de_la_mejor_materia.txt`
 
 cp - Copy File(s)
- `cp resumen_de_la_mejor_materia.txt resumen_de_la_mejor_materia_2.txt` copies the file `resumen_de_la_mejor_materia.txt` to `resumen_de_la_mejor_materia_2.txt`
+`cp resumen_de_la_mejor_materia.txt resumen_de_la_mejor_materia_2.txt` copies the file `resumen_de_la_mejor_materia.txt` to `resumen_de_la_mejor_materia_2.txt`
 
 mv - Move File(s)
- `mv resumen_de_la_mejor_materia_2.txt facultad/programacion1.txt` moves the file `resumen_de_la_mejor_materia_2.txt` to `facultad/programacion1.txt
+`mv resumen_de_la_mejor_materia_2.txt facultad/programacion1.txt` moves the file `resumen_de_la_mejor_materia_2.txt` to `facultad/programacion1.txt
 
 rm - Remove File(s) and directories
 `rm facultad/programacion1.txt` removes the file `facultad/programacion1.txt`
+
+
 
 ---
 ## Other commands
@@ -127,6 +129,8 @@ grep - Searches for a pattern
 
 history - Shows the history of commands
 
+
+
 ---
 ## Finding files and writing files
 
@@ -140,6 +144,8 @@ nano - Creates a file and opens it in a text editor
 diff - Compares files line by line
 - `diff resumen_de_la_mejor_materia.txt resumen_prog1.txt` # compares the files `resumen_de_la_mejor_materia.txt` and `resumen_prog1.txt`
 
+
+
 ---
 ## Environment variables
 
@@ -150,6 +156,8 @@ Environment variables are special variables that contain information about your 
 `HELLO="Hello World"` # creates an environment variable called `HELLO` with the value `Hello World`
 
 `echo $HELLO` # prints the value of the environment variable `HELLO`
+
+
 
 ---
 ## Aliases
@@ -164,6 +172,8 @@ Aliases are a way to create shortcuts for commands. They are useful for commands
 
 `aliases` # lists all the aliases
 
+
+
 ---
 ## Hands on
 
@@ -172,3 +182,5 @@ Aliases are a way to create shortcuts for commands. They are useful for commands
 Bashcrawl is a game that teaches you how to use the command line.
 
 Follow the instructions to download it and run it.
+
+
