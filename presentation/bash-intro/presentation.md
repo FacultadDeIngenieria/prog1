@@ -15,8 +15,10 @@ https://sueldos.openqube.io/encuesta-sueldos-2023.01/
 ---
 ## Installation
 
-**Windows**: Download Cygwin (https://www.cygwin.com/install.html)
+**Windows**: Download Git Bash (https://git-scm.com/download/win)
+
 **Mac**: use the Terminal app
+
 **Linux**: Open a terminal
 
 We will be using the terminal to run bash commands, make sure you have it installed.
@@ -47,15 +49,6 @@ Default shell on most UNIX operating systems
 Interactive: allows running commands through a prompt, one command at a time.
 
 Non-interactive: run bash commands through scripts, automating certain logic. A script is a list of commands (same as the ones that can be typed in a command line), stored in a file. It executes commands sequentially.
-
----
-## Hands on
-
-**Bashcrawl**: https://gitlab.com/slackermedia/bashcrawl
-
-Bashcrawl is a game that teaches you how to use the command line.
-
-Follow the instructions to download it and run it.
 
 ---
 ## Interactive mode: Commands
@@ -107,30 +100,30 @@ ls lists the files in the working directory, this output is checked by the grep 
 ## Manipulating Files
 
 cat - Read file and write it to the standard output
-- `cat resumen_de_la_mejor_materia.txt` prints the contents of the file `resumen_de_la_mejor_materia.txt`
+ `cat resumen_de_la_mejor_materia.txt` prints the contents of the file `resumen_de_la_mejor_materia.txt`
 
 cp - Copy File(s)
-- `cp resumen_de_la_mejor_materia.txt resumen_de_la_mejor_materia_2.txt` copies the file `resumen_de_la_mejor_materia.txt` to `resumen_de_la_mejor_materia_2.txt`
+ `cp resumen_de_la_mejor_materia.txt resumen_de_la_mejor_materia_2.txt` copies the file `resumen_de_la_mejor_materia.txt` to `resumen_de_la_mejor_materia_2.txt`
 
 mv - Move File(s)
-- `mv resumen_de_la_mejor_materia_2.txt facultad/programacion1.txt` moves the file `resumen_de_la_mejor_materia_2.txt` to `facultad/programacion1.txt
+ `mv resumen_de_la_mejor_materia_2.txt facultad/programacion1.txt` moves the file `resumen_de_la_mejor_materia_2.txt` to `facultad/programacion1.txt
 
 rm - Remove File(s) and directories
-- `rm facultad/programacion1.txt` removes the file `facultad/programacion1.txt`
-
-echo - Writes arguments to the standard output
-- `echo rm *.txt` prints all the options to be removed to make sure we are deleteing what we want to delete.
+`rm facultad/programacion1.txt` removes the file `facultad/programacion1.txt`
 
 ---
-## Other comands
+## Other commands
+
+echo - Writes arguments to the standard output
+`echo rm *.txt` prints all the options to be removed to make sure we are deleteing what we want to delete.
 
 pwd - Writes the absolute pathname of the current working directory
 
 curl - Downloads files from the internet
-- `curl https://sebiglesias.com.ar/bash-test` # downloads the file `bash-test` from the internet
+ `curl https://sebiglesias.com.ar/bash-test` # downloads the file `bash-test` from the internet
 
 grep - Searches for a pattern
-- `ls | grep *.txt` # Searches for any file that ends with .txt
+ `ls | grep *.txt` # Searches for any file that ends with .txt
 
 history - Shows the history of commands
 
@@ -172,5 +165,10 @@ Aliases are a way to create shortcuts for commands. They are useful for commands
 `aliases` # lists all the aliases
 
 ---
+## Hands on
 
-https://forms.gle/ra2P5qd2qozHpNGQ6
+**Bashcrawl**: https://gitlab.com/slackermedia/bashcrawl
+
+Bashcrawl is a game that teaches you how to use the command line.
+
+Follow the instructions to download it and run it.
