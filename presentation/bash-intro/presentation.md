@@ -111,22 +111,6 @@ In a UNIX OS, to leave the manual page use q and press enter
 
 ---
 
-# Manipulating Files
-
-- cat - Read file and write it to the standard output
-  - `cat resumen_de_la_mejor_materia.txt` prints the contents of the file `resumen_de_la_mejor_materia.txt`
-
-- cp - Copy File(s)
-  - `cp resumen_de_la_mejor_materia.txt resumen_de_la_mejor_materia_2.txt` copies the file `resumen_de_la_mejor_materia.txt` to `resumen_de_la_mejor_materia_2.txt`
-
-- mv - Move File(s)
-  - `mv resumen_de_la_mejor_materia_2.txt facultad/programacion1.txt` moves the file `resumen_de_la_mejor_materia_2.txt` to `facultad/programacion1.txt
-
-- rm - Remove File(s) and directories
-  - `rm facultad/programacion1.txt` removes the file `facultad/programacion1.txt` h
-
----
-
 # Other commands
 
 - echo - Writes arguments to the standard output
