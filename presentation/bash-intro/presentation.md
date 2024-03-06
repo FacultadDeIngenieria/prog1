@@ -1,23 +1,23 @@
 class: center, middle, inverse
 
-## Linux and Bash
+# Linux and Bash
 
 ---
 
-## Bash is in the top 10 most popular programming languages
+# Bash is in the top 10 most popular programming languages
 
 https://survey.stackoverflow.co/2023/#most-popular-technologies-language
 ![stackoverflow]({{site.baseurl}}/presentation/bash-intro/stackoverflow-2023.png)
 
 ---
 
-## Linux is up there as well
+# Linux is up there as well
 https://sueldos.openqube.io/encuesta-sueldos-2023.01/
 ![openqube]({{site.baseurl}}/presentation/bash-intro/openqube-2023.png)
 
 ---
 
-## Installation
+# Installation
 
 **Windows**: Download Git Bash (https://git-scm.com/download/win)
 
@@ -29,7 +29,7 @@ We will be using the terminal to run bash commands, make sure you have it instal
 
 ---
 
-## Shells and Terminals
+# Shells and Terminals
 
 A shell is a command interpreter. It takes commands from the user, and delivers them to the operating system to perform.
 
@@ -41,7 +41,7 @@ A terminal is a program that lets you interact with the shell.
 
 ---
 
-## Bash (1989)
+# Bash (1989)
 
 Bourne Again Shell
 
@@ -51,7 +51,7 @@ Default shell on most UNIX operating systems
 
 ---
 
-## Bash interactive and non-interactive mode
+# Bash interactive and non-interactive mode
 
 Interactive: allows running commands through a prompt, one command at a time.
 
@@ -59,7 +59,7 @@ Non-interactive: run bash commands through scripts, automating certain logic. A 
 
 ---
 
-## Interactive mode: Commands
+# Interactive mode: Commands
 
 BASH reads commands from its input (either a terminal or a file)
 
@@ -81,7 +81,7 @@ In a UNIX OS, to leave the manual page use q and press enter
 
 ---
 
-## Navigating directories
+# Navigating directories
 
 mkdir - Creates a directory
 - `mkdir facultad` creates a directory called `facultad`
@@ -98,7 +98,7 @@ ls - List directory's contents
 
 ---
 
-## Piping
+# Piping
 
 '|' allows connecting UNIX programs to each other.
 
@@ -108,7 +108,7 @@ ls lists the files in the working directory, this output is checked by the grep 
 
 ---
 
-## Manipulating Files
+# Manipulating Files
 
 cat - Read file and write it to the standard output
 - `cat resumen_de_la_mejor_materia.txt` prints the contents of the file `resumen_de_la_mejor_materia.txt`
@@ -124,7 +124,7 @@ rm - Remove File(s) and directories
 
 ---
 
-## Other commands
+# Other commands
 
 echo - Writes arguments to the standard output
 - `echo rm *.txt` prints all the options to be removed to make sure we are deleteing what we want to delete.
@@ -141,7 +141,7 @@ history - Shows the history of commands
 
 ---
 
-## Finding files and writing files
+# Finding files and writing files
 
 find - Searches for files in a directory hierarchy
 
@@ -155,7 +155,7 @@ diff - Compares files line by line
 
 ---
 
-## Environment variables
+# Environment variables
 
 Environment variables are special variables that contain information about your login session. They're stored for the system shell to use when executing commands. They exist whether you're using Linux, Mac, or Windows. Many of these variables are set by default during installation or user creation
 
@@ -167,7 +167,7 @@ Environment variables are special variables that contain information about your 
 
 ---
 
-## Aliases
+# Aliases
 
 Aliases are a way to create shortcuts for commands. They are useful for commands that you use frequently, or commands that are long and difficult to type.
 
@@ -181,7 +181,7 @@ Aliases are a way to create shortcuts for commands. They are useful for commands
 
 ---
 
-## Hands on
+# Hands on
 
 **Bashcrawl**: https://gitlab.com/slackermedia/bashcrawl
 
