@@ -96,6 +96,9 @@ touch - Create a file
 ls - List directory's contents
 - `ls` lists the files in the working directory
 
+grep - Searches for a pattern
+- `ls | grep *.txt` # Searches for any file that ends with .txt
+
 ---
 
 # Piping
@@ -133,9 +136,6 @@ pwd - Writes the absolute pathname of the current working directory
 
 curl - Downloads files from the internet
 - `curl https://sebiglesias.com.ar/bash-test` # downloads the file `bash-test` from the internet
-
-grep - Searches for a pattern
-- `ls | grep *.txt` # Searches for any file that ends with .txt
 
 history - Shows the history of commands
 
