@@ -3,31 +3,9 @@ class: center, middle, inverse
 ## Asking Questions
 ---
 
-## What today's class will be like
-
-https://www.youtube.com/watch?v=GQphG85TBdA
-
-
----
-
-- Asking good questions makes you more effective
-- You get better answers more quickly and more often
-- You learn more
-- Good questions save time
-
----
-
-## What happens if you ask bad questions?
-
-- You get frustrated because others can't help you.
-- We are all here to learn, never be afraid to ask questions.
-- But, you might get your answer sooner if you ask better questions.
-
----
-
 ## The Process for code/technical related questions
 
-1. Understand the code to the best of your ability
+1. Understand the code/situation to the best of your ability
 2. Clearly describe the problem
 3. Provide the code that illustrates the problem.
 4. Make sure the code you’re sharing can reproduce the problem.
@@ -117,6 +95,3 @@ Based of Gordon Zhu's article
 
 https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603
 
----
-
-TP: https://github.com/FacultadDeIngenieria/tallerprog1jupyter
