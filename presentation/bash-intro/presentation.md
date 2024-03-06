@@ -1,6 +1,7 @@
 class: center, middle, inverse
 
 ## Linux and Bash
+
 ---
 
 ## Bash is in the top 10 most popular programming languages
@@ -139,6 +140,7 @@ grep - Searches for a pattern
 history - Shows the history of commands
 
 ---
+
 ## Finding files and writing files
 
 find - Searches for files in a directory hierarchy
@@ -186,5 +188,3 @@ Aliases are a way to create shortcuts for commands. They are useful for commands
 Bashcrawl is a game that teaches you how to use the command line.
 
 Follow the instructions to download it and run it.
-
-
