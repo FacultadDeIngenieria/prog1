@@ -121,7 +121,7 @@ In a UNIX OS, to leave the manual page use q and press enter
 
 - mv - Move File(s)
   - `mv resumen_de_la_mejor_materia_2.txt facultad/programacion1.txt` moves the file `resumen_de_la_mejor_materia_2.txt` to `facultad/programacion1.txt
-
+    
 ---
 
 # Other commands
