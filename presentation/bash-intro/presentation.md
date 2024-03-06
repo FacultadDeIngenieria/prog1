@@ -127,8 +127,6 @@ In a UNIX OS, to leave the manual page use q and press enter
 
 ---
 
-# Other commands
-
 - echo - Writes arguments to the standard output
   - `echo rm *.txt` prints all the options to be removed to make sure we are deleteing what we want to delete.
 - pwd - Writes the absolute pathname of the current working directory
