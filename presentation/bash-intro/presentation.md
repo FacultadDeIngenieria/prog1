@@ -125,6 +125,7 @@ mv - Move File(s)
 rm - Remove File(s) and directories
 - `rm facultad/programacion1.txt` removes the file `facultad/programacion1.txt`
 
+
 ---
 
 # Other commands
