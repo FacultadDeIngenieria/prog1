@@ -123,9 +123,11 @@ In a UNIX OS, to leave the manual page use q and press enter
   - `mv resumen_de_la_mejor_materia_2.txt facultad/programacion1.txt` moves the file `resumen_de_la_mejor_materia_2.txt` to `facultad/programacion1.txt
 
 - rm - Remove File(s) and directories
-  - `rm facultad/programacion1.txt` removes the file `facultad/programacion1.txt`
+  - `rm facultad/programacion1.txt` removes the file `facultad/programacion1.txt` h
 
 ---
+
+# Other commands
 
 - echo - Writes arguments to the standard output
   - `echo rm *.txt` prints all the options to be removed to make sure we are deleteing what we want to delete.
