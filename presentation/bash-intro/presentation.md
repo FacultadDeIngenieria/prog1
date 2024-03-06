@@ -125,8 +125,7 @@ mv - Move File(s)
 rm - Remove File(s) and directories
 - `rm facultad/programacion1.txt` removes the file `facultad/programacion1.txt`
 
-
----
+-----------------
 
 # Other commands
 
@@ -168,8 +167,6 @@ Environment variables are special variables that contain information about your 
 
 ---
 
----
-
 # Aliases
 
 Aliases are a way to create shortcuts for commands. They are useful for commands that you use frequently, or commands that are long and difficult to type.
@@ -181,8 +178,6 @@ Aliases are a way to create shortcuts for commands. They are useful for commands
 `unalias ll` # removes the alias `ll`
 
 `aliases` # lists all the aliases
-
----
 
 ---
 
