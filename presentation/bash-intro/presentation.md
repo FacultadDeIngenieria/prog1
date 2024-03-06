@@ -131,9 +131,12 @@ In a UNIX OS, to leave the manual page use q and press enter
 
 - echo - Writes arguments to the standard output
   - `echo rm *.txt` prints all the options to be removed to make sure we are deleteing what we want to delete.
+    
 - pwd - Writes the absolute pathname of the current working directory
+  
 - curl - Downloads files from the internet
   - `curl https://sebiglesias.com.ar/bash-test` # downloads the file `bash-test` from the internet
+    
 - history - Shows the history of commands
 
 ---
@@ -142,8 +145,10 @@ In a UNIX OS, to leave the manual page use q and press enter
 
 - find - Searches for files in a directory hierarchy
   - `find . -name "*.txt"` searches for all files that end with .txt in the current directory
+    
 - nano - Creates a file and opens it in a text editor
   - `nano resumen_de_la_mejor_materia.txt`# creates a file called `resumen_de_la_mejor_materia.txt` and opens it in a text editor
+    
 - diff - Compares files line by line
   - `diff resumen_de_la_mejor_materia.txt resumen_prog1.txt` # compares the files `resumen_de_la_mejor_materia.txt` and `resumen_prog1.txt`
 
