@@ -1,15 +1,15 @@
 ## Presentaciones
 1. [Introduction](introduction)
-2. [Hello World](hello-world)
-3. [Variables](variables)
-4. [Strings](strings)
-5. [Strings (part 2)](strings-2)
-6. [If Statements](ifs)
-7. [Functions](functions)
-8. [Scope](scope)
-9. [Lists](lists)
-10. [Loops](loops)
-11. [Recursion](recursion)
+<!-- 2. [Hello World](hello-world) -->
+<!-- 3. [Variables](variables) -->
+<!-- 4. [Strings](strings) -->
+<!-- 5. [Strings (part 2)](strings-2) -->
+<!-- 6. [If Statements](ifs) -->
+<!-- 7. [Functions](functions) -->
+<!-- 8. [Scope](scope) -->
+<!-- 9. [Lists](lists) -->
+<!-- 10. [Loops](loops) -->
+<!-- 11. [Recursion](recursion) -->
 <!-- 13. [List Comprehension & Plots](listsplots) -->
 
 ## Taller Viernes 14hs
