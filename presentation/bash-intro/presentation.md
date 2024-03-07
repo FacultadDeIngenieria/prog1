@@ -169,7 +169,7 @@ In a UNIX OS, to leave the manual page use q and press enter
   - `alias ll='ls -l'` # creates an alias called `ll` for the command `ls -l`
   - `ll` # lists all the files in the working directory
   - `unalias ll` # removes the alias `ll`
-  - `aliases` # lists all the aliases
+  - `alias` # lists all the aliases
 
 ---
 
