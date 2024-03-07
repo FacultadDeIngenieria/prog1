@@ -13,11 +13,11 @@
 <!-- 13. [List Comprehension & Plots](listsplots) -->
 
 ## Taller Viernes 14hs
-1. [Bash Intro](bash-intro)
-<!-- 2. [Git Intro](git-intro) -->
-<!-- 3. [Regex](regex) -->
+1. [Asking Questions](asking-questions)
+2. [Bash Intro](bash-intro)
+<!-- 3. [Git Intro](git-intro) -->
+<!-- 4. [Regex](regex) -->
 <!-- 5. [Ways to run Python](run-python) -->
-<!-- 6. [Asking Questions](asking-questions) -->
 
 ### Trabajos Prácticos Taller
 1. [Bash](practice/bash.md)
