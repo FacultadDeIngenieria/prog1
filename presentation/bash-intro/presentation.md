@@ -127,6 +127,16 @@ In a UNIX OS, to leave the manual page use q and press enter
     
 ---
 
+# Non-interactive mode
+
+The extention .sh is used for files that contain shell commands
+
+- `nano my_commands.sh` creates a file called my_commands and opens an editor
+
+- `bash my_commands.sh` executes the commands in the file in order
+    
+---
+
 # Other commands
 
 - echo - Writes arguments to the standard output
