@@ -14,16 +14,16 @@
 
 ## Taller Viernes 14hs
 1. [Bash Intro](bash-intro)
-2. [Git Intro](git-intro)
-3. [Regex](regex)
-5. [Ways to run Python](run-python) 
-6. [Asking Questions](asking-questions)
+<!-- 2. [Git Intro](git-intro) -->
+<!-- 3. [Regex](regex) -->
+<!-- 5. [Ways to run Python](run-python) -->
+<!-- 6. [Asking Questions](asking-questions) -->
 
 ### Trabajos Prácticos Taller
 1. [Bash](practice/bash.md)
-2. [Git](practice/git.md)
-3. [Regex](practice/regex.md)
-4. [Jupyter](practice/jupyter.md)
+<!-- 2. [Git](practice/git.md) -->
+<!-- 3. [Regex](practice/regex.md) -->
+<!-- 4. [Jupyter](practice/jupyter.md) -->
 
 ## Trabajos Prácticos
 
