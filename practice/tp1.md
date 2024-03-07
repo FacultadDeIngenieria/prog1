@@ -6,6 +6,10 @@ permalink: /practice/1
 
 # Trabajo Práctico 1
 
+## Completar el trabajo práctico en GitHub Classroom
+[Link al TP 1](https://classroom.github.com/a/A1I8Af3W)
+
+
 ## Ejercicio 1
 
 Para este ejercicio el objetivo es leer el código, anotar lo que piensen que los prints vayan a decir y luego correr el código para ver si les dio igual o no.
