@@ -178,3 +178,5 @@ In a UNIX OS, to leave the manual page use q and press enter
 - **Bashcrawl**: https://gitlab.com/slackermedia/bashcrawl
 - Bashcrawl is a game that teaches you how to use the command line.
 - Follow the instructions to download it and run it.
+
+- **Practice from class**: https://docs.google.com/document/d/1U42SZKWenmtOXu2_zX8Fz5wAjYJ0eRJJDxNHVQNEjPo/edit?usp=sharing
