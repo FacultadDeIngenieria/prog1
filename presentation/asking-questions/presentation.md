@@ -1,12 +1,13 @@
 class: center, middle, inverse
 
 ## Taller Programación 1
---- 
+
+---
+
 - Viernes de 14hs a 16hs
 - Asistencia Obligatoria
 - 4 Trabajos Prácticos sin nota, pero que necesitan ser aprobados.
 - Es condicioón necesaria para aprobar la cursada tener los 4 trabajos prácticos del taller aprobados.
-
 
 ---
 ## Asking Questions
