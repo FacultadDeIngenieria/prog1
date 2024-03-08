@@ -7,7 +7,7 @@ class: center, middle, inverse
 
 Join discord using this URL. Create an account if you don't have an user. Download app in PC or phone. 
 
-[discord.gg/7cz4KmCnFa](discord.gg/7cz4KmCnFa)
+[https://discord.gg/7cz4KmCnFa](https://discord.gg/7cz4KmCnFa)
 
 Discord will be the our main hub for Prog 1. You can ask questions there and also get notifications from the professors there.
 

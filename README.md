@@ -1,16 +1,16 @@
 ## Presentaciones
 1. [Introduction](introduction)
-<!-- 2. [Hello World](hello-world) -->
-<!-- 3. [Variables](variables) -->
-<!-- 4. [Strings](strings) -->
-<!-- 5. [Strings (part 2)](strings-2) -->
-<!-- 6. [If Statements](ifs) -->
-<!-- 7. [Functions](functions) -->
-<!-- 8. [Scope](scope) -->
-<!-- 9. [Lists](lists) -->
-<!-- 10. [Loops](loops) -->
-<!-- 11. [Recursion](recursion) -->
-<!-- 13. [List Comprehension & Plots](listsplots) -->
+2. [Set-up Practica](practice-setup)
+<!-- 3. [Hello World](hello-world) -->
+<!-- 4. [Variables](variables) -->
+<!-- 5. [Strings](strings) -->
+<!-- 6. [Strings (part 2)](strings-2) -->
+<!-- 7. [If Statements](ifs) -->
+<!-- 8. [Functions](functions) -->
+<!-- 9. [Scope](scope) -->
+<!-- 10. [Lists](lists) -->
+<!-- 11. [Loops](loops) -->
+<!-- 12. [List Comprehension & Plots](listsplots) -->
 
 ## Taller Viernes 14hs
 1. [Asking Questions](asking-questions)
