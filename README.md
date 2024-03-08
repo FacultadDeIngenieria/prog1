@@ -60,11 +60,11 @@
 
 
 ## Cátedra
-* Juan Longo: [juan.longo@ing.austral.edu.ar](mailto:juan.longo@ing.austral.edu.ar)
+* Juan Longo: [juan.longo@ing.austral.edu.ar](mailto:jlongo@austral.edu.ar)
 * Matías Ponce: [matias.ponce@ing.austral.edu.ar](mailto:matias.ponce@ing.austral.edu.ar)
 * Matías Miodosky: [matias.miodosky@ing.austral.edu.ar](matias.miodosky@ing.austral.edu.ar)
 * Gastón Gadea: [gaston.gadea@ing.austral.edu.ar](gaston.gadea@ing.austral.edu.ar)
 * Sebastián Iglesias: [sebastian.iglesias@ing.austral.edu.ar](sebastian.iglesias@ing.austral.edu.ar)
 * Katia Cammisa: [katia.cammisa@ing.austral.edu.ar](katia.cammisa@ing.austral.edu.ar)
-* [Click para consultar](mailto:matias.ponce@ing.austral.edu.ar,gaston.gadea@ing.austral.edu.ar,sebastian.iglesias@ing.austral.edu.ar?subject=Consulta)
+* Catalina Ghiglione: [catalina.ghiglione@ing.austral.edu.ar](catalina.ghiglione@ing.austral.edu.ar)
 
