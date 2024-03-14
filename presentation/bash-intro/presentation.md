@@ -73,9 +73,15 @@ The first word of the line is the name of the command to be executed, all other 
 
 `$` Usually indicates that the shell is Bash compatible
 
+For Mac and Linux:
 `man` "manual", displays manual documentation pages
 
-Each command on your system is likely to have a man page
+For Windows:
+`help` displays manual documentation pages
+
+https://tldr.inbrowser.app
+
+Each command on your system is likely to have a manual page
 
 In a UNIX OS, to leave the manual page use q and press enter
 
