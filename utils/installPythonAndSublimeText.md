@@ -71,7 +71,7 @@ In that case, download a Python installer for Windows. Go to http://python.org/d
 
 Open a command window and enter python in lowercase. If you get a Python prompt (>>>), Windows has found the version of Python you just installed:
 ```commandline
-C:\> python
+C:\> py
 Python 3.10.3 (tags/v3.10.3:a342a49, Mar 16 2022, 13:07:40) [MSC v.1929 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
 ```
@@ -93,3 +93,21 @@ brew install --cask sublime-text
 sudo apt-get update
 sudo apt-get install sublime-text
 ```
+
+## Pytest Installation
+Requirement: Have python installed previously
+
+### MACOS
+```commandline
+python3 -m pip install –upgrade pip
+pip install pytest
+```
+### Windows
+
+Having installed python from python.org, then just run this:
+
+```commandline
+pip install pytest
+```
+
+If you cannot install it this way, please check this documentation: https://pip.pypa.io/en/stable/installation/
