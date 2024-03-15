@@ -101,6 +101,7 @@ In a UNIX OS, to leave the manual page use q and press enter
 
 - ls - List directory's contents
   - `ls` lists the files in the working directory
+  - `ls -F -R` lists the files in the directory and all subdirectories with their types 
 
 - grep - Searches for a pattern
   - `ls | grep *.txt` # Searches for any file that ends with .txt
