@@ -56,7 +56,6 @@
 * [What's an algorithm?](https://www.youtube.com/watch?v=6hfOvs8pY1k)
 * [ASCII Table Extended](https://computersciencewiki.org/images/3/3d/Ascii_table.png)
 * [Tips from class](resources/hoja_tips.pdf)
-* [Excercism](http://facultaddeingenieria.duckdns.org)
 
 
 ## Cátedra
