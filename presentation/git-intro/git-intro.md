@@ -22,10 +22,10 @@ Git intro
 
 - Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
 - It allows you to:
-  - revert selected files back to a previous state
-  - revert the entire project back to a previous state
-  - compare changes over time
-  - see who last modified something that might be causing a problem, who introduced an issue and when
+  - Revert selected files back to a previous state
+  - Revert the entire project back to a previous state
+  - Compare changes over time
+  - See who last modified something that might be causing a problem, who introduced an issue and when
   - Recover and more
 
 ---
@@ -56,6 +56,7 @@ To be efficient, if files have not changed, Git doesn’t store the file again, 
 # Git can work locally
 
 - **Local Operation**: Most operations in Git need only local files and resources to operate. This allows you to work offline and travel with your repository.
+  
 - **Tracking Changes**: it’s impossible to change the contents of any file or directory without Git knowing about it.
 
 ---
@@ -63,7 +64,9 @@ To be efficient, if files have not changed, Git doesn’t store the file again, 
 # Three states: modified, staged, and committed
 
 - **Modified** means that you have changed the file but have not committed it to your database yet.
+  
 - **Staged** means that you have marked a modified file in its current version to go into your next commit snapshot.
+  
 - **Committed** means that the data is safely stored in your local database.
 
 ---
