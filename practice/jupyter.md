@@ -69,7 +69,7 @@ For other operating systems (e.g., Linux), you can follow the general installati
 
 ## The Assignment
 
-Visit the assignment repository on Git https://github.com/FacultadDeIngenieria/taller-jupyter-tp
+Visit the assignment repository on Git https://github.com/austral-prog/taller-jupyter-tp
 
 There's a pre-existing jupyter notebook file, you need to make a copy of it before starting.
 
