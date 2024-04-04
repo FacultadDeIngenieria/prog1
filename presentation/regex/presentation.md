@@ -33,5 +33,7 @@ Regex
 
 - https://regexone.com/
 
-- Regex one  is a website that offers free interactive lessons and tutorials on regular expressions. It's a popular resource for individuals who want to learn and practice regex in a hands-on manner.
+- Regex one is a website that offers free interactive lessons and tutorials on regular expressions. It's a popular resource for individuals who want to learn and practice regex in a hands-on manner.
+  
+- https://regexr.com/
 
