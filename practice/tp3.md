@@ -6,6 +6,10 @@ permalink: /practice/3
 
 # Trabajo Práctico 3
 
+## Completar el trabajo práctico en GitHub Classroom
+[Link al TP 3](https://classroom.github.com/a/2s-oU9cx)
+
+
 ## Ejercicio 1 - Uso del "in"
 
 Ingresar un nombre usando input y verificar que contenga cada una de las vocales.
