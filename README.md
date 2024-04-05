@@ -16,14 +16,14 @@
 1. [Asking Questions](asking-questions)
 2. [Bash Intro](bash-intro)
 3. [Ways to run Python](run-python)
+4. [Regex](regex)
 <!-- 4. [Git Intro](git-intro) -->
-<!-- 5. [Regex](regex) -->
 
 ### Trabajos Prácticos Taller
 1. [Bash](practice/bash.md)
 2. [Jupyter](practice/jupyter.md)
+3. [Regex](practice/Tp3_Regex.ipynb)
 <!-- 3. [Git](practice/git.md) -->
-<!-- 4. [Regex](practice/regex.md) -->
 
 ## Trabajos Prácticos
 
