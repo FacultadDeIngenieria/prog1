@@ -37,3 +37,11 @@ Regex
   
 - https://regexr.com/
 
+---
+
+# Useful methods
+
+- Findall https://www.codecademy.com/resources/docs/python/regex/findall
+
+- Sub https://www.codecademy.com/resources/docs/python/regex/sub
+
