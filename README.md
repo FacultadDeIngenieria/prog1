@@ -5,7 +5,7 @@
 4. [Variables](variables)
 5. [Strings](strings)
 6. [Strings (part 2)](strings-2)
-<!-- 7. [If Statements](ifs) -->
+7. [If Statements](ifs)
 <!-- 8. [Functions](functions) -->
 <!-- 9. [Scope](scope) -->
 <!-- 10. [Lists](lists) -->
