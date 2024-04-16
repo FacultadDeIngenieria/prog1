@@ -31,7 +31,7 @@
 2. [TP2](practice/2)
 3. [TP3](practice/3)
 4. [TP4](practice/4)
-<!-- 5. [TP5](practice/5)-->
+5. [TP5](practice/5)
 <!-- 6. [TP6](practice/6)-->
 <!-- 7. [TP7](practice/7)-->
 <!-- 8. [TP8](practice/8)-->
