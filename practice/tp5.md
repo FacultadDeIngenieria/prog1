@@ -82,7 +82,7 @@ def derivation(a, b):
 ```
 
 HINT: Para resolver una cuadrática:
-![cuadratic]({{site.baseurl}}/practice/tp5.png)
+![cuadratic](quadratic_formula.png)
 
 
 Ejemplos:
