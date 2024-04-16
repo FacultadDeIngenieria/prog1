@@ -6,6 +6,9 @@ permalink: /practice/4
 
 # Trabajo Práctico 4
 
+## Completar el trabajo práctico en GitHub Classroom
+[Link al TP 4](https://classroom.github.com/a/7qh8h30i)
+
 ## Ejercicio 1 - Line
 
 Queremos hacer un programa que nos calcule para una ecuación de primer grado la distancia sobre la recta entre dos 
