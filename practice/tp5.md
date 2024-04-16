@@ -61,8 +61,8 @@ number_to_month(99) # Retorna: "error"
 Completar, definir e implementar los métodos necesarios para resolver una ecuación cuadrática de 2º grado. Para ello, lo que deberán hacer es crear todos los siguentes métodos:
 
 * Dado los parámetros (a, b, c) el método roots devolverá un String de la forma "(r1, r2)" o "(r12)" o "( )" según sea el caso de que tenga dos raíces, una raíz o ninguna.
-* Dado los parámetros (a, b, c, x) el método valueY devolverá el valor de Y para un valor de X que se le pasa como parámetro.
-* Dado los parámetros (a, b, c) el método toString que devolverá un String mostrando la ecuación "f(x) = A * X^2 + B * X + C" reemplazando los valores de a, b y c.
+* Dado los parámetros (a, b, c, x) el método value_y devolverá el valor de Y para un valor de X que se le pasa como parámetro.
+* Dado los parámetros (a, b, c) el método to_string que devolverá un String mostrando la ecuación "f(x) = A * X^2 + B * X + C" reemplazando los valores de a, b y c.
 * Dado los parámetros (a, b, c) el método derivation que devolverá un String mostrando la función lineal que resulta de derivar la función cuadrática.
 
 ```python
@@ -71,10 +71,10 @@ Completar, definir e implementar los métodos necesarios para resolver una ecuac
 def roots(a, b, c):
     return "ANSWER HERE"
 
-def valueY(a, b, c, x):
+def value_y(a, b, c, x):
     return "ANSWER HERE"
 
-def toString(a, b, c):
+def to_string(a, b, c):
     return "ANSWER HERE"
 
 def derivation(a, b):
@@ -91,11 +91,11 @@ roots(1, -3, 2) # Retorna: "(2.0, 1.0)"
 roots(1, -2, 1) # Retorna: "(1.0)"
 roots(1, 2, 3)  # Retorna: "( )"
 
-valueY(1, -3, 2, 0) # Retorna: 2
-valueY(1, -3, 2, 1) # Retorna: 0
-valueY(1, -3, 2, -1) # Retorna: 6
+value_y(1, -3, 2, 0) # Retorna: 2
+value_y(1, -3, 2, 1) # Retorna: 0
+value_y(1, -3, 2, -1) # Retorna: 6
 
-toString(2, -3, 1) # Retorna: "f(x) = 2 * X^2 + -3 * X + 1"
+to_string(2, -3, 1) # Retorna: "f(x) = 2 * X^2 + -3 * X + 1"
 
 derivation(2, -3, 1) # Retorna: "f'(x) = 4x + -3"
 ```
