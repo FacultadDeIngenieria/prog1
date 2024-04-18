@@ -6,6 +6,10 @@ permalink: /practice/5
 
 # Trabajo Práctico 5
 
+## Completar el trabajo práctico en GitHub Classroom
+[Link al TP 5](https://classroom.github.com/a/eJ6YLX1r)
+
+
 ## Ejercicio 1 - Cálculo de los máximos
 
 Para este ejercicio deberan implementar las funciones dadas para que cumplan con su objetivo. Para saber como implementar cada metodo, deberan leer el python-doc.
