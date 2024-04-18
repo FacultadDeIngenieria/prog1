@@ -50,6 +50,8 @@
 ## Instalación y configuración de Python y SublimeText
 [Revisar los pasos  aqui](utils/installation)
 
+## PyCharm Educational License
+[Revisar los pasos  aqui](utils/license)
 
 ## Recursos
 
