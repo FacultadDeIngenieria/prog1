@@ -38,6 +38,9 @@
 <!-- 9. [TP9](practice/9)-->
 <!-- 10. [TP10](practice/10)-->
 
+## Ejercicios adicionales
+[Primer parcial](additional-practice/1)
+
 <!-- ## Ejercicios Final -->
 <!-- [Ejercicios Final](final-practice) -->
 <!-- [Ejercicios 2do parcial](practice-exercises) -->
