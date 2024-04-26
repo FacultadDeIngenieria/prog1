@@ -1,6 +1,6 @@
 class: center, middle, inverse
 
-# Debugging in Python
+# Debug
 
 ---
 
@@ -10,7 +10,11 @@ class: center, middle, inverse
 
 Debugging is the process of identifying, analyzing, and fixing errors, or bugs, in a computer program. It helps ensure that the program functions correctly and produces the expected results. Debugging involves systematically troubleshooting to locate the source of the problem and then applying a solution to fix it.
 
-- Key Aspects of Debugging
+History: https://blog.cemebe.info/la-leyenda-del-bug-informatico/
+
+---
+
+## Key Aspects of Debugging
 
 * `Identifying the Issue`: The first step in debugging is identifying that there is an issue or bug in the program. This can be done by observing incorrect behavior, unexpected output, or error messages.
 * `Isolating the Problem`: Once the issue is identified, the next step is to isolate the problem. This involves narrowing down the scope of the issue to understand where exactly the error is occurring in the code.
@@ -72,7 +76,7 @@ ZeroDivisionError: division by zero
 
 ---
 
-- Logical Errors
+## Common Errors in Python: Logical Errors
 
 A Logical Error occurs when the code is syntactically correct, and it runs without raising any exceptions, but it does not produce the expected or desired output due to flawed logic or incorrect algorithms. Unlike Syntax Errors or Runtime Errors, Logical Errors do not cause the program to terminate abnormally or produce error messages; instead, they cause the program to behave unexpectedly or incorrectly.
 

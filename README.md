@@ -8,6 +8,7 @@
 7. [If Statements](ifs)
 8. [Functions](functions)
 9. [Scope](scope)
+9. [Debug](debug)
 <!-- 10. [Lists](lists) -->
 <!-- 11. [Loops](loops) -->
 <!-- 12. [List Comprehension & Plots](listsplots) -->
