@@ -12,19 +12,6 @@
 <!-- 11. [Loops](loops) -->
 <!-- 12. [List Comprehension & Plots](listsplots) -->
 
-## Taller Viernes 14hs
-1. [Asking Questions](asking-questions)
-2. [Bash Intro](bash-intro)
-3. [Ways to run Python](run-python)
-4. [Regex](regex)
-<!-- 4. [Git Intro](git-intro) -->
-
-### Trabajos Prácticos Taller
-1. [Bash](practice/bash.md)
-2. [Jupyter](practice/jupyter.md)
-3. [Regex](practice/Tp3_Regex.ipynb)
-<!-- 3. [Git](practice/git.md) -->
-
 ## Trabajos Prácticos
 
 1. [TP1](practice/1)
@@ -50,6 +37,23 @@
 <!-- * Lunes 19/09: Primer parcial -->
 <!-- * Lunes 14/11: Segundo parcial -->
 
+**************************************************
+
+## Taller Viernes 14hs
+1. [Asking Questions](asking-questions)
+2. [Bash Intro](bash-intro)
+3. [Ways to run Python](run-python)
+4. [Regex](regex)
+<!-- 4. [Git Intro](git-intro) -->
+
+## Trabajos Prácticos Taller
+1. [Bash](practice/bash.md)
+2. [Jupyter](practice/jupyter.md)
+3. [Regex](practice/Tp3_Regex.ipynb)
+<!-- 3. [Git](practice/git.md) -->
+
+**************************************************
+
 ## Instalación y configuración de Python y SublimeText
 [Revisar los pasos  aqui](utils/installation)
 
@@ -62,6 +66,7 @@
 * [ASCII Table Extended](https://computersciencewiki.org/images/3/3d/Ascii_table.png)
 * [Tips from class](resources/hoja_tips.pdf)
 
+**************************************************
 
 ## Cátedra
 * Juan Longo: [juan.longo@ing.austral.edu.ar](mailto:jlongo@austral.edu.ar)
