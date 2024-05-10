@@ -93,6 +93,6 @@ https://github.com
 
 # Putting into practice
 
-https://ohmygit.org/
+https://learngitbranching.js.org/
 
-Oh My Git! is a game that teaches you how to use Git. Follow the instructions to download it and run it.
+Is a game that teaches you how to use Git.
