@@ -6,132 +6,50 @@ permalink: /practice/6
 
 # Trabajo Práctico 6
 
+## Completar el trabajo práctico en GitHub Classroom
+[Link al TP 6](https://classroom.github.com/a/afPKefCR)
 
-## Ejercicio 1
 
-```python
-def mi_funcion():
-    x = 10
-    print(x)
+En este ejercicio deberán implementar todos los métodos descritos a continuación:
 
-x = 5
-mi_funcion()
-print(x)
+Escribir un método llamado **remove_elements** que dado una lista retorne una lista después de haber removido el primer, el quinto y el sexto elemento.
+Tener en cuenta que la lista puede ser de menor o mayor tamaño que los elementos que se piden borrar y que del ejemplo, por lo que debe seguir funcionando sin importar el tamaño de la lista.
 ```
-Responder:
-¿Cuál será la salida de este código? ¿ Por qué ?
-
-## Ejercicio 2
-
-```python
-def mi_funcion():
-    global x
-    x = 10
-    print(x)
-
-x = 5
-mi_funcion()
-print(x)
+Sample Input : ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+Expected Output : ['Green', 'White', 'Black']
 ```
-Responder:
-¿Cuál será la salida de este código? ¿ Por qué ?
 
-## Ejercicio 3
+Escribir un método llamado **add_elements** que dado una lista retorne una lista después de 
+haber agregado el elemento 'Pink' al principio de la lista y el elemento 'Yellow' al final de la lista.
 
-```python
-def incrementar():
-    global contador
-    contador += 1
-
-contador = 0
-incrementar()
-incrementar()
-incrementar()
-print(contador)
 ```
-Responder:
-¿Cuál será la salida de este código? ¿ Por qué ?
-
-## Ejercicio 4
-
-```python
-def mi_funcion():
-    x = 10
-    print(x)
-
-x = 5
-mi_funcion()
-print(x)
+Sample Input : ['Red', 'Green', 'White', 'Black']
+Expected Output : ['Pink', 'Red', 'Green', 'White', 'Black', 'Yellow']
 ```
-Responder:
-¿Qué sucede si intentas imprimir x fuera de la función mi_funcion? ¿ Por qué ?
 
-## Ejercicio 5
+Escribir un método llamado **is_empty** que diga si una lista está vacía o no.
 
-```python
-def mi_funcion():
-    global x
-    x = 10
-    print(x)
-
-x = 5
-mi_funcion()
-print(x)
+Escribir un método llamado **check_lists** que dado dos listas retorne True si ambas listas contienen el mismo 3er elemento.
+Tener en cuenta que la lista puede ser de menor o mayor tamaño que los elementos que se piden comparar, por lo que debe seguir funcionando sin importar el tamaño de la lista.
+Si una lista contiene un valor en el 3er elemento y la otra lista no, se considera que no tienen el mismo elemento y la respuesta debe ser False
 ```
-Responder:
-¿Qué sucede si eliminas la línea global x de la función mi_funcion? ¿ Por qué ?
+Sample List1 : ['Black', 'Pink', 'Yellow', 'Red', 'Green', 'White']
+Sample List2 : ['Red', 'Green', 'Yellow', 'White', 'Black', 'Pink']
+Expected Output : True
 
-## Ejercicio 6
-
-```python
-def exterior():
-    x = 10
-    def interior():
-        print(x)
-    interior()
-
-exterior()
+Sample List1 : ['Black', 'Pink', 'Green', 'White']
+Sample List2 : ['Red', 'Green', 'Yellow', 'Black', 'Pink']
+Expected Output : False
 ```
-Responder:
-¿Cuál será la salida de este código? ¿ Por qué ?
 
-## Ejercicio 7
+Escribir un método llamado **list_of_lists** que dado una lista de listas, la modifique en la siguiente manera y la retorne:
 
-```python
-def mi_funcion():
-    print(y)
+De la primera lista solo se quede con los primeros 2 elementos.
+De la segunda lista solo se quede con los elementos entre el segundo y cuarto elemento.
+De la tercera lista solo se quede con los últimos 2 elementos.
 
-y = 10
-mi_funcion()
+Tener en cuenta que el tamaño de la lista externa tiene 3 elementos fijos, pero cada uno de esos 3 elementos (que son las listas internas) pueden variar sus tamaños.
 ```
-Responder:
-¿Cuál será la salida de este código? ¿ Por qué ?
-
-## Ejercicio 8
-
-```python
-def mi_funcion():
-    global y
-    print(y)
-
-y = 10
-mi_funcion()
+Sample List: [[1, 2, 3], [4, 5, 6, 7, 8], [9, 10, 11, 12]]
+Sample Output: [[1, 2], [5, 6, 7], [11, 12]]
 ```
-Responder:
-¿Cuál será la salida de este código? ¿ Por qué ?
-
-## Ejercicio 9
-
-```python
-def exterior():
-    x = 10
-    def interior():
-        x = 20
-        print(x)
-    interior()
-    print(x)
-
-exterior()
-```
-Responder:
-¿Cuál será la salida de este código? ¿ Por qué ?
