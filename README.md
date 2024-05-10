@@ -44,7 +44,7 @@
 2. [Bash Intro](bash-intro)
 3. [Ways to run Python](run-python)
 4. [Regex](regex)
-<!-- 4. [Git Intro](git-intro) -->
+5. [Git Intro](git-intro)
 
 ## Trabajos Prácticos Taller
 1. [Bash](practice/bash.md)
