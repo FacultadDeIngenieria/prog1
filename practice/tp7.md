@@ -1,10 +1,13 @@
 ---
-title: Práctica 8
+title: Práctica 7
 layout: practice
-permalink: /practice/8
+permalink: /practice/7
 ---
 
-# Trabajo Práctico 8
+# Trabajo Práctico 7
+
+## Completar el trabajo práctico en GitHub Classroom
+[Link al TP 7](https://classroom.github.com/a/P4awoBvK)
 
 ## Ejercicio 1 - Loops and prints
 
@@ -19,7 +22,7 @@ enumerate_list(colors)
 # ["0.  Red","1.  Green", "2.  White", "3.  Black"]
 ```
 
-Para la segunda parte, hacer un método llamado **enumerate_backwards** que dado una lista de Strings, returne una nueva lista, al igual que en enumerate_list, pero cada palabra deberia estas escrita a la inversa. Si el arreglo tiene Strings vacíos se deben saltear esos elementos de la nueva lista.
+Para la segunda parte, hacer un método llamado **enumerate_backwards** que dado una lista de Strings, returne una nueva lista, al igual que en enumerate_list, pero cada palabra deberia estas escrita a la inversa. Si el arreglo tiene Strings vacíos se deben saltear esos elementos de la nueva lista. No usar -1 de strings.
 
 ```python
 colors = ["Red", "Green", "", "White", "Black"]
