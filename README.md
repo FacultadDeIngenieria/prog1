@@ -10,7 +10,7 @@
 9. [Scope](scope)
 9. [Debug](debug)
 10. [Lists](lists)
-<!-- 11. [Loops](loops) -->
+11. [Loops](loops)
 <!-- 12. [List Comprehension & Plots](listsplots) -->
 
 ## Trabajos Prácticos
@@ -21,7 +21,7 @@
 4. [TP4](practice/4)
 5. [TP5](practice/5)
 6. [TP6](practice/6)
-<!-- 8. [TP8](practice/8)-->
+7. [TP7](practice/7)
 <!-- 9. [TP9](practice/9)-->
 <!-- 10. [TP10](practice/10)-->
 
