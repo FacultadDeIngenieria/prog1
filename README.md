@@ -50,7 +50,7 @@
 1. [Bash](practice/bash.md)
 2. [Jupyter](practice/jupyter.md)
 3. [Regex](practice/Tp3_Regex.ipynb)
-<!-- 3. [Git](practice/git.md) -->
+4. [Git](practice/git.md)
 
 **************************************************
 
