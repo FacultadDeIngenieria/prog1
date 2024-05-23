@@ -106,6 +106,47 @@ Dictionaries come with several useful methods:
 
 ---
 
+# Keys
+
+```python
+student_scores = {
+  "Alice": 85,
+  "Bob": 70,
+  "Charlie": 60
+}
+
+print(student_scores.keys()) # dict_keys(['Alice', 'Bob', 'Charlie'])
+```
+
+---
+
+# Values
+
+```python
+student_scores = {
+  "Alice": 85,
+  "Bob": 70,
+  "Charlie": 70
+}
+print(student_scores.values()) # dict_values([85, 70, 70])
+```
+
+
+---
+
+# Items
+
+```python
+student_scores = {
+  "Alice": 85,
+  "Bob": 70,
+  "Charlie": 60
+}
+print(student_scores.items()) # dict_items([('Alice', 85), ('Bob', 70), ('Charlie', 60)])
+```
+
+---
+
 # Iterating Through a Dictionary
 
 You can loop through a dictionary using a for loop to access keys, values, or key-value pairs.
