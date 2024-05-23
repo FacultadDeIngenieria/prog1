@@ -8,11 +8,12 @@
 7. [If Statements](ifs)
 8. [Functions](functions)
 9. [Scope](scope)
-9. [Debug](debug)
-10. [Lists](lists)
-11. [Loops](loops)
-12. [Maps](maps)
-<!-- 12. [List Comprehension & Plots](listsplots) -->
+10. [Debug](debug)
+11. [Lists](lists)
+12. [Loops](loops)
+13. [Tuples](tuples)
+14. [Maps](maps)
+<!-- [List Comprehension & Plots](listsplots) -->
 
 ## Trabajos Prácticos
 
