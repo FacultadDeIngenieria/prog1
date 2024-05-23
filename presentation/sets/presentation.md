@@ -80,7 +80,7 @@ fruits.discard("banana") # No error
 
 ---
 
-# Tuple Methods
+# Set Methods
 
 
 Sets have several methods that you can use to manipulate them. Some of the most common methods are:
