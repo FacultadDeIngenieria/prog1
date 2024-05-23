@@ -73,7 +73,7 @@ student_scores["David"] = 88
 student_scores["Alice"] = 95
 ```
 
-If the key exited, it will be updated. If the key was not present, it will be created.
+If the key exists, it will be updated. If the key was not present, it will be created.
 
 --- 
 
