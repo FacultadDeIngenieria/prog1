@@ -25,8 +25,8 @@
 5. [TP5](practice/5)
 6. [TP6](practice/6)
 7. [TP7](practice/7)
-<!-- 9. [TP9](practice/9)-->
-<!-- 10. [TP10](practice/10)-->
+7. [TP8](practice/8)
+
 
 ## Ejercicios adicionales
 [Primer parcial](additional-practice/1)
