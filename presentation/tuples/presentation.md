@@ -111,3 +111,80 @@ for index, fruit in enumerate(fruits):
 
 ```
 
+---
+
+# Tuple Unpacking
+
+You can unpack a tuple into multiple variables.
+
+```python
+fruits = ("apple", "banana", "cherry")
+a, b, c = fruits
+print(a) # apple
+print(b) # banana
+print(c) # cherry
+```
+
+---
+
+# Tuple Packing
+
+You can pack multiple values into a tuple.
+
+```python
+fruits = "apple", "banana", "cherry"
+print(fruits) # ('apple', 'banana', 'cherry')
+```
+
+---
+
+# Tuple Concatenation
+
+You can concatenate two or more tuples using the + operator.
+
+```python
+fruits = ("apple", "banana", "cherry")
+colors = ("red", "yellow", "pink")
+fruits_colors = fruits + colors
+print(fruits_colors) # ('apple', 'banana', 'cherry', 'red', 'yellow', 'pink')
+```
+
+---
+
+# Tuple Slicing
+
+You can slice a tuple using the colon operator.
+
+```python
+fruits = ("apple", "banana", "cherry", "date", "elderberry")
+print(fruits[1:3]) # ('banana', 'cherry')
+print(fruits[:3]) # ('apple', 'banana', 'cherry')
+print(fruits[3:]) # ('date', 'elderberry')
+```
+
+---
+
+# Use Cases
+
+- Tuples are used to store multiple values in a single variable.
+
+```python
+coordinates = (3, 4)
+```
+
+- Tuples are used to return multiple values from a function.
+
+```python
+def get_coordinates():
+    return 3, 4
+
+x, y = get_coordinates()
+```
+
+---
+
+- Tuples are used to store fixed-size data, such as days of the week, months of the year, etc.
+
+```python
+days_of_week = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+```
