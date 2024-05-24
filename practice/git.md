@@ -12,8 +12,6 @@ Cada archivo de markdown tendrá que tener por lo menos 4 títulos principales (
 
 Realicen los commits que crean necesarios usando descripciones apropiadas para los mensajes de los commits. Hagan el push a las branches del repositorio que tenían asignados (Cada uno a su repositorio).
 
-Ahí termina la parte individual del trabajo práctico, la siguiente parte necesitan realizarla todos juntos. Que se dará la clase que viene.
-
 Ahí termina la parte individual del trabajo práctico, la siguiente parte necesitan realizarla todos juntos.
 
 Una vez que todas las secciones estén terminadas, tienen que realizar un Pull Request que trate de unificar los cambios de cada sección en main. Habrá un pull request por cada branch de sección.
