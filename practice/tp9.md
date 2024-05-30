@@ -6,10 +6,10 @@ permalink: /practice/9
 
 # Trabajo Práctico 9
 
-[//]: # (## Completar el trabajo práctico en GitHub Classroom)
-[//]: # ([Link al TP 8]&#40;https://classroom.github.com/a/l0EqxU9O&#41;)
+## Completar el trabajo práctico en GitHub Classroom
+[Link al TP 9](https://classroom.github.com/a/e8S6-Mx9)
 
-## Ejercicio 1 - Diccionarios 
+## Diccionarios 
 
 En este ejercicio, administrarás un sistema de inventario.
 
@@ -19,7 +19,7 @@ Tendrás que gestionar la adición de artículos a un inventario. Cada vez que u
 
 Para finalizar, tendrás que implementar una función que devuelva todos los pares clave-valor en un inventario como una lista de `tuplas`.
 
-### 1.1. Crear un inventario basado en una lista
+### 1. Crear un inventario basado en una lista
 
 Implementa la función `create_inventory` que crea un "inventario" a partir de una lista de artículos. Debe devolver un `dict` que contenga cada nombre de artículo emparejado con su cantidad respectiva.
 
@@ -28,7 +28,7 @@ Implementa la función `create_inventory` que crea un "inventario" a partir de u
 {"coal":1, "wood":2, "diamond":3}
 ```
 
-### 1.2. Añadir artículos a partir de una lista a un diccionario existente
+### 2. Añadir artículos a partir de una lista a un diccionario existente
 
 Implementa la función `add_items` que agrega una lista de artículos a un inventario:
 
@@ -37,7 +37,7 @@ Implementa la función `add_items` que agrega una lista de artículos a un inven
 {"coal":2, "wood":2, "iron":1}
 ```
 
-### 1.3. Decrementar artículos del inventario
+### 3. Decrementar artículos del inventario
 
 Implementa la función `decrement_items` que toma una `lista` de artículos. La función debe restar uno de la cantidad disponible en el inventario por cada vez que un artículo aparezca en la `lista`:
 
@@ -52,7 +52,7 @@ Las cantidades de los artículos en el inventario no deben caer por debajo de 0.
 {"coal":0, "wood":0, "diamond":1}
 ```
 
-### 1.4. Eliminar por completo un artículo del inventario
+### 4. Eliminar por completo un artículo del inventario
 
 Implementa la función `remove_item` que elimina un artículo y su cantidad completamente de un inventario:
 
@@ -66,7 +66,7 @@ Si el artículo no se encuentra en el inventario, la función debe devolver el i
 {"coal":2, "wood":1, "diamond":2}
 ```
 
-### 1.5. Devolver el contenido del inventario
+### 5. Devolver el contenido del inventario
 
 Implementa la función `list_inventory` que toma un inventario y devuelve una lista de tuplas `(artículo, cantidad)`. La lista solo debe incluir los artículos disponibles (con una cantidad mayor a cero):
 
