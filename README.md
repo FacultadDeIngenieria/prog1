@@ -31,7 +31,7 @@
 
 ## Ejercicios adicionales
 * [Primer parcial](additional-practice/1)
-* [Mas ejericios de python (facilidad easy)](https://exercism.org/tracks/python/exercises)
+* [Mas ejercicios de python (facilidad easy)](https://exercism.org/tracks/python/exercises)
 
 
 <!-- ## Ejercicios Final -->
