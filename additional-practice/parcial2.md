@@ -121,7 +121,7 @@ Ejemplo:
     "animales": ["perro", "gato", "elefante"],
     "colores": ["rojo", "azul", "verde"]
 }
-La función retorna
+#La función retorna
 {
     8: ["elefante"],
     7: ["manzana"],
