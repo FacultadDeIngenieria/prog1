@@ -30,6 +30,8 @@ Join TP 1 -> [https://classroom.github.com/a/O-b8C5yR](https://classroom.github.
 Find your name and link your GitHub user.
 If you don't find your name, please tell the teacher to add you.
 
+--- 
+
 ## TPs
 
 Next class, we will start with TP 1. Hand-in date for this TP is 13/08/2024 till 9 AM. If you didn't submit our TP by this date, you won't be able to do it after.
