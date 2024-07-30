@@ -1,6 +1,6 @@
 ## Presentaciones
 1. [Introduction](introduction)
-<!-- 2. [Set-up Practica](practice-setup) -->
+2. [Set-up Practica](practice-setup)
 <!-- 3. [Hello World](hello-world) -->
 <!-- 4. [Variables](variables) -->
 <!-- 5. [Strings](strings) -->
