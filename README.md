@@ -46,7 +46,7 @@
 
 **************************************************
 
-## Taller Viernes 14hs
+## Taller Martes 9hs
 1. [Asking Questions](asking-questions)
 2. [Bash Intro](bash-intro)
 3. [Ways to run Python](run-python)
