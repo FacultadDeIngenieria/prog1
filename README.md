@@ -1,32 +1,32 @@
 ## Presentaciones
 1. [Introduction](introduction)
-2. [Set-up Practica](practice-setup)
-3. [Hello World](hello-world)
-4. [Variables](variables)
-5. [Strings](strings)
-6. [Strings (part 2)](strings-2)
-7. [If Statements](ifs)
-8. [Functions](functions)
-9. [Scope](scope)
-10. [Debug](debug)
-11. [Lists](lists)
-12. [Loops](loops)
-13. [Tuples](tuples)
-14. [Maps](maps)
-15. [Sets](sets)
+<!-- 2. [Set-up Practica](practice-setup) -->
+<!-- 3. [Hello World](hello-world) -->
+<!-- 4. [Variables](variables) -->
+<!-- 5. [Strings](strings) -->
+<!-- 6. [Strings (part 2)](strings-2) -->
+<!-- 7. [If Statements](ifs) -->
+<!-- 8. [Functions](functions) -->
+<!-- 9. [Scope](scope) -->
+<!-- 10. [Debug](debug) -->
+<!-- 11. [Lists](lists) -->
+<!-- 12. [Loops](loops) -->
+<!-- 13. [Tuples](tuples) -->
+<!-- 14. [Maps](maps) -->
+<!-- 15. [Sets](sets) -->
 <!-- [List Comprehension & Plots](listsplots) -->
 
 ## Trabajos Prácticos
 
 1. [TP1](practice/1)
-2. [TP2](practice/2)
-3. [TP3](practice/3)
-4. [TP4](practice/4)
-5. [TP5](practice/5)
-6. [TP6](practice/6)
-7. [TP7](practice/7)
-8. [TP8](practice/8)
-9. [TP9](practice/9)
+<!--2. [TP2](practice/2)-->
+<!--3. [TP3](practice/3)-->
+<!--4. [TP4](practice/4)-->
+<!--5. [TP5](practice/5)-->
+<!--6. [TP6](practice/6)-->
+<!--7. [TP7](practice/7)-->
+<!--8. [TP8](practice/8)-->
+<!--9. [TP9](practice/9)-->
 
 
 ## Ejercicios adicionales
@@ -82,5 +82,4 @@
 * Gastón Gadea: [gaston.gadea@ing.austral.edu.ar](gaston.gadea@ing.austral.edu.ar)
 * Sebastián Iglesias: [sebastian.iglesias@ing.austral.edu.ar](sebastian.iglesias@ing.austral.edu.ar)
 * Katia Cammisa: [katia.cammisa@ing.austral.edu.ar](katia.cammisa@ing.austral.edu.ar)
-* Catalina Ghiglione: [catalina.ghiglione@ing.austral.edu.ar](catalina.ghiglione@ing.austral.edu.ar)
 
