@@ -6,14 +6,8 @@ class: center, middle, inverse
 
 # Bash is in the top 10 most popular programming languages
 
-https://survey.stackoverflow.co/2023/#most-popular-technologies-language
+https://survey.stackoverflow.co/2024/technology#1-programming-scripting-and-markup-languages
 ![stackoverflow]({{site.baseurl}}/presentation/bash-intro/stackoverflow-2023.png)
-
----
-
-# Linux is up there as well
-https://sueldos.openqube.io/encuesta-sueldos-2023.01/
-![openqube]({{site.baseurl}}/presentation/bash-intro/openqube-2023.png)
 
 ---
 
