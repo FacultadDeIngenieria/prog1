@@ -4,7 +4,7 @@ class: center, middle, inverse
 
 ---
 
-- Viernes de 14hs a 16hs
+- Martes de 9hs a 11hs
 - Asistencia Obligatoria
 - 4 Trabajos Prácticos sin nota, pero que necesitan ser aprobados.
 - Es condicioón necesaria para aprobar la cursada tener los 4 trabajos prácticos del taller aprobados.
