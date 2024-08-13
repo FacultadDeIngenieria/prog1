@@ -3,7 +3,7 @@
 2. [Set-up Practica](practice-setup)
 3. [Hello World](hello-world)
 4. [Variables](variables)
-<!-- 5. [Strings](strings) -->
+5. [Strings](strings)
 <!-- 6. [Strings (part 2)](strings-2) -->
 <!-- 7. [If Statements](ifs) -->
 <!-- 8. [Functions](functions) -->
@@ -19,7 +19,7 @@
 ## Trabajos Prácticos
 
 1. [TP1](practice/1)
-<!--2. [TP2](practice/2)-->
+2. [TP2](practice/2)
 <!--3. [TP3](practice/3)-->
 <!--4. [TP4](practice/4)-->
 <!--5. [TP5](practice/5)-->
