@@ -7,7 +7,7 @@ permalink: /practice/3
 # Trabajo Práctico 3
 
 ## Completar el trabajo práctico en GitHub Classroom
-[Link al TP 3](https://classroom.github.com/a/2s-oU9cx)
+[Link al TP 3](https://classroom.github.com/a/2FLUWPrP)
 
 
 ## Ejercicio 1 - Uso del "in"
