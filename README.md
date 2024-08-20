@@ -55,6 +55,7 @@
 
 ## Trabajos Prácticos Taller
 1. [Bash](practice/bash.md)
+   [Classroom](https://classroom.github.com/a/VhW88V6e)
 2. [Jupyter](practice/jupyter.md)
    [Classroom](https://classroom.github.com/a/Aummc58V)
 3. [Regex](practice/Tp3_Regex.ipynb)
