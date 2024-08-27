@@ -59,7 +59,8 @@
 2. [Jupyter](practice/jupyter.md)
    [Classroom](https://classroom.github.com/a/Aummc58V)
 3. [Regex](practice/Tp3_Regex.ipynb)
-4. [Git](practice/git.md)
+   [Classroom](https://classroom.github.com/a/A4x3-_AX)
+5. [Git](practice/git.md)
 
 **************************************************
 
