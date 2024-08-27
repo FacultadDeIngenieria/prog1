@@ -7,7 +7,7 @@ permalink: /practice/4
 # Trabajo Práctico 4
 
 ## Completar el trabajo práctico en GitHub Classroom
-[Link al TP 4](https://classroom.github.com/a/TE9V2tFf)
+[Link al TP 4](https://classroom.github.com/a/aXVp-yNa)
 
 ## Ejercicio 1 - Line
 
