@@ -7,7 +7,7 @@ permalink: /practice/5
 # Trabajo Práctico 5
 
 ## Completar el trabajo práctico en GitHub Classroom
-[Link al TP 5](https://classroom.github.com/a/eJ6YLX1r)
+[Link al TP 5](https://classroom.github.com/a/RR7GF3-o)
 
 
 ## Ejercicio 1 - Cálculo de los máximos
