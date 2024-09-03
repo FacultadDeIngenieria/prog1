@@ -55,7 +55,7 @@ Todos los meses deberán ser en minuscula.
 Ejemplos:
 ```python
 number_to_month(1) # Retorna: "enero"
-number_to_month(2) # Retorna: "diciembre"
+number_to_month(12) # Retorna: "diciembre"
 number_to_month(99) # Retorna: "error"
 ```
 
