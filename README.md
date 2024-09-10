@@ -7,8 +7,8 @@
 6. [Strings (part 2)](strings-2)
 7. [If Statements](ifs)
 8. [Functions](functions)
-<!-- 9. [Scope](scope) -->
-<!-- 10. [Debug](debug) -->
+9. [Scope](scope)
+10. [Debug](debug)
 <!-- 11. [Lists](lists) -->
 <!-- 12. [Loops](loops) -->
 <!-- 13. [Tuples](tuples) -->
