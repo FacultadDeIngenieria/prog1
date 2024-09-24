@@ -7,7 +7,7 @@ permalink: /practice/6
 # Trabajo Práctico 6
 
 ## Completar el trabajo práctico en GitHub Classroom
-[Link al TP 6](https://classroom.github.com/a/afPKefCR)
+[Link al TP 6](https://classroom.github.com/a/o4fkxhqg)
 
 
 En este ejercicio deberán implementar todos los métodos descritos a continuación:
