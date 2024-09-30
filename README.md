@@ -52,6 +52,7 @@
 3. [Ways to run Python](run-python)
 4. [Regex](regex)
 5. [Git Intro](git-intro)
+6. [Files](files)
 
 ## Trabajos Prácticos Taller
 1. [Bash](practice/bash.md)
@@ -60,7 +61,8 @@
    [Classroom](https://classroom.github.com/a/Aummc58V)
 3. [Regex](practice/Tp3_Regex.ipynb)
    [Classroom](https://classroom.github.com/a/A4x3-_AX)
-5. [Git](practice/git.md)
+4. [Git](practice/git.md)
+5. [Files]()
 
 **************************************************
 
