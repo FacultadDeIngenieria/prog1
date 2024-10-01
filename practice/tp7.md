@@ -7,7 +7,7 @@ permalink: /practice/7
 # Trabajo Práctico 7
 
 ## Completar el trabajo práctico en GitHub Classroom
-[Link al TP 7](https://classroom.github.com/a/P4awoBvK)
+[Link al TP 7](https://classroom.github.com/a/S-qamzuV)
 
 ## Ejercicio 1 - Loops and prints
 
