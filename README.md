@@ -10,7 +10,7 @@
 9. [Scope](scope)
 10. [Debug](debug)
 11. [Lists](lists)
-<!-- 12. [Loops](loops) -->
+12. [Loops](loops)
 <!-- 13. [Tuples](tuples) -->
 <!-- 14. [Maps](maps) -->
 <!-- 15. [Sets](sets) -->
@@ -24,7 +24,7 @@
 4. [TP4](practice/4)
 5. [TP5](practice/5)
 6. [TP6](practice/6)
-<!--7. [TP7](practice/7)-->
+7. [TP7](practice/7)
 <!--8. [TP8](practice/8)-->
 <!--9. [TP9](practice/9)-->
 
