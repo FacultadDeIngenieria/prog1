@@ -11,7 +11,7 @@
 10. [Debug](debug)
 11. [Lists](lists)
 12. [Loops](loops)
-<!-- 13. [Tuples](tuples) -->
+13. [Tuples](tuples)
 <!-- 14. [Maps](maps) -->
 <!-- 15. [Sets](sets) -->
 <!-- [List Comprehension & Plots](listsplots) -->
