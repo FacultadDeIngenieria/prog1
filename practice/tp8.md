@@ -7,7 +7,7 @@ permalink: /practice/8
 # Trabajo Práctico 8
 
 ## Completar el trabajo práctico en GitHub Classroom
-[Link al TP 8](https://classroom.github.com/a/l0EqxU9O)
+[Link al TP 8](https://classroom.github.com/a/fmma6WeL)
 
 
 ## Ejercicio 1 - Tuplas
