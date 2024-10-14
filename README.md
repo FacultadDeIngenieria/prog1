@@ -53,6 +53,7 @@
 4. [Regex](regex)
 5. [Git Intro](git-intro)
 6. [Files](files)
+7. [Práctica](workshop)
 
 ## Trabajos Prácticos Taller
 1. [Bash](practice/bash.md)
