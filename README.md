@@ -63,7 +63,8 @@
 3. [Regex](practice/Tp3_Regex.ipynb)
    [Classroom](https://classroom.github.com/a/A4x3-_AX)
 4. [Git](practice/git.md)
-5. [Files]()
+5. [Files](https://classroom.github.com/a/DT0fz_Jg)
+6. [Trabajo Práctico Final Taller](https://github.com/austral-prog/taller-prog-1-tp-final)
 
 **************************************************
 
