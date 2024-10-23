@@ -7,7 +7,7 @@ permalink: /practice/9
 # Trabajo Práctico 9
 
 ## Completar el trabajo práctico en GitHub Classroom
-[Link al TP 9](https://classroom.github.com/a/e8S6-Mx9)
+[Link al TP 9](https://classroom.github.com/a/zYh7d0Iz)
 
 ## Diccionarios 
 
