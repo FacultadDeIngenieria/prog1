@@ -42,8 +42,8 @@
 
 ## Parciales y Anuncios
 
-* Lunes 17/09: Primer parcial
-* Lunes 05/11: Segundo parcial
+* Martes 17/09 14hs: Primer parcial
+* Martes 05/11 14hs: Segundo parcial
 
 **************************************************
 
