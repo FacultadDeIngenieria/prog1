@@ -40,10 +40,10 @@
 <!-- [Ejercicios Final](final-practice) -->
 <!-- [Ejercicios 2do parcial](practice-exercises) -->
 
-<!-- ## Parciales y Anuncios -->
+## Parciales y Anuncios
 
-<!-- * Lunes 19/09: Primer parcial -->
-<!-- * Lunes 14/11: Segundo parcial -->
+* Lunes 17/09: Primer parcial
+* Lunes 05/11: Segundo parcial
 
 **************************************************
 
