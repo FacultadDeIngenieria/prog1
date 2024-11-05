@@ -40,11 +40,6 @@
 <!-- [Ejercicios Final](final-practice) -->
 <!-- [Ejercicios 2do parcial](practice-exercises) -->
 
-## Parciales y Anuncios
-
-* Martes 17/09 14hs: Primer parcial
-* Martes 05/11 14hs: Segundo parcial
-
 **************************************************
 
 ## Taller Martes 9hs
@@ -80,6 +75,13 @@
 * [What's an algorithm?](https://www.youtube.com/watch?v=6hfOvs8pY1k)
 * [ASCII Table Extended](https://computersciencewiki.org/images/3/3d/Ascii_table.png)
 * [Tips from class](resources/hoja_tips.pdf)
+
+**************************************************
+
+## Parciales
+
+* Martes 17/09 14hs: Primer parcial
+* Martes 05/11 14hs: Segundo parcial
 
 **************************************************
 
