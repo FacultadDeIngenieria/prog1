@@ -1,6 +1,8 @@
 # Final Introducción a la Programación 1
 
 Objetivo: Se va a crear un programa básico para la gestión de una biblioteca, partiendo del siguiente código (no es necesario copiarlo al entregar el examen), deberá asumir que todo se realiza en un mismo archivo de Python que comienza con estas 4 variables ya creadas. La entrega deben ser las funciones mencionadas en las consignas, junto a cualquier código adicional que necesiten.
+
+```python
 books = [
 	//  ISBN, TITLE, AUTHOR, AVAILABLE, CHECKOUT_NUM
 	[“9788498386561”, “Harry Potter”, “Rowling”, False, 2],
@@ -20,18 +22,24 @@ checked_in_books = [
 	// ISBN, DNI, RETURNED_DATE
 	[“9788498386561”, 12345678, “1/10/2023”]
 ]
-Gestión de Libros
+```
+
+## Gestión de Libros
+
 Para la gestión de los libros en la biblioteca, se va a necesitar agregar libros (con su título, autor y su código ISBN), y listar los que existan.
 Las funciones para la gestión de los libros son 2:
-1.1 Add Book
+### 1.1 Add Book
 	Va a recibir el título del libro, el apellido del autor y un código alfanumérico que identifica al libro. El código alfanumérico es único para cada libro, no se repite de libro a libro. Se debe agregar esa información a una lista de libros que tenga la biblioteca. Todos los libros que se agreguen, deberán registrarse como disponibles para ser prestados. Se asume que hay una única copia de cada libro.  El método no debe retornar nada.
-1.2 List All Books
+### 1.2 List All Books
 	No va a recibir ningún valor, ni tampoco retornar un texto. Va a imprimir por consola todos los libros que estén registrados en la biblioteca con el formato:
 		ISBN: 9788498386561, Title: Harry Potter, Author: Rowling
 
-Gestión de Préstamos
+## Gestión de Préstamos
+
 Para la gestión de préstamos, se debe poder prestar libros a usuarios que estén registrados en el sistema, no permitir prestar libros que estén actualmente prestados o no disponibles y registrar las fechas donde se retiren y devuelvan los libros por cada usuario.
+
 Las funciones a utilizar son:
+
 2.1 Check out book
 	Va a recibir un ISBN, un DNI y una fecha en que se retire. Se asume que la fecha siempre va a ser pasada en un formato de texto y no es necesaria validarla. Se debe verificar que el ISBN pertenezca a la biblioteca, como también un usuario con el DNI indicado. De no existir, se debe retornar un texto indicando: 
 Unable to find the data for the values: ISBN 9788498386560 and DNI: 39741596
@@ -39,6 +47,7 @@ En caso que el ISBN y el DNI existan en la biblioteca, se debe verificar que el 
 Book 9788498386561 is not available 
 Si el libro está disponible, registrar en la biblioteca el checkout del libro con el ISBN del libro, DNI del usuario y fecha de devolución, junto al contador del usuario que registra la cantidad de checkouts realizados, y retornar un texto en el siguiente formato:
 	User 39741596 checked out book 9788498386561
+
 1.2 Check in book
 	Va a recibir un ISBN. Se debe verificar que el ISBN pertenezca a la biblioteca, de no existir se debe retornar un texto indicando:
 		Book 9788498386561 is not available 
