@@ -36,8 +36,8 @@
 * [Mas ejercicios de python (facilidad easy)](https://exercism.org/tracks/python/exercises)
 
 
-<!-- ## Ejercicios Final -->
-<!-- [Ejercicios Final](final-practice) -->
+## Final
+[Ejercicios Final](practice/final.md)
 <!-- [Ejercicios 2do parcial](practice-exercises) -->
 
 **************************************************
