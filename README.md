@@ -37,8 +37,8 @@
 
 
 ## Final
-[Ejercicios Final pdf](practice/final.pdf)
-<!-- [Ejercicios 2do parcial](practice-exercises) -->
+[Final Bibloteca](practice/final.pdf)
+[Final ETL ADN](additional-practice/final-etl-adn.pdf)
 
 **************************************************
 
