@@ -40,7 +40,7 @@ Para la gestión de préstamos, se debe poder prestar libros a usuarios que est�
 
 Las funciones a utilizar son:
 
-2.1 Check out book
+### 2.1 Check out book
 	Va a recibir un ISBN, un DNI y una fecha en que se retire. Se asume que la fecha siempre va a ser pasada en un formato de texto y no es necesaria validarla. Se debe verificar que el ISBN pertenezca a la biblioteca, como también un usuario con el DNI indicado. De no existir, se debe retornar un texto indicando: 
 Unable to find the data for the values: ISBN 9788498386560 and DNI: 39741596
 En caso que el ISBN y el DNI existan en la biblioteca, se debe verificar que el libro no esté actualmente en préstamo (que algún otro usuario lo tenga). En caso de estar en préstamo, indicar retornando el texto:
@@ -48,7 +48,7 @@ Book 9788498386561 is not available
 Si el libro está disponible, registrar en la biblioteca el checkout del libro con el ISBN del libro, DNI del usuario y fecha de devolución, junto al contador del usuario que registra la cantidad de checkouts realizados, y retornar un texto en el siguiente formato:
 	User 39741596 checked out book 9788498386561
 
-1.2 Check in book
+### 1.2 Check in book
 	Va a recibir un ISBN. Se debe verificar que el ISBN pertenezca a la biblioteca, de no existir se debe retornar un texto indicando:
 		Book 9788498386561 is not available 
 	En caso de existir el libro, se debe verificar que esté actualmente en préstamo. De no estarlo retornar el mismo mensaje de error anterior. De estar en préstamo, se debe poner el libro como disponible en el registro de la biblioteca para que otros puedan llevárselo y actualizar el contador de check ins realizados por el usuario.
