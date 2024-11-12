@@ -37,7 +37,6 @@
 
 
 ## Final
-[Ejercicios Final](practice/final.md)
 [Ejercicios Final pdf](practice/final.pdf)
 <!-- [Ejercicios 2do parcial](practice-exercises) -->
 
