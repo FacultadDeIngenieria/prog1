@@ -4,13 +4,30 @@ class: center, middle, inverse
 
 ---
 
-- Martes de 9hs a 11hs
+## Horarios
+- Comisión A y B Miércoles de 9hs a 11hs
+- Comisión C y D Jueves de 14hs a 16hs
+
+## Administrativo
 - Asistencia Obligatoria
-- 4 Trabajos Prácticos sin nota, pero que necesitan ser aprobados.
-- Es condicioón necesaria para aprobar la cursada tener los 4 trabajos prácticos del taller aprobados.
+- 4 Trabajos Prácticos
+- Es condicioón necesaria para aprobar la cursada de Programación 1 tener los 4 trabajos prácticos del taller aprobados.
+
+---
+
+## Qué se ve en el taller?
+
+- Introducción a herramientas informáticas que se usan con más profundidad más adelante en la carrera.
+
+## Literatura sugerida (Ambos disponibles gratuitamente en los siguientes links)
+
+- [Linux Command Line](https://linuxcommand.org/tlcl.php)
+- [Pro Git Book](https://git-scm.com/book/en/v2)
 
 ---
 ## Asking Questions
+
+A simple format as to how to tackle programming problems in general, and how to ask for help when needed.
 
 ---
 
