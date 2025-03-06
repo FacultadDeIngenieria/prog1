@@ -1,68 +1,69 @@
 ## Presentaciones
 1. [Introduction](introduction)
-2. [Set-up Practica](practice-setup)
-3. [Hello World](hello-world)
-4. [Variables](variables)
-5. [Strings](strings)
-6. [Strings (part 2)](strings-2)
-7. [If Statements](ifs)
-8. [Functions](functions)
-9. [Scope](scope)
-10. [Debug](debug)
-11. [Lists](lists)
-12. [Loops](loops)
-13. [Tuples](tuples)
-14. [Maps](maps)
-15. [Sets](sets)
+2. [Introduction presentation](https://drive.google.com/file/d/1jZ7akBG2qQgIt88lK8t7ram-Y99FJu_c)
+<!-- 2. [Set-up Practica](practice-setup) -->
+<!-- 3. [Hello World](hello-world) -->
+<!-- 4. [Variables](variables) -->
+<!-- 5. [Strings](strings) -->
+<!-- 6. [Strings (part 2)](strings-2) -->
+<!-- 7. [If Statements](ifs) -->
+<!-- 8. [Functions](functions) -->
+<!-- 9. [Scope](scope) -->
+<!-- 10. [Debug](debug) -->
+<!-- 11. [Lists](lists) -->
+<!-- 12. [Loops](loops) -->
+<!-- 13. [Tuples](tuples) -->
+<!-- 14. [Maps](maps) -->
+<!-- 15. [Sets](sets) -->
 <!-- [List Comprehension & Plots](listsplots) -->
 
-## Trabajos Prácticos
+<!-- ## Trabajos Prácticos -->
 
-1. [TP1](practice/1)
-2. [TP2](practice/2)
-3. [TP3](practice/3)
-4. [TP4](practice/4)
-5. [TP5](practice/5)
-6. [TP6](practice/6)
-7. [TP7](practice/7)
-8. [TP8](practice/8)
-9. [TP9](practice/9)
-9. [TP10](practice/10)
-
-
-## Ejercicios adicionales
-* [Primer parcial](additional-practice/1)
-* [Segundo parcial](additional-practice/2)
-* [Mas ejercicios de python (facilidad easy)](https://exercism.org/tracks/python/exercises)
+<!-- 1. [TP1](practice/1) -->
+<!-- 2. [TP2](practice/2) -->
+<!-- 3. [TP3](practice/3) -->
+<!-- 4. [TP4](practice/4) -->
+<!-- 5. [TP5](practice/5) -->
+<!-- 6. [TP6](practice/6) -->
+<!-- 7. [TP7](practice/7) -->
+<!-- 8. [TP8](practice/8) -->
+<!-- 9. [TP9](practice/9) -->
+<!-- 9. [TP10](practice/10) -->
 
 
-## Final
-* [Final Bibloteca](practice/final.pdf)
-* [Final ETL ADN](additional-practice/final-etl-adn.pdf)
+<!-- ## Ejercicios adicionales -->
+<!-- * [Primer parcial](additional-practice/1) -->
+<!-- * [Segundo parcial](additional-practice/2) -->
+<!-- * [Mas ejercicios de python (facilidad easy)](https://exercism.org/tracks/python/exercises) -->
 
-**************************************************
 
-## Taller Martes 9hs
-1. [Asking Questions](asking-questions)
-2. [Bash Intro](bash-intro)
-3. [Ways to run Python](run-python)
-4. [Regex](regex)
-5. [Git Intro](git-intro)
-6. [Files](files)
-7. [Práctica](workshop)
+<!-- ## Final -->
+<!-- * [Final Bibloteca](practice/final.pdf) -->
+<!-- * [Final ETL ADN](additional-practice/final-etl-adn.pdf) -->
 
-## Trabajos Prácticos Taller
-1. [Bash](practice/bash.md)
-   [Classroom](https://classroom.github.com/a/VhW88V6e)
-2. [Jupyter](practice/jupyter.md)
-   [Classroom](https://classroom.github.com/a/Aummc58V)
-3. [Regex](practice/Tp3_Regex.ipynb)
-   [Classroom](https://classroom.github.com/a/A4x3-_AX)
-4. [Git](practice/git.md)
-5. [Files](https://classroom.github.com/a/DT0fz_Jg)
-6. [Trabajo Práctico Final Taller](https://github.com/austral-prog/taller-prog-1-tp-final)
+<!-- ************************************************** -->
 
-**************************************************
+<!-- ## Taller Martes 9hs -->
+<!-- 1. [Asking Questions](asking-questions) -->
+<!-- 2. [Bash Intro](bash-intro) -->
+<!-- 3. [Ways to run Python](run-python) -->
+<!-- 4. [Regex](regex) -->
+<!-- 5. [Git Intro](git-intro) -->
+<!-- 6. [Files](files) -->
+<!-- 7. [Práctica](workshop) -->
+
+<!-- ## Trabajos Prácticos Taller -->
+<!-- 1. [Bash](practice/bash.md) -->
+<!--    [Classroom](https://classroom.github.com/a/VhW88V6e) -->
+<!-- 2. [Jupyter](practice/jupyter.md) -->
+<!--    [Classroom](https://classroom.github.com/a/Aummc58V) -->
+<!-- 3. [Regex](practice/Tp3_Regex.ipynb) -->
+<!--    [Classroom](https://classroom.github.com/a/A4x3-_AX) -->
+<!-- 4. [Git](practice/git.md) -->
+<!-- 5. [Files](https://classroom.github.com/a/DT0fz_Jg) -->
+<!-- 6. [Trabajo Práctico Final Taller](https://github.com/austral-prog/taller-prog-1-tp-final) -->
+
+<!-- ************************************************** -->
 
 ## Instalación y configuración de Python y SublimeText
 [Revisar los pasos  aqui](utils/installation)
@@ -76,14 +77,14 @@
 * [ASCII Table Extended](https://computersciencewiki.org/images/3/3d/Ascii_table.png)
 * [Tips from class](resources/hoja_tips.pdf)
 
-**************************************************
+<!-- ************************************************** -->
 
-## Parciales
+<!-- ## Parciales -->
 
-* Martes 17/09 14hs: Primer parcial
-* Martes 05/11 14hs: Segundo parcial
+<!-- * Martes 17/09 14hs: Primer parcial -->
+<!-- * Martes 05/11 14hs: Segundo parcial -->
 
-**************************************************
+<!-- ************************************************** -->
 
 ## Cátedra
 * Juan Longo: [juan.longo@ing.austral.edu.ar](mailto:jlongo@austral.edu.ar)
