@@ -1,7 +1,7 @@
 ## Presentaciones
+0. [First class](https://drive.google.com/file/d/1jZ7akBG2qQgIt88lK8t7ram-Y99FJu_c)
 1. [Introduction](introduction)
-2. [Introduction presentation](https://drive.google.com/file/d/1jZ7akBG2qQgIt88lK8t7ram-Y99FJu_c)
-<!-- 2. [Set-up Practica](practice-setup) -->
+2. [Set-up Practica](practice-setup)
 <!-- 3. [Hello World](hello-world) -->
 <!-- 4. [Variables](variables) -->
 <!-- 5. [Strings](strings) -->
@@ -81,16 +81,22 @@
 
 <!-- ## Parciales -->
 
-<!-- * Martes 17/09 14hs: Primer parcial -->
-<!-- * Martes 05/11 14hs: Segundo parcial -->
+<!-- * Primer Parcial -->
+<!-- * Comisión E: Lunes 5/5/25 11 hsA y Martes 16/05 14hs -->
+<!-- * Comisión C y D: Viernes 16/5/25 9 hs -->
+<!-- * Comisión A y B: Viernes 16/5/25 11 hs -->
+
+<!-- * Segundo Parcial -->
+<!-- * ... -->
 
 <!-- ************************************************** -->
 
 ## Cátedra
+* Gastón Gadea (coordinador): [gaston.gadea@ing.austral.edu.ar](gaston.gadea@ing.austral.edu.ar)
 * Juan Longo: [juan.longo@ing.austral.edu.ar](mailto:jlongo@austral.edu.ar)
 * Matías Ponce: [matias.ponce@ing.austral.edu.ar](mailto:matias.ponce@ing.austral.edu.ar)
 * Matías Miodosky: [matias.miodosky@ing.austral.edu.ar](matias.miodosky@ing.austral.edu.ar)
-* Gastón Gadea: [gaston.gadea@ing.austral.edu.ar](gaston.gadea@ing.austral.edu.ar)
 * Sebastián Iglesias: [sebastian.iglesias@ing.austral.edu.ar](sebastian.iglesias@ing.austral.edu.ar)
-* Katia Cammisa: [katia.cammisa@ing.austral.edu.ar](katia.cammisa@ing.austral.edu.ar)
+* Rocío Ferreiro: [rocio.ferreiro@ing.austral.edu.ar](rocio.ferreiro@ing.austral.edu.ar)
+* José Juarez: [jose.juarez@ing.austral.edu.ar](jose.juarez@ing.austral.edu.ar)
 
