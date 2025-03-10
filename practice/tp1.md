@@ -7,7 +7,7 @@ permalink: /practice/1
 # Trabajo Práctico 1
 
 ## Completar el trabajo práctico en GitHub Classroom
-[Link al TP 1](https://classroom.github.com/a/O-b8C5yR)
+[Link al TP 1](https://classroom.github.com/a/nYqVF7Kz)
 
 
 ## Ejercicio 1
