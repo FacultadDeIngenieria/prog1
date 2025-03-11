@@ -99,5 +99,5 @@
 * Sebastián Iglesias: [sebastian.iglesias@ing.austral.edu.ar](sebastian.iglesias@ing.austral.edu.ar)
 * Rocío Ferreiro: [rocio.ferreiro@ing.austral.edu.ar](rocio.ferreiro@ing.austral.edu.ar)
 * José Juarez: [jose.juarez@ing.austral.edu.ar](jose.juarez@ing.austral.edu.ar)
-* Diego Baldassare: [diego.baldassare@ing.austral.edu.ar]
-* Jorge Machini: [jorge.machini@ing.austral.edu.ar]
+* Diego Baldassare: [diego.baldassare@ing.austral.edu.ar](diego.baldassare@ing.austral.edu.ar)
+* Jorge Machini: [jorge.machini@ing.austral.edu.ar](jorge.machini@ing.austral.edu.ar)
