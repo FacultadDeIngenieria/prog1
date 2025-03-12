@@ -43,9 +43,9 @@
 
 <!-- ************************************************** -->
 
-<!-- ## Taller Martes 9hs -->
-<!-- 1. [Asking Questions](asking-questions) -->
-<!-- 2. [Bash Intro](bash-intro) -->
+## Taller -->
+ 1. [Asking Questions](asking-questions)
+ 2. [Bash Intro](bash-intro)
 <!-- 3. [Ways to run Python](run-python) -->
 <!-- 4. [Regex](regex) -->
 <!-- 5. [Git Intro](git-intro) -->
