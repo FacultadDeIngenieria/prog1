@@ -30,7 +30,7 @@ Join TP 1 -> [https://classroom.github.com/a/nYqVF7Kz](https://classroom.github.
 Find your name and link your GitHub user.
 If you don't find your name, please tell the teacher to add you.
 
---- 
+---
 
 ## TPs
 
