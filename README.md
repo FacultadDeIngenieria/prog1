@@ -2,8 +2,8 @@
 0. [First class](https://drive.google.com/file/d/1jZ7akBG2qQgIt88lK8t7ram-Y99FJu_c)
 1. [Introduction](introduction)
 2. [Set-up Practica](practice-setup)
-<!-- 3. [Hello World](hello-world) -->
-<!-- 4. [Variables](variables) -->
+3. [Hello World](hello-world)
+4. [Variables](variables)
 <!-- 5. [Strings](strings) -->
 <!-- 6. [Strings (part 2)](strings-2) -->
 <!-- 7. [If Statements](ifs) -->
@@ -17,9 +17,9 @@
 <!-- 15. [Sets](sets) -->
 <!-- [List Comprehension & Plots](listsplots) -->
 
-<!-- ## Trabajos Prácticos -->
+## Trabajos Prácticos
 
-<!-- 1. [TP1](practice/1) -->
+1. [TP1](practice/1)
 <!-- 2. [TP2](practice/2) -->
 <!-- 3. [TP3](practice/3) -->
 <!-- 4. [TP4](practice/4) -->
@@ -77,17 +77,19 @@
 * [ASCII Table Extended](https://computersciencewiki.org/images/3/3d/Ascii_table.png)
 * [Tips from class](resources/hoja_tips.pdf)
 
-<!-- ************************************************** -->
+**************************************************
 
-<!-- ## Parciales -->
+## Parciales
 
-<!-- * Primer Parcial -->
-<!-- * Comisión E: Lunes 5/5/25 11 hsA y Martes 16/05 14hs -->
-<!-- * Comisión C y D: Viernes 16/5/25 9 hs -->
-<!-- * Comisión A y B: Viernes 16/5/25 11 hs -->
+* Primer Parcial
+* Comisión A y B: Viernes 16/5/25 11 hs
+* Comisión C y D: Viernes 16/5/25 9 hs
+* Comisión E: Lunes 5/5/25 11 hs
 
-<!-- * Segundo Parcial -->
-<!-- * ... -->
+* Segundo Parcial
+* Comisión A y B: Viernes 27/6/25 11 hs
+* Comisión C y D: Viernes 27/6/25 9 hs
+* Comisión E: Lunes 9/6/25 11 hs
 
 <!-- ************************************************** -->
 
