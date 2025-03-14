@@ -64,7 +64,7 @@ When you’ve seen this output, press ctrl-D or enter exit&#40;&#41; to leave th
 Windows doesn’t always come with Python, so you’ll probably need to download and install it, and then download and install a text editor.
     
 First, check whether Python is installed on your system. Open a command window by entering command into the Start menu or by holding down the shift key while right-clicking on your desktop and selecting Open command window here. In the terminal window, enter python in lowercase. If you get a Python prompt (>>>), Python is installed on your system. However, you’ll probably see an error message telling you that python is not a recognized command or the Microsoft Store application loading.
-In that case, download a Python installer for Windows. Go to http://python.org/downloads/. Click the `Download Python 3.10.3` button, which should automatically start downloading the correct installer for your system. After you’ve downloaded the file, run the installer. Make sure you check the option Add Python to PATH, which will make it easier to config- ure your system correctly.
+In that case, download a Python installer for Windows. Go to [http://python.org/downloads/](http://python.org/downloads/). Click the `Download Python 3.10.3` button, which should automatically start downloading the correct installer for your system. After you’ve downloaded the file, run the installer. Make sure you check the option Add Python to PATH, which will make it easier to config- ure your system correctly.
 
 ![img.png](img.png)
 
