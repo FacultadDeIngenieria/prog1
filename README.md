@@ -52,13 +52,10 @@
 <!-- 6. [Files](files) -->
 <!-- 7. [Práctica](workshop) -->
 
-<!-- ## Trabajos Prácticos Taller -->
-<!-- 1. [Bash](practice/bash.md) -->
-<!--    [Classroom](https://classroom.github.com/a/VhW88V6e) -->
+## Trabajos Prácticos Taller
+1. [Bash](practice/bash.md) Link a Classroom https://classroom.github.com/a/ZgFn166I
 <!-- 2. [Jupyter](practice/jupyter.md) -->
-<!--    [Classroom](https://classroom.github.com/a/Aummc58V) -->
 <!-- 3. [Regex](practice/Tp3_Regex.ipynb) -->
-<!--    [Classroom](https://classroom.github.com/a/A4x3-_AX) -->
 <!-- 4. [Git](practice/git.md) -->
 <!-- 5. [Files](https://classroom.github.com/a/DT0fz_Jg) -->
 <!-- 6. [Trabajo Práctico Final Taller](https://github.com/austral-prog/taller-prog-1-tp-final) -->
