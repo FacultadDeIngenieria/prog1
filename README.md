@@ -53,7 +53,7 @@
 <!-- 7. [Práctica](workshop) -->
 
 ## Trabajos Prácticos Taller
-1. [Bash](practice/bash.md) Link a Classroom https://classroom.github.com/a/ZgFn166I
+1. Trabajo Práctico Bash: https://classroom.github.com/a/ZgFn166I
 <!-- 2. [Jupyter](practice/jupyter.md) -->
 <!-- 3. [Regex](practice/Tp3_Regex.ipynb) -->
 <!-- 4. [Git](practice/git.md) -->
