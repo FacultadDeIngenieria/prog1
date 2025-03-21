@@ -12,11 +12,15 @@ Open a command window by entering command into the Start menu or by holding down
 In the terminal window, enter `python` in lowercase. If you get a Python prompt (>>>), Python is installed on your system. However, you’ll probably see an error message telling you that python is not a recognized command or the Microsoft Store application loading.
 
 
-In that case, download a Python installer for Windows. Go to [http://python.org/downloads/](http://python.org/downloads/). Click the `Download Python 3.10.3` button, which should automatically start downloading the correct installer for your system. After you’ve downloaded the file, run the installer. Make sure you check the option Add Python to PATH, which will make it easier to config- ure your system correctly.
+In that case, download a Python installer for Windows.
 
-![img.png](../img.png)
+Instructions in the next page
+---
+Go to [http://python.org/downloads/](http://python.org/downloads/). Click the `Download Python 3.10.3` button, which should automatically start downloading the correct installer for your system. After you’ve downloaded the file, run the installer. Make sure you check the option Add Python to PATH, which will make it easier to config- ure your system correctly.
 
+![Installation]({{site.baseurl}}/utils/installation/img.png)
 
+---
 Open a command window and enter `python` in lowercase. If you get a Python prompt (>>>), Windows has found the version of Python you just installed:
 ```commandline
 C:\> python
@@ -37,6 +41,9 @@ Open a terminal window by going to Launchpad -> Other -> Terminal. You can also 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 ( Enter to [https://brew.sh/](https://brew.sh/) for more information about Homebrew )
+
+
+---
 
 After downloading and installing Homebrew with the previous command you can install python3 by writing the command 
 ```commandline
@@ -75,11 +82,6 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 When you’ve seen this output, press ctrl-D or enter exit&#40;&#41; to leave the Python prompt and return to a terminal prompt.
 
-[//]: # ()
-[//]: # (This output means you also have Python 3 installed, so you’ll be)
-
-[//]: # (able to use either version. Whenever you see the python command in this book, enter python3 instead. Most Linux distributions have Python already installed, but if for some reason yours didn’t or if your system came with Python 2 and you want to install Python 3, refer to Appendix A.)
-
 ---
 # SublimeText Installation
 
@@ -100,6 +102,9 @@ brew install --cask sublime-text
 
 ---
 ## Linux
+### Using download link
+Enter to [http://www.sublimetext.com/](http://www.sublimetext.com/) and download the App installer
+
 ### Using apt-get
 ```commandline
 sudo apt-get update
