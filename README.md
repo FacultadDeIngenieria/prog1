@@ -77,13 +77,11 @@
 **************************************************
 
 ## Parciales
-
-* Primer Parcial
+### Primer Parcial
 * Comisión A y B: Viernes 16/5/25 11 hs
 * Comisión C y D: Viernes 16/5/25 9 hs
 * Comisión E: Lunes 5/5/25 11 hs
-
-* Segundo Parcial
+### Segundo Parcial
 * Comisión A y B: Viernes 27/6/25 11 hs
 * Comisión C y D: Viernes 27/6/25 9 hs
 * Comisión E: Lunes 9/6/25 11 hs
@@ -107,7 +105,7 @@
 * Sebastián Iglesias (A y B): [sebastian.iglesias@ing.austral.edu.ar](sebastian.iglesias@ing.austral.edu.ar)
 * Diego Baldassare (C y D): [diego.baldassare@ing.austral.edu.ar](diego.baldassare@ing.austral.edu.ar)
 
-## Ayudantes
+### Ayudantes
 * Tomás Bregoli: [tbregoli@mail.austral.edu.ar](mailto:tbregoli@mail.austral.edu.ar)
 * Facundo García Rosselli:	[fgarciarosselli@mail.austral.edu.ar](mailto:fgarciarosselli@mail.austral.edu.ar)
 * Mateo Díaz	[mdiaz8@mail.austral.edu.ar](mailto:mdiaz8@mail.austral.edu.ar)
