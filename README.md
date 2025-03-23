@@ -4,7 +4,7 @@
 2. [Set-up Practica](practice-setup)
 3. [Hello World](hello-world)
 4. [Variables](variables)
-<!-- 5. [Strings](strings) -->
+5. [Strings](strings)
 <!-- 6. [Strings (part 2)](strings-2) -->
 <!-- 7. [If Statements](ifs) -->
 <!-- 8. [Functions](functions) -->
@@ -20,7 +20,7 @@
 ## Trabajos Prácticos
 
 1. [TP1](practice/1)
-<!-- 2. [TP2](practice/2) -->
+2. [TP2](practice/2)
 <!-- 3. [TP3](practice/3) -->
 <!-- 4. [TP4](practice/4) -->
 <!-- 5. [TP5](practice/5) -->
@@ -91,12 +91,29 @@
 <!-- ************************************************** -->
 
 ## Cátedra
-* Gastón Gadea (coordinador): [gaston.gadea@ing.austral.edu.ar](gaston.gadea@ing.austral.edu.ar)
-* Juan Longo: [juan.longo@ing.austral.edu.ar](mailto:jlongo@austral.edu.ar)
-* Matías Ponce: [matias.ponce@ing.austral.edu.ar](mailto:matias.ponce@ing.austral.edu.ar)
-* Matías Miodosky: [matias.miodosky@ing.austral.edu.ar](matias.miodosky@ing.austral.edu.ar)
-* Sebastián Iglesias: [sebastian.iglesias@ing.austral.edu.ar](sebastian.iglesias@ing.austral.edu.ar)
-* Rocío Ferreiro: [rocio.ferreiro@ing.austral.edu.ar](rocio.ferreiro@ing.austral.edu.ar)
-* José Juarez: [jose.juarez@ing.austral.edu.ar](jose.juarez@ing.austral.edu.ar)
-* Diego Baldassare: [diego.baldassare@ing.austral.edu.ar](diego.baldassare@ing.austral.edu.ar)
-* Jorge Machini: [jorge.machini@ing.austral.edu.ar](jorge.machini@ing.austral.edu.ar)
+### Teoría
+* Gastón Gadea (C y D): [gaston.gadea@ing.austral.edu.ar](gaston.gadea@ing.austral.edu.ar)
+* Matías Miodosky (E): [matias.miodosky@ing.austral.edu.ar](matias.miodosky@ing.austral.edu.ar)
+* Jorge Machini (A): [jorge.machini@ing.austral.edu.ar](jorge.machini@ing.austral.edu.ar)
+* Diego Baldassare (B): [diego.baldassare@ing.austral.edu.ar](diego.baldassare@ing.austral.edu.ar)
+
+### Práctica
+* Juan Longo (C): [juan.longo@ing.austral.edu.ar](mailto:jlongo@austral.edu.ar)
+* Matías Ponce (B): [matias.ponce@ing.austral.edu.ar](mailto:matias.ponce@ing.austral.edu.ar)
+* José Juarez (A y D): [jose.juarez@ing.austral.edu.ar](jose.juarez@ing.austral.edu.ar)
+* Rocío Ferreiro (E): [rocio.ferreiro@ing.austral.edu.ar](rocio.ferreiro@ing.austral.edu.ar)
+
+### Taller (sólo informáticos)
+* Sebastián Iglesias (A y B): [sebastian.iglesias@ing.austral.edu.ar](sebastian.iglesias@ing.austral.edu.ar)
+* Diego Baldassare (C y D): [diego.baldassare@ing.austral.edu.ar](diego.baldassare@ing.austral.edu.ar)
+
+## Ayudantes
+* Tomás Bregoli: [tbregoli@mail.austral.edu.ar](mailto:tbregoli@mail.austral.edu.ar)
+* Facundo García Rosselli:	[fgarciarosselli@mail.austral.edu.ar](mailto:fgarciarosselli@mail.austral.edu.ar)
+* Mateo Díaz	[mdiaz8@mail.austral.edu.ar](mailto:mdiaz8@mail.austral.edu.ar)
+* Sofía Gugliotta	[sgugliotta@mail.austral.edu.ar](mailto:sgugliotta@mail.austral.edu.ar)
+* Candela De Franco:	[cdefranco@mail.austral.edu.ar](mailto:cdefranco@mail.austral.edu.ar)
+* Felipe Fernández Cronenbold:	[ffernandezcronenbol@mail.austral.edu.ar](mailto:ffernandezcronenbol@mail.austral.edu.ar)
+* Lucio Zampella:	[lzampella2@mail.austral.edu.ar](mailto:lzampella2@mail.austral.edu.ar)
+* Matías Recio Ojeda:	[mrecioojeda@mail.austral.edu.ar](mailto:mrecioojeda@mail.austral.edu.ar)
+* Tomás Caporaso:	[tmcaporaso@mail.austral.edu.ar](mailto:tmcaporaso@mail.austral.edu.ar)
