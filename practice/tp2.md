@@ -7,8 +7,9 @@ permalink: /practice/2
 # Trabajo Práctico 2
 
 ## Completar el trabajo práctico en GitHub Classroom
-[Link al TP 2](https://classroom.github.com/a/6W7CUZI9)
+[Link al TP 2](https://classroom.github.com/a/VFDGFHcP)
 
+Deadline entrega del TP: 07/04/2025 9:00 AM
 
 ## Ejercicio 1
 
