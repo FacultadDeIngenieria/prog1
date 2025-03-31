@@ -59,7 +59,7 @@ Dinero recibido
 Vuelto
 
 Pesos:
-76.25
+76
 Centavos:
 25
 ```
