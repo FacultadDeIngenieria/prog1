@@ -154,7 +154,7 @@ But this method doesn't modify the string. It just returns the modified string. 
 ```python
 >>> txt = 'Python is a great programming language'
 >>> print(txt.count('n'))
-2
+3
 >>> print(txt.count('gre'))
 1
 >>> print(txt.count(' '))
