@@ -7,8 +7,9 @@ permalink: /practice/3
 # Trabajo Práctico 3
 
 ## Completar el trabajo práctico en GitHub Classroom
-[Link al TP 3](https://classroom.github.com/a/2FLUWPrP)
+[Link al TP 3](https://classroom.github.com/a/KVkZjcZ_)
 
+Deadline entrega del TP: 14/04/2025 9:00 AM
 
 ## Ejercicio 1 - Uso del "in"
 
