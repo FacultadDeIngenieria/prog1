@@ -15,7 +15,7 @@ Running Python
 
 # REPL
 
-.center[![REPL]({{site.baseurl}}/presentation/run-python/repl.png))]
+.center[![REPL]({{site.baseurl}}/presentation/run-python/repl.png)]
 
 - **R**ead-**E**valuate-**P**rint-**L**oop
 - Interactive Python
@@ -63,6 +63,18 @@ Installing Jupyter: https://jupyter.org/install#jupyter-notebook
 - Jupyter is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
 - Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
 - Stores code, results and comments in a file with extension `.ipynb`
+
+Running Jupyter:
+
+On MacOS: 
+```
+jupyter lab
+``` 
+
+On Windows: 
+```
+python3 -m notebook
+``` 
 
 ---
 
