@@ -55,7 +55,7 @@
 ## Trabajos Prácticos Taller
 1. [Trabajo Práctico Bash](https://classroom.github.com/a/ZgFn166I)
 2. [Jupyter](https://classroom.github.com/a/oJOieDbD)
-<!-- 3. [Regex](practice/Tp3_Regex.ipynb) -->
+3. [Regex](https://classroom.github.com/a/zL717eb-)
 <!-- 4. [Git](practice/git.md) -->
 <!-- 5. [Files](https://classroom.github.com/a/DT0fz_Jg) -->
 <!-- 6. [Trabajo Práctico Final Taller](https://github.com/austral-prog/taller-prog-1-tp-final) -->
