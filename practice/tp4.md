@@ -9,6 +9,8 @@ permalink: /practice/4
 ## Completar el trabajo práctico en GitHub Classroom
 [Link al TP 4](https://classroom.github.com/a/5IjKEPJO)
 
+Deadline entrega del TP: 21/04/2025 9:00 AM
+
 ## Ejercicio 1 - Line
 
 Queremos hacer un programa que nos calcule para una ecuación de primer grado la distancia sobre la recta entre dos 
