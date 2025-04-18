@@ -80,6 +80,10 @@ To be efficient, if files have not changed, Git doesn’t store the file again, 
 
 ---
 
+![Git Commands]({{site.baseurl}}/presentation/git-intro/git-commands.png)
+
+---
+
 # GitHub
 
 GitHub is a for-profit company that offers a cloud-based Git repository hosting service. Essentially, it makes it a lot easier for individuals and teams to use Git for version control and collaboration.
