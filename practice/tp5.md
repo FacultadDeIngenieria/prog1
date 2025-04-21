@@ -100,6 +100,8 @@ value_y(1, -3, 2, 1) # Retorna: 0
 value_y(1, -3, 2, -1) # Retorna: 6
 
 to_string(2, -3, 1) # Retorna: "f(x) = 2 * X^2 + -3 * X + 1"
+to_string(2, 0, 5) # Retorna: "f(x) = 2 * X^2 + 5"
 
-derivation(2, -3, 1) # Retorna: "f'(x) = 4x + -3"
+derivation(2, -3, 1) # Retorna: "f'(x) = 4 * X + -3"
+derivation(2, 0, 5) #Retorna: "f'(x) = 4 * X"
 ```
