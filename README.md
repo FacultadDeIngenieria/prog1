@@ -10,7 +10,7 @@
 8. [Functions](functions)
 9. [Scope](scope)
 <!-- 10. [Debug](debug) -->
-<!-- 11. [Lists](lists) -->
+11. [Lists](lists)
 <!-- 12. [Loops](loops) -->
 <!-- 13. [Tuples](tuples) -->
 <!-- 14. [Maps](maps) -->
