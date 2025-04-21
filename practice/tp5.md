@@ -87,7 +87,7 @@ def derivation(a, b):
 
 HINT: Para resolver una cuadrática:
 ![cuadratic](quadratic_formula.png)
-
+HINT2: para evaluar las partes imaginaria de un número complejo, usar .imag
 
 Ejemplos:
 ```python
