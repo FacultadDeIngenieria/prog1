@@ -9,6 +9,8 @@ permalink: /practice/5
 ## Completar el trabajo práctico en GitHub Classroom
 [Link al TP 5](https://classroom.github.com/a/08WBTRWm)
 
+Deadline entrega del TP: 02/05/2025 9:00 AM
+
 
 ## Ejercicio 1 - Cálculo de los máximos
 
