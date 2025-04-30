@@ -49,6 +49,7 @@
  3. [Ways to run Python](run-python)
  4. [Regex](regex)
  5. [Git Intro](git-intro)
+ 6. [Git Continued](git-continue)
 <!-- 6. [Files](files) -->
 <!-- 7. [Práctica](workshop) -->
 
