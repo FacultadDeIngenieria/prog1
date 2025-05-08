@@ -1,3 +1,11 @@
+---
+title: Trabajo Práctico del Taller
+layout: practice
+permalink: /practice/git
+---
+
+# Git
+
 **Deben juntarse en grupos de 3 alumnos.**
 
 Un alumno del grupo debe crear un repositorio público en su cuenta Github llamado `MarkdownGuideBookProject`.
