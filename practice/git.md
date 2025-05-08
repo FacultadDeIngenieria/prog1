@@ -4,7 +4,7 @@ layout: practice
 permalink: /practice/git
 ---
 
-# Git
+# Git Practice
 
 **Deben juntarse en grupos de 3 alumnos.**
 
