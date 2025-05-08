@@ -27,3 +27,26 @@ Una vez que todas las secciones estén terminadas, tienen que realizar un Pull R
 Antes de unir los cambios, cada alumno deberá revisar el Pull Request de otra sección ajena a la suya, intentando unificar la manera de escribir, donde se guardan las imágenes (si usan una carpeta, que tengan un nombre apropiado, etc) y cualquier otra cosa relacionada a la calidad que crea pertinente. Una vez que cada sección esté ok, quien inició el pull request tiene que integrar los cambios (Merge a Main).
 
 Una vez "mergeados" los cambios, se debe agregar un archivo de carátula e índice de la guía o libro (en un archivo markdown) llamado README.md . Tendrá el Título de la guia, los nombres de los integrantes en orden alfabético y links a cada una de las secciones.
+
+## Pasos a seguir
+1. Crear rama con tu nombre
+   - `git checkout -b <nombre-rama>`
+   - `git push origin <nombre-rama>`
+2. Crear archivo markdown con tu sección
+   - `touch <nombre-seccion>.md`
+3. Pushear los cambios a tu rama
+   - `git add <nombre-seccion>.md`
+   - `git commit -m "Agregando archivo markdown"`
+   - `git push -u origin <nombre-rama>`
+4. Pullear develop
+   - `git pull origin develop`
+   - `git checkout develop`
+5. Mergear tu rama en develop
+   - `git merge <nombre-rama>`
+6. Resolver conflictos (si los hay)
+7. Pushear los cambios a develop
+   - `git push origin develop`
+8. Crear un pull request desde develop a main
+
+ToDo:
+- Hacer un pull request
