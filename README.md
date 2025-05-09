@@ -31,8 +31,8 @@
 <!-- 9. [TP10](practice/10) -->
 
 
-<!-- ## Ejercicios adicionales -->
-<!-- * [Primer parcial](additional-practice/1) -->
+## Ejercicios adicionales
+* [Primer parcial](additional-practice/1)
 <!-- * [Segundo parcial](additional-practice/2) -->
 <!-- * [Mas ejercicios de python (facilidad easy)](https://exercism.org/tracks/python/exercises) -->
 
