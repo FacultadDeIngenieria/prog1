@@ -82,6 +82,7 @@
 * Comisión A y B: Viernes 16/5/25 11 hs
 * Comisión C y D: Viernes 16/5/25 9 hs
 * Comisión E: Lunes 5/5/25 11 hs
+
 ### Segundo Parcial
 * Comisión A y B: Viernes 27/6/25 11 hs
 * Comisión C y D: Viernes 27/6/25 9 hs
