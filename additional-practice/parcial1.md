@@ -247,7 +247,7 @@ En caso de ser una cantidad de horas negativa, se debe retornar un string con un
 Ejemplo: 
 ```python
 horas_1 = dias_a_horas_con_fracciones(5)
-horas_2 = dias_a_horas_con_fracciones(2,5)
+horas_2 = dias_a_horas_con_fracciones(2.5)
 horas_3 = dias_a_horas_con_fracciones(0)
 horas_4 = dias_a_horas_con_fracciones(-4)
 
