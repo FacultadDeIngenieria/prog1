@@ -75,6 +75,10 @@
 * [ASCII Table Extended](https://computersciencewiki.org/images/3/3d/Ascii_table.png)
 * [Tips from class](resources/hoja_tips.pdf)
 
+## Clases Consulta
+
+* Jueves 13 a 14 hs, aula A3
+
 **************************************************
 
 ## Parciales
