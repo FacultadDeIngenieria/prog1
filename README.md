@@ -50,16 +50,13 @@
  4. [Regex](regex)
  5. [Git Intro](git-intro)
  6. [Git Continued](git-continue)
-<!-- 6. [Files](files) -->
-<!-- 7. [Práctica](workshop) -->
+ 7. [Backups](backups)
 
 ## Trabajos Prácticos Taller
 1. [Trabajo Práctico Bash](https://classroom.github.com/a/ZgFn166I)
 2. [Jupyter](https://classroom.github.com/a/oJOieDbD)
 3. [Regex](https://classroom.github.com/a/zL717eb-)
 4. [Git](practice/git)
-<!-- 5. [Files](https://classroom.github.com/a/DT0fz_Jg) -->
-<!-- 6. [Trabajo Práctico Final Taller](https://github.com/austral-prog/taller-prog-1-tp-final) -->
 
 <!-- ************************************************** -->
 
