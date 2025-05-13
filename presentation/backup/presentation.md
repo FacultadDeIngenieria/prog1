@@ -95,14 +95,6 @@ Remote Sync - Efficient file copying/synchronization
 rsync [options] source destination
 ```
 
-### Common options:
-
-- -a: Archive mode (recursive + preserve attributes)
-- -v: Verbose output
-- -z: Compress during transfer
-- --delete: Remove files in dest not in source
-- --exclude: Skip specified files
-
 ---
 
 # Rsync Examples:
@@ -117,6 +109,14 @@ rsync -avz -e ssh /local/path user@remote:/backup/path
 # Dry run (test first!)
 rsync -avn /source/ /backup/
 ```
+
+### Common options:
+
+- -a: Archive mode (recursive + preserve attributes)
+- -v: Verbose output
+- -z: Compress during transfer
+- --delete: Remove files in dest not in source
+- --exclude: Skip specified files
 
 ---
 
@@ -155,13 +155,6 @@ Cron - Time-based job scheduler
 └───────── Minute (0-59)
 ```
 
-### Special characters:
-
-- *: Any value
-- ,: Value list separator
-- -: Range of values
-- /: Step values
-
 ---
 
 # Crontab Examples:
@@ -180,11 +173,19 @@ crontab -e
 */15 * * * * /path/check_status.sh
 ```
 
+### Special characters:
+
+- *: Any value
+- ,: Value list separator
+- -: Range of values
+- /: Step values
+
+
 ---
 
 # Scheduling Backups with Cron
 
-Edit crontab: crontab -e
+Edit crontab: `crontab -e`
 
 Add line to run daily at 2am:
 
@@ -259,12 +260,13 @@ What it does:
 md5sum [options] [file]
 ```
 
-### Common options:
+### Practical uses:
 
-- -c: Check previously generated sums
-- --tag: Create BSD-style checksum
-- --quiet: Only show failed checks
-- --status: Don't output, use exit code
+- Verify backup integrity
+- Check for file corruption
+- Detect unauthorized changes
+- Compare directory contents
+- Validate downloaded files
 
 ---
 
@@ -284,14 +286,12 @@ md5sum file1.txt file2.txt
 md5sum -c SHA256SUMS 2>/dev/null | grep OK
 ```
 
-### Practical uses:
+### Common options:
 
-- Verify backup integrity
-- Check for file corruption
-- Detect unauthorized changes
-- Compare directory contents
-- Validate downloaded files
-
+- -c: Check previously generated sums
+- --tag: Create BSD-style checksum
+- --quiet: Only show failed checks
+- --status: Don't output, use exit code
 
 ---
 
