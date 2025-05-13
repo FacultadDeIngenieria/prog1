@@ -55,14 +55,16 @@ tar [options] [archive_name] [files_to_archive]
 
 ### Common options:
 
--c: Create new archive
--x: Extract files
--v: Verbose output
--f: Specify filename
--z: Compress with gzip
--j: Compress with bzip2
+- -c: Create new archive
+- -x: Extract files
+- -v: Verbose output
+- -f: Specify filename
+- -z: Compress with gzip
+- -j: Compress with bzip2
 
-### Examples:
+---
+
+# Tar Examples:
 
 ```bash
 # Create compressed archive
@@ -95,13 +97,15 @@ rsync [options] source destination
 
 ### Common options:
 
--a: Archive mode (recursive + preserve attributes)
--v: Verbose output
--z: Compress during transfer
---delete: Remove files in dest not in source
---exclude: Skip specified files
+- -a: Archive mode (recursive + preserve attributes)
+- -v: Verbose output
+- -z: Compress during transfer
+- --delete: Remove files in dest not in source
+- --exclude: Skip specified files
 
-### Examples:
+---
+
+# Rsync Examples:
 
 ```bash
 # Local directory sync
@@ -153,12 +157,14 @@ Cron - Time-based job scheduler
 
 ### Special characters:
 
-*: Any value
-,: Value list separator
--: Range of values
-/: Step values
+- *: Any value
+- ,: Value list separator
+- -: Range of values
+- /: Step values
 
-### Examples:
+---
+
+# Crontab Examples:
 
 ```bash
 # Edit crontab
@@ -234,6 +240,58 @@ mkdir test_restore && tar -xzvf backup.tar.gz -C test_restore
 # Compare checksums
 md5sum original.txt backup.txt
 ```
+
+---
+
+# The `md5sum` Command Explained
+
+**Checksum Verification** - Ensures file integrity and detects changes
+
+What it does:
+- Generates a 128-bit (32-character) hash value
+- Unique fingerprint for file contents
+- Identical files = identical hashes
+- Single bit change = completely different hash
+
+### Basic syntax:
+
+```bash
+md5sum [options] [file]
+```
+
+### Common options:
+
+- -c: Check previously generated sums
+- --tag: Create BSD-style checksum
+- --quiet: Only show failed checks
+- --status: Don't output, use exit code
+
+---
+
+# md5sum examples:
+
+```bash
+# Generate checksum
+md5sum important_file.txt > file_checksums.md5
+
+# Verify checksum
+md5sum -c file_checksums.md5
+
+# Compare two files
+md5sum file1.txt file2.txt
+
+# Verify downloaded files
+md5sum -c SHA256SUMS 2>/dev/null | grep OK
+```
+
+### Practical uses:
+
+- Verify backup integrity
+- Check for file corruption
+- Detect unauthorized changes
+- Compare directory contents
+- Validate downloaded files
+
 
 ---
 
