@@ -50,7 +50,7 @@
  4. [Regex](regex)
  5. [Git Intro](git-intro)
  6. [Git Continued](git-continue)
- 7. [Backups](backup)
+ 7. [Backups](backups)
 
 ## Trabajos Prácticos Taller
 1. [Trabajo Práctico Bash](https://classroom.github.com/a/ZgFn166I)
