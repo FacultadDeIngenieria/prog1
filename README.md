@@ -13,8 +13,8 @@
 11. [Lists](lists)
 12. [Loops](loops)
 13. [Tuples](tuples)
-<!-- 14. [Maps](maps) -->
-<!-- 15. [Sets](sets) -->
+14. [Sets](sets)
+15. [Maps](maps)
 <!-- [List Comprehension & Plots](listsplots) -->
 
 ## Trabajos Prácticos
