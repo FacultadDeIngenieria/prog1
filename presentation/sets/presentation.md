@@ -20,7 +20,7 @@ Sets are similar to lists, but they do not allow duplicate values.
 
 ---
 
-# Tuples in python
+# Sets in python
 
 Python represents sets using curly braces {}.
 
