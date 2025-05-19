@@ -89,6 +89,9 @@
 * Comisión C y D: Viernes 27/6/25 9 hs
 * Comisión E: Lunes 9/6/25 11 hs
 
+### Primer recuperatorio
+* Viernes 4/7/25 9 hs (todas las comisiones)  
+
 <!-- ************************************************** -->
 
 ## Cátedra
