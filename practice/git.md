@@ -67,9 +67,12 @@ Una vez "mergeados" los cambios, se debe agregar un archivo de carátula e índi
     - `git push origin <feature/student-name/theme>`
 8. Crear un pull request desde tu rama a develop (desde Github)
 9. Pedirle a un compañero que te revise el pull request (desde Github)
-10. Mergear los cambios del Pull Request desde Github
+10. Mergear los cambios del Pull Request desde Github*
 
-Opcional:
+*Si no te deja mergear, es porque no tenes la última versión de develop en tu rama. Para solucionarlo, tenes que volver al paso 1.
+
+
+**Opcional:**
 1. Si tenes cambios ya hechos en otra rama pero no estas en la tuya, podes stashearlos para no perderlos
     - `git stash`
 2. Podes verificar que se haya stasheado correctamente
