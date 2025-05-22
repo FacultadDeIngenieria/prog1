@@ -7,7 +7,9 @@ permalink: /practice/7
 # Trabajo Práctico 7
 
 ## Completar el trabajo práctico en GitHub Classroom
-[Link al TP 7](https://classroom.github.com/a/S-qamzuV)
+[Link al TP 7](https://classroom.github.com/a/5BeWVY4B)
+
+Deadline entrega del TP: 30/05/2025 9:00 AM
 
 ## Ejercicio 1 - Loops and prints
 
