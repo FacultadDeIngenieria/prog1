@@ -29,6 +29,8 @@ Antes de unir los cambios, cada alumno deberá revisar el Pull Request de otra s
 Una vez "mergeados" los cambios, se debe agregar un archivo de carátula e índice de la guía o libro (en un archivo markdown) llamado README.md . Tendrá el Título de la guia, los nombres de los integrantes en orden alfabético y links a cada una de las secciones.
 
 ## Pasos a seguir
+
+### Clase 1
 1. Crear rama con tu nombre
    - `git checkout -b <nombre-rama>`
    - `git push origin <nombre-rama>`
@@ -48,5 +50,21 @@ Una vez "mergeados" los cambios, se debe agregar un archivo de carátula e índi
    - `git push origin develop`
 8. Crear un pull request desde develop a main
 
-ToDo:
-- Hacer un pull request
+### Clase 2
+1. Ir a la rama develop
+    - `git checkout develop`
+2. Pullear develop
+    - `git pull origin develop`
+3. Ir a tu rama
+    - `git checkout <feature/student-name/theme>`
+4. Mergear develop en tu rama
+    - `git merge develop`
+5. Resolver conflictos (si los hay)
+6. Agregar tu contenido al README.md 
+    - `git add .`
+    - `git commit -m "Add <Theme Name>"`
+7. Pushear los cambios a tu rama
+    - `git push origin <feature/student-name/theme>`
+8. Crear un pull request desde tu rama a develop (desde Github)
+9. Pedirle a un compañero que te revise el pull request (desde Github)
+10. Mergear los cambios del Pull Request desde Github
