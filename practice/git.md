@@ -68,3 +68,17 @@ Una vez "mergeados" los cambios, se debe agregar un archivo de carátula e índi
 8. Crear un pull request desde tu rama a develop (desde Github)
 9. Pedirle a un compañero que te revise el pull request (desde Github)
 10. Mergear los cambios del Pull Request desde Github
+
+Opcional:
+1. Si tenes cambios ya hechos en otra rama pero no estas en la tuya, podes stashearlos para no perderlos
+    - `git stash`
+2. Podes verificar que se haya stasheado correctamente
+    - `git stash list`
+3. Luego podes ir a tu rama
+    - `git checkout <feature/student-name/theme>`
+4. Y por último, podes aplicar los cambios stasheados
+    - `git stash apply`
+5. Si no queres aplicar los cambios, podes eliminarlos
+  - `git stash drop` (si no lo necesitas más)
+6. Si queres aplicar los cambios y eliminarlos al mismo tiempo
+  - `git stash pop`
