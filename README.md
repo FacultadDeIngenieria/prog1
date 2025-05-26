@@ -15,7 +15,8 @@
 13. [Tuples](tuples)
 14. [Sets](sets)
 15. [Maps](maps)
-<!-- [List Comprehension & Plots](listsplots) -->
+16. [Iterable Tools](iterable-tools)
+17. [Files](files)
 
 ## Trabajos Prácticos
 

@@ -101,6 +101,7 @@ Sets have several methods that you can use to manipulate them. Some of the most 
 
 You can combine two sets using the union() method or the | operator.
 
+## Union method example
 ```python
 fruits = {"apple", "banana", "cherry"}
 colors = {"red", "yellow", "pink"}
@@ -108,17 +109,37 @@ fruits_colors = fruits.union(colors)
 print(fruits_colors) # {'apple', 'banana', 'cherry', 'red', 'yellow', 'pink'}
 ```
 
+## Union operator example
+```python
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+
+union_set = set1 | set2
+print(union_set)  # Output: {1, 2, 3, 4, 5}
+```
+
 ---
+
 
 # Set intersection
 
 You can find the common elements between two sets using the intersection() method or the & operator.
 
+## Intersection method example
 ```python
 fruits = {"apple", "banana", "cherry", "orange"}
 colors = {"red", "yellow", "pink", "orange"}
 common = fruits.intersection(colors)
 print(common) # {'orange'}
+```
+
+## Intersection operator example
+```python
+set1 = {1, 2, 3, 4, 5}
+set2 = {3, 4, 6, 7}
+
+intersection_set = set1 & set2
+print(intersection_set)  # Output: {3, 4}
 ```
 
 ---
@@ -128,12 +149,22 @@ print(common) # {'orange'}
 
 You can find the elements that are present in the first set but not in the second set using the difference() method or the - operator.
 
+## Difference method example
 ```python
 fruits = {"apple", "banana", "cherry", "orange"}
 colors = {"red", "yellow", "pink", "orange"}
 diff = fruits.difference(colors)
 
 print(diff) # {'apple', 'banana', 'cherry'}
+```
+
+## Difference operator example
+```python
+set1 = {1, 2, 3, 4, 5}
+set2 = {3, 4, 5, 6, 7}
+
+difference_set = set1 - set2
+print(difference_set)  # Output: {1, 2}
 ```
 
 ---

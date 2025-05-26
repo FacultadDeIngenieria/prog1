@@ -1,15 +1,47 @@
 class: center, middle, inverse
 
 # Introducción a la Programación I
-List Comprehension & Plots
+Iterable Tools
 
 ---
 
 # Agenda
 
+- Iterables
 - Ranges
+- Enumerate
 - List Comprehensions
 - Plots
+
+---
+
+# Iterables
+An `itereable` is an object capable of returning its elements one at a time. 
+This allows it to be looped over using a `for` loop, meaning you can **iterate** over its elements.
+
+Every `collection` is an `iterable`:
+- `list`
+- `tuple`
+- `set`
+- `dict`
+
+Other iterables:
+- `str`
+- `range`
+- `enumerate`
+- `files`
+
+---
+
+# Collections Benchmark
+
+| Type    | Ordered | Mutable | Allows Duplicates | Indexable        | Examples           | Applications                                        |
+|---------|---------|---------|-------------------|------------------|--------------------|-----------------------------------------------------|
+| `list`  | ✅       | ✅       | ✅                 | ✅                | `[1, 2, 3]`        | Store data in order, traverse or modify             |
+| `tuple` | ✅       | ❌       | ✅                 | ✅                | `(1, 2, 3)`        | Fixed or immutable data, associated with each other |
+| `set`   | ❌       | ✅       | ❌ (unique)        | ❌                | `{1, 2, 3}`        | Sets without repetitions, fast searches             |
+| `dict`  | ✅       | ✅       | ✅ (unique keys)   | ✅ (by key) | `{'a': 1, 'b': 2}` | Key-value dictionaries/maps                         |
+
 
 ---
 
@@ -106,12 +138,29 @@ print(squares)
 
 ---
 
+# Enumerate
+The `enumerate()` function takes an iterable, iterates through its items under the hood, and returns an enumerate object. 
+Assigns a count incrementing by 1 to each item of an iterable and helps us track iterations while looping through that object.
+
+```python
+names = ["Alice", "Bob", "Charly"]
+for i, name in enumerate(names):
+    print(f"Index {i}: {name}")
+
+# Prints:
+# Index 0: Alice
+# Index 1: Bob
+# Index 2: Charly
+```
+
+---
+
 # List Comprehension
 
 - The previous approach for generating the list squares consisted of using three or four lines of code
 - A list comprehension allows you to generate this same list in just one line of code
 - A list comprehension combines the *for* loop and the creation of new elements into one line, and automatically appends each new element
-- Let's see how the previous example is don using list comprehension:
+- Let's see how the previous example is done using list comprehension:
 
 ```python
 squares = [x**2 for x in range(1, 11)]
@@ -152,7 +201,7 @@ or
 python3 -m pip install --user matplotlib
 ```
 
-.center[![Installation output]({{site.baseurl}}/presentation/listsplots/installation_output.png)]
+.center[![Installation output]({{site.baseurl}}/presentation/iterable-tools/installation_output.png)]
 
 ---
 
@@ -173,7 +222,7 @@ ax.plot(squares)
 plt.show()
 ```
 
-.center[![Simple]({{site.baseurl}}/presentation/listsplots/simple.png)]
+.center[![Simple]({{site.baseurl}}/presentation/iterable-tools/simple.png)]
 
 ---
 
@@ -193,4 +242,4 @@ ax.plot(squares)
 plt.show()
 ```
 
-.center[![Sine]({{site.baseurl}}/presentation/listsplots/sine.png)]
+.center[![Sine]({{site.baseurl}}/presentation/iterable-tools/sine.png)]

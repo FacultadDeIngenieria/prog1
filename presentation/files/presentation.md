@@ -14,7 +14,7 @@ Definition of a file:
 
 ---
 
-# Slide: Why Do We Need Files?
+# Why Do We Need Files?
 
 - ***Persistent Storage***: Files allow data to be stored permanently on a device. Without files, all data would be lost when a program closes or the computer shuts down.
 - ***Data Sharing:*** Files can be shared across different programs or systems (e.g., sending an image or document by email).
@@ -30,14 +30,16 @@ Definition of a file:
 
 ```
 Example:
-	•	notes.txt is a file where “notes” is the name, and .txt is the extension that tells us it’s a text file.
+	•	notes.txt is a file where “notes” is the name, and .txt is the extension 
+	    that tells us it’s a text file, defining format and program to open/read it.
 ```
 
 **File Path:** The file path describes where a file is located on your computer. A file can be in different directories or folders. The path tells the system where to look.
 
 ```
 Example:
-	•	C:/Documents/notes.txt indicates the file is located in the “Documents” folder on the C: drive.
+	•	C:/Documents/notes.txt indicates the file is located in the “Documents” folder
+	    on the C: drive.
 ```
 
 ---
