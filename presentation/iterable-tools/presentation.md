@@ -35,12 +35,12 @@ Other iterables:
 
 # Collections Benchmark
 
-| Type    | Ordered | Mutable | Allows Duplicates | Indexable        | Examples           | Applications                                        |
-|---------|---------|---------|-------------------|------------------|--------------------|-----------------------------------------------------|
-| `list`  | ✅       | ✅       | ✅                 | ✅                | `[1, 2, 3]`        | Store data in order, traverse or modify             |
-| `tuple` | ✅       | ❌       | ✅                 | ✅                | `(1, 2, 3)`        | Fixed or immutable data, associated with each other |
-| `set`   | ❌       | ✅       | ❌ (unique)        | ❌                | `{1, 2, 3}`        | Sets without repetitions, fast searches             |
-| `dict`  | ✅       | ✅       | ✅ (unique keys)   | ✅ (by key) | `{'a': 1, 'b': 2}` | Key-value dictionaries/maps                         |
+| Type    | Ordered | Mutable | Allows Duplicates | Indexable | Examples           | Applications                  |
+|---------|---------|---------|-------------------|-----------|--------------------|-------------------------------|
+| `list`  | ✅       | ✅       | ✅                 | ✅         | `[1, 2, 3]`        | Store data in order           |
+| `tuple` | ✅       | ❌       | ✅                 | ✅         | `(1, 2, 3)`        | Fixed & associated data       |
+| `set`   | ❌       | ✅       | ❌                 | ❌         | `{1, 2, 3}`        | Fast searches, no repetitions |
+| `dict`  | ✅       | ✅       | ✅                 | ✅         | `{'a': 1, 'b': 2}` | Key-value maps/dictionaries   |
 
 
 ---
@@ -162,6 +162,13 @@ for i, name in enumerate(names):
 - A list comprehension combines the *for* loop and the creation of new elements into one line, and automatically appends each new element
 - Let's see how the previous example is done using list comprehension:
 
+The basic syntax of a list comprehension is:
+```python
+list = [expression for item in iterable if condition]
+```
+
+---
+## Examples:
 ```python
 squares = [x**2 for x in range(1, 11)]
 print(squares)
