@@ -108,7 +108,7 @@
 * Juan Longo (C): [juan.longo@ing.austral.edu.ar](mailto:jlongo@austral.edu.ar)
 * Matías Ponce (B): [matias.ponce@ing.austral.edu.ar](mailto:matias.ponce@ing.austral.edu.ar)
 * José Juarez (A y D): [jose.juarez@ing.austral.edu.ar](jose.juarez@ing.austral.edu.ar)
-* Rocío Ferreiro (E): [rocio.ferreiro@ing.austral.edu.ar](rocio.ferreiro@ing.austral.edu.ar)
+* Rocío Ferreiro (E): [rocio.ferreirorico@ing.austral.edu.ar](rocio.ferreirorico@ing.austral.edu.ar)
 
 ### Taller (sólo informáticos)
 * Sebastián Iglesias (A y B): [sebastian.iglesias@ing.austral.edu.ar](sebastian.iglesias@ing.austral.edu.ar)
