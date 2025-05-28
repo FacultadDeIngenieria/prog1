@@ -119,14 +119,20 @@ import numpy as np
 # Using Numpy
 
 ## Basic arrays
+
+```python
 a = np.array([1, 2, 3])          # 1D array
 b = np.array([[1,2], [3,4]])     # 2D array
-
+```
 
 ## Special arrays
+
+```python
 zeros = np.zeros(10)             # Array of 0s
 ones = np.ones((3,3))           # 3x3 matrix of 1s 
 random = np.random.rand(100)     # 100 random numbers (0-1)
+```
+
 
 ---
 
@@ -152,6 +158,7 @@ data = np.random.gamma(2, 2, 1000) # Gamma distribution
 # For images
 image = np.random.rand(100, 100)  # 100x100 random pixels
 ```
+
 
 --- 
 
