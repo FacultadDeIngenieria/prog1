@@ -59,7 +59,7 @@
 2. [Jupyter](https://classroom.github.com/a/oJOieDbD)
 3. [Regex](https://classroom.github.com/a/zL717eb-)
 4. [Git](practice/git)
-5. [Graph Plotting]()
+5. [Graph Plotting](https://classroom.github.com/a/G1ubw-LB)
 
 <!-- ************************************************** -->
 
