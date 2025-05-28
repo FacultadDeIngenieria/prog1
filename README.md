@@ -52,12 +52,14 @@
  5. [Git Intro](git-intro)
  6. [Git Continued](git-continue)
  7. [Backups](backups)
+ 8. [Graph Plotting in Python](graphs)
 
 ## Trabajos Prácticos Taller
 1. [Trabajo Práctico Bash](https://classroom.github.com/a/ZgFn166I)
 2. [Jupyter](https://classroom.github.com/a/oJOieDbD)
 3. [Regex](https://classroom.github.com/a/zL717eb-)
 4. [Git](practice/git)
+5. [Graph Plotting]()
 
 <!-- ************************************************** -->
 
