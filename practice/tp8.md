@@ -9,6 +9,8 @@ permalink: /practice/8
 ## Completar el trabajo práctico en GitHub Classroom
 [Link al TP 8](https://classroom.github.com/a/omcC50sn)
 
+Deadline entrega del TP: 06/06/2025 9:00 AM
+
 
 ## Ejercicio 1 - Tuplas
 
