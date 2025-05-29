@@ -9,6 +9,8 @@ permalink: /practice/9
 ## Completar el trabajo práctico en GitHub Classroom
 [Link al TP 9](https://classroom.github.com/a/okG60fC5)
 
+Deadline entrega del TP: 13/06/2025 9:00 AM
+
 ## Diccionarios 
 
 En este ejercicio, administrarás un sistema de inventario.
