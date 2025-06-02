@@ -17,6 +17,7 @@
 15. [Maps](maps)
 16. [Iterable Tools](iterable-tools)
 17. [Files](files)
+18. [Exceptions](exceptions)
 
 ## Trabajos Prácticos
 

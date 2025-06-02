@@ -213,6 +213,8 @@ print("Entered age:", age)
 - Repeats the prompt until the user enters a valid integer.  
 - Prevents the program from crashing with a `ValueError`.
 
+---
+
 # Summary and Conclusions
 
 - **Exception:** mechanism to handle runtime errors.  
