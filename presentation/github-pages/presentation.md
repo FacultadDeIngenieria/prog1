@@ -83,27 +83,6 @@ Basic Structure
 
 ---
 
-# Jekyll Front Matter
-
-```markdown
----
-layout: default
-title: "My Post"
-date: 2024-05-15
----
-
-# Welcome to my blog!
-
-This content will be processed by Jekyll.
-```
-
-Key Features:
-- Variables ({{ page.title }})
-- Includes ({% include header.html %})
-- Liquid templating
-
----
-
 # Publishing Methods
 
 1. Branch Method
