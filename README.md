@@ -54,6 +54,7 @@
  6. [Git Continued](git-continue)
  7. [Backups](backups)
  8. [Graph Plotting in Python](graphs)
+ 9. [Github Pages](github-pages)
 
 ## Trabajos Prácticos Taller
 1. [Trabajo Práctico Bash](https://classroom.github.com/a/ZgFn166I)
