@@ -83,7 +83,7 @@
 
 **************************************************
 
-## Parciales
+## Parciales y Finales
 ### Primer Parcial
 * Comisión A y B: Viernes 16/5/25 11 hs
 * Comisión C y D: Viernes 16/5/25 9 hs
