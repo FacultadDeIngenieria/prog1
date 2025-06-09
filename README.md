@@ -95,7 +95,13 @@
 * Comisión E: Lunes 9/6/25 11 hs
 
 ### Primer recuperatorio
-* Viernes 4/7/25 9 hs (todas las comisiones)  
+* Viernes 4/7/25 9 hs (todas las comisiones)
+
+### Primer final de julio (y último recuperatorio)
+* Jueves 10/7/25 14 hs
+
+### Segundo final de julio
+* Lunes 28/7/25 9 hs
 
 <!-- ************************************************** -->
 
