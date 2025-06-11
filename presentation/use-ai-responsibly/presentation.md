@@ -1,4 +1,8 @@
+class: center, middle, inverse
+
 # Understanding LLM Code Generation Pitfalls & Hallucinations
+
+---
 
 ## What Are LLM "Hallucinations"?
 
@@ -9,7 +13,9 @@
 - Training on unverified internet data
 - Over-optimization for plausible-sounding responses
 
+
 --- 
+
 
 # Code-Specific Hallucinations:
 ```python
