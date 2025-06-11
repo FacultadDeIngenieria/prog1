@@ -56,6 +56,7 @@
  7. [Backups](backups)
  8. [Graph Plotting in Python](graphs)
  9. [Github Pages](github-pages)
+ 10. [Use LLMs Responsibly](use-ai-responsibly)
 
 ## Trabajos Prácticos Taller
 1. [Trabajo Práctico Bash](https://classroom.github.com/a/ZgFn166I)
