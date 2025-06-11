@@ -13,9 +13,7 @@ class: center, middle, inverse
 - Training on unverified internet data
 - Over-optimization for plausible-sounding responses
 
-
 --- 
-
 
 # Code-Specific Hallucinations:
 ```python
