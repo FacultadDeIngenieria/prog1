@@ -100,7 +100,7 @@
 * Viernes 4/7/25 9 hs (todas las comisiones)
 
 ### Primer final de julio (y último recuperatorio)
-* Jueves 10/7/25 14 hs
+* Jueves 15/7/25 11 hs
 
 ### Segundo final de julio
 * Lunes 28/7/25 9 hs
