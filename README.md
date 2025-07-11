@@ -37,7 +37,7 @@
 ## Ejercicios adicionales
 * [Primer parcial](additional-practice/1)
 * [Segundo parcial](additional-practice/2)
-* [Ejercicios de archivos y excepciones](https://github.com/FacultadDeIngenieria/prog1/blob/gh-pages/resources/file_exception_practice.md)
+* [Ejercicios de archivos y excepciones](https://facultaddeingenieria.github.io/prog1/resources/file_exception_practice.md)
 * [Mas ejercicios de python (dificultad easy)](https://exercism.org/tracks/python/exercises)
 
 
