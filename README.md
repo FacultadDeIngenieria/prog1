@@ -42,9 +42,9 @@
 
 
 
-<!-- ## Final -->
-<!-- * [Final Bibloteca](practice/final.pdf) -->
-<!-- * [Final ETL ADN](additional-practice/final-etl-adn.pdf) -->
+## Final
+* [Final Bibloteca](practice/final.pdf)
+* [Final ETL ADN](additional-practice/final-etl-adn.pdf)
 
 <!-- ************************************************** -->
 
