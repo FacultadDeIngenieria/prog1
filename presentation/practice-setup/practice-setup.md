@@ -25,7 +25,7 @@ Discord will be our main hub for Prog 1. You can ask questions there and also ge
 
 Once you have our account created, then the final step is to join GitHub Classroom.
 
-Join TP 1 -> [https://classroom.github.com/a/nYqVF7Kz](https://classroom.github.com/a/nYqVF7Kz)
+Join TP 1 -> [https://classroom.github.com/XXXX](https://classroom.github.com/)
 
 Find your name and link your GitHub user.
 If you don't find your name, please tell the teacher to add you.
