@@ -24,8 +24,8 @@
 ## Trabajos Prácticos
 
 1. [TP1](practice/1)
+2. [TP2](practice/2)
 
-[//]: # (2. [TP2]&#40;practice/2&#41;)
 [//]: # (3. [TP3]&#40;practice/3&#41;)
 [//]: # (4. [TP4]&#40;practice/4&#41;)
 [//]: # (5. [TP5]&#40;practice/5&#41;)
@@ -151,9 +151,11 @@
 [//]: # (<!-- ************************************************** -->)
 
 [//]: # ()
-[//]: # (## Cátedra)
 
-[//]: # (### Teoría)
+
+## Cátedra
+
+### Teoría
 
 [//]: # (* Gastón Gadea &#40;C y D&#41;: [gaston.gadea@ing.austral.edu.ar]&#40;gaston.gadea@ing.austral.edu.ar&#41;)
 
@@ -161,28 +163,26 @@
 
 [//]: # (* Jorge Machini &#40;A&#41;: [jorge.machini@ing.austral.edu.ar]&#40;jorge.machini@ing.austral.edu.ar&#41;)
 
-[//]: # (* Diego Baldassare &#40;B&#41;: [diego.baldassare@ing.austral.edu.ar]&#40;diego.baldassare@ing.austral.edu.ar&#41;)
+* José Juarez: [jose.juarez@ing.austral.edu.ar](jose.juarez@ing.austral.edu.ar)
 
-[//]: # ()
-[//]: # (### Práctica)
+### Práctica
+
+* Diego Baldassare: [diego.baldassare@ing.austral.edu.ar](diego.baldassare@ing.austral.edu.ar)
 
 [//]: # (* Juan Longo &#40;C&#41;: [juan.longo@ing.austral.edu.ar]&#40;mailto:jlongo@austral.edu.ar&#41;)
 
 [//]: # (* Matías Ponce &#40;B&#41;: [matias.ponce@ing.austral.edu.ar]&#40;mailto:matias.ponce@ing.austral.edu.ar&#41;)
 
-[//]: # (* José Juarez &#40;A y D&#41;: [jose.juarez@ing.austral.edu.ar]&#40;jose.juarez@ing.austral.edu.ar&#41;)
-
 [//]: # (* Rocío Ferreiro &#40;E&#41;: [rocio.ferreirorico@ing.austral.edu.ar]&#40;rocio.ferreirorico@ing.austral.edu.ar&#41;)
 
-[//]: # ()
 [//]: # (### Taller &#40;sólo informáticos&#41;)
 
 [//]: # (* Sebastián Iglesias &#40;A y B&#41;: [sebastian.iglesias@ing.austral.edu.ar]&#40;sebastian.iglesias@ing.austral.edu.ar&#41;)
 
 [//]: # (* Diego Baldassare &#40;C y D&#41;: [diego.baldassare@ing.austral.edu.ar]&#40;diego.baldassare@ing.austral.edu.ar&#41;)
 
-[//]: # ()
-[//]: # (### Ayudantes)
+
+### Ayudantes
 
 [//]: # (* Tomás Bregoli: [tbregoli@mail.austral.edu.ar]&#40;mailto:tbregoli@mail.austral.edu.ar&#41;)
 
@@ -192,7 +192,8 @@
 
 [//]: # (* Sofía Gugliotta	[sgugliotta@mail.austral.edu.ar]&#40;mailto:sgugliotta@mail.austral.edu.ar&#41;)
 
-[//]: # (* Candela De Franco:	[cdefranco@mail.austral.edu.ar]&#40;mailto:cdefranco@mail.austral.edu.ar&#41;)
+* Candela De Franco:	[cdefranco@mail.austral.edu.ar](mailto:cdefranco@mail.austral.edu.ar)
+* Agustin Martinez
 
 [//]: # (* Felipe Fernández Cronenbold:	[ffernandezcronenbol@mail.austral.edu.ar]&#40;mailto:ffernandezcronenbol@mail.austral.edu.ar&#41;)
 
