@@ -8,7 +8,6 @@ permalink: /practice/1
 
 ## Completar el trabajo práctico en GitHub Classroom
 
-[//]: # ([Link al TP 1]&#40;https://classroom.github.com/a/nYqVF7Kz&#41;)
 [Link al TP 1](https://classroom.github.com/a/WZSesQx9)
 
 

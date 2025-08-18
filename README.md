@@ -25,8 +25,8 @@
 
 1. [TP1](practice/1)
 2. [TP2](practice/2)
+3. [TP3](practice/3)
 
-[//]: # (3. [TP3]&#40;practice/3&#41;)
 [//]: # (4. [TP4]&#40;practice/4&#41;)
 [//]: # (5. [TP5]&#40;practice/5&#41;)
 [//]: # (6. [TP6]&#40;practice/6&#41;)
@@ -38,7 +38,7 @@
 
 ## Cátedra
 
-Foro de consultas en Discord: https://discord.gg/3kcdPFBMcU
+Foro de consultas en Discord: [https://discord.gg/3kcdPFBMcU](https://discord.gg/3kcdPFBMcU)
 
 ### Teoría
 
@@ -48,12 +48,12 @@ Foro de consultas en Discord: https://discord.gg/3kcdPFBMcU
 
 [//]: # (* Jorge Machini &#40;A&#41;: [jorge.machini@ing.austral.edu.ar]&#40;jorge.machini@ing.austral.edu.ar&#41;)
 
-* José Juarez: [jose.juarez@ing.austral.edu.ar](jose.juarez@ing.austral.edu.ar)
-* Eugenia Varando: [eugenia.varando@ing.austral.edu.ar](eugenia.varando@ing.austral.edu.ar)
+* José Juarez: [jose.juarez@ing.austral.edu.ar](mailto:jose.juarez@ing.austral.edu.ar)
+* Maria Eugenia Varando: [eugenia.varando@ing.austral.edu.ar](mailto:eugenia.varando@ing.austral.edu.ar)
 
 ### Práctica
 
-* Diego Baldassare: [diego.baldassare@ing.austral.edu.ar](diego.baldassare@ing.austral.edu.ar)
+* Diego Baldassare: [diego.baldassare@ing.austral.edu.ar](mailto:diego.baldassare@ing.austral.edu.ar)
 
 [//]: # (* Juan Longo &#40;C&#41;: [juan.longo@ing.austral.edu.ar]&#40;mailto:jlongo@austral.edu.ar&#41;)
 
@@ -92,13 +92,13 @@ Foro de consultas en Discord: https://discord.gg/3kcdPFBMcU
 ## Parciales
 ### Primer Parcial
 Temas: hasta Functions (TP1 al TP5) inclusive. No se podrán aplicar contenidos no vistos en clase.
+* Comisión Viernes: 19/9/25 11 hs
 * Comisión Lunes: 22/9/25 11 hs
-* Comisión Viernes: 26/9/25 11 hs
 
 ### Segundo Parcial
 Temas: desde Listas (TP6 al TP10) inclusive. No se podrán aplicar contenidos no vistos en clase.
-* Comisión Lunes: 10/11/25 9 hs
-* Comisión Viernes: 14/11/25 11 hs
+* Comisión Lunes: 3/11/25 11 hs
+* Comisión Viernes: 7/11/25 11 hs
 
 ## Instalación y configuración de Python y SublimeText
 [Revisar los pasos  aqui](utils/installation)

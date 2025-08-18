@@ -8,7 +8,6 @@ permalink: /practice/2
 
 ## Completar el trabajo práctico en GitHub Classroom
 
-[//]: # ([Link al TP 2]&#40;https://classroom.github.com/a/VFDGFHcP&#41;)
 [Link al TP 2](https://classroom.github.com/a/qGCEWCbw)
 
 [//]: # (Deadline entrega del TP: 07/04/2025 9:00 AM)
