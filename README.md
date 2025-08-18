@@ -36,124 +36,9 @@
 [//]: # (10. [TP10]&#40;practice/10&#41;)
 [//]: # (10. [TP11]&#40;practice/11&#41;)
 
-## Instalación y configuración de Python y SublimeText
-[Revisar los pasos  aqui](utils/installation)
-
-## PyCharm Educational License
-[Revisar los pasos  aqui](utils/license)
-
-## Recursos
-
-* [What's an algorithm?](https://www.youtube.com/watch?v=6hfOvs8pY1k)
-* [ASCII Table Extended](https://computersciencewiki.org/images/3/3d/Ascii_table.png)
-* [Tips from class](resources/hoja_tips.pdf)
-
-## Ejercicios adicionales
-* [Primer parcial](additional-practice/1)
-* [Segundo parcial](additional-practice/2)
-* [Ejercicios de archivos y excepciones](https://facultaddeingenieria.github.io/prog1/resources/file_exception_practice.md)
-* [Mas ejercicios de python (dificultad easy)](https://exercism.org/tracks/python/exercises)
-
-
-
-[//]: # (## Final)
-
-[//]: # (* [Final Bibloteca]&#40;practice/final.pdf&#41;)
-[//]: # (* [Final ETL ADN]&#40;additional-practice/final-etl-adn.pdf&#41;)
-
-<!-- ************************************************** -->
-
-[//]: # (## Taller)
-
-[//]: # ( 1. [Asking Questions]&#40;asking-questions&#41;)
-
-[//]: # ( 2. [Bash Intro]&#40;bash-intro&#41;)
-
-[//]: # ( 3. [Ways to run Python]&#40;run-python&#41;)
-
-[//]: # ( 4. [Regex]&#40;regex&#41;)
-
-[//]: # ( 5. [Git Intro]&#40;git-intro&#41;)
-
-[//]: # ( 6. [Git Continued]&#40;git-continue&#41;)
-
-[//]: # ( 7. [Backups]&#40;backups&#41;)
-
-[//]: # ( 8. [Graph Plotting in Python]&#40;graphs&#41;)
-
-[//]: # ( 9. [Github Pages]&#40;github-pages&#41;)
-
-[//]: # ( 10. [Use LLMs Responsibly]&#40;use-ai-responsibly&#41;)
-
-[//]: # ()
-[//]: # (## Trabajos Prácticos Taller)
-
-[//]: # (1. [Trabajo Práctico Bash]&#40;https://classroom.github.com/a/ZgFn166I&#41;)
-
-[//]: # (2. [Jupyter]&#40;https://classroom.github.com/a/oJOieDbD&#41;)
-
-[//]: # (3. [Regex]&#40;https://classroom.github.com/a/zL717eb-&#41;)
-
-[//]: # (4. [Git]&#40;practice/git&#41;)
-
-[//]: # (5. [Graph Plotting]&#40;https://classroom.github.com/a/G1ubw-LB&#41;)
-
-[//]: # ()
-[//]: # (<!-- ************************************************** -->)
-
-[//]: # ()
-[//]: # ()
-[//]: # ()
-[//]: # (## Clases Consulta)
-
-[//]: # ()
-[//]: # (* Jueves 13 a 14 hs, aula A3)
-
-[//]: # ()
-[//]: # (**************************************************)
-
-[//]: # ()
-[//]: # (## Parciales y Finales)
-
-[//]: # (### Primer Parcial)
-
-[//]: # (* Comisión A y B: Viernes 16/5/25 11 hs)
-
-[//]: # (* Comisión C y D: Viernes 16/5/25 9 hs)
-
-[//]: # (* Comisión E: Lunes 5/5/25 11 hs)
-
-[//]: # ()
-[//]: # (### Segundo Parcial)
-
-[//]: # (* Comisión A y B: Viernes 27/6/25 11 hs)
-
-[//]: # (* Comisión C y D: Viernes 27/6/25 9 hs)
-
-[//]: # (* Comisión E: Lunes 9/6/25 11 hs)
-
-[//]: # ()
-[//]: # (### Primer recuperatorio)
-
-[//]: # (* Viernes 4/7/25 9 hs &#40;todas las comisiones&#41;)
-
-[//]: # ()
-[//]: # (### Primer final de julio &#40;y último recuperatorio&#41;)
-
-[//]: # (* Martes 15/7/25 11 hs)
-
-[//]: # ()
-[//]: # (### Segundo final de julio)
-
-[//]: # (* Lunes 28/7/25 9 hs)
-
-[//]: # ()
-[//]: # (<!-- ************************************************** -->)
-
-[//]: # ()
-
-
 ## Cátedra
+
+Foro de consultas en Discord: https://discord.gg/3kcdPFBMcU
 
 ### Teoría
 
@@ -164,6 +49,7 @@
 [//]: # (* Jorge Machini &#40;A&#41;: [jorge.machini@ing.austral.edu.ar]&#40;jorge.machini@ing.austral.edu.ar&#41;)
 
 * José Juarez: [jose.juarez@ing.austral.edu.ar](jose.juarez@ing.austral.edu.ar)
+* Eugenia Varando: [eugenia.varando@ing.austral.edu.ar](eugenia.varando@ing.austral.edu.ar)
 
 ### Práctica
 
@@ -192,8 +78,8 @@
 
 [//]: # (* Sofía Gugliotta	[sgugliotta@mail.austral.edu.ar]&#40;mailto:sgugliotta@mail.austral.edu.ar&#41;)
 
-* Candela De Franco:	[cdefranco@mail.austral.edu.ar](mailto:cdefranco@mail.austral.edu.ar)
-* Agustin Martinez
+* Candela De Franco: [cdefranco@mail.austral.edu.ar](mailto:cdefranco@mail.austral.edu.ar)
+* Agustin Martinez: [almartinez1@mail.austral.edu.ar](mailto:almartinez1@mail.austral.edu.ar)
 
 [//]: # (* Felipe Fernández Cronenbold:	[ffernandezcronenbol@mail.austral.edu.ar]&#40;mailto:ffernandezcronenbol@mail.austral.edu.ar&#41;)
 
@@ -202,3 +88,72 @@
 [//]: # (* Matías Recio Ojeda:	[mrecioojeda@mail.austral.edu.ar]&#40;mailto:mrecioojeda@mail.austral.edu.ar&#41;)
 
 [//]: # (* Tomás Caporaso:	[tmcaporaso@mail.austral.edu.ar]&#40;mailto:tmcaporaso@mail.austral.edu.ar&#41;)
+
+## Parciales
+### Primer Parcial
+Temas: hasta Functions (TP1 al TP5) inclusive. No se podrán aplicar contenidos no vistos en clase.
+* Comisión Lunes: 22/9/25 11 hs
+* Comisión Viernes: 26/9/25 11 hs
+
+### Segundo Parcial
+Temas: desde Listas (TP6 al TP10) inclusive. No se podrán aplicar contenidos no vistos en clase.
+* Comisión Lunes: 10/11/25 9 hs
+* Comisión Viernes: 14/11/25 11 hs
+
+## Instalación y configuración de Python y SublimeText
+[Revisar los pasos  aqui](utils/installation)
+
+## PyCharm Educational License
+[Revisar los pasos  aqui](utils/license)
+
+## Recursos
+* [What's an algorithm?](https://www.youtube.com/watch?v=6hfOvs8pY1k)
+* [ASCII Table Extended](https://computersciencewiki.org/images/3/3d/Ascii_table.png)
+* [Tips from class](resources/hoja_tips.pdf)
+
+
+[//]: # (## Ejercicios adicionales)
+[//]: # (* [Primer parcial]&#40;additional-practice/1&#41;)
+[//]: # (* [Segundo parcial]&#40;additional-practice/2&#41;)
+[//]: # (* [Ejercicios de archivos y excepciones]&#40;https://facultaddeingenieria.github.io/prog1/resources/file_exception_practice.md&#41;)
+[//]: # (* [Mas ejercicios de python &#40;dificultad easy&#41;]&#40;https://exercism.org/tracks/python/exercises&#41;)
+
+
+[//]: # (## Final)
+[//]: # (* [Final Bibloteca]&#40;practice/final.pdf&#41;)
+[//]: # (* [Final ETL ADN]&#40;additional-practice/final-etl-adn.pdf&#41;)
+
+
+[//]: # (## Taller)
+
+[//]: # ( 1. [Asking Questions]&#40;asking-questions&#41;)
+
+[//]: # ( 2. [Bash Intro]&#40;bash-intro&#41;)
+
+[//]: # ( 3. [Ways to run Python]&#40;run-python&#41;)
+
+[//]: # ( 4. [Regex]&#40;regex&#41;)
+
+[//]: # ( 5. [Git Intro]&#40;git-intro&#41;)
+
+[//]: # ( 6. [Git Continued]&#40;git-continue&#41;)
+
+[//]: # ( 7. [Backups]&#40;backups&#41;)
+
+[//]: # ( 8. [Graph Plotting in Python]&#40;graphs&#41;)
+
+[//]: # ( 9. [Github Pages]&#40;github-pages&#41;)
+
+[//]: # ( 10. [Use LLMs Responsibly]&#40;use-ai-responsibly&#41;)
+
+[//]: # (## Trabajos Prácticos Taller)
+
+[//]: # (1. [Trabajo Práctico Bash]&#40;https://classroom.github.com/a/ZgFn166I&#41;)
+
+[//]: # (2. [Jupyter]&#40;https://classroom.github.com/a/oJOieDbD&#41;)
+
+[//]: # (3. [Regex]&#40;https://classroom.github.com/a/zL717eb-&#41;)
+
+[//]: # (4. [Git]&#40;practice/git&#41;)
+
+[//]: # (5. [Graph Plotting]&#40;https://classroom.github.com/a/G1ubw-LB&#41;)
