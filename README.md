@@ -4,9 +4,9 @@
 2. [Set-up Practica](practice-setup)
 3. [Hello World](hello-world)
 4. [Variables](variables)
+5. [Strings](strings)
+6. [Strings (part 2)](strings-2)
 
-[//]: # (5. [Strings]&#40;strings&#41;)
-[//]: # (6. [Strings &#40;part 2&#41;]&#40;strings-2&#41;)
 [//]: # (7. [If Statements]&#40;ifs&#41;)
 [//]: # (8. [Functions]&#40;functions&#41;)
 [//]: # (9. [Scope]&#40;scope&#41;)
