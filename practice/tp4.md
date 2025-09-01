@@ -7,9 +7,7 @@ permalink: /practice/4
 # Trabajo Práctico 4
 
 ## Completar el trabajo práctico en GitHub Classroom
-[Link al TP 4](https://classroom.github.com/a/5IjKEPJO)
-
-Deadline entrega del TP: 21/04/2025 9:00 AM
+[Link al TP 4](https://classroom.github.com/a/mWD8qShn)
 
 ## Ejercicio 1 - Line
 

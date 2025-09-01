@@ -6,9 +6,9 @@
 4. [Variables](variables)
 5. [Strings](strings)
 6. [Strings (part 2)](strings-2)
+7. [If Statements](ifs)
+8. [Functions](functions)
 
-[//]: # (7. [If Statements]&#40;ifs&#41;)
-[//]: # (8. [Functions]&#40;functions&#41;)
 [//]: # (9. [Scope]&#40;scope&#41;)
 <!-- 10. [Debug](debug) -->
 
@@ -26,9 +26,9 @@
 1. [TP1](practice/1)
 2. [TP2](practice/2)
 3. [TP3](practice/3)
+4. [TP4](practice/4)
+5. [TP5](practice/5)
 
-[//]: # (4. [TP4]&#40;practice/4&#41;)
-[//]: # (5. [TP5]&#40;practice/5&#41;)
 [//]: # (6. [TP6]&#40;practice/6&#41;)
 [//]: # (7. [TP7]&#40;practice/7&#41;)
 [//]: # (8. [TP8]&#40;practice/8&#41;)
