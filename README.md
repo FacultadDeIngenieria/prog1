@@ -8,9 +8,8 @@
 6. [Strings (part 2)](strings-2)
 7. [If Statements](ifs)
 8. [Functions](functions)
-
-[//]: # (9. [Scope]&#40;scope&#41;)
-<!-- 10. [Debug](debug) -->
+9. [Scope](scope)
+10. [Debug](debug)
 
 [//]: # (11. [Lists]&#40;lists&#41;)
 [//]: # (12. [Loops]&#40;loops&#41;)
@@ -112,11 +111,11 @@ Temas: desde Listas (TP6 al TP10) inclusive. No se podrán aplicar contenidos no
 * [Tips from class](resources/hoja_tips.pdf)
 
 
-[//]: # (## Ejercicios adicionales)
-[//]: # (* [Primer parcial]&#40;additional-practice/1&#41;)
-[//]: # (* [Segundo parcial]&#40;additional-practice/2&#41;)
-[//]: # (* [Ejercicios de archivos y excepciones]&#40;https://facultaddeingenieria.github.io/prog1/resources/file_exception_practice.md&#41;)
-[//]: # (* [Mas ejercicios de python &#40;dificultad easy&#41;]&#40;https://exercism.org/tracks/python/exercises&#41;)
+## Ejercicios adicionales
+* [Primer parcial](additional-practice/1)
+* [Segundo parcial](additional-practice/2)
+* [Ejercicios de archivos y excepciones](https://facultaddeingenieria.github.io/prog1/resources/file_exception_practice.md)
+* [Mas ejercicios de python (dificultad easy)](https://exercism.org/tracks/python/exercises)
 
 
 [//]: # (## Final)
