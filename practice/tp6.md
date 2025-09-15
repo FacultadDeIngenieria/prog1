@@ -7,9 +7,7 @@ permalink: /practice/6
 # Trabajo Práctico 6
 
 ## Completar el trabajo práctico en GitHub Classroom
-[Link al TP 6](https://classroom.github.com/a/XuA_fnBf)
-
-Deadline entrega del TP: 16/05/2025 9:00 AM
+[Link al TP 6](https://classroom.github.com/a/7kV3yank)
 
 En este ejercicio deberán implementar todos los métodos descritos a continuación:
 

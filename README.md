@@ -10,8 +10,8 @@
 8. [Functions](functions)
 9. [Scope](scope)
 10. [Debug](debug)
+11. [Lists](lists)
 
-[//]: # (11. [Lists]&#40;lists&#41;)
 [//]: # (12. [Loops]&#40;loops&#41;)
 [//]: # (13. [Tuples]&#40;tuples&#41;)
 [//]: # (14. [Sets]&#40;sets&#41;)
@@ -27,8 +27,8 @@
 3. [TP3](practice/3)
 4. [TP4](practice/4)
 5. [TP5](practice/5)
+6. [TP6](practice/6)
 
-[//]: # (6. [TP6]&#40;practice/6&#41;)
 [//]: # (7. [TP7]&#40;practice/7&#41;)
 [//]: # (8. [TP8]&#40;practice/8&#41;)
 [//]: # (9. [TP9]&#40;practice/9&#41;)
