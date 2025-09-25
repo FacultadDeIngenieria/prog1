@@ -28,8 +28,8 @@
 4. [TP4](practice/4)
 5. [TP5](practice/5)
 6. [TP6](practice/6)
+7. [TP7](practice/7)
 
-[//]: # (7. [TP7]&#40;practice/7&#41;)
 [//]: # (8. [TP8]&#40;practice/8&#41;)
 [//]: # (9. [TP9]&#40;practice/9&#41;)
 [//]: # (10. [TP10]&#40;practice/10&#41;)
