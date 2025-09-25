@@ -11,8 +11,8 @@
 9. [Scope](scope)
 10. [Debug](debug)
 11. [Lists](lists)
+12. [Loops](loops)
 
-[//]: # (12. [Loops]&#40;loops&#41;)
 [//]: # (13. [Tuples]&#40;tuples&#41;)
 [//]: # (14. [Sets]&#40;sets&#41;)
 [//]: # (15. [Maps]&#40;maps&#41;)
@@ -91,13 +91,22 @@ Foro de consultas en Discord: [https://discord.gg/3kcdPFBMcU](https://discord.gg
 ## Parciales
 ### Primer Parcial
 Temas: hasta Functions (TP1 al TP5) inclusive. No se podrán aplicar contenidos no vistos en clase.
-* Comisión Viernes: 19/9/25 11 hs
-* Comisión Lunes: 22/9/25 11 hs
+* Comisión Viernes: 19/9/25
+* Comisión Lunes: 22/9/25
 
 ### Segundo Parcial
 Temas: desde Listas (TP6 al TP10) inclusive. No se podrán aplicar contenidos no vistos en clase.
-* Comisión Lunes: 3/11/25 11 hs
-* Comisión Viernes: 7/11/25 11 hs
+* Comisión Lunes: 3/11/25
+* Comisión Viernes: 7/11/25
+
+### Recuperatorios
+* Primera instancia: viernes 28/11/25 9hs
+* Segunda instancia: viernes 5/12/25 9hs
+
+### Final
+Temas: todo lo visto en clase (desde el TP1 al TP10 inclusive) aplicado en un ejercicio integrador "ETL", ver modelo en ejercicios adicionales.
+* Primera instancia: viernes 5/12/25 9hs
+* Segunda instancia: lunes 22/12/25 9hs
 
 ## Instalación y configuración de Python y SublimeText
 [Revisar los pasos  aqui](utils/installation)
@@ -116,11 +125,8 @@ Temas: desde Listas (TP6 al TP10) inclusive. No se podrán aplicar contenidos no
 * [Segundo parcial](additional-practice/2)
 * [Ejercicios de archivos y excepciones](https://facultaddeingenieria.github.io/prog1/resources/file_exception_practice.md)
 * [Mas ejercicios de python (dificultad easy)](https://exercism.org/tracks/python/exercises)
-
-
-[//]: # (## Final)
-[//]: # (* [Final Bibloteca]&#40;practice/final.pdf&#41;)
-[//]: # (* [Final ETL ADN]&#40;additional-practice/final-etl-adn.pdf&#41;)
+* [Final Bibloteca](practice/final.pdf)
+* [Final ETL ADN](additional-practice/final-etl-adn.pdf)
 
 
 [//]: # (## Taller)
