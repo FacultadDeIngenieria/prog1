@@ -9,8 +9,6 @@ permalink: /practice/7
 ## Completar el trabajo práctico en GitHub Classroom
 [Link al TP 7](https://classroom.github.com/a/7ErlSNL8)
 
-Deadline entrega del TP: 30/05/2025 9:00 AM
-
 ## Ejercicio 1 - Loops and prints
 
 Dada la siguiente consigna, implementar y lograr imprimir en pantalla el output esperado.

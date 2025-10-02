@@ -12,10 +12,10 @@
 10. [Debug](debug)
 11. [Lists](lists)
 12. [Loops](loops)
+13. [Tuples](tuples)
+14. [Sets](sets)
+15. [Maps](maps)
 
-[//]: # (13. [Tuples]&#40;tuples&#41;)
-[//]: # (14. [Sets]&#40;sets&#41;)
-[//]: # (15. [Maps]&#40;maps&#41;)
 [//]: # (16. [Iterable Tools]&#40;iterable-tools&#41;)
 [//]: # (17. [Files]&#40;files&#41;)
 [//]: # (18. [Exceptions]&#40;exceptions&#41;)
