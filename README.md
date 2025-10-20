@@ -15,10 +15,9 @@
 13. [Tuples](tuples)
 14. [Sets](sets)
 15. [Maps](maps)
-
-[//]: # (16. [Iterable Tools]&#40;iterable-tools&#41;)
-[//]: # (17. [Files]&#40;files&#41;)
-[//]: # (18. [Exceptions]&#40;exceptions&#41;)
+16. [Iterable Tools](iterable-tools)
+17. [Files](files)
+18. [Exceptions](exceptions)
 
 ## Trabajos Prácticos
 
@@ -31,9 +30,8 @@
 7. [TP7](practice/7)
 8. [TP8](practice/8)
 9. [TP9](practice/9)
-
-[//]: # (10. [TP10]&#40;practice/10&#41;)
-[//]: # (10. [TP11]&#40;practice/11&#41;)
+10. [TP10](practice/10)
+11. [TP11](practice/11)
 
 ## Cátedra
 
