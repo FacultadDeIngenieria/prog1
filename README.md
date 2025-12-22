@@ -102,7 +102,7 @@ Temas: desde Listas (TP6 al TP10) inclusive. No se podrán aplicar contenidos no
 * Segunda instancia: viernes 5/12/25 9hs
 
 ### Final
-Temas: todo lo visto en clase (desde el TP1 al TP10 inclusive) aplicado en un ejercicio integrador "ETL", ver modelo en ejercicios adicionales.
+Temas: todo lo visto en clase (desde el TP1 al TP11 inclusive) aplicado en un ejercicio integrador "RETL", ver modelo en ejercicios adicionales.
 * Primera instancia: viernes 5/12/25 9hs
 * Segunda instancia: lunes 22/12/25 9hs
 
