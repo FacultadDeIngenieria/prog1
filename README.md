@@ -1,110 +1,125 @@
 ## Presentaciones
 0. [First class](https://drive.google.com/file/d/1jZ7akBG2qQgIt88lK8t7ram-Y99FJu_c)
-1. [Introduction](introduction)
-2. [Set-up Practica](practice-setup)
-3. [Hello World](hello-world)
-4. [Variables](variables)
-5. [Strings](strings)
-6. [Strings (part 2)](strings-2)
-7. [If Statements](ifs)
-8. [Functions](functions)
-9. [Scope](scope)
-10. [Debug](debug)
-11. [Lists](lists)
-12. [Loops](loops)
-13. [Tuples](tuples)
-14. [Sets](sets)
-15. [Maps](maps)
-16. [Iterable Tools](iterable-tools)
-17. [Files](files)
-18. [Exceptions](exceptions)
 
-## Trabajos Prácticos
+[//]: # (1. [Introduction]&#40;introduction&#41;)
 
-1. [TP1](practice/1)
-2. [TP2](practice/2)
-3. [TP3](practice/3)
-4. [TP4](practice/4)
-5. [TP5](practice/5)
-6. [TP6](practice/6)
-7. [TP7](practice/7)
-8. [TP8](practice/8)
-9. [TP9](practice/9)
-10. [TP10](practice/10)
-11. [TP11](practice/11)
+[//]: # (2. [Set-up Practica]&#40;practice-setup&#41;)
 
-## Cátedra
+[//]: # (3. [Hello World]&#40;hello-world&#41;)
+
+[//]: # (4. [Variables]&#40;variables&#41;)
+
+[//]: # (5. [Strings]&#40;strings&#41;)
+
+[//]: # (6. [Strings &#40;part 2&#41;]&#40;strings-2&#41;)
+
+[//]: # (7. [If Statements]&#40;ifs&#41;)
+
+[//]: # (8. [Functions]&#40;functions&#41;)
+
+[//]: # (9. [Scope]&#40;scope&#41;)
+
+[//]: # (10. [Debug]&#40;debug&#41;)
+
+[//]: # (11. [Lists]&#40;lists&#41;)
+
+[//]: # (12. [Loops]&#40;loops&#41;)
+
+[//]: # (13. [Tuples]&#40;tuples&#41;)
+
+[//]: # (14. [Sets]&#40;sets&#41;)
+
+[//]: # (15. [Maps]&#40;maps&#41;)
+
+[//]: # (16. [Iterable Tools]&#40;iterable-tools&#41;)
+
+[//]: # (17. [Files]&#40;files&#41;)
+
+[//]: # (18. [Exceptions]&#40;exceptions&#41;)
+
+[//]: # (## Trabajos Prácticos)
+
+[//]: # (1. [TP1]&#40;practice/1&#41;)
+
+[//]: # (2. [TP2]&#40;practice/2&#41;)
+
+[//]: # (3. [TP3]&#40;practice/3&#41;)
+
+[//]: # (4. [TP4]&#40;practice/4&#41;)
+
+[//]: # (5. [TP5]&#40;practice/5&#41;)
+
+[//]: # (6. [TP6]&#40;practice/6&#41;)
+
+[//]: # (7. [TP7]&#40;practice/7&#41;)
+
+[//]: # (8. [TP8]&#40;practice/8&#41;)
+
+[//]: # (9. [TP9]&#40;practice/9&#41;)
+
+[//]: # (10. [TP10]&#40;practice/10&#41;)
+
+[//]: # (11. [TP11]&#40;practice/11&#41;)
+
 
 Foro de consultas en Discord: [https://discord.gg/3kcdPFBMcU](https://discord.gg/3kcdPFBMcU)
 
-### Teoría
-
-[//]: # (* Gastón Gadea &#40;C y D&#41;: [gaston.gadea@ing.austral.edu.ar]&#40;gaston.gadea@ing.austral.edu.ar&#41;)
-
-[//]: # (* Matías Miodosky &#40;E&#41;: [matias.miodosky@ing.austral.edu.ar]&#40;matias.miodosky@ing.austral.edu.ar&#41;)
-
-[//]: # (* Jorge Machini &#40;A&#41;: [jorge.machini@ing.austral.edu.ar]&#40;jorge.machini@ing.austral.edu.ar&#41;)
-
-* José Juarez: [jose.juarez@ing.austral.edu.ar](mailto:jose.juarez@ing.austral.edu.ar)
+## Cátedra
+### Comisión C
+* Gastón Gadea: [gaston.gadea@ing.austral.edu.ar](gaston.gadea@ing.austral.edu.ar)
 * Maria Eugenia Varando: [eugenia.varando@ing.austral.edu.ar](mailto:eugenia.varando@ing.austral.edu.ar)
 
-### Práctica
-
+### Comisión D
 * Diego Baldassare: [diego.baldassare@ing.austral.edu.ar](mailto:diego.baldassare@ing.austral.edu.ar)
+* Juan Longo: [juan.longo@ing.austral.edu.ar](mailto:jlongo@austral.edu.ar)
+* Matías Ponce: [matias.ponce@ing.austral.edu.ar](mailto:matias.ponce@ing.austral.edu.ar)
 
-[//]: # (* Juan Longo &#40;C&#41;: [juan.longo@ing.austral.edu.ar]&#40;mailto:jlongo@austral.edu.ar&#41;)
+### Comisión E
+* Jorge Machini: [jorge.machini@ing.austral.edu.ar](jorge.machini@ing.austral.edu.ar)
+* José Juarez: [jose.juarez@ing.austral.edu.ar](mailto:jose.juarez@ing.austral.edu.ar)
 
-[//]: # (* Matías Ponce &#40;B&#41;: [matias.ponce@ing.austral.edu.ar]&#40;mailto:matias.ponce@ing.austral.edu.ar&#41;)
+### Taller
+* Diego Baldassare: [diego.baldassare@ing.austral.edu.ar](mailto:diego.baldassare@ing.austral.edu.ar)
+* Sebastián Iglesias: [sebastian.iglesias@ing.austral.edu.ar](sebastian.iglesias@ing.austral.edu.ar)
 
 [//]: # (* Rocío Ferreiro &#40;E&#41;: [rocio.ferreirorico@ing.austral.edu.ar]&#40;rocio.ferreirorico@ing.austral.edu.ar&#41;)
+[//]: # (  * Matías Miodosky &#40;E&#41;: [matias.miodosky@ing.austral.edu.ar]&#40;matias.miodosky@ing.austral.edu.ar&#41;)
 
-[//]: # (### Taller &#40;sólo informáticos&#41;)
-
-[//]: # (* Sebastián Iglesias &#40;A y B&#41;: [sebastian.iglesias@ing.austral.edu.ar]&#40;sebastian.iglesias@ing.austral.edu.ar&#41;)
-
-[//]: # (* Diego Baldassare &#40;C y D&#41;: [diego.baldassare@ing.austral.edu.ar]&#40;diego.baldassare@ing.austral.edu.ar&#41;)
-
-
-### Ayudantes
+[//]: # (### Ayudantes)
 
 [//]: # (* Tomás Bregoli: [tbregoli@mail.austral.edu.ar]&#40;mailto:tbregoli@mail.austral.edu.ar&#41;)
 
-[//]: # (* Facundo García Rosselli:	[fgarciarosselli@mail.austral.edu.ar]&#40;mailto:fgarciarosselli@mail.austral.edu.ar&#41;)
+[//]: # (## Parciales)
 
-[//]: # (* Mateo Díaz	[mdiaz8@mail.austral.edu.ar]&#40;mailto:mdiaz8@mail.austral.edu.ar&#41;)
+[//]: # (### Primer Parcial)
 
-[//]: # (* Sofía Gugliotta	[sgugliotta@mail.austral.edu.ar]&#40;mailto:sgugliotta@mail.austral.edu.ar&#41;)
+[//]: # (Temas: hasta Functions &#40;TP1 al TP5&#41; inclusive. No se podrán aplicar contenidos no vistos en clase.)
 
-* Candela De Franco: [cdefranco@mail.austral.edu.ar](mailto:cdefranco@mail.austral.edu.ar)
-* Agustin Martinez: [almartinez1@mail.austral.edu.ar](mailto:almartinez1@mail.austral.edu.ar)
+[//]: # (* Comisión Viernes: 19/9/25)
 
-[//]: # (* Felipe Fernández Cronenbold:	[ffernandezcronenbol@mail.austral.edu.ar]&#40;mailto:ffernandezcronenbol@mail.austral.edu.ar&#41;)
+[//]: # (* Comisión Lunes: 22/9/25)
 
-[//]: # (* Lucio Zampella:	[lzampella2@mail.austral.edu.ar]&#40;mailto:lzampella2@mail.austral.edu.ar&#41;)
+[//]: # (### Segundo Parcial)
 
-[//]: # (* Matías Recio Ojeda:	[mrecioojeda@mail.austral.edu.ar]&#40;mailto:mrecioojeda@mail.austral.edu.ar&#41;)
+[//]: # (Temas: desde Listas &#40;TP6 al TP10&#41; inclusive. No se podrán aplicar contenidos no vistos en clase.)
 
-[//]: # (* Tomás Caporaso:	[tmcaporaso@mail.austral.edu.ar]&#40;mailto:tmcaporaso@mail.austral.edu.ar&#41;)
+[//]: # (* Comisión Lunes: 3/11/25)
 
-## Parciales
-### Primer Parcial
-Temas: hasta Functions (TP1 al TP5) inclusive. No se podrán aplicar contenidos no vistos en clase.
-* Comisión Viernes: 19/9/25
-* Comisión Lunes: 22/9/25
+[//]: # (* Comisión Viernes: 7/11/25)
 
-### Segundo Parcial
-Temas: desde Listas (TP6 al TP10) inclusive. No se podrán aplicar contenidos no vistos en clase.
-* Comisión Lunes: 3/11/25
-* Comisión Viernes: 7/11/25
+[//]: # (### Recuperatorios)
 
-### Recuperatorios
-* Primera instancia: viernes 28/11/25 9hs
-* Segunda instancia: viernes 5/12/25 9hs
+[//]: # (* Primera instancia: viernes 28/11/25 9hs)
 
-### Final
-Temas: todo lo visto en clase (desde el TP1 al TP11 inclusive) aplicado en un ejercicio integrador "RETL", ver modelo en ejercicios adicionales.
-* Primera instancia: viernes 5/12/25 9hs
-* Segunda instancia: lunes 22/12/25 9hs
+[//]: # (* Segunda instancia: viernes 5/12/25 9hs)
+
+[//]: # (### Final)
+
+[//]: # (Temas: todo lo visto en clase &#40;desde el TP1 al TP11 inclusive&#41; aplicado en un ejercicio integrador "RETL", ver modelo en ejercicios adicionales.)
+
+[//]: # (* Primera instancia: viernes 5/12/25 9hs)
+
+[//]: # (* Segunda instancia: lunes 22/12/25 9hs)
 
 ## Instalación y configuración de Python y SublimeText
 [Revisar los pasos  aqui](utils/installation)
@@ -118,13 +133,19 @@ Temas: todo lo visto en clase (desde el TP1 al TP11 inclusive) aplicado en un ej
 * [Tips from class](resources/hoja_tips.pdf)
 
 
-## Ejercicios adicionales
-* [Primer parcial](additional-practice/1)
-* [Segundo parcial](additional-practice/2)
-* [Ejercicios de archivos y excepciones](https://facultaddeingenieria.github.io/prog1/resources/file_exception_practice.md)
-* [Mas ejercicios de python (dificultad easy)](https://exercism.org/tracks/python/exercises)
-* [Final Bibloteca](practice/final.pdf)
-* [Final ETL ADN](additional-practice/final-etl-adn.pdf)
+[//]: # (## Ejercicios adicionales)
+
+[//]: # (* [Primer parcial]&#40;additional-practice/1&#41;)
+
+[//]: # (* [Segundo parcial]&#40;additional-practice/2&#41;)
+
+[//]: # (* [Ejercicios de archivos y excepciones]&#40;https://facultaddeingenieria.github.io/prog1/resources/file_exception_practice.md&#41;)
+
+[//]: # (* [Mas ejercicios de python &#40;dificultad easy&#41;]&#40;https://exercism.org/tracks/python/exercises&#41;)
+
+[//]: # (* [Final Bibloteca]&#40;practice/final.pdf&#41;)
+
+[//]: # (* [Final ETL ADN]&#40;additional-practice/final-etl-adn.pdf&#41;)
 
 
 [//]: # (## Taller)
