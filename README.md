@@ -107,20 +107,6 @@ Foro de consultas en Discord: [https://discord.gg/3kcdPFBMcU](https://discord.gg
 
 [//]: # (* Comisión Viernes: 7/11/25)
 
-[//]: # (### Recuperatorios)
-
-[//]: # (* Primera instancia: viernes 28/11/25 9hs)
-
-[//]: # (* Segunda instancia: viernes 5/12/25 9hs)
-
-[//]: # (### Final)
-
-[//]: # (Temas: todo lo visto en clase &#40;desde el TP1 al TP11 inclusive&#41; aplicado en un ejercicio integrador "RETL", ver modelo en ejercicios adicionales.)
-
-[//]: # (* Primera instancia: viernes 5/12/25 9hs)
-
-[//]: # (* Segunda instancia: lunes 22/12/25 9hs)
-
 ## Instalación y configuración de Python y SublimeText
 [Revisar los pasos  aqui](utils/installation)
 
