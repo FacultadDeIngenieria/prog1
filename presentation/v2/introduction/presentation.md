@@ -90,20 +90,23 @@ Los algoritmos están en todos lados:
 
 Para entender cómo ejecutamos programas, necesitamos saber qué hay dentro de una computadora.
 
-```
-┌──────────────────────────────────────┐
-│              Computadora             │
-│                                      │
-│   ┌─────┐    ┌─────┐    ┌────────┐  │
-│   │ CPU │◄──►│ RAM │    │HDD/SSD │  │
-│   └─────┘    └─────┘    └────────┘  │
-│       ▲                              │
-│       │                              │
-│   ┌───┴──────────────────┐           │
-│   │  Entrada / Salida    │           │
-│   │  (teclado, pantalla) │           │
-│   └──────────────────────┘           │
-└──────────────────────────────────────┘
+```mermaid
+graph TB
+    subgraph Computadora
+        CPU[CPU]
+        RAM[RAM]
+        Storage[HDD/SSD]
+        IO["Entrada / Salida<br/>(teclado, pantalla)"]
+
+        CPU <--> RAM
+        CPU <--> Storage
+        CPU <--> IO
+    end
+
+    style CPU fill:#ff6b6b,stroke:#c92a2a,stroke-width:3px,color:#fff
+    style RAM fill:#4ecdc4,stroke:#0a9396,stroke-width:2px,color:#fff
+    style Storage fill:#ffe66d,stroke:#f4a261,stroke-width:2px,color:#000
+    style IO fill:#95e1d3,stroke:#38ada9,stroke-width:2px,color:#000
 ```
 
 ---
