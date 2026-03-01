@@ -1,9 +1,3 @@
----
-marp: true
-theme: default
-paginate: true
----
-
 # Introducción a la Programación I
 ## Configuración para la Práctica
 

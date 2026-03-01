@@ -1,9 +1,9 @@
 ## Presentaciones
 0. [Presentación de la materia](https://drive.google.com/file/d/1jZ7akBG2qQgIt88lK8t7ram-Y99FJu_c)
 
-1. [Introducción](introduction)
+1. [Introducción](v2/introduction)
 
-2. [Set-up Practica](practice-setup)
+2. [Set-up Practica](v2/practice-setup)
 
 [//]: # (3. [Hello World]&#40;hello-world&#41;)
 

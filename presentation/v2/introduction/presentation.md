@@ -1,9 +1,3 @@
----
-marp: true
-theme: default
-paginate: true
----
-
 # Introducción a la Programación I
 ## Clase 0: Sistemas y Algoritmos
 
