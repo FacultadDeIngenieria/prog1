@@ -1,9 +1,9 @@
 ## Presentaciones
 0. [First class](https://drive.google.com/file/d/1jZ7akBG2qQgIt88lK8t7ram-Y99FJu_c)
 
-[//]: # (1. [Introduction]&#40;introduction&#41;)
+1. [Introduction](v2/00-sistemas-algoritmos)
 
-[//]: # (2. [Set-up Practica]&#40;practice-setup&#41;)
+[//]: # (2. [Set-up Practica]&#40;v2/00-configuracion-practica.md&#41;)
 
 [//]: # (3. [Hello World]&#40;hello-world&#41;)
 
