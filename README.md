@@ -3,7 +3,7 @@
 
 1. [Introducción](v2/introduction)
 
-2. [Set-up Practica](v2/practice-setup)
+[//]: # (2. [Set-up Practica]&#40;v2/practice-setup&#41;)
 
 [//]: # (3. [Hello World]&#40;hello-world&#41;)
 
