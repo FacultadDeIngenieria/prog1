@@ -92,7 +92,7 @@ Para entender cómo ejecutamos programas, necesitamos saber qué hay dentro de u
 
 ```mermaid
 graph TB
-    subgraph Computadora
+    subgraph comp[Computadora]
         CPU[CPU]
         RAM[RAM]
         Storage[HDD/SSD]

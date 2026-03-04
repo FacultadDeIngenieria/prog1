@@ -54,8 +54,20 @@
         max-height: 65%;
       }
 
+      /* Mermaid diagrams styling */
+      .mermaid {
+        display: flex;
+        justify-content: center;
+        margin: 20px auto;
+      }
+      .mermaid svg {
+        max-width: 100%;
+        height: auto;
+      }
+
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/remark/0.14.0/remark.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
   </head>
   <body>
     <textarea id="source">
@@ -67,7 +79,47 @@
       if(s.innerHTML.indexOf("class") == 6) {
           s.innerHTML = s.innerHTML.substring(6);
       }
-      remark.create({navigation: {scroll: false}});
+      var slideshow = remark.create({navigation: {scroll: false}});
+
+      // Initialize mermaid
+      mermaid.initialize({
+        startOnLoad: false,
+        theme: 'default'
+      });
+
+      // Convert mermaid code blocks to mermaid divs
+      function processMermaidBlocks() {
+        var codeBlocks = document.querySelectorAll('code.language-mermaid, code.mermaid');
+        codeBlocks.forEach(function(code) {
+          if (!code.hasAttribute('data-mermaid-processed')) {
+            var pre = code.parentElement;
+            var mermaidDiv = document.createElement('div');
+            mermaidDiv.className = 'mermaid';
+            mermaidDiv.textContent = code.textContent;
+            pre.parentElement.replaceChild(mermaidDiv, pre);
+            code.setAttribute('data-mermaid-processed', 'true');
+          }
+        });
+      }
+
+      // Render all mermaid diagrams
+      function renderMermaidDiagrams() {
+        processMermaidBlocks();
+        var diagrams = document.querySelectorAll('.mermaid:not([data-processed])');
+        if (diagrams.length > 0) {
+          mermaid.init(undefined, diagrams);
+        }
+      }
+
+      // Initial render
+      setTimeout(function() {
+        renderMermaidDiagrams();
+      }, 100);
+
+      // Re-render on slide change
+      slideshow.on('afterShowSlide', function (slide) {
+        renderMermaidDiagrams();
+      });
     </script>
   </body>
 </html>
