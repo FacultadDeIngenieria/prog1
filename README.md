@@ -1,5 +1,6 @@
 ## Presentaciones
-0. [Presentación de la materia](https://drive.google.com/file/d/1jZ7akBG2qQgIt88lK8t7ram-Y99FJu_c)
+
+[//]: # (0. [Presentación de la materia]&#40;https://drive.google.com/file/d/1jZ7akBG2qQgIt88lK8t7ram-Y99FJu_c&#41;)
 
 1. [Introducción](v2/introduction)
 
