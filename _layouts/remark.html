@@ -58,11 +58,23 @@
       .mermaid {
         display: flex;
         justify-content: center;
-        margin: 20px auto;
+        align-items: center;
+        margin: 30px auto;
+        min-height: 300px;
+        width: 100%;
       }
       .mermaid svg {
         max-width: 100%;
-        height: auto;
+        max-height: 450px;
+        width: auto !important;
+        height: auto !important;
+      }
+      .mermaid text {
+        font-size: 22px !important;
+        font-weight: bold !important;
+      }
+      .mermaid .node rect {
+        stroke-width: 4px !important;
       }
 
     </style>
@@ -83,42 +95,8 @@
 
       // Initialize mermaid
       mermaid.initialize({
-        startOnLoad: false,
+        startOnLoad: true,
         theme: 'default'
-      });
-
-      // Convert mermaid code blocks to mermaid divs
-      function processMermaidBlocks() {
-        var codeBlocks = document.querySelectorAll('code.language-mermaid, code.mermaid');
-        codeBlocks.forEach(function(code) {
-          if (!code.hasAttribute('data-mermaid-processed')) {
-            var pre = code.parentElement;
-            var mermaidDiv = document.createElement('div');
-            mermaidDiv.className = 'mermaid';
-            mermaidDiv.textContent = code.textContent;
-            pre.parentElement.replaceChild(mermaidDiv, pre);
-            code.setAttribute('data-mermaid-processed', 'true');
-          }
-        });
-      }
-
-      // Render all mermaid diagrams
-      function renderMermaidDiagrams() {
-        processMermaidBlocks();
-        var diagrams = document.querySelectorAll('.mermaid:not([data-processed])');
-        if (diagrams.length > 0) {
-          mermaid.init(undefined, diagrams);
-        }
-      }
-
-      // Initial render
-      setTimeout(function() {
-        renderMermaidDiagrams();
-      }, 100);
-
-      // Re-render on slide change
-      slideshow.on('afterShowSlide', function (slide) {
-        renderMermaidDiagrams();
       });
     </script>
   </body>
