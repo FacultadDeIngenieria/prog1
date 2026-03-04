@@ -3,9 +3,9 @@
 
 1. [Introducción](v2/introduction)
 
-[//]: # (2. [Set-up Practica]&#40;v2/practice-setup&#41;)
+2. [Hello World](v2/hello-world)
 
-[//]: # (3. [Hello World]&#40;hello-world&#41;)
+[//]: # (3. [Set-up Practica]&#40;v2/practice-setup&#41;)
 
 [//]: # (4. [Variables]&#40;variables&#41;)
 
