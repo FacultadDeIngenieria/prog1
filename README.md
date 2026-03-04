@@ -37,9 +37,9 @@
 
 [//]: # (18. [Exceptions]&#40;exceptions&#41;)
 
-[//]: # (## Trabajos Prácticos)
+## Trabajos Prácticos
 
-[//]: # (1. [TP1]&#40;practice/1&#41;)
+1. [TP1](practice/1)
 
 [//]: # (2. [TP2]&#40;practice/2&#41;)
 
