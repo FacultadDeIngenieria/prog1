@@ -7,7 +7,7 @@ permalink: /practice/1
 # TP1 - Trabajo Práctico 1
 ## Completar el trabajo práctico en GitHub Classroom
 
-[Link al TP 1](https://classroom.github.com/a/***)
+[Link al TP 1](https://classroom.github.com/a/c6oH9MFz)
 
 ## Temas evaluados
 
