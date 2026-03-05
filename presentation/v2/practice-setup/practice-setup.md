@@ -45,6 +45,7 @@ Los trabajos practicos son parte de la materia. Para poder aprobar la cursada de
 - Python 3.8+ installed
 - `pip` package manager
 
+---
 ## macOS
 
 ```bash
@@ -70,7 +71,7 @@ Replace `3.x` with your Python version (e.g., `3.11`). Then reload:
 ```bash
 source ~/.zshrc
 ```
-
+---
 ## Windows
 
 ```powershell
@@ -93,7 +94,8 @@ python -m ensurepip --upgrade
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
 ```
-
+---
+## Windows ( cont )
 ### Add to PATH (if needed)
 
 If `pytest` is not recognized after install, add the Python Scripts directory to your system PATH:
@@ -112,7 +114,7 @@ Or via PowerShell (current session only):
 ```powershell
 $env:Path += ";C:\Users\$env:USERNAME\AppData\Local\Programs\Python\Python3x\Scripts"
 ```
-
+---
 ## Verify Installation
 
 ```bash
