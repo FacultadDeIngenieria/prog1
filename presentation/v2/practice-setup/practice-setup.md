@@ -15,8 +15,6 @@ Usaremos GitHub para entregar y trabajar en los Trabajos Prácticos (TPs).
 
 Unite a Discord usando esta URL. Creá una cuenta si no tenés usuario. Descargá la aplicación en tu PC o teléfono.
 
-**¡Necesitás vincular tu cuenta de GitHub con Discord para unirte!**
-
 [https://discord.gg/TvtyCmcPk2](https://discord.gg/9KT3X2a7)
 
 Discord será nuestro centro principal de comunicación para Prog 1. Podés hacer preguntas allí y también recibir notificaciones de los profesores.
@@ -27,7 +25,7 @@ Discord será nuestro centro principal de comunicación para Prog 1. Podés hace
 
 Una vez que tengas tu cuenta creada, el paso final es unirte a GitHub Classroom.
 
-**Unirte al TP 1** → [https://classroom.github.com/XXXX](https://classroom.github.com/)
+**Unirte al TP 1** → [Link al TP 1](https://classroom.github.com/a/c6oH9MFz)
 
 - Encontrá tu nombre y vinculá tu usuario de GitHub
 - Si no encontrás tu nombre, avisale al profesor para que te agregue
