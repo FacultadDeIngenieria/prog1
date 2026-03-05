@@ -6,7 +6,7 @@
 
 2. [Hello World](v2/hello-world)
 
-[//]: # (3. [Set-up Practica]&#40;v2/practice-setup&#41;)
+3. [Set-up Practica](v2/practice-setup)
 
 [//]: # (4. [Variables]&#40;variables&#41;)
 
