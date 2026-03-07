@@ -36,8 +36,91 @@ Una vez que tengas tu cuenta creada, el paso final es unirte a GitHub Classroom.
 
 Los trabajos practicos son parte de la materia. Para poder aprobar la cursada de la materia, es necesario tener todos los trabajo prácticos entregados, corregidos y correctos. Que quiere decir que sean correctos? Cada TP tendra un subset de pruebas que evaluán si el código del alumno es correcto. Si todo lo entregado funciona correctamente, dichas pruebas funcionarán y se le tomará como correcta la entrega de dicho TP.
 
+
+# Instalación de Python
+
+---
+## Instalación en Windows
+
+Windows no siempre incluye Python, así que probablemente necesites descargarlo e instalarlo, y luego descargar e instalar un entorno de desarrollo o editor de texto.
+
+Primero, comprueba si Python está instalado en tu sistema.
+Abre una terminal de comandos escribiendo `PowerShell` en el menú Inicio.
+
+En la ventana de terminal, escribe `python` en minúsculas. Si aparece un mensaje de error de Python (>>>), significa que Python está instalado en tu sistema. Sin embargo, probablemente verás un mensaje de error indicando que Python no es un comando reconocido o que la aplicación de Microsoft Store no se está cargando.
+
+
+En ese caso, descarga un instalador de Python para Windows.
+
+Instrucciones en la página siguiente
+---
+Ve a [http://python.org/downloads/](http://python.org/downloads/). Haz clic en el botón `Descargar Python 3.14.3`; esto debería iniciar automáticamente la descarga del instalador correcto para tu sistema. Después de descargar el archivo, ejecute el instalador. Asegúrese de marcar la opción `"`Añadir Python a PATH`"` para facilitar la configuración correcta del sistema.
+
+![Installation]({{site.baseurl}}/utils/installation/img.png)
+
+---
+Abra una ventana de comandos e introduzca `python` en minúsculas. Si aparece el símbolo del sistema de Python (>>>), Windows ha encontrado la versión de Python que acaba de instalar:
+```commandline
+C:\> python
+Python 3.10.3 (tags/v3.10.3:a342a49, Mar 16 2022, 13:07:40) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+```
+
+Cuando haya visto este resultado, presione Ctrl-Z o ingrese `exit` para salir de la terminal de Python y regresar a la terminal.
+
+---
+## Instalación en MacOS
+
+### Installing Homebrew
+Homebrew es un gestor de paquetes para OS X (y Linux).
+
+Abre una ventana de terminal: Puedes presionar la tecla Command + Barra espaciadora para abrir Spotlight, escribir `Terminal` y presionar Intro. Luego, pega el siguiente comando en la terminal.
+```commandline
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+(Ingresa a [https://brew.sh/](https://brew.sh/) para más información sobre Homebrew)
+
+
 ---
 
+Después de descargar e instalar Homebrew con el comando anterior, puedes instalar Python3 escribiendo el comando
+```commandline
+brew install python3
+```
+
+Finalmente, puedes comprobar la versión de Python instalada con el comando `python3`
+```commandline
+python3
+Python 3.9.10 (main, Jan 15 2022, 11:48:00)
+[Clang 13.0.0 (clang-1300.0.29.3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
+
+Cuando haya visto este resultado, presione Ctrl+D o ingrese `exit` para salir de la terminal de Python y regresar a la terminal.
+
+---
+## Instalación en Linux
+
+Abra una ventana de terminal ejecutando la aplicación Terminal en su sistema (en Ubuntu, puede presionar Ctrl+Alt+T). Luego, ejecute los siguientes comandos.
+```commandline
+sudo apt-get update
+sudo apt-get install python3
+```
+
+Finalmente, puedes comprobar la versión de Python instalada con el comando `python3`
+```commandline
+$ python3
+Python 3.9.10 (main, Jan 15 2022, 11:48:00)
+[Clang 13.0.0 (clang-1300.0.29.3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+
+```
+
+Cuando haya visto este resultado, presione Ctrl+D o ingrese `exit` para salir del indicador de Python y regresar al indicador de terminal.
+
+---
 # Installing pytest
 
 ## Prerequisites
@@ -120,6 +203,24 @@ $env:Path += ";C:\Users\$env:USERNAME\AppData\Local\Programs\Python\Python3x\Scr
 ```bash
 pytest --version
 ```
+
+---
+
+# Solicita la licencia educativa de JetBrains para usar PyCharm Professional.
+
+### Completa el siguiente formulario con tu correo electrónico @edu:
+
+[https://www.jetbrains.com/shop/eform/students](https://www.jetbrains.com/shop/eform/students)
+
+### Crea un usuario de JetBrains con el mismo correo electrónico @edu o inicia sesión con una cuenta existente:
+
+[https://account.jetbrains.com/login](https://account.jetbrains.com/login)
+
+### Descarga e instala PyCharm Professional
+
+[https://www.jetbrains.com/pycharm/download](https://www.jetbrains.com/pycharm/download)
+
+### Abre PyCharm y activa tu producto con el mismo usuario.
 
 ---
 
