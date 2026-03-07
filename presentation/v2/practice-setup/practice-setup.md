@@ -36,7 +36,7 @@ Una vez que tengas tu cuenta creada, el paso final es unirte a GitHub Classroom.
 
 Los trabajos practicos son parte de la materia. Para poder aprobar la cursada de la materia, es necesario tener todos los trabajo prácticos entregados, corregidos y correctos. Que quiere decir que sean correctos? Cada TP tendra un subset de pruebas que evaluán si el código del alumno es correcto. Si todo lo entregado funciona correctamente, dichas pruebas funcionarán y se le tomará como correcta la entrega de dicho TP.
 
-
+---
 # Instalación de Python
 
 ---
@@ -129,7 +129,7 @@ Cuando haya visto este resultado, presione Ctrl+D o ingrese `exit` para salir de
 - Gestor de paquetes `pip`
 
 ---
-## Instalación en macOS
+## Instalación en MacOS
 
 ```bash
 # Using pip
