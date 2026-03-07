@@ -121,15 +121,15 @@ Type "help", "copyright", "credits" or "license" for more information.
 Cuando haya visto este resultado, presione Ctrl+D o ingrese `exit` para salir del indicador de Python y regresar al indicador de terminal.
 
 ---
-# Installing pytest
+# Instalación de pytest
 
-## Prerequisites
+## Requisitos previos
 
-- Python 3.8+ installed
-- `pip` package manager
+- Python 3.8 o superior instalado
+- Gestor de paquetes `pip`
 
 ---
-## macOS
+## Instalación en macOS
 
 ```bash
 # Using pip
@@ -141,64 +141,64 @@ source venv/bin/activate
 pip install pytest
 ```
 
-### Add to PATH (if needed)
+### Agregar a PATH (si es necesario)
 
-If `pytest` is not found after install, add the Python scripts directory to your shell profile (`~/.zshrc` or `~/.bash_profile`):
+Si no se encuentra `pytest` después de la instalación, agregue el directorio de scripts de Python a su perfil de shell (`~/.zshrc` o `~/.bash_profile`):
 
 ```bash
 export PATH="$HOME/Library/Python/3.x/bin:$PATH"
 ```
 
-Replace `3.x` with your Python version (e.g., `3.11`). Then reload:
+Reemplace `3.x` con su versión de Python (p. ej., `3.14`). Luego, vuelva a cargar:
 
 ```bash
 source ~/.zshrc
 ```
 ---
-## Windows
+## Instalación en Windows
 
 ```powershell
-# Using pip
+# Usando pip
 pip install pytest
 
-# Or with a virtual environment (recommended)
+# O con un entorno virtual (recomendado)
 python -m venv venv
 venv\Scripts\activate
 pip install pytest
 ```
 
-### If pip is not available
+### Si el comando pip no está disponible
 
 ```powershell
-# Option 1: Ensure pip via Python
+# Opción 1: Asegurar el comando pip a través de Python
 python -m ensurepip --upgrade
 
-# Option 2: Download get-pip.py and run it
+# Opción 2: Descargue get-pip.py y ejecútelo
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
 ```
 ---
-## Windows ( cont )
-### Add to PATH (if needed)
+## Instalación en Windows ( continuación )
+### Agregar a PATH (si es necesario)
 
-If `pytest` is not recognized after install, add the Python Scripts directory to your system PATH:
+Si `pytest` no se reconoce después de la instalación, agregue el directorio de scripts de Python a la ruta de su sistema:
 
-1. Open **Settings > System > About > Advanced system settings**
-2. Click **Environment Variables**
-3. Under **User variables**, select **Path** and click **Edit**
-4. Add the following entry (adjust for your Python version):
-   ```
-   C:\Users\<YourUser>\AppData\Local\Programs\Python\Python3x\Scripts
-   ```
-5. Click **OK** and restart your terminal
+1. Abra **Configuración > Sistema > Acerca de > Configuración avanzada del sistema**
+2. Haga clic en **Variables de entorno**
+3. En **Variables de usuario**, seleccione **Ruta** y haga clic en **Editar**
+4. Agregue la siguiente entrada (adapte a su versión de Python):
+```
+C:\Users\<YourUser>\AppData\Local\Programs\Python\Python3x\Scripts
+```
+5. Haga clic en **Aceptar** y reinicie su terminal
 
-Or via PowerShell (current session only):
+O mediante PowerShell (solo en la sesión actual):
 
 ```powershell
 $env:Path += ";C:\Users\$env:USERNAME\AppData\Local\Programs\Python\Python3x\Scripts"
 ```
 ---
-## Verify Installation
+## Verificar la instalación
 
 ```bash
 pytest --version
