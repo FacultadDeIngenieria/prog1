@@ -135,11 +135,11 @@ Foro de consultas en Discord: [https://discord.gg/3kcdPFBMcU](https://discord.gg
 [//]: # (* [Final ETL ADN]&#40;additional-practice/final-etl-adn.pdf&#41;)
 
 
-[//]: # (## Taller)
+## Taller
 
-[//]: # ( 1. [Asking Questions]&#40;asking-questions&#41;)
+1. [Asking Questions]&#40;asking-questions&#41;
 
-[//]: # ( 2. [Bash Intro]&#40;bash-intro&#41;)
+2. [Bash Intro]&#40;bash-intro&#41;
 
 [//]: # ( 3. [Ways to run Python]&#40;run-python&#41;)
 
