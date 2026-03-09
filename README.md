@@ -137,9 +137,9 @@ Foro de consultas en Discord: [https://discord.gg/3kcdPFBMcU](https://discord.gg
 
 ## Taller
 
-1. [Asking Questions]&#40;asking-questions&#41;
+1. [Asking Questions](asking-questions)
 
-2. [Bash Intro]&#40;bash-intro&#41;
+2. [Bash Intro](bash-intro)
 
 [//]: # ( 3. [Ways to run Python]&#40;run-python&#41;)
 
