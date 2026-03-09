@@ -1,4 +1,5 @@
 class: center, middle, inverse
+
 # Setup práctica
 
 ---
@@ -15,7 +16,7 @@ We will use GitHub to hand-in and code our TPs
 
 Join Discord using this URL. Create an account if you don't have a user. Download the app on a PC or phone. You need to link your github account with discord to join!
 
-[https://discord.gg/TvtyCmcPk2](https://discord.gg/9KT3X2a7)
+[https://discord.gg/TvtyCmcPk2](https://discord.gg/47Ahd4TwpD)
 
 Discord will be our main hub for Prog 1. You can ask questions there and also get notifications from the professors there.
 
