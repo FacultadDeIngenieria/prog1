@@ -63,7 +63,7 @@
 [//]: # (11. [TP11]&#40;practice/11&#41;)
 
 
-Foro de consultas en Discord: [https://discord.gg/3kcdPFBMcU](https://discord.gg/3kcdPFBMcU)
+Foro de consultas en Discord: [https://discord.gg/3kcdPFBMcU](https://discord.gg/47Ahd4TwpD)
 
 ## Cátedra
 ### Comisión C
