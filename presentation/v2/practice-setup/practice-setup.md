@@ -15,7 +15,7 @@ Usaremos GitHub para entregar y trabajar en los Trabajos Prácticos (TPs).
 
 Unite a Discord usando esta URL. Creá una cuenta si no tenés usuario. Descargá la aplicación en tu PC o teléfono.
 
-[https://discord.gg/TvtyCmcPk2](https://discord.gg/9KT3X2a7)
+[https://discord.gg/ggaZubMF](https://discord.gg/ggaZubMF)
 
 Discord será nuestro centro principal de comunicación para Prog 1. Podés hacer preguntas allí y también recibir notificaciones de los profesores.
 
@@ -221,15 +221,3 @@ pytest --version
 [https://www.jetbrains.com/pycharm/download](https://www.jetbrains.com/pycharm/download)
 
 ### Abre PyCharm y activa tu producto con el mismo usuario.
-
----
-
-# ¡Comencemos!
-
-¿Preguntas?
-
-Recordá:
-- Crear tu cuenta en GitHub
-- Unirte al Discord
-- Vincular tu cuenta de GitHub con Discord
-- Unirte a GitHub Classroom para el TP 1
