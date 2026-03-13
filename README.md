@@ -8,6 +8,8 @@
 
 3. [Set-up Practica](v2/practice-setup)
 
+4. [Strings](v2/strings)
+
 [//]: # (4. [Variables]&#40;variables&#41;)
 
 [//]: # (5. [Strings]&#40;strings&#41;)
