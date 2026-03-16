@@ -1,8 +1,4 @@
----
-marp: true
-theme: default
-paginate: true
----
+class: center, middle, inverse
 
 # Introducción a la Programación I
 ## Clase 3: Estructuras Condicionales (if)
