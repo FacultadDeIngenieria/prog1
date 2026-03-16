@@ -308,7 +308,7 @@ Si `dia` es `"lunes"`, no se ejecuta nada — y eso está bien.
 A veces querés chequear **todas las condiciones** por separado, no elegir una sola:
 
 ```python
-ingredientes = ["queso", "tomate", "aceitunas"]
+ingredientes = "queso, tomate, aceitunas"
 
 if "queso" in ingredientes:
     print("Llevar extra queso.")
