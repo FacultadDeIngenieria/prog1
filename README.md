@@ -10,6 +10,8 @@
 
 4. [Strings](v2/strings)
 
+5. [Condicionales](v2/ifs)
+
 [//]: # (4. [Variables]&#40;variables&#41;)
 
 [//]: # (5. [Strings]&#40;strings&#41;)
