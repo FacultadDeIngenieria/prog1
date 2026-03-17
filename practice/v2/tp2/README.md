@@ -1,11 +1,10 @@
 ---
 title: Práctica 2
 layout: practice
-permalink: /v1/practice/2
+permalink: /practice/2
 ---
 
-# Trabajo Práctico 2
-
+# TP2 - Trabajo Práctico 2
 ## Completar el trabajo práctico en GitHub Classroom
 
 [Link al TP 2](https://classroom.github.com/a/I6IpQ03T)
@@ -16,19 +15,38 @@ Variables, asignación, operaciones matemáticas, casting, strings, input y f-st
 
 ## Cómo ejecutar los tests
 
-Para verificar todos los ejercicios:
+Para verificar todos los ejercicios en el directorio actual:
+
+```bash
+python3 -m unittest discover
+```
+
+Para verificar un ejercicio en particular:
+
+```bash
+python3 -m unittest test_tp1_math
+```
+
+O ejecutar directamente:
+
+```bash
+python3 test_tp1_math.py
+```
+
+Para verificar todos los ejercicios usando pytest:
 
 ```bash
 pytest
 ```
 
-Para verificar un ejercicio en particular:
+Para verificar un ejercicio en particular usando pytest:
 
 ```bash
 pytest test_tp3_casting.py
 ```
 
 ---
+
 
 ## Ejercicios
 

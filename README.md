@@ -46,6 +46,8 @@
 
 1. [TP1](practice/1)
 
+1. [TP2](practice/2)
+
 [//]: # (2. [TP2]&#40;practice/2&#41;)
 
 [//]: # (3. [TP3]&#40;practice/3&#41;)
