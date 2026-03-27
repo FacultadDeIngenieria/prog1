@@ -12,6 +12,8 @@
 
 5. [Condicionales](v2/ifs)
 
+6. [Funciones](v2/funciones)
+
 [//]: # (4. [Variables]&#40;variables&#41;)
 
 [//]: # (5. [Strings]&#40;strings&#41;)
