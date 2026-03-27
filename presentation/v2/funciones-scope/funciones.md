@@ -1,10 +1,5 @@
----
-marp: true
-theme: default
-paginate: true
----
-
 # Introducción a la Programación I
+
 ## Clase 4: Funciones y Scope
 
 ---
