@@ -52,7 +52,7 @@
 
 3. [TP3](practice/3)
 
-[//]: # (4. [TP4]&#40;practice/4&#41;)
+3. [TP4](practice/4)
 
 [//]: # (5. [TP5]&#40;practice/5&#41;)
 
