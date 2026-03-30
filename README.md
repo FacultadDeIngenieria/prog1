@@ -147,9 +147,9 @@ Foro de consultas en Discord: [https://discord.gg/3kcdPFBMcU](https://discord.gg
 
 2. [Bash Intro](bash-intro)
 
-[//]: # ( 3. [Ways to run Python]&#40;run-python&#41;)
+ 3. [Ways to run Python](run-python)
 
-[//]: # ( 4. [Regex]&#40;regex&#41;)
+ 4. [Regex](regex)
 
 [//]: # ( 5. [Git Intro]&#40;git-intro&#41;)
 
@@ -163,11 +163,11 @@ Foro de consultas en Discord: [https://discord.gg/3kcdPFBMcU](https://discord.gg
 
 [//]: # ( 10. [Use LLMs Responsibly]&#40;use-ai-responsibly&#41;)
 
-[//]: # (## Trabajos Prácticos Taller)
+## Trabajos Prácticos Taller
 
-[//]: # (1. [Trabajo Práctico Bash]&#40;https://classroom.github.com/a/ZgFn166I&#41;)
+1. [Trabajo Práctico Bash](https://classroom.github.com/a/ZgFn166I)
 
-[//]: # (2. [Jupyter]&#40;https://classroom.github.com/a/oJOieDbD&#41;)
+2. [Jupyter](https://classroom.github.com/a/4M6Kmdvs)
 
 [//]: # (3. [Regex]&#40;https://classroom.github.com/a/zL717eb-&#41;)
 
