@@ -165,7 +165,7 @@ Foro de consultas en Discord: [https://discord.gg/3kcdPFBMcU](https://discord.gg
 
 ## Trabajos Prácticos Taller
 
-1. [Trabajo Práctico Bash](https://classroom.github.com/a/ZgFn166I)
+1. [Trabajo Práctico Bash](https://classroom.github.com/a/G-JyLulb)
 
 2. [Jupyter](https://classroom.github.com/a/4M6Kmdvs)
 
