@@ -169,7 +169,7 @@ Foro de consultas en Discord: [https://discord.gg/3kcdPFBMcU](https://discord.gg
 
 2. [Jupyter](https://classroom.github.com/a/4M6Kmdvs)
 
-[//]: # (3. [Regex]&#40;https://classroom.github.com/a/zL717eb-&#41;)
+3. [Regex](https://classroom.github.com/a/VmpnpkbG)
 
 [//]: # (4. [Git]&#40;practice/git&#41;)
 
