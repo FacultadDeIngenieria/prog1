@@ -14,6 +14,8 @@
 
 6. [Funciones](v2/funciones)
 
+7. [Listas](v2/listas)
+
 [//]: # (4. [Variables]&#40;variables&#41;)
 
 [//]: # (5. [Strings]&#40;strings&#41;)

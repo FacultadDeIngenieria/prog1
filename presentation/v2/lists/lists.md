@@ -138,15 +138,6 @@ frutas.append("uva")
 print(frutas)   # ['manzana', 'banana', 'naranja', 'uva']
 ```
 
-Es muy útil para construir listas dinámicamente:
-
-```python
-numeros_pares = []
-for i in range(0, 10, 2):
-    numeros_pares.append(i)
-
-print(numeros_pares)   # [0, 2, 4, 6, 8]
-```
 
 ---
 
@@ -305,28 +296,6 @@ print(nuevo_nombre)   # Jython
 
 ---
 
-## Recorrer strings con índices
-
-Como los strings son indexables, podemos recorrerlos carácter por carácter:
-
-```python
-palabra = "hola"
-
-for i in range(len(palabra)):
-    print(f"Posición {i}: {palabra[i]}")
-# Posición 0: h
-# Posición 1: o
-# Posición 2: l
-# Posición 3: a
-```
-
-O más directamente:
-```python
-for letra in palabra:
-    print(letra)
-```
-
----
 
 ## Listas de listas
 
@@ -347,31 +316,6 @@ print(matriz[0])       # [1, 2, 3]  → primera fila
 print(matriz[0][0])    # 1          → fila 0, columna 0
 print(matriz[1][2])    # 6          → fila 1, columna 2
 print(matriz[2][1])    # 8          → fila 2, columna 1
-```
-
----
-
-## Ejemplo: tabla de calificaciones
-
-```python
-calificaciones = [
-    ["Ana",    [9, 8, 10, 7]],
-    ["Carlos", [6, 7, 8, 9]],
-    ["María",  [10, 10, 9, 8]]
-]
-
-for alumno in calificaciones:
-    nombre = alumno[0]
-    notas = alumno[1]
-    promedio = sum(notas) / len(notas)
-    print(f"{nombre}: promedio {promedio:.1f}")
-```
-
-Salida:
-```
-Ana: promedio 8.5
-Carlos: promedio 7.5
-María: promedio 9.2
 ```
 
 ---
