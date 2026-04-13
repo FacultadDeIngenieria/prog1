@@ -60,7 +60,7 @@
 
 5. [TP5](practice/5)
 
-[//]: # (6. [TP6]&#40;practice/6&#41;)
+6. [TP6](practice/6)
 
 [//]: # (7. [TP7]&#40;practice/7&#41;)
 
