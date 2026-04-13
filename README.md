@@ -151,13 +151,13 @@ Foro de consultas en Discord: [https://discord.gg/3kcdPFBMcU](https://discord.gg
 
 2. [Bash Intro](bash-intro)
 
- 3. [Ways to run Python](run-python)
+3. [Ways to run Python](run-python)
 
- 4. [Regex](regex)
+4. [Regex](regex)
 
-[//]: # ( 5. [Git Intro]&#40;git-intro&#41;)
+ 5. [Git Intro](git-intro)
 
-[//]: # ( 6. [Git Continued]&#40;git-continue&#41;)
+ 6. [Git Continued](git-continue)
 
 [//]: # ( 7. [Backups]&#40;backups&#41;)
 
