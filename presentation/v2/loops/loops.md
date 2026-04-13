@@ -1,5 +1,5 @@
 # Introducción a la Programación I
-## Clase 6: Bucles (for y while)
+## Clase 6: Loops (for y while)
 
 ---
 

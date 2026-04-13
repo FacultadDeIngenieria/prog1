@@ -16,6 +16,8 @@
 
 7. [Listas](v2/lists)
 
+8. [Loops](v2/lists)
+
 [//]: # (4. [Variables]&#40;variables&#41;)
 
 [//]: # (5. [Strings]&#40;strings&#41;)
