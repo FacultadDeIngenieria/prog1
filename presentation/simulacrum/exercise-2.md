@@ -93,4 +93,4 @@ print(shuffle_list([1, 2, 3]))
 
 class: center, middle, inverse
 
-[Volver a las respuestas](/simulacrum-answers)
+[Volver a las respuestas](/prog1/simulacrum-answers#2)

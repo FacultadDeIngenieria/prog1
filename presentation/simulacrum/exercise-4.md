@@ -174,4 +174,4 @@ edad < 0 → True
 
 class: center, middle, inverse
 
-[Volver a las respuestas](/simulacrum-answers)
+[Volver a las respuestas](/prog1/simulacrum-answers#2)

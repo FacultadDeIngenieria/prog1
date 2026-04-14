@@ -114,4 +114,4 @@ Retorna **False** (no empieza y termina con la misma letra)
 
 class: center, middle, inverse
 
-[Volver a las respuestas](/simulacrum-answers)
+[Volver a las respuestas](/prog1/simulacrum-answers#2)
