@@ -1,5 +1,3 @@
-class: center, middle, inverse
-
 # **Programación I - Simuacro de Primer Parcial**
 
 **Instrucciones:**
@@ -69,10 +67,6 @@ Implementar una función llamada **`gym_membership`** que calcule el costo mensu
     *   Si el socio es menor de 18 años, obtiene un **15% de descuento** sobre el valor del plan.
     *   Si el socio tiene 60 años o más, obtiene un **25% de descuento** sobre el valor del plan.
 *   **Recargo por fin de semana:** Si el socio desea acceso los fines de semana, se suma un costo fijo de **$500** al total final (después de aplicar descuentos).
-
----
-
-### **4. Sistema de Gimnasio (cont.)**
 
 **La función debe:**
 1.  Pedir al usuario la edad (convertir a `int`) con el mensaje: `"Ingrese la edad del socio: "`.
