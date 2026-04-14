@@ -118,6 +118,10 @@ Foro de consultas en Discord: [https://discord.gg/3kcdPFBMcU](https://discord.gg
 
 [//]: # (* Comisión Viernes: 7/11/25)
 
+## Simulacro
+
+* [Simulacro Primer Parcial](simulacrum)
+
 ## Instalación y configuración de Python y SublimeText
 [Revisar los pasos  aqui](utils/installation)
 
