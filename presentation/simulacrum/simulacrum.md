@@ -41,7 +41,7 @@ Escribir una función llamada **`shuffle_list`** que reciba una lista de **exact
 *   El resto de los elementos deben ser los mismos que en la lista original.
 *   Si la lista no tiene 6 elementos, debe devolver una lista vacía y mostrar el mensaje: "Lista no válida".
 
-**Ejemplo:** `shuffle_list()` devuelve ``
+**Ejemplo:** `shuffle_list([10, 20, 30, 40, 50, 60])` devuelve `[60, 20, 40, 30, 50, 10]`
 
 ---
 
@@ -69,6 +69,10 @@ Implementar una función llamada **`gym_membership`** que calcule el costo mensu
     *   Si el socio es menor de 18 años, obtiene un **15% de descuento** sobre el valor del plan.
     *   Si el socio tiene 60 años o más, obtiene un **25% de descuento** sobre el valor del plan.
 *   **Recargo por fin de semana:** Si el socio desea acceso los fines de semana, se suma un costo fijo de **$500** al total final (después de aplicar descuentos).
+
+---
+
+### **4. Sistema de Gimnasio (cont.)**
 
 **La función debe:**
 1.  Pedir al usuario la edad (convertir a `int`) con el mensaje: `"Ingrese la edad del socio: "`.
