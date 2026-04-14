@@ -1,10 +1,14 @@
+---
+title: Simulacrum
+layout: practice
+permalink: /simulacrum
+---
+
 # **Programación I - Simuacro de Primer Parcial**
 
 **Instrucciones:**
 *   Todos los ejercicios deben resolverse en **Python**.
 *   Para los ejercicios de listas y strings, **no se permite el uso de estructuras iterativas (loops)** como `for` o `while`.
-
----
 
 ### **1. Seguimiento de Código (2 puntos)**
 ¿Qué valor imprime en pantalla al ejecutar el siguiente código? Justifique brevemente su respuesta siguiendo el flujo de las variables.
@@ -30,8 +34,6 @@ def exam_mystery(text):
 exam_mystery("parcial")
 ```
 
----
-
 ### **2. Manipulación de Listas y Slicing (2 puntos)**
 Escribir una función llamada **`shuffle_list`** que reciba una lista de **exactamente 6 elementos**. La función debe devolver una nueva lista siguiendo estas reglas (sin usar loops):
 *   El primer elemento de la nueva lista debe ser el último de la original.
@@ -40,8 +42,6 @@ Escribir una función llamada **`shuffle_list`** que reciba una lista de **exact
 *   Si la lista no tiene 6 elementos, debe devolver una lista vacía y mostrar el mensaje: "Lista no válida".
 
 **Ejemplo:** `shuffle_list([10, 20, 30, 40, 50, 60])` devuelve `[60, 20, 40, 30, 50, 10]`
-
----
 
 ### **3. Validación de Strings (2 puntos)**
 Escribir una función llamada **`validate_token`** que reciba un string y devuelva **True** si cumple con todas las siguientes condiciones, o **False** en caso contrario:
@@ -54,8 +54,6 @@ Escribir una función llamada **`validate_token`** que reciba un string y devuel
 *   `validate_token("  a123456a")` -> `False` (tiene espacios)
 *   `validate_token("A_token_9A")` -> `True`
 *   `validate_token("abc123de")` -> `False` (no empieza y termina igual)
-
----
 
 ### **4. Resolución de Problemas: Sistema de Gimnasio (4 puntos)**
 Implementar una función llamada **`gym_membership`** que calcule el costo mensual de la cuota de un socio basándose en su edad y el tipo de plan.
