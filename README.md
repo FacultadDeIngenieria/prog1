@@ -179,6 +179,6 @@ Foro de consultas en Discord: [https://discord.gg/3kcdPFBMcU](https://discord.gg
 
 3. [Regex](https://classroom.github.com/a/VmpnpkbG)
 
-[//]: # (4. [Git]&#40;practice/git&#41;)
+4. [Git](https://classroom.github.com/a/leYMw601)
 
 [//]: # (5. [Graph Plotting]&#40;https://classroom.github.com/a/G1ubw-LB&#41;)
