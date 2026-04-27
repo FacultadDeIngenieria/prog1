@@ -18,6 +18,8 @@
 
 8. [Loops](v2/loops)
 
+9. [Diccionarios](v2/diccionarios)
+
 [//]: # (4. [Variables]&#40;variables&#41;)
 
 [//]: # (5. [Strings]&#40;strings&#41;)
