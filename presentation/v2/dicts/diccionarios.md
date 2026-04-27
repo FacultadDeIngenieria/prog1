@@ -1,8 +1,4 @@
----
-marp: true
-theme: default
-paginate: true
----
+class: center, middle, inverse
 
 # Introducción a la Programación I
 ## Clase 8: Diccionarios, Debug y Herramientas Iterables
@@ -21,7 +17,7 @@ paginate: true
   - Herramientas de debugging
 - **Herramientas Iterables**
   - Iterables y colecciones
-  - `range()`, `enumerate()` y List Comprehension
+  - List Comprehension
 
 ---
 
@@ -94,6 +90,7 @@ nombre_aeropuerto = {
 }
 ```
 
+
 ---
 
 # Acceder a valores
@@ -110,10 +107,12 @@ print(edades["Mirtha"])
 
 > ⚠️ Si la clave no existe, Python lanza un `KeyError`.
 > Para evitarlo se puede usar el método `.get()`:
-> ```python
-> print(edades.get("Carlos", "No encontrado"))
-> # No encontrado
-> ```
+
+```python
+print(edades.get("Carlos", "No encontrado"))
+# No encontrado
+```
+
 
 ---
 
@@ -434,75 +433,6 @@ Otros iterables que no son colecciones:
 
 ---
 
-# La función `range()`
-
-`range()` genera una serie de números de forma eficiente.
-
-```python
-# range(stop) — desde 0 hasta stop-1
-for valor in range(5):
-    print(valor)   # 0, 1, 2, 3, 4
-
-# range(start, stop) — desde start hasta stop-1
-for valor in range(1, 5):
-    print(valor)   # 1, 2, 3, 4
-
-# range(start, stop, step) — con paso personalizado
-for valor in range(0, 10, 2):
-    print(valor)   # 0, 2, 4, 6, 8
-```
-
-> ⚠️ El límite superior (**stop**) es **excluido** — comportamiento "off-by-one".
-
----
-
-# `range()` — Convertir a lista
-
-Se puede convertir la salida de `range()` a una lista con `list()`:
-
-```python
-numeros = list(range(1, 6))
-print(numeros)
-# [1, 2, 3, 4, 5]
-
-numeros_pares = list(range(2, 11, 2))
-print(numeros_pares)
-# [2, 4, 6, 8, 10]
-
-# Generar los primeros 10 cuadrados perfectos
-cuadrados = []
-for valor in range(1, 11):
-    cuadrados.append(valor ** 2)
-print(cuadrados)
-# [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
-```
-
----
-
-# La función `enumerate()`
-
-`enumerate()` recorre un iterable y **asigna un contador** a cada elemento.
-
-```python
-nombres = ["Alice", "Bob", "Charly"]
-
-for i, nombre in enumerate(nombres):
-    print(f"Índice {i}: {nombre}")
-
-# Índice 0: Alice
-# Índice 1: Bob
-# Índice 2: Charly
-```
-
-```python
-# Se puede cambiar el inicio del contador
-for i, nombre in enumerate(nombres, start=1):
-    print(f"{i}. {nombre}")
-# 1. Alice  2. Bob  3. Charly
-```
-
----
-
 # List Comprehension — Sintaxis
 
 Una **list comprehension** crea listas en una sola línea combinando el `for` y la creación de elementos.
@@ -560,6 +490,4 @@ print(pares)
 - Herramientas: `print()`, `logging`, IDE
 
 ### Herramientas Iterables
-- `range(start, stop, step)` — series numéricas
-- `enumerate()` — índice + valor
 - List Comprehension — `[expr for x in iterable if cond]`
