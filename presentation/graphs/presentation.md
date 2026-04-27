@@ -133,7 +133,6 @@ ones = np.ones((3,3))           # 3x3 matrix of 1s
 random = np.random.rand(100)     # 100 random numbers (0-1)
 ```
 
-
 ---
 
 # Generating data for graphs
@@ -158,7 +157,6 @@ data = np.random.gamma(2, 2, 1000) # Gamma distribution
 # For images
 image = np.random.rand(100, 100)  # 100x100 random pixels
 ```
-
 
 --- 
 
