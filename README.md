@@ -165,9 +165,9 @@ Foro de consultas en Discord: [https://discord.gg/3kcdPFBMcU](https://discord.gg
 
  6. [Git Continued](git-continue)
 
-[//]: # ( 7. [Backups]&#40;backups&#41;)
+ 7. [Backups](backups)
 
-[//]: # ( 8. [Graph Plotting in Python]&#40;graphs&#41;)
+ 8. [Graph Plotting in Python](graphs)
 
 [//]: # ( 9. [Github Pages]&#40;github-pages&#41;)
 
@@ -183,4 +183,4 @@ Foro de consultas en Discord: [https://discord.gg/3kcdPFBMcU](https://discord.gg
 
 4. [Git](https://classroom.github.com/a/leYMw601)
 
-[//]: # (5. [Graph Plotting]&#40;https://classroom.github.com/a/G1ubw-LB&#41;)
+5. [Graph Plotting](https://classroom.github.com/a/dhP-wksu)
