@@ -4,9 +4,9 @@ Este archivo contiene las soluciones de referencia para todos los ejercicios del
 
 Los ejercicios están agrupados en 3 archivos según la estructura de datos que usan:
 
-- `exercise_tuples.py` — ejercicios 1 a 3 (tuplas)
-- `exercise_sets.py` — ejercicios 4 y 5 (sets)
-- `exercise_dicts.py` — ejercicios 6 a 10 (diccionarios)
+- `exercise_tuples.py` — ejercicios 1 a 7 (tuplas)
+- `exercise_sets.py` — ejercicios 8 a 12 (sets)
+- `exercise_dicts.py` — ejercicios 13 a 23 (diccionarios)
 
 ---
 
@@ -78,9 +78,117 @@ def create_record(registro_azara, registro_rui):
 
 ---
 
+### Ejercicio 4 — `sum_tuple`
+
+**Objetivo:** Sumar los elementos de una tupla recorriéndola.
+
+**Solución:**
+```python
+def sum_tuple(numeros):
+    total = 0
+    for numero in numeros:
+        total += numero
+    return total
+```
+
+**Conceptos:**
+- Patrón **acumulador**: inicializar una variable en 0 y sumarle en cada iteración.
+- El `for` sobre una tupla vacía no ejecuta ninguna iteración, así que `total` queda en 0.
+
+**Versión con `while`:**
+```python
+def sum_tuple(numeros):
+    total = 0
+    i = 0
+    while i < len(numeros):
+        total += numeros[i]
+        i += 1
+    return total
+```
+
+---
+
+### Ejercicio 5 — `count_occurrences`
+
+**Objetivo:** Contar apariciones de un elemento.
+
+**Solución:**
+```python
+def count_occurrences(tupla, elemento):
+    contador = 0
+    for item in tupla:
+        if item == elemento:
+            contador += 1
+    return contador
+```
+
+**Conceptos:**
+- Acumulador con condición: solo incrementa cuando se cumple `item == elemento`.
+- Funciona con cualquier tipo comparable (números, strings, etc).
+
+---
+
+### Ejercicio 6 — `find_index`
+
+**Objetivo:** Encontrar el índice de la primera aparición.
+
+**Solución:**
+```python
+def find_index(tupla, elemento):
+    for i, item in enumerate(tupla):
+        if item == elemento:
+            return i
+    return -1
+```
+
+**Conceptos:**
+- `enumerate` devuelve pares `(indice, valor)`.
+- **Retorno temprano** con `return i`: corta el loop en cuanto lo encuentra.
+- Si termina el loop sin retornar, significa que no se encontró → retornar `-1`.
+
+**Versión con `while` (útil cuando se usa el índice explícitamente):**
+```python
+def find_index(tupla, elemento):
+    i = 0
+    while i < len(tupla):
+        if tupla[i] == elemento:
+            return i
+        i += 1
+    return -1
+```
+
+---
+
+### Ejercicio 7 — `filter_positives`
+
+**Objetivo:** Construir una nueva tupla filtrando.
+
+**Solución:**
+```python
+def filter_positives(numeros):
+    resultado = []
+    for numero in numeros:
+        if numero > 0:
+            resultado.append(numero)
+    return tuple(resultado)
+```
+
+**Conceptos:**
+- Usamos una **lista auxiliar** porque las tuplas son inmutables (no se pueden modificar).
+- `tuple(lista)` convierte al formato pedido.
+- El 0 queda afuera porque no cumple `> 0`.
+
+**Alternativa con tuple comprehension (no existe, pero sí generator):**
+```python
+def filter_positives(numeros):
+    return tuple(n for n in numeros if n > 0)
+```
+
+---
+
 ## Parte 2 — Sets (`exercise_sets.py`)
 
-### Ejercicio 4 — `clean_ingredients`
+### Ejercicio 8 — `clean_ingredients`
 
 **Objetivo:** Eliminar ingredientes duplicados usando un set.
 
@@ -97,7 +205,7 @@ def clean_ingredients(nombre_plato, ingredientes):
 
 ---
 
-### Ejercicio 5 — `check_drinks`
+### Ejercicio 9 — `check_drinks`
 
 **Objetivo:** Detectar si una bebida contiene alcohol.
 
@@ -130,9 +238,81 @@ def check_drinks(nombre_bebida, ingredientes):
 
 ---
 
+### Ejercicio 10 — `unique_chars`
+
+**Objetivo:** Obtener los caracteres únicos de un string.
+
+**Solución:**
+```python
+def unique_chars(texto):
+    return set(texto)
+```
+
+**Conceptos:**
+- `set(string)` itera el string y agrega cada carácter al set, eliminando duplicados.
+- Funciona también con string vacío (retorna `set()`).
+
+---
+
+### Ejercicio 11 — `sum_set`
+
+**Objetivo:** Sumar los elementos de un set recorriéndolo.
+
+**Solución:**
+```python
+def sum_set(numeros):
+    total = 0
+    for numero in numeros:
+        total += numero
+    return total
+```
+
+**Conceptos:**
+- Iterar un set funciona igual que una tupla/lista, aunque **sin orden garantizado**.
+- Para sumar no importa el orden: el resultado es el mismo.
+
+**Nota sobre `while` con sets:**
+Los sets **no soportan indexación** (`set[0]` da error). Para iterarlos con `while`
+hay que usar `iter()` + `next()`, pero es más idiomático usar `for`.
+
+---
+
+### Ejercicio 12 — `common_elements`
+
+**Objetivo:** Intersección de sets recorriendo manualmente.
+
+**Solución:**
+```python
+def common_elements(set_a, set_b):
+    resultado = set()
+    for elem in set_a:
+        if elem in set_b:
+            resultado.add(elem)
+    return resultado
+```
+
+**Conceptos:**
+- Recorremos un set y verificamos pertenencia en el otro con `in`.
+- `set.add(elemento)` agrega sin duplicar.
+- `in` sobre set es **O(1)**, así que el total queda O(n).
+
+**Consejo:** iterar el set más chico hace el algoritmo más eficiente:
+```python
+def common_elements(set_a, set_b):
+    if len(set_b) < len(set_a):
+        set_a, set_b = set_b, set_a
+    resultado = set()
+    for elem in set_a:
+        if elem in set_b:
+            resultado.add(elem)
+    return resultado
+```
+
+---
+
 ## Parte 3 — Diccionarios (`exercise_dicts.py`)
 
-### Ejercicio 6 — `create_inventory`
+### Ejercicio 13 — `create_inventory`
 
 **Objetivo:** Construir un diccionario con el conteo de cada item.
 
@@ -167,7 +347,7 @@ def create_inventory(items):
 
 ---
 
-### Ejercicio 7 — `add_items`
+### Ejercicio 14 — `add_items`
 
 **Objetivo:** Agregar items a un inventario existente.
 
@@ -189,7 +369,7 @@ def add_items(inventario, items):
 
 ---
 
-### Ejercicio 8 — `decrement_items`
+### Ejercicio 15 — `decrement_items`
 
 **Objetivo:** Restar items sin dejar valores negativos.
 
@@ -217,7 +397,7 @@ if item in inventario:
 
 ---
 
-### Ejercicio 9 — `remove_item`
+### Ejercicio 16 — `remove_item`
 
 **Objetivo:** Eliminar un item del inventario.
 
@@ -242,7 +422,7 @@ def remove_item(inventario, item):
 
 ---
 
-### Ejercicio 10 — `list_inventory`
+### Ejercicio 17 — `list_inventory`
 
 **Objetivo:** Retornar pares (item, cantidad) con cantidad > 0.
 
@@ -267,6 +447,165 @@ def list_inventory(inventario):
         if cantidad > 0:
             resultado.append((item, cantidad))
     return resultado
+```
+
+---
+
+### Ejercicio 18 — `find_max_value`
+
+**Objetivo:** Encontrar la clave con el mayor valor.
+
+**Solución:**
+```python
+def find_max_value(diccionario):
+    if not diccionario:
+        return ""
+    return max(diccionario, key=diccionario.get)
+```
+
+**Conceptos:**
+- `max(dict, key=dict.get)` itera las claves y usa el valor como criterio.
+- Validar `if not diccionario` cubre el caso vacío (evita `ValueError` de `max`).
+
+**Alternativa con loop explícito:**
+```python
+def find_max_value(diccionario):
+    if not diccionario:
+        return ""
+    mejor_clave = None
+    for clave, valor in diccionario.items():
+        if mejor_clave is None or valor > diccionario[mejor_clave]:
+            mejor_clave = clave
+    return mejor_clave
+```
+
+---
+
+### Ejercicio 19 — `reverse_dict`
+
+**Objetivo:** Invertir el diccionario concatenando claves duplicadas.
+
+**Solución:**
+```python
+def reverse_dict(diccionario):
+    resultado = {}
+    for clave, valor in diccionario.items():
+        if valor in resultado:
+            resultado[valor] += clave
+        else:
+            resultado[valor] = clave
+    return resultado
+```
+
+**Conceptos:**
+- Al recorrer `.items()` en orden, la concatenación respeta el orden de inserción.
+- `resultado[valor] += clave` solo funciona si `clave` es un string.
+
+---
+
+### Ejercicio 20 — `word_frequency`
+
+**Objetivo:** Contar la frecuencia de cada palabra.
+
+**Solución:**
+```python
+def word_frequency(palabras):
+    frecuencia = {}
+    for palabra in palabras:
+        frecuencia[palabra] = frecuencia.get(palabra, 0) + 1
+    return frecuencia
+```
+
+**Alternativa con `Counter`:**
+```python
+from collections import Counter
+
+def word_frequency(palabras):
+    return dict(Counter(palabras))
+```
+
+**Nota:** iterar un string vacío (`""`) tampoco recorre nada, por eso retorna `{}` sin condición especial.
+
+---
+
+### Ejercicio 21 — `find_biggest_expense`
+
+**Objetivo:** Categoría con el promedio de gastos más alto.
+
+**Solución:**
+```python
+def find_biggest_expense(gastos):
+    if not gastos:
+        return ""
+    return max(gastos, key=lambda cat: sum(gastos[cat]) / len(gastos[cat]))
+```
+
+**Conceptos:**
+- `max(dict, key=lambda)` permite usar el promedio como criterio.
+- Validar el caso vacío antes de `max` evita errores.
+
+**Alternativa con loop explícito:**
+```python
+def find_biggest_expense(gastos):
+    if not gastos:
+        return ""
+    mejor_cat = None
+    mejor_prom = -float("inf")
+    for cat, montos in gastos.items():
+        prom = sum(montos) / len(montos)
+        if prom > mejor_prom:
+            mejor_prom = prom
+            mejor_cat = cat
+    return mejor_cat
+```
+
+---
+
+### Ejercicio 22 — `sum_expenses`
+
+**Objetivo:** Sumar los gastos de cada categoría.
+
+**Solución:**
+```python
+def sum_expenses(gastos):
+    return {categoria: sum(montos) for categoria, montos in gastos.items()}
+```
+
+**Conceptos:**
+- Dict comprehension sobre `.items()`.
+- `sum([])` devuelve 0, así que listas vacías no rompen nada.
+
+---
+
+### Ejercicio 23 — `sum_expenses_by_type`
+
+**Objetivo:** Agrupar por tipo (ignorando la categoría) y sumar.
+
+**Solución:**
+```python
+def sum_expenses_by_type(gastos):
+    resultado = {}
+    for montos in gastos.values():
+        for tipo, monto in montos:
+            resultado[tipo] = resultado.get(tipo, 0) + monto
+    return resultado
+```
+
+**Conceptos:**
+- `.values()` descarta las categorías, que en este caso son solo contenedores.
+- Desempaquetado `for tipo, monto in montos` directo sobre la tupla.
+- `resultado.get(tipo, 0)` inicializa en 0 si el tipo es nuevo.
+
+**Alternativa con `defaultdict`:**
+```python
+from collections import defaultdict
+
+def sum_expenses_by_type(gastos):
+    resultado = defaultdict(int)
+    for montos in gastos.values():
+        for tipo, monto in montos:
+            resultado[tipo] += monto
+    return dict(resultado)
 ```
 
 ---
