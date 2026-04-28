@@ -3,696 +3,502 @@ title: Práctica 7
 layout: practice
 permalink: /practice/7
 ---
-# Soluciones TP7 - Estructuras de Datos
 
-Este archivo contiene las soluciones de referencia para todos los ejercicios del TP7.
+# TP7 - Trabajo Práctico 7
+## Completar el trabajo práctico en GitHub Classroom
 
-Los ejercicios están agrupados en 3 archivos según la estructura de datos que usan:
-
-- `exercise_tuples.py` — ejercicios 1 a 7 (tuplas)
-- `exercise_sets.py` — ejercicios 8 a 12 (sets)
-- `exercise_dicts.py` — ejercicios 13 a 23 (diccionarios)
+[Link al TP 7](https://classroom.github.com/a/9xAdZI5n)
 
 ---
 
-## Parte 1 — Tuplas (`exercise_tuples.py`)
+## Temas evaluados
+
+Estructuras de datos en Python: **tuplas**, **sets (conjuntos)** y **diccionarios**. Operaciones, métodos y patrones comunes para cada una.
+
+## Cómo ejecutar los tests
+
+Para verificar todos los ejercicios en el directorio actual:
+
+```bash
+python3 -m unittest discover
+```
+
+Para verificar un ejercicio en particular:
+
+```bash
+python3 -m unittest test_tp7_tuples
+```
+
+O ejecutar directamente:
+
+```bash
+python3 test_tp7_tuples.py
+```
+
+---
+
+## Parte 1 — Tuplas
+
+Azara y Rui son compañeros de equipo en una búsqueda del tesoro pirata.
+Uno tiene una lista de tesoros con coordenadas, el otro una lista de ubicaciones con coordenadas.
+
+**Lista de Azara:**
+
+| Tesoro                      | Coordenada |
+| --------------------------- | ---------- |
+| Amethyst Octopus            | 1F         |
+| Angry Monkey Figurine       | 5B         |
+| Antique Glass Fishnet Float | 3D         |
+| Brass Spyglass              | 4B         |
+| Carved Wooden Elephant      | 8C         |
+
+**Lista de Rui:**
+
+| Ubicación                             | Coordenada  | Cuadrante |
+| ------------------------------------- | ----------- | --------- |
+| Seaside Cottages                      | ("1", "C")  | Blue      |
+| Aqua Lagoon (Island of Mystery)       | ("1", "F")  | Yellow    |
+| Abandoned Lighthouse                  | ("4", "B")  | Blue      |
+| Stormy Breakwater                     | ("5", "B")  | Purple    |
+| Foggy Seacave                         | ("8", "C")  | Purple    |
+
+Las coordenadas de Azara y Rui están con formatos distintos. Ayudá a organizarlas.
+
+Todos los ejercicios de esta parte se resuelven en el mismo archivo: `exercise_tuples.py`.
+
+**Archivo de test:** `test_tp7_tuples.py`
+
+---
 
 ### Ejercicio 1 — `get_coordinate`
 
-**Objetivo:** Extraer la coordenada de una tupla `(tesoro, coordenada)`.
+**Conceptos:** acceso a elementos de una tupla por índice.
 
-**Solución:**
-```python
-def get_coordinate(registro):
-    return registro[1]
+**Consigna:** Implementar `get_coordinate(registro)` que recibe una tupla `(tesoro, coordenada)` y devuelve solo la coordenada.
+
+**Ejemplo:** Para `('Scrimshawed Whale Tooth', '2A')` la salida esperada es:
+
 ```
-
-**Conceptos:**
-- Acceso por índice a una tupla (igual que en listas).
-- El índice `1` es el segundo elemento.
+'2A'
+```
 
 ---
 
 ### Ejercicio 2 — `convert_coordinate`
 
-**Objetivo:** Convertir `"2A"` en `("2", "A")`.
+**Conceptos:** creación de tuplas, acceso a caracteres de un string.
 
-**Solución:**
-```python
-def convert_coordinate(coordenada):
-    return tuple(coordenada)
+**Consigna:** Implementar `convert_coordinate(coordenada)` que recibe una coordenada en formato `"2A"` y devuelve una tupla `("2", "A")` con sus componentes.
+
+**Ejemplo:** Para `"2A"` la salida esperada es:
+
+```
+('2', 'A')
 ```
 
-**Conceptos:**
-- `tuple(string)` construye una tupla con cada carácter como elemento.
-- Para `"2A"` genera `("2", "A")`.
+Para `"7F"` la salida esperada es:
 
-**Alternativa por índices:**
-```python
-def convert_coordinate(coordenada):
-    return (coordenada[0], coordenada[1])
+```
+('7', 'F')
 ```
 
 ---
 
 ### Ejercicio 3 — `create_record`
 
-**Objetivo:** Combinar registros si las coordenadas coinciden.
+**Conceptos:** combinación de tuplas, reutilización de funciones, comparación.
 
-**Solución:**
+**Consigna:** Implementar `create_record(registro_azara, registro_rui)` que combine ambos registros si las coordenadas coinciden.
+
+- `registro_azara`: tupla `(tesoro, coordenada)` → ej: `('Brass Spyglass', '4B')`
+- `registro_rui`: tupla `(ubicacion, coordenada, cuadrante)` → ej: `('Abandoned Lighthouse', ('4', 'B'), 'Blue')`
+
+Si las coordenadas coinciden, retornar `(tesoro, coordenada_azara, ubicacion, coordenada_rui, cuadrante)`.
+Si NO coinciden, retornar el string `"not a match"`.
+
+**Ejemplo:**
+
 ```python
-def create_record(registro_azara, registro_rui):
-    coord_azara = convert_coordinate(get_coordinate(registro_azara))
-    coord_rui = get_coordinate(registro_rui)
-
-    if coord_azara == coord_rui:
-        return registro_azara + registro_rui
-    return "not a match"
-```
-
-**Conceptos:**
-- Reutilización de funciones previas (están en el mismo archivo).
-- Concatenación de tuplas con `+` (genera una tupla más larga).
-- Retorno temprano con `return "not a match"`.
-
-**Explicación de la concatenación:**
-```python
-('Brass Spyglass', '4B') + ('Abandoned Lighthouse', ('4', 'B'), 'Blue')
+create_record(('Brass Spyglass', '4B'), ('Abandoned Lighthouse', ('4', 'B'), 'Blue'))
 # → ('Brass Spyglass', '4B', 'Abandoned Lighthouse', ('4', 'B'), 'Blue')
+
+create_record(('Brass Spyglass', '4B'), ('Seaside Cottages', ('1', 'C'), 'Blue'))
+# → 'not a match'
 ```
+
+**Tip:** podés reutilizar `get_coordinate` y `convert_coordinate` para normalizar las coordenadas antes de compararlas.
 
 ---
 
 ### Ejercicio 4 — `sum_tuple`
 
-**Objetivo:** Sumar los elementos de una tupla recorriéndola.
+**Conceptos:** iteración con `for` sobre una tupla, acumulador.
 
-**Solución:**
+**Consigna:** Implementar `sum_tuple(numeros)` que recorra la tupla con un `for` (o `while`) y retorne la suma total. Si la tupla está vacía, retornar 0.
+
+**No se permite usar `sum()`.**
+
+**Ejemplo:**
+
 ```python
-def sum_tuple(numeros):
-    total = 0
-    for numero in numeros:
-        total += numero
-    return total
-```
-
-**Conceptos:**
-- Patrón **acumulador**: inicializar una variable en 0 y sumarle en cada iteración.
-- El `for` sobre una tupla vacía no ejecuta ninguna iteración, así que `total` queda en 0.
-
-**Versión con `while`:**
-```python
-def sum_tuple(numeros):
-    total = 0
-    i = 0
-    while i < len(numeros):
-        total += numeros[i]
-        i += 1
-    return total
+sum_tuple((1, 2, 3, 4, 5))  # → 15
+sum_tuple(())               # → 0
+sum_tuple((10, -15, 5, -5)) # → -5
 ```
 
 ---
 
 ### Ejercicio 5 — `count_occurrences`
 
-**Objetivo:** Contar apariciones de un elemento.
+**Conceptos:** recorrido con `for`, contador, comparación.
 
-**Solución:**
+**Consigna:** Implementar `count_occurrences(tupla, elemento)` que recorra la tupla y cuente cuántas veces aparece `elemento`.
+
+**No se permite usar el método `.count()`.**
+
+**Ejemplo:**
+
 ```python
-def count_occurrences(tupla, elemento):
-    contador = 0
-    for item in tupla:
-        if item == elemento:
-            contador += 1
-    return contador
+count_occurrences((1, 2, 2, 3, 2), 2)            # → 3
+count_occurrences(('a', 'b', 'a'), 'c')          # → 0
+count_occurrences((), 'x')                       # → 0
 ```
-
-**Conceptos:**
-- Acumulador con condición: solo incrementa cuando se cumple `item == elemento`.
-- Funciona con cualquier tipo comparable (números, strings, etc).
 
 ---
 
 ### Ejercicio 6 — `find_index`
 
-**Objetivo:** Encontrar el índice de la primera aparición.
+**Conceptos:** iteración y retorno temprano.
 
-**Solución:**
+**Consigna:** Implementar `find_index(tupla, elemento)` que retorne el índice de la **primera** aparición del elemento. Si no se encuentra, retornar `-1`.
+
+**No se permite usar el método `.index()`.**
+
+**Ejemplo:**
+
 ```python
-def find_index(tupla, elemento):
-    for i, item in enumerate(tupla):
-        if item == elemento:
-            return i
-    return -1
-```
-
-**Conceptos:**
-- `enumerate` devuelve pares `(indice, valor)`.
-- **Retorno temprano** con `return i`: corta el loop en cuanto lo encuentra.
-- Si termina el loop sin retornar, significa que no se encontró → retornar `-1`.
-
-**Versión con `while` (útil cuando se usa el índice explícitamente):**
-```python
-def find_index(tupla, elemento):
-    i = 0
-    while i < len(tupla):
-        if tupla[i] == elemento:
-            return i
-        i += 1
-    return -1
+find_index(('a', 'b', 'c', 'b'), 'b')  # → 1
+find_index((1, 2, 3), 9)               # → -1
+find_index((), 'x')                    # → -1
 ```
 
 ---
 
 ### Ejercicio 7 — `filter_positives`
 
-**Objetivo:** Construir una nueva tupla filtrando.
+**Conceptos:** iteración, construcción de una nueva tupla, filtrado.
 
-**Solución:**
+**Consigna:** Implementar `filter_positives(numeros)` que recorra la tupla y retorne una **nueva tupla** con solo los números positivos (> 0). El 0 NO es positivo.
+
+**Ejemplo:**
+
 ```python
-def filter_positives(numeros):
-    resultado = []
-    for numero in numeros:
-        if numero > 0:
-            resultado.append(numero)
-    return tuple(resultado)
-```
-
-**Conceptos:**
-- Usamos una **lista auxiliar** porque las tuplas son inmutables (no se pueden modificar).
-- `tuple(lista)` convierte al formato pedido.
-- El 0 queda afuera porque no cumple `> 0`.
-
-**Alternativa con tuple comprehension (no existe, pero sí generator):**
-```python
-def filter_positives(numeros):
-    return tuple(n for n in numeros if n > 0)
+filter_positives((-3, 1, 0, 5, -2, 7))  # → (1, 5, 7)
+filter_positives((-1, -2, -3))          # → ()
+filter_positives((0, 0, 0))             # → ()
 ```
 
 ---
 
-## Parte 2 — Sets (`exercise_sets.py`)
+## Parte 2 — Sets (Conjuntos)
+
+Ejercicios sobre sets: aplicaciones reales (catering) y operaciones recorriendo la estructura con `for` / `while`.
+
+Todos los ejercicios de esta parte se resuelven en el mismo archivo: `exercise_sets.py`.
+
+**Archivo de test:** `test_tp7_sets.py`
+
+---
 
 ### Ejercicio 8 — `clean_ingredients`
 
-**Objetivo:** Eliminar ingredientes duplicados usando un set.
+**Conceptos:** conversión de lista a `set`, eliminación de duplicados.
 
-**Solución:**
+**Consigna:** Las recetas fueron agregadas desde varias fuentes y tienen ingredientes duplicados. Implementar `clean_ingredients(nombre_plato, ingredientes)` que retorne una tupla `(nombre_plato, set_de_ingredientes)` sin duplicados.
+
+**Ejemplo:**
+
 ```python
-def clean_ingredients(nombre_plato, ingredientes):
-    return (nombre_plato, set(ingredientes))
+clean_ingredients('Punjabi-Style Chole',
+                  ['onions', 'tomatoes', 'ginger paste', 'ginger paste',
+                   'chickpeas', 'chickpeas'])
+# → ('Punjabi-Style Chole',
+#    {'onions', 'tomatoes', 'ginger paste', 'chickpeas'})
 ```
-
-**Conceptos:**
-- `set(lista)` elimina duplicados automáticamente.
-- Los sets no tienen orden (no garantizan orden de iteración).
-- Retornar tupla con `(nombre, set_limpio)`.
 
 ---
 
 ### Ejercicio 9 — `check_drinks`
 
-**Objetivo:** Detectar si una bebida contiene alcohol.
+**Conceptos:** operador `in` con sets, iteración, retorno temprano.
 
-**Solución:**
+**Consigna:** El evento incluye cócteles y mocktails. Implementar `check_drinks(nombre_bebida, ingredientes)` que devuelva:
+
+- `"<nombre> Cocktail"` si algún ingrediente está en el set `ALCOHOLS` (definido al inicio del archivo).
+- `"<nombre> Mocktail"` si ningún ingrediente es alcohólico.
+
+**Ejemplo:**
+
 ```python
-def check_drinks(nombre_bebida, ingredientes):
-    for ingrediente in ingredientes:
-        if ingrediente in ALCOHOLS:
-            return f"{nombre_bebida} Cocktail"
-    return f"{nombre_bebida} Mocktail"
-```
+check_drinks('Honeydew Cucumber',
+             ['honeydew', 'coconut water', 'mint leaves', 'lime juice'])
+# → 'Honeydew Cucumber Mocktail'
 
-**Conceptos:**
-- Iteración sobre lista + operador `in` sobre set.
-- Retorno temprano al encontrar alcohol.
-- f-strings para componer el resultado.
-
-**¿Por qué un set para ALCOHOLS?**
-- La búsqueda `x in set` es O(1) (promedio).
-- La búsqueda `x in list` es O(n).
-- Para listas largas de ingredientes, es mucho más eficiente.
-
-**Alternativa usando intersección de sets:**
-```python
-def check_drinks(nombre_bebida, ingredientes):
-    if set(ingredientes) & ALCOHOLS:
-        return f"{nombre_bebida} Cocktail"
-    return f"{nombre_bebida} Mocktail"
+check_drinks('Shirley Tonic',
+             ['cinnamon stick', 'scotch', 'whole cloves', 'ginger'])
+# → 'Shirley Tonic Cocktail'
 ```
 
 ---
 
 ### Ejercicio 10 — `unique_chars`
 
-**Objetivo:** Obtener los caracteres únicos de un string.
+**Conceptos:** construcción de un set desde un string.
 
-**Solución:**
+**Consigna:** Implementar `unique_chars(texto)` que reciba un string y devuelva un `set` con los caracteres únicos.
+
+**Ejemplo:**
+
 ```python
-def unique_chars(texto):
-    return set(texto)
-```
+unique_chars("hello")
+# → {'h', 'e', 'l', 'o'}
 
-**Conceptos:**
-- `set(string)` itera el string y agrega cada carácter al set, eliminando duplicados.
-- Funciona también con string vacío (retorna `set()`).
+unique_chars("")
+# → set()
+```
 
 ---
 
 ### Ejercicio 11 — `sum_set`
 
-**Objetivo:** Sumar los elementos de un set recorriéndolo.
+**Conceptos:** iteración con `for` sobre un set, acumulador.
 
-**Solución:**
+**Consigna:** Implementar `sum_set(numeros)` que recorra el set y retorne la suma de sus elementos. Si el set está vacío, retornar 0.
+
+**No se permite usar `sum()`.**
+
+**Ejemplo:**
+
 ```python
-def sum_set(numeros):
-    total = 0
-    for numero in numeros:
-        total += numero
-    return total
+sum_set({1, 2, 3, 4})   # → 10
+sum_set(set())          # → 0
+sum_set({-5, 5, -3, 3}) # → 0
 ```
-
-**Conceptos:**
-- Iterar un set funciona igual que una tupla/lista, aunque **sin orden garantizado**.
-- Para sumar no importa el orden: el resultado es el mismo.
-
-**Nota sobre `while` con sets:**
-Los sets **no soportan indexación** (`set[0]` da error). Para iterarlos con `while`
-hay que usar `iter()` + `next()`, pero es más idiomático usar `for`.
 
 ---
 
 ### Ejercicio 12 — `common_elements`
 
-**Objetivo:** Intersección de sets recorriendo manualmente.
+**Conceptos:** iteración sobre set, pertenencia con `in`, construcción de un set nuevo.
 
-**Solución:**
+**Consigna:** Implementar `common_elements(set_a, set_b)` que retorne un nuevo set con los elementos que aparecen en **ambos** sets.
+
+**No se permite usar `&` ni `.intersection()`.** La idea es recorrer uno de los sets y verificar con `in` si el elemento está también en el otro.
+
+**Ejemplo:**
+
 ```python
-def common_elements(set_a, set_b):
-    resultado = set()
-    for elem in set_a:
-        if elem in set_b:
-            resultado.add(elem)
-    return resultado
-```
-
-**Conceptos:**
-- Recorremos un set y verificamos pertenencia en el otro con `in`.
-- `set.add(elemento)` agrega sin duplicar.
-- `in` sobre set es **O(1)**, así que el total queda O(n).
-
-**Consejo:** iterar el set más chico hace el algoritmo más eficiente:
-```python
-def common_elements(set_a, set_b):
-    if len(set_b) < len(set_a):
-        set_a, set_b = set_b, set_a
-    resultado = set()
-    for elem in set_a:
-        if elem in set_b:
-            resultado.add(elem)
-    return resultado
+common_elements({1, 2, 3}, {2, 3, 4})  # → {2, 3}
+common_elements({1, 2}, {3, 4})        # → set()
+common_elements({1, 2, 3}, {1, 2, 3})  # → {1, 2, 3}
 ```
 
 ---
 
-## Parte 3 — Diccionarios (`exercise_dicts.py`)
+## Parte 3 — Diccionarios
+
+Esta parte tiene dos bloques. El primero trabaja sobre un sistema de inventario (crear, agregar, descontar, eliminar, listar ítems). El segundo introduce operaciones más generales sobre diccionarios: búsqueda del máximo, inversión, frecuencia de palabras y análisis de gastos.
+
+Todos los ejercicios se resuelven en el mismo archivo: `exercise_dicts.py`.
+
+**Archivo de test:** `test_tp7_dicts.py`
+
+---
 
 ### Ejercicio 13 — `create_inventory`
 
-**Objetivo:** Construir un diccionario con el conteo de cada item.
+**Conceptos:** creación de diccionarios, conteo de ocurrencias.
 
-**Solución:**
+**Consigna:** Implementar `create_inventory(items)` que reciba una lista y devuelva un `dict` con cada item y la cantidad de veces que aparece.
+
+**Ejemplo:**
+
 ```python
-def create_inventory(items):
-    inventario = {}
-    for item in items:
-        if item in inventario:
-            inventario[item] += 1
-        else:
-            inventario[item] = 1
-    return inventario
-```
-
-**Alternativa con `.get()`:**
-```python
-def create_inventory(items):
-    inventario = {}
-    for item in items:
-        inventario[item] = inventario.get(item, 0) + 1
-    return inventario
-```
-
-**Alternativa con `collections.Counter`:**
-```python
-from collections import Counter
-
-def create_inventory(items):
-    return dict(Counter(items))
+create_inventory(["coal", "wood", "wood", "diamond", "diamond", "diamond"])
+# → {"coal": 1, "wood": 2, "diamond": 3}
 ```
 
 ---
 
 ### Ejercicio 14 — `add_items`
 
-**Objetivo:** Agregar items a un inventario existente.
+**Conceptos:** acceso y modificación de diccionarios, operador `in`.
 
-**Solución:**
+**Consigna:** Implementar `add_items(inventario, items)` que agregue cada elemento de la lista al inventario. Si el item ya existe, incrementar su cantidad en 1; si no, agregarlo con cantidad 1.
+
+**Ejemplo:**
+
 ```python
-def add_items(inventario, items):
-    for item in items:
-        if item in inventario:
-            inventario[item] += 1
-        else:
-            inventario[item] = 1
-    return inventario
+add_items({"coal": 1}, ["wood", "iron", "coal", "wood"])
+# → {"coal": 2, "wood": 2, "iron": 1}
 ```
-
-**Conceptos:**
-- Operador `in` para verificar presencia de clave.
-- `+= 1` para incrementar.
-- `create_inventory` se puede implementar reutilizando `add_items({}, items)` (están en el mismo archivo).
 
 ---
 
 ### Ejercicio 15 — `decrement_items`
 
-**Objetivo:** Restar items sin dejar valores negativos.
+**Conceptos:** modificación de diccionarios, validaciones de rango.
 
-**Solución:**
+**Consigna:** Implementar `decrement_items(inventario, items)` que reste 1 por cada aparición del item en la lista. **Las cantidades no pueden ser negativas**: si un item aparece más veces que su stock, debe quedar en 0 y las solicitudes extra se ignoran.
+
+**Ejemplo:**
+
 ```python
-def decrement_items(inventario, items):
-    for item in items:
-        if item in inventario and inventario[item] > 0:
-            inventario[item] -= 1
-    return inventario
-```
+decrement_items({"coal": 3, "diamond": 1, "iron": 5},
+                ["diamond", "coal", "iron", "iron"])
+# → {"coal": 2, "diamond": 0, "iron": 3}
 
-**Conceptos:**
-- Doble condición: el item debe existir Y tener cantidad > 0.
-- El operador `and` cortocircuita (no se evalúa la segunda si la primera es False).
-- Items que no están en el inventario se ignoran.
-
-**¿Por qué no usar `max(0, ...)`?**
-```python
-# Esta solución también funciona para lógica de no-negativos, pero
-# solo si el item existe en el inventario:
-if item in inventario:
-    inventario[item] = max(0, inventario[item] - 1)
+decrement_items({"coal": 2, "wood": 1, "diamond": 2},
+                ["coal", "coal", "wood", "wood", "diamond"])
+# → {"coal": 0, "wood": 0, "diamond": 1}
 ```
 
 ---
 
 ### Ejercicio 16 — `remove_item`
 
-**Objetivo:** Eliminar un item del inventario.
+**Conceptos:** eliminación con `del` o `pop`, validación con `in`.
 
-**Solución:**
+**Consigna:** Implementar `remove_item(inventario, item)` que elimine por completo el item del inventario. Si el item no existe, retornar el inventario sin cambios.
+
+**Ejemplo:**
+
 ```python
-def remove_item(inventario, item):
-    if item in inventario:
-        del inventario[item]
-    return inventario
-```
+remove_item({"coal": 2, "wood": 1, "diamond": 2}, "coal")
+# → {"wood": 1, "diamond": 2}
 
-**Conceptos:**
-- `del dict[clave]` elimina la entrada.
-- Validar con `in` para evitar `KeyError`.
-
-**Alternativa con `.pop()`:**
-```python
-def remove_item(inventario, item):
-    inventario.pop(item, None)  # None como default si no existe
-    return inventario
+remove_item({"coal": 2, "wood": 1, "diamond": 2}, "gold")
+# → {"coal": 2, "wood": 1, "diamond": 2}
 ```
 
 ---
 
 ### Ejercicio 17 — `list_inventory`
 
-**Objetivo:** Retornar pares (item, cantidad) con cantidad > 0.
+**Conceptos:** método `.items()`, list comprehension, filtrado.
 
-**Solución:**
+**Consigna:** Implementar `list_inventory(inventario)` que retorne una lista de tuplas `(item, cantidad)` con los items disponibles. **Solo incluir los items con cantidad mayor a 0.**
+
+**Ejemplo:**
+
 ```python
-def list_inventory(inventario):
-    return [(item, cantidad)
-            for item, cantidad in inventario.items()
-            if cantidad > 0]
-```
-
-**Conceptos:**
-- `.items()` devuelve pares (clave, valor).
-- List comprehension con filtro.
-- Cada tupla es directamente `(item, cantidad)`.
-
-**Alternativa con loop explícito:**
-```python
-def list_inventory(inventario):
-    resultado = []
-    for item, cantidad in inventario.items():
-        if cantidad > 0:
-            resultado.append((item, cantidad))
-    return resultado
+list_inventory({"coal": 7, "wood": 11, "diamond": 2, "iron": 7, "silver": 0})
+# → [('coal', 7), ('wood', 11), ('diamond', 2), ('iron', 7)]
 ```
 
 ---
 
 ### Ejercicio 18 — `find_max_value`
 
-**Objetivo:** Encontrar la clave con el mayor valor.
+**Conceptos:** iteración con `.items()`, comparación de valores, caso borde para dict vacío.
 
-**Solución:**
+**Consigna:** Implementar `find_max_value(diccionario)` que reciba un diccionario de nombres (claves) y puntajes (valores), y devuelva el nombre asociado al puntaje más alto. Si el diccionario está vacío, retornar `""`.
+
+**Ejemplo:**
+
 ```python
-def find_max_value(diccionario):
-    if not diccionario:
-        return ""
-    return max(diccionario, key=diccionario.get)
-```
+find_max_value({'John': 85, 'Emma': 92, 'Sophia': 78})
+# → 'Emma'
 
-**Conceptos:**
-- `max(dict, key=dict.get)` itera las claves y usa el valor como criterio.
-- Validar `if not diccionario` cubre el caso vacío (evita `ValueError` de `max`).
-
-**Alternativa con loop explícito:**
-```python
-def find_max_value(diccionario):
-    if not diccionario:
-        return ""
-    mejor_clave = None
-    for clave, valor in diccionario.items():
-        if mejor_clave is None or valor > diccionario[mejor_clave]:
-            mejor_clave = clave
-    return mejor_clave
+find_max_value({})
+# → ''
 ```
 
 ---
 
 ### Ejercicio 19 — `reverse_dict`
 
-**Objetivo:** Invertir el diccionario concatenando claves duplicadas.
+**Conceptos:** inversión de diccionarios, acumulación de claves duplicadas.
 
-**Solución:**
+**Consigna:** Implementar `reverse_dict(diccionario)` que invierta el diccionario usando los valores como claves. Si varias claves comparten el mismo valor, sus nombres se concatenan (en orden de aparición) como una sola cadena.
+
+**Ejemplo:**
+
 ```python
-def reverse_dict(diccionario):
-    resultado = {}
-    for clave, valor in diccionario.items():
-        if valor in resultado:
-            resultado[valor] += clave
-        else:
-            resultado[valor] = clave
-    return resultado
-```
+reverse_dict({'a': 1, 'b': 2, 'c': 3, 'd': 3, 'e': 2})
+# → {1: 'a', 2: 'be', 3: 'cd'}
 
-**Conceptos:**
-- Al recorrer `.items()` en orden, la concatenación respeta el orden de inserción.
-- `resultado[valor] += clave` solo funciona si `clave` es un string.
+reverse_dict({})
+# → {}
+```
 
 ---
 
 ### Ejercicio 20 — `word_frequency`
 
-**Objetivo:** Contar la frecuencia de cada palabra.
+**Conceptos:** conteo de ocurrencias con diccionario, operador `in`.
 
-**Solución:**
+**Consigna:** Implementar `word_frequency(palabras)` que reciba una lista de palabras y retorne un `dict` con la frecuencia de cada una. Debe soportar también el caso de recibir un string vacío, retornando `{}`.
+
+**Ejemplo:**
+
 ```python
-def word_frequency(palabras):
-    frecuencia = {}
-    for palabra in palabras:
-        frecuencia[palabra] = frecuencia.get(palabra, 0) + 1
-    return frecuencia
+word_frequency(["apple", "banana", "apple", "orange", "banana", "apple"])
+# → {'apple': 3, 'banana': 2, 'orange': 1}
+
+word_frequency("")
+# → {}
 ```
-
-**Alternativa con `Counter`:**
-```python
-from collections import Counter
-
-def word_frequency(palabras):
-    return dict(Counter(palabras))
-```
-
-**Nota:** iterar un string vacío (`""`) tampoco recorre nada, por eso retorna `{}` sin condición especial.
 
 ---
 
 ### Ejercicio 21 — `find_biggest_expense`
 
-**Objetivo:** Categoría con el promedio de gastos más alto.
+**Conceptos:** promedio de listas, iteración sobre `.items()`, comparación.
 
-**Solución:**
+**Consigna:** Implementar `find_biggest_expense(gastos)` que reciba un diccionario donde cada clave es una categoría y su valor una lista de gastos. Retornar la categoría cuyo **promedio** sea más alto. Si el diccionario está vacío, retornar `""`.
+
+**Ejemplo:**
+
 ```python
-def find_biggest_expense(gastos):
-    if not gastos:
-        return ""
-    return max(gastos, key=lambda cat: sum(gastos[cat]) / len(gastos[cat]))
-```
-
-**Conceptos:**
-- `max(dict, key=lambda)` permite usar el promedio como criterio.
-- Validar el caso vacío antes de `max` evita errores.
-
-**Alternativa con loop explícito:**
-```python
-def find_biggest_expense(gastos):
-    if not gastos:
-        return ""
-    mejor_cat = None
-    mejor_prom = -float("inf")
-    for cat, montos in gastos.items():
-        prom = sum(montos) / len(montos)
-        if prom > mejor_prom:
-            mejor_prom = prom
-            mejor_cat = cat
-    return mejor_cat
+find_biggest_expense({'Food': [60, 80, 100],
+                      'Transport': [10, 1, 2],
+                      'Games': [10, 20, 30]})
+# → 'Food'
 ```
 
 ---
 
 ### Ejercicio 22 — `sum_expenses`
 
-**Objetivo:** Sumar los gastos de cada categoría.
+**Conceptos:** construcción de diccionarios con `sum`, dict comprehension.
 
-**Solución:**
+**Consigna:** Implementar `sum_expenses(gastos)` que reciba el mismo formato de entrada que el ejercicio anterior y retorne un nuevo diccionario con la **suma total** de los gastos por categoría.
+
+**Ejemplo:**
+
 ```python
-def sum_expenses(gastos):
-    return {categoria: sum(montos) for categoria, montos in gastos.items()}
+sum_expenses({'Food': [60, 80, 100],
+              'Transport': [10, 1, 2],
+              'Games': [10, 20, 30]})
+# → {'Food': 240, 'Transport': 13, 'Games': 60}
 ```
-
-**Conceptos:**
-- Dict comprehension sobre `.items()`.
-- `sum([])` devuelve 0, así que listas vacías no rompen nada.
 
 ---
 
 ### Ejercicio 23 — `sum_expenses_by_type`
 
-**Objetivo:** Agrupar por tipo (ignorando la categoría) y sumar.
+**Conceptos:** iteración anidada, agrupamiento por clave, uso de `.get()`.
 
-**Solución:**
+**Consigna:** Implementar `sum_expenses_by_type(gastos)` que reciba un diccionario donde cada categoría tiene una lista de tuplas `(tipo, monto)`. Retornar un nuevo diccionario con la suma de los montos agrupados por **tipo** (ignorando la categoría).
+
+**Ejemplo:**
+
 ```python
-def sum_expenses_by_type(gastos):
-    resultado = {}
-    for montos in gastos.values():
-        for tipo, monto in montos:
-            resultado[tipo] = resultado.get(tipo, 0) + monto
-    return resultado
+sum_expenses_by_type({
+    'Food': [("A", 60), ("B", 100), ("A", 20)],
+    'Transport': [("A", 10), ("B", 50), ("C", 5)],
+    'Games': [("A", 6), ("B", 24), ("C", 99)]
+})
+# → {'A': 96, 'B': 174, 'C': 104}
 ```
-
-**Conceptos:**
-- `.values()` descarta las categorías, que en este caso son solo contenedores.
-- Desempaquetado `for tipo, monto in montos` directo sobre la tupla.
-- `resultado.get(tipo, 0)` inicializa en 0 si el tipo es nuevo.
-
-**Alternativa con `defaultdict`:**
-```python
-from collections import defaultdict
-
-def sum_expenses_by_type(gastos):
-    resultado = defaultdict(int)
-    for montos in gastos.values():
-        for tipo, monto in montos:
-            resultado[tipo] += monto
-    return dict(resultado)
-```
-
----
-
-## Tabla Resumen de Operaciones
-
-### Tuplas
-| Operación           | Ejemplo                      | Resultado          |
-| ------------------- | ---------------------------- | ------------------ |
-| Acceso por índice   | `t[0]`                       | Primer elemento    |
-| Concatenación       | `(1, 2) + (3, 4)`            | `(1, 2, 3, 4)`     |
-| Construcción        | `tuple("ab")`                | `('a', 'b')`       |
-| Desempaquetado      | `a, b = (1, 2)`              | `a=1, b=2`         |
-
-### Sets
-| Operación           | Ejemplo                      | Resultado          |
-| ------------------- | ---------------------------- | ------------------ |
-| Crear desde lista   | `set([1, 1, 2])`             | `{1, 2}`           |
-| Pertenencia         | `2 in {1, 2, 3}`             | `True`             |
-| Intersección        | `{1, 2} & {2, 3}`            | `{2}`              |
-| Unión               | `{1, 2} \| {2, 3}`           | `{1, 2, 3}`        |
-| Diferencia          | `{1, 2, 3} - {2}`            | `{1, 3}`           |
-
-### Diccionarios
-| Operación           | Ejemplo                      | Resultado          |
-| ------------------- | ---------------------------- | ------------------ |
-| Acceso por clave    | `d["k"]`                     | Valor de "k"       |
-| Con default         | `d.get("k", 0)`              | Valor o 0          |
-| Pertenencia         | `"k" in d`                   | `True` / `False`   |
-| Agregar / actualizar| `d["k"] = v`                 | Modifica el dict   |
-| Eliminar            | `del d["k"]` / `d.pop("k")`  | Elimina entrada    |
-| Iterar pares        | `for k, v in d.items():`     | Clave y valor      |
-
----
-
-## Tips y Buenas Prácticas
-
-1. **Tuplas vs listas:**
-    - Tuplas: inmutables, ideales para registros o retornar múltiples valores.
-    - Listas: mutables, ideales para colecciones que cambian.
-
-2. **Sets para eliminar duplicados:**
-   ```python
-   # Simple y eficiente
-   unicos = set(lista_con_duplicados)
-
-   # Para mantener orden:
-   unicos = list(dict.fromkeys(lista_con_duplicados))
-   ```
-
-3. **Pertenencia con `in`:**
-   ```python
-   # O(1) — muy rápido
-   if elemento in mi_set:
-       ...
-
-   # O(n) — lento en listas grandes
-   if elemento in mi_lista:
-       ...
-   ```
-
-4. **Validar antes de acceder a un diccionario:**
-   ```python
-   # Correcto
-   if clave in d:
-       valor = d[clave]
-
-   # Correcto con default
-   valor = d.get(clave, valor_por_defecto)
-
-   # Puede fallar con KeyError
-   valor = d[clave]
-   ```
-
-5. **Evitar negativos al decrementar:**
-   ```python
-   # Validar antes
-   if inventario[item] > 0:
-       inventario[item] -= 1
-
-   # Con max()
-   inventario[item] = max(0, inventario[item] - 1)
-   ```
-
----
