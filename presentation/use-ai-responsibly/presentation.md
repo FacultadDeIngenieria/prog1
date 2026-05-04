@@ -9,9 +9,10 @@ class: center, middle, inverse
 **Definition**: When AI generates false or fabricated information with high confidence.
 
 ### Why It Happens:
-- Pattern recognition without true understanding
-- Training on unverified internet data
-- Over-optimization for plausible-sounding responses
+
+Pattern recognition without true understanding
+Training on unverified internet data
+Over-optimization for plausible-sounding responses
 
 --- 
 
