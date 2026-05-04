@@ -7,51 +7,39 @@ class: center, middle, inverse
 
 # ¿Qué es el Control de Versiones?
 
-Un **Sistema de Control de Versiones (VCS)** permite registrar cambios en archivos a lo largo del tiempo para poder:
+Un **VCS (Version Control System)** permite:
 
+- Registrar cambios en archivos a lo largo del tiempo
 - Recuperar versiones anteriores
-- Comparar modificaciones
 - Saber quién hizo cada cambio
-- Colaborar con otros desarrolladores
-- Mantener un historial completo del proyecto
+- Comparar modificaciones
+- Trabajar en equipo sin perder trabajo
 
 ---
 
-# ¿Por Qué Necesitamos Versionado?
+# ¿Por Qué lo Necesitamos?
 
-Sin control de versiones, muchos proyectos terminan así:
+Sin versionado, muchos proyectos terminan así:
 
 ```plaintext
 proyecto_final.doc
 proyecto_final_v2.doc
 proyecto_final_v3_ahora_si.doc
-proyecto_final_v3_ahora_si_bueno.doc
-proyecto_final_defINITIVO_FINAL.doc
+proyecto_final_definitivo_FINAL.doc
 ```
 
----
-
-# Problemas de Trabajar Sin Versionado
+## Problemas
 
 - No sabés cuál es la última versión
 - Podés perder trabajo fácilmente
-- No podés volver atrás con seguridad
-- Es muy difícil trabajar en equipo
-- No queda trazabilidad de cambios
+- No podés volver atrás
+- Colaborar en equipo se vuelve caótico
 
 ---
 
-# Tipos de Sistemas de Control de Versiones
+# Evolución de los Sistemas de Versionado
 
-1. Local Version Control
-2. Centralized Version Control
-3. Distributed Version Control
-
----
-
-# 1. Local Version Control
-
-Cada usuario guarda versiones manualmente en su máquina.
+## Local Version Control
 
 ```plaintext
 Mi PC
@@ -60,53 +48,17 @@ Mi PC
 └── version3
 ```
 
-### Ventajas
-- Simple
-
-### Desventajas
-- No colaborativo
-- Sin backups reales
-- Fácil perder historial
-
----
-
-# 2. Centralized Version Control (CVCS)
-
-Todos trabajan contra un servidor central.
+## Centralized Version Control
 
 ```plaintext
-Desarrolladores
-      ↓
-Servidor Central
+Developers → Servidor Central
 ```
 
-### Ejemplos
-- SVN
-- Perforce
-
----
-
-# Problemas de CVCS
-
-- Punto único de falla
-- Si el servidor cae, nadie trabaja
-- Si el servidor se corrompe, se pierde todo
-
----
-
-# 3. Distributed Version Control (DVCS)
-
-Cada desarrollador tiene una copia completa del repositorio.
+## Distributed Version Control
 
 ```plaintext
-Dev A ↔ Repo Central ↔ Dev B
- ↑
-Backup local completo
+Dev ↔ Repo Central ↔ Dev
 ```
-
-### Ejemplos
-- Git
-- Mercurial
 
 ---
 
@@ -114,67 +66,49 @@ Backup local completo
 
 > Git es un sistema de control de versiones distribuido.
 
-Creado por Linus Torvalds en 2005.
+Creado por **Linus Torvalds** en 2005.
+
+## Características
+
+- Muy rápido
+- Distribuido / offline-first
+- Seguro (hashes)
+- Escalable
 
 ---
 
-# ¿Cómo Almacena Datos Git?
+# ¿Cómo Piensa Git?
 
-Git guarda snapshots completos del proyecto en cada commit.
+## Otros Sistemas
+
+Guardan diferencias entre versiones.
+
+## Git
+
+Guarda **snapshots completos** del proyecto.
 
 ```plaintext
-Commit A → Snapshot completo
-Commit B → Snapshot completo
-Commit C → Snapshot completo
+Commit A → Foto completa
+Commit B → Foto completa
+Commit C → Foto completa
 ```
 
 ---
 
-# Conceptos Fundamentales
+# ¿Por Qué Git es Potente?
 
-- Repository
-- Working Directory
-- Staging Area
-- Commit
-- Branch
-- Merge
-- Remote Repository
+- Cada clon es un backup completo
+- Casi todas las operaciones son locales
+- Historial completo disponible offline
+- Cada commit tiene hash único
 
----
-
-# Repositorio
-
-Carpeta versionada por Git.
-
-```bash
-git init
+```plaintext
+e83c5163316f89bfbde7d9ab23ca2e25604af290
 ```
 
 ---
 
-# Working Directory
-
-Tu carpeta de trabajo actual donde modificás archivos.
-
----
-
-# Staging Area
-
-Zona intermedia antes del commit.
-
-```bash
-git add archivo.java
-```
-
----
-
-# Repository (.git)
-
-Base de datos donde Git almacena historial y metadata.
-
----
-
-# Flujo Interno de Git
+# Modelo Mental de Git
 
 ```plaintext
 Working Directory
@@ -184,132 +118,77 @@ Staging Area
 Repository
 ```
 
+## Componentes
+
+- **Working Directory:** tus archivos actuales
+- **Staging Area:** cambios preparados
+- **Repository:** historial guardado
+
+---
+
+# Crear / Obtener un Repositorio
+
+## Proyecto Nuevo
+
+```bash
+git init
+```
+
+## Proyecto Existente
+
+```bash
+git clone <url>
+```
+
+## Ver Estado
+
+```bash
+git status
+```
+
 ---
 
 # Commits
 
-Un commit representa una foto del proyecto en un momento dado.
-
-```bash
-git commit -m "Agrego autenticación"
-```
-
----
-
-# Buenas Prácticas de Commit
-
-- Un commit = un cambio lógico
-- Mensajes claros y descriptivos
-- Frecuencia alta, tamaño pequeño
-
----
-
-# Branches
-
-Una branch es una línea paralela de desarrollo.
-
-```bash
-git branch feature-login
-```
-
----
-
-# ¿Para Qué Sirven las Branches?
-
-- Desarrollar features aisladas
-- Probar ideas sin romper main
-- Trabajar en paralelo
-
----
-
-# Merge
-
-Combina ramas.
-
-```bash
-git merge feature-login
-```
-
----
-
-# Git vs GitHub
-
----
-
-# Git
-
-Herramienta de versionado.
-
----
-
-# GitHub
-
-Plataforma online para alojar repositorios Git.
-
----
-
-# Comandos Básicos
-
-```bash
-git init
-git clone
-git status
-git add
-git commit
-git log
-git branch
-git checkout
-git merge
-git pull
-git push
-```
-
----
-
-# Crear Repositorios Reales
-
----
-
-# Inicializar Proyecto Nuevo
-
-```bash
-mkdir mi-proyecto
-cd mi-proyecto
-git init
-```
-
----
-
-# Clonar Proyecto Existente
-
-```bash
-git clone https://github.com/user/proyecto.git
-```
-
----
-
-# Verificar Estado Inicial
-
-```bash
-git status
-```
-
----
-
-# Primer Commit de un Proyecto
+Un **commit** es una foto del proyecto en un momento dado.
 
 ```bash
 git add .
-git commit -m "Initial commit"
+git commit -m "Agrego autenticación"
+```
+
+## Buenas Prácticas
+
+- Un commit = un cambio lógico
+- Commits pequeños y frecuentes
+- Mensajes claros y descriptivos
+
+---
+
+# Ejemplos de Commit Messages
+
+## Buenos
+
+```plaintext
+Add login endpoint with JWT authentication
+Fix validation bug on signup form
+Refactor payment service to use strategy pattern
+Remove deprecated customer endpoint
+```
+
+## Malos
+
+```plaintext
+Cambios
+Fix
+Update stuff
+Arreglo varias cosas
+asdf
 ```
 
 ---
 
-# Crear Archivo .gitignore
-
-Permite excluir archivos de Git.
-
-Ejemplo:
+# Ignorar Archivos con .gitignore
 
 ```gitignore
 node_modules/
@@ -318,114 +197,48 @@ node_modules/
 target/
 ```
 
----
+## Usar Para
 
-# Commits en Profundidad
-
----
-
-# ¿Qué Debe Tener un Buen Commit?
-
-- Un propósito claro
-- Cambios relacionados entre sí
-- Mensaje entendible para terceros
+- Dependencias
+- Variables sensibles
+- Configuración local
+- Archivos generados automáticamente
 
 ---
 
-# Ejemplos de Buenos Commits
+# Branches
 
-```plaintext
-Add login endpoint
-Fix validation bug on signup
-Refactor payment service
-```
-
----
-
-# Ejemplos de Malos Commits
-
-```plaintext
-Cambios
-Update
-Fix stuff
-asdf
-```
-
----
-
-# Historial de Commits
-
-```bash
-git log
-```
-
----
-
-# Ver Historial Simplificado
-
-```bash
-git log --oneline --graph
-```
-
----
-
-# Branches en Profundidad
-
----
-
-# Crear Branch
-
-```bash
-git branch feature-auth
-```
-
----
-
-# Cambiar de Branch
-
-```bash
-git checkout feature-auth
-```
-
----
-
-# Crear + Cambiar en Un Paso
+Una **branch** es una línea paralela de desarrollo.
 
 ```bash
 git checkout -b feature-auth
 ```
 
----
+## Permiten
 
-# Listar Branches
-
-```bash
-git branch
-```
+- Desarrollar features aisladas
+- Experimentar sin romper main
+- Trabajar en paralelo
 
 ---
 
-# Borrar Branch
+# Merge
+
+Combina cambios de una branch en otra.
 
 ```bash
-git branch -d feature-auth
+git merge feature-auth
 ```
+
+## Uso Típico
+
+- Integrar una feature terminada a `main`
 
 ---
 
 # Merge Conflicts
 
----
-
-# ¿Qué Es un Merge Conflict?
-
-Sucede cuando:
-
-> Dos ramas modifican la misma línea o bloque de código.
-
----
-
-# Ejemplo de Conflicto
+Ocurren cuando dos ramas modifican la misma parte.
 
 ```java
 <<<<<<< HEAD
@@ -437,92 +250,159 @@ return user.getFullName();
 
 ---
 
-# Cómo Resolver un Conflicto
+# Resolver Merge Conflicts Paso a Paso
 
-1. Revisar ambas versiones
-2. Elegir qué conservar
-3. Editar manualmente
-4. Guardar archivo
-5. Hacer commit del merge
+## 1. Git marca conflicto al mergear
 
----
-
-# GitHub Workflow
-
----
-
-# Flujo Profesional Estándar
+```bash
+git merge feature-auth
+```
 
 ```plaintext
-main
- ├── feature/login
- ├── feature/payments
- └── hotfix/navbar
+CONFLICT (content): Merge conflict in UserService.java
+Automatic merge failed
+```
+
+## 2. Ver archivos conflictuados
+
+```bash
+git status
 ```
 
 ---
 
-# Workflow Recomendado
+# Resolver Merge Conflicts Paso a Paso (cont.)
 
-1. Pull de main actualizado
-2. Crear branch feature
-3. Desarrollar
-4. Commit frecuente
-5. Push branch remota
-6. Abrir Pull Request
-7. Code Review
-8. Merge a main
+## 3. Abrir archivo y editar manualmente
+
+```java
+<<<<<<< HEAD
+return user.getName();
+=======
+return user.getFullName();
+>>>>>>> feature-auth
+```
+
+↓
+
+```java
+return user.getFullName();
+```
+
+## 4. Marcar como resuelto
+
+```bash
+git add UserService.java
+```
+
+## 5. Finalizar merge
+
+```bash
+git commit
+```
 
 ---
 
-# Push de Nueva Branch
+# Git vs GitHub
+
+## Git
+
+Herramienta de versionado local
+
+## GitHub
+
+Hosting online para repositorios Git
+
+### Alternativas
+
+- GitLab
+- Bitbucket
+
+---
+
+# Sincronización con Remoto
+
+## Subir Cambios
 
 ```bash
+git push
 git push -u origin feature-auth
 ```
 
----
-
-# Pull Antes de Trabajar
+## Traer Cambios
 
 ```bash
+git pull
 git pull origin main
 ```
 
 ---
 
-# Pull Request
+# Workflow Profesional con GitHub
 
-Un Pull Request permite:
+```plaintext
+main
+ ├── feature/123-login
+ ├── feature/245-payment-retry-flow
+ ├── feature/381-user-profile-settings
+ └── hotfix/912-navbar-mobile-overflow
+```
 
-- Revisar cambios antes del merge
+---
+
+# Proceso de Trabajo en GitHub
+
+1. Pull de `main`
+2. Crear branch de feature
+3. Desarrollar
+4. Commit frecuente
+5. Push branch remota
+6. Abrir Pull Request
+7. Code Review
+8. Merge a `main`
+
+---
+
+# Pull Requests
+
+Permiten:
+
+- Revisar código antes de mergear
 - Discutir implementación
-- Aprobar código
+- Aprobar cambios
 - Mantener calidad técnica
 
 ---
 
-# Buenas Prácticas de GitHub Workflow
+# Flujo Completo Real
 
-- Nunca trabajar directo en main
-- PRs pequeños y frecuentes
-- Review obligatorio
-- Merge solo código aprobado
+```plaintext
+git checkout main
+git pull
+git checkout -b feature/245-payment-retry-flow
+git add .
+git commit -m "Implement retry logic for failed payments"
+git push -u origin feature/245-payment-retry-flow
+→ Abrir Pull Request
+→ Merge
+```
 
 ---
 
-# Flujo Completo de Trabajo Real
+# Resumen de Comandos
 
-```plaintext
-1. git checkout main
-2. git pull
-3. git checkout -b feature/nueva-funcionalidad
-4. Programar
-5. git add .
-6. git commit -m "Implement nueva funcionalidad"
-7. git push -u origin feature/nueva-funcionalidad
-8. Abrir Pull Request
-9. Merge
+```bash
+git init        → Inicializar repo nuevo
+git clone URL   → Clonar repo existente
+git status      → Ver estado actual
+git add .       → Stagear cambios
+git commit -m "Add login endpoint" → Crear commit
+git log         → Ver historial
+git branch      → Listar branches
+git checkout -b feature/123-login → Crear/cambiar branch
+git merge feature/123-login → Mergear branch
+git pull        → Traer cambios remotos
+git push        → Subir cambios remotos
 ```
 
 ---
@@ -532,20 +412,16 @@ Un Pull Request permite:
 Git permite:
 
 - Versionar código profesionalmente
-- Trabajar en equipo
-- Mantener historial completo
-- Resolver conflictos ordenadamente
+- Colaborar en equipo sin caos
+- Recuperar cambios fácilmente
+- Trabajar en paralelo con branches
 - Escalar desarrollo de software real
 
----
-
-# Frase para Recordar
+## Frase para Recordar
 
 > Git no guarda archivos.  
-> Git guarda la historia de tu proyecto.
+> **Git guarda la historia de tu proyecto.**
 
----
-
-# Recurso Oficial
+## Recurso Oficial
 
 https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
