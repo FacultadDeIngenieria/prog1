@@ -26,7 +26,6 @@ conn = postgresql.connect(ssl="fake_parameter")  # Wrong syntax
 
 --- 
 
-# Major LLM Shortcomings for Coders
 ## 1. Wrong Library Versions
 ```python
 # Ask: "Use TensorFlow for image classification"
