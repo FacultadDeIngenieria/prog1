@@ -63,26 +63,6 @@ h1 {
 
 ---
 
-# Jekyll: Static Site Generator
-## Why Jekyll?
-
-- Built into GitHub Pages
-- Blog-aware with Markdown support
-- Front Matter for metadata
-
-Basic Structure
-```
-.
-├── _config.yml
-├── _posts/
-│   └── 2024-05-15-welcome.md
-├── _layouts/
-│   └── default.html
-└── index.md
-```
-
----
-
 # Publishing Methods
 
 1. Branch Method
@@ -124,9 +104,8 @@ git push
 
 ---
 
-# Setting up Jekyll
+# Setting up Github Pages
 
-- Guide: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
-- Themes: https://jamstackthemes.dev/ssg/jekyll/
+- Guide: [https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll](https://docs.github.com/en/pages/quickstart)
 
 
