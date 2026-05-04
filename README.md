@@ -186,3 +186,5 @@ Foro de consultas en Discord: [https://discord.gg/3kcdPFBMcU](https://discord.gg
 4. [Git](https://classroom.github.com/a/leYMw601)
 
 5. [Graph Plotting](https://classroom.github.com/a/dhP-wksu)
+
+6. [Github Pages](https://github.com/austral-prog/taller-prog-1-github-pages)
