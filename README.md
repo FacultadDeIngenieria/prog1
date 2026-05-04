@@ -20,6 +20,8 @@
 
 9. [Diccionarios](v2/diccionarios)
 
+10. [Archivos y Excepciones](v2/archivosexcepciones)
+
 [//]: # (4. [Variables]&#40;variables&#41;)
 
 [//]: # (5. [Strings]&#40;strings&#41;)
