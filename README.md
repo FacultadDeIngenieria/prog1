@@ -171,9 +171,9 @@ Foro de consultas en Discord: [https://discord.gg/3kcdPFBMcU](https://discord.gg
 
  8. [Graph Plotting in Python](graphs)
 
-[//]: # ( 9. [Github Pages]&#40;github-pages&#41;)
+ 9. [Github Pages](github-pages)
 
-[//]: # ( 10. [Use LLMs Responsibly]&#40;use-ai-responsibly&#41;)
+ 10. [Use LLMs Responsibly](use-ai-responsibly)
 
 ## Trabajos Prácticos Taller
 
