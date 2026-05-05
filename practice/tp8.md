@@ -1,7 +1,7 @@
 ---
 title: Práctica 8
 layout: practice
-permalink: /practice/8
+permalink: /v1/practice/8
 ---
 
 # Trabajo Práctico 8
